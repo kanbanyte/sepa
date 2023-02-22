@@ -41,7 +41,7 @@
 > An aggregate mark for the unit of 50% or more.
 -->
 
-## Unit Outline
+## Unit Summary
 **Note that the lectures are to be conducted live online via Canvas/Collaborate-Ultra.**
 
 **In general, project meetings in project teams (with or without the project supervisor, or with the client) may be conducted on campus (eg, in the library),**
