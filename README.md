@@ -1,4 +1,4 @@
-# Software Engineering Project A Unit Outline.
+# Software Engineering Project A Unit Outline
 > Kanban board to organise and manage repo: [SEPA Board](https://github.com/orgs/kanbanyte/projects/7?fullscreen=true).
 
 <!--
