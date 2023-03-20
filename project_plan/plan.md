@@ -16,12 +16,12 @@ List of your Names:
 
 |Name|Position|Email|Phone|
 |:-|:-|:-|:-|
-|@Slothman1|Lead|id@swin.student.edu.au|04xx xxx xxx|
-|@vkach|-|id@swin.student.edu.au|04xx xxx xxx|
-|@dau501|-|id@swin.student.edu.au|04xx xxx xxx|
-|@finnmcgearey|-|id@swin.student.edu.au|04xx xxx xxx|
+|@Slothman1|Team Leader/Client Liaison|id@swin.student.edu.au|04xx xxx xxx|
+|@vkach|Quality Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
+|@dau501|Development Manager/Planning Manager|id@swin.student.edu.au|04xx xxx xxx|
+|@finnmcgearey|Support Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
 |@|-|id@swin.student.edu.au|04xx xxx xxx|
-|@Huy-GV|-|id@swin.student.edu.au|04xx xxx xxx|
+|@Huy-GV|Quality Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
 
 <!-- SUBJECT CODE, NAME, SEMESTER AND DATE -->
 
