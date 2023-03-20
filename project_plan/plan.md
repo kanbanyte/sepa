@@ -16,7 +16,7 @@ List of your Names:
 
 |Name|Position|Email|Phone|
 |:-|:-|:-|:-|
-|@Slothman1|Team Leader/Client Liaison|id@swin.student.edu.au|04xx xxx xxx|
+|@Slothman1|Team Leader/Client Liaison|103603402@swin.student.edu.au|1300 655 506|
 |@vkach|Quality Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
 |@dau501|Development Manager/Planning Manager|id@swin.student.edu.au|04xx xxx xxx|
 |@finnmcgearey|Support Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
@@ -66,12 +66,7 @@ Delete all the explanatory text in RED, including this box before submission.
 # CLIENT SIGN OFF
 |Name|Position|Signature|Date|
 |:-|:-|:-|:-|
-|@Slothman1|Lead|||
-|@vkach|-|||
-|@dau501|-|||
-|@finnmcgearey|-|||
-|@|-|||
-|@Huy-GV|-|||
+|-|-|-|-|
 
 |Organisation|
 |:-|
@@ -84,38 +79,44 @@ Delete all the explanatory text in RED, including this box before submission.
 # CONTENTS
 <!-- TOC -->
 
-* [DOCUMENT CHANGE CONTROL](#document-change-control)
-* [DOCUMENT SIGN OFF](#document-sign-off)
-* [CLIENT SIGN OFF](#client-sign-off)
-* [CONTENTS](#contents)
-* [INTRODUCTION](#introduction)
-	* [BACKGROUND](#background)
-	* [KEY PROJECT PERSONNEL](#key-project-personnel)
-		* [CLIENT](#client)
-		* [OTHER STAKE HOLDERS](#other-stake-holders)
-		* [PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS](#project-supervisor-team-leader-and-key-project-members)
-* [TERMS OF REFERENCE](#terms-of-reference)
-	* [OBJECTIVES](#objectives)
-	* [SCOPE](#scope)
-	* [CRITICAL SUCCESS FACTORS](#critical-success-factors)
-	* [ACCEPTANCE CRITERIA](#acceptance-criteria)
-* [ESTABLISHMENT](#establishment)
-	* [PROCESSES, PROCEDURES AND STANDARDS](#processes-procedures-and-standards)
-	* [PROJECT ENVIRONMENT](#project-environment)
-	* [PROJECT TEAM SKILL DEVELOPMENT REQUIREMENTS](#project-team-skill-development-requirements)
-* [DELIVERABLES, ACTIVITIES AND CAPITAL RESOURCES](#deliverables-activities-and-capital-resources)
-	* [DELIVERABLES](#deliverables)
-	* [ACTIVITIES](#activities)
-	* [RESOURCES](#resources)
-* [ORGANISATION AND STRUCTURE](#organisation-and-structure)
-* [RISKS](#risks)
-* [SCHEDULE](#schedule)
-	* [PROJECT TIME LINE](#project-time-line)
-	* [EXTERNAL DEPENDENCIES](#external-dependencies)
-	* [ASSUMPTIONS](#assumptions)
-* [BUDGET](#budget)
-* [REFERENCES](#references)
-* [TABLES INDEX](#tables-index)
+- [Robot Vision System For A Pick And Place Task](#robot-vision-system-for-a-pick-and-place-task)
+	- [Industry Project 24](#industry-project-24)
+- [DOCUMENT CHANGE CONTROL](#document-change-control)
+- [DOCUMENT SIGN OFF](#document-sign-off)
+- [CLIENT SIGN OFF](#client-sign-off)
+- [CONTENTS](#contents)
+- [INTRODUCTION](#introduction)
+	- [BACKGROUND](#background)
+	- [KEY PROJECT PERSONNEL](#key-project-personnel)
+		- [CLIENT](#client)
+		- [OTHER STAKE HOLDERS](#other-stake-holders)
+		- [PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS](#project-supervisor-team-leader-and-key-project-members)
+- [TERMS OF REFERENCE](#terms-of-reference)
+	- [OBJECTIVES](#objectives)
+	- [SCOPE](#scope)
+	- [CRITICAL SUCCESS FACTORS](#critical-success-factors)
+	- [ACCEPTANCE CRITERIA](#acceptance-criteria)
+- [ESTABLISHMENT](#establishment)
+	- [PROCESSES, PROCEDURES AND STANDARDS](#processes-procedures-and-standards)
+	- [PROJECT ENVIRONMENT](#project-environment)
+	- [PROJECT TEAM SKILL DEVELOPMENT REQUIREMENTS](#project-team-skill-development-requirements)
+- [DELIVERABLES, ACTIVITIES AND CAPITAL RESOURCES](#deliverables-activities-and-capital-resources)
+	- [DELIVERABLES](#deliverables)
+	- [ACTIVITIES](#activities)
+	- [RESOURCES](#resources)
+- [ORGANISATION AND STRUCTURE](#organisation-and-structure)
+			- [Activities and Deliverables](#activities-and-deliverables)
+- [RISKS](#risks)
+			- [Risks Associated With This Project](#risks-associated-with-this-project)
+- [SCHEDULE](#schedule)
+	- [PROJECT TIME LINE](#project-time-line)
+	- [EXTERNAL DEPENDENCIES](#external-dependencies)
+	- [ASSUMPTIONS](#assumptions)
+- [BUDGET](#budget)
+			- [Personnel Cost](#personnel-cost)
+			- [Time Estimated to Complete Each Task](#time-estimated-to-complete-each-task)
+- [REFERENCES](#references)
+- [TABLES INDEX](#tables-index)
 
 <!-- /TOC -->
 
