@@ -78,36 +78,47 @@ Delete all the explanatory text in RED, including this box before submission.
 
 # CONTENTS
 <!-- TOC -->
-
-* [BACKGROUND](#background)
-* [KEY PROJECT PERSONNEL](#key-project-personnel)
-    * [CLIENT](#client)
-    * [OTHER STAKE HOLDERS](#other-stake-holders)
-    * [PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS](#project-supervisor-team-leader-and-key-project-members)
-* [OBJECTIVES](#objectives)
-* [SCOPE](#scope)
-* [CRITICAL SUCCESS FACTORS](#critical-success-factors)
-* [ACCEPTANCE CRITERIA](#acceptance-criteria)
-* [PROCESSES, PROCEDURES AND STANDARDS](#processes-procedures-and-standards)
-* [PROJECT ENVIRONMENT](#project-environment)
-* [PROJECT TEAM SKILL DEVELOPMENT REQUIREMENTS](#project-team-skill-development-requirements)
-* [DELIVERABLES](#deliverables)
-* [ACTIVITIES](#activities)
-* [RESOURCES](#resources)
-* [PROJECT TIME LINE](#project-time-line)
-* [EXTERNAL DEPENDENCIES](#external-dependencies)
-* [ASSUMPTIONS](#assumptions)
+* [DOCUMENT CHANGE CONTROL](#document-change-control)
+* [DOCUMENT SIGN OFF](#document-sign-off)
+* [CLIENT SIGN OFF](#client-sign-off)
+* [CONTENTS](#contents)
+* [INTRODUCTION](#introduction)
+	* [BACKGROUND](#background)
+	* [KEY PROJECT PERSONNEL](#key-project-personnel)
+		* [CLIENT](#client)
+		* [OTHER STAKE HOLDERS](#other-stake-holders)
+		* [PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS](#project-supervisor-team-leader-and-key-project-members)
+* [TERMS OF REFERENCE](#terms-of-reference)
+	* [OBJECTIVES](#objectives)
+	* [SCOPE](#scope)
+	* [CRITICAL SUCCESS FACTORS](#critical-success-factors)
+	* [ACCEPTANCE CRITERIA](#acceptance-criteria)
+* [ESTABLISHMENT](#establishment)
+	* [PROCESSES, PROCEDURES AND STANDARDS](#processes-procedures-and-standards)
+	* [PROJECT ENVIRONMENT](#project-environment)
+	* [PROJECT TEAM SKILL DEVELOPMENT REQUIREMENTS](#project-team-skill-development-requirements)
+* [DELIVERABLES, ACTIVITIES AND CAPITAL RESOURCES](#deliverables-activities-and-capital-resources)
+	* [DELIVERABLES](#deliverables)
+	* [ACTIVITIES](#activities)
+	* [RESOURCES](#resources)
+* [ORGANISATION AND STRUCTURE](#organisation-and-structure)
+* [RISKS](#risks)
+* [SCHEDULE](#schedule)
+	* [PROJECT TIME LINE](#project-time-line)
+	* [EXTERNAL DEPENDENCIES](#external-dependencies)
+	* [ASSUMPTIONS](#assumptions)
+* [BUDGET](#budget)
+* [REFERENCES](#references)
+* [TABLES INDEX](#tables-index)
 
 <!-- /TOC -->
 
 <div class="page"/><!-- page break -->
 
 # INTRODUCTION
-> *[Briefly explain what the purpose of this document is, who should read it and how it will assist with the project development]*
-
+This document is designed to serve as a guide to use in relation to the proposed plans and ideas for the project. This document is deigned to be easily accessible to the client to see the intentions with the project. This document will assist in defining future documents as this outlines expectations, proposed ideas and a rough plan for the project.
 ## BACKGROUND
-> *[Describe how this project (**not the software**) came into being and who the main players are.*\
-> *Discuss the overall driving forces behind the project and provide some insight into the organisations involved and the nature of the business domain]*
+The factory of the future focuses on developing technologies, the latest being a chip assembling robot which is in need of a vision system. The required pick and place tasks are currently unable to be completed in less than ideal conditions as well the system is far from autonomous. The factory of the future wants this project to be completed to both show how emerging technologies can be used to automate tasks as well as how robots can be incorporated into regular workflows.
 
 ## KEY PROJECT PERSONNEL
 The key personnel involve in this project are as follows:
