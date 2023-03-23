@@ -16,7 +16,7 @@ List of your Names:
 
 |Name|Position|Email|Phone|
 |:-|:-|:-|:-|
-|@Slothman1|Team Leader/Client Liaison|103603402@swin.student.edu.au|1300 655 506|
+|@Slothman1|Team Leader/Client Liaison|id@swin.student.edu.au|1300 655 506|
 |@vkach|Quality Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
 |@dau501|Development Manager/Planning Manager|id@swin.student.edu.au|04xx xxx xxx|
 |@finnmcgearey|Support Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
@@ -78,38 +78,25 @@ Delete all the explanatory text in RED, including this box before submission.
 
 # CONTENTS
 <!-- TOC -->
-* [DOCUMENT CHANGE CONTROL](#document-change-control)
-* [DOCUMENT SIGN OFF](#document-sign-off)
-* [CLIENT SIGN OFF](#client-sign-off)
-* [CONTENTS](#contents)
-* [INTRODUCTION](#introduction)
-	* [BACKGROUND](#background)
-	* [KEY PROJECT PERSONNEL](#key-project-personnel)
-		* [CLIENT](#client)
-		* [OTHER STAKE HOLDERS](#other-stake-holders)
-		* [PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS](#project-supervisor-team-leader-and-key-project-members)
-* [TERMS OF REFERENCE](#terms-of-reference)
-	* [OBJECTIVES](#objectives)
-	* [SCOPE](#scope)
-	* [CRITICAL SUCCESS FACTORS](#critical-success-factors)
-	* [ACCEPTANCE CRITERIA](#acceptance-criteria)
-* [ESTABLISHMENT](#establishment)
-	* [PROCESSES, PROCEDURES AND STANDARDS](#processes-procedures-and-standards)
-	* [PROJECT ENVIRONMENT](#project-environment)
-	* [PROJECT TEAM SKILL DEVELOPMENT REQUIREMENTS](#project-team-skill-development-requirements)
-* [DELIVERABLES, ACTIVITIES AND CAPITAL RESOURCES](#deliverables-activities-and-capital-resources)
-	* [DELIVERABLES](#deliverables)
-	* [ACTIVITIES](#activities)
-	* [RESOURCES](#resources)
-* [ORGANISATION AND STRUCTURE](#organisation-and-structure)
-* [RISKS](#risks)
-* [SCHEDULE](#schedule)
-	* [PROJECT TIME LINE](#project-time-line)
-	* [EXTERNAL DEPENDENCIES](#external-dependencies)
-	* [ASSUMPTIONS](#assumptions)
-* [BUDGET](#budget)
-* [REFERENCES](#references)
-* [TABLES INDEX](#tables-index)
+
+* [BACKGROUND](#background)
+* [KEY PROJECT PERSONNEL](#key-project-personnel)
+    * [CLIENT](#client)
+    * [OTHER STAKE HOLDERS](#other-stake-holders)
+    * [PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS](#project-supervisor-team-leader-and-key-project-members)
+* [OBJECTIVES](#objectives)
+* [SCOPE](#scope)
+* [CRITICAL SUCCESS FACTORS](#critical-success-factors)
+* [ACCEPTANCE CRITERIA](#acceptance-criteria)
+* [PROCESSES, PROCEDURES AND STANDARDS](#processes-procedures-and-standards)
+* [PROJECT ENVIRONMENT](#project-environment)
+* [PROJECT TEAM SKILL DEVELOPMENT REQUIREMENTS](#project-team-skill-development-requirements)
+* [DELIVERABLES](#deliverables)
+* [ACTIVITIES](#activities)
+* [RESOURCES](#resources)
+* [PROJECT TIME LINE](#project-time-line)
+* [EXTERNAL DEPENDENCIES](#external-dependencies)
+* [ASSUMPTIONS](#assumptions)
 
 <!-- /TOC -->
 
@@ -124,17 +111,21 @@ The factory of the future focuses on developing technologies, the latest being a
 The key personnel involve in this project are as follows:
 
 ### CLIENT
-> *[Discuss briefly your client]*
+@FelipMarti is a research fellow within the factory of the future. With a background in IoT he is now working with Intelligent robots and computer vision systems.
 
 ### OTHER STAKE HOLDERS
-> *[Other than the client, detail the list of people who hold a stake in the project.*\
-> *Include a description for the position and relevant contact details for each person.*\
-> *If unknown, define roles and make suggestions about who would be suitable]*
->
-> *[A stakeholder is a person people for whom the success or failure of the project will make a difference]*
+S.W: a fellow worker in the factory of the future, responsible for a good degree of robot demonstrations.\
+Swinburne clients: potential investors or researchers interested in the technology and wish to view it in progress
+need more?
 
 ### PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS
-> *[This is where you list your team, and indicate each one's role in the project]*
+@Slothman1: Team leader and Client Liason\
+@vkach: Quality manager and developer\
+@dau501: Development manager and planning manager\
+@finnmcgearey: Support manager and developer\
+@Huy-GV: Quality manager and developer
+
+D.R.: Project supervisor
 
 <div class="page"/><!-- page break -->
 
