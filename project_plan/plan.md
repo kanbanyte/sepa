@@ -16,7 +16,7 @@ List of your Names:
 
 |Name|Position|Email|Phone|
 |:-|:-|:-|:-|
-|@Slothman1|Team Leader/Client Liaison|id@swin.student.edu.au|04xx xxx xxx|
+|@Slothman1|Team Leader/Client Liaison|id@swin.student.edu.au|1300 655 506|
 |@vkach|Quality Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
 |@dau501|Development Manager/Planning Manager|id@swin.student.edu.au|04xx xxx xxx|
 |@finnmcgearey|Support Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
@@ -66,12 +66,7 @@ Delete all the explanatory text in RED, including this box before submission.
 # CLIENT SIGN OFF
 |Name|Position|Signature|Date|
 |:-|:-|:-|:-|
-|@Slothman1|Lead|||
-|@vkach|-|||
-|@dau501|-|||
-|@finnmcgearey|-|||
-|@|-|||
-|@Huy-GV|-|||
+|-|-|-|-|
 
 |Organisation|
 |:-|
@@ -89,30 +84,30 @@ Delete all the explanatory text in RED, including this box before submission.
 * [CLIENT SIGN OFF](#client-sign-off)
 * [CONTENTS](#contents)
 * [INTRODUCTION](#introduction)
-	* [BACKGROUND](#background)
-	* [KEY PROJECT PERSONNEL](#key-project-personnel)
-		* [CLIENT](#client)
-		* [OTHER STAKE HOLDERS](#other-stake-holders)
-		* [PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS](#project-supervisor-team-leader-and-key-project-members)
+    * [BACKGROUND](#background)
+    * [KEY PROJECT PERSONNEL](#key-project-personnel)
+        * [CLIENT](#client)
+        * [OTHER STAKE HOLDERS](#other-stake-holders)
+        * [PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS](#project-supervisor-team-leader-and-key-project-members)
 * [TERMS OF REFERENCE](#terms-of-reference)
-	* [OBJECTIVES](#objectives)
-	* [SCOPE](#scope)
-	* [CRITICAL SUCCESS FACTORS](#critical-success-factors)
-	* [ACCEPTANCE CRITERIA](#acceptance-criteria)
+    * [OBJECTIVES](#objectives)
+    * [SCOPE](#scope)
+    * [CRITICAL SUCCESS FACTORS](#critical-success-factors)
+    * [ACCEPTANCE CRITERIA](#acceptance-criteria)
 * [ESTABLISHMENT](#establishment)
-	* [PROCESSES, PROCEDURES AND STANDARDS](#processes-procedures-and-standards)
-	* [PROJECT ENVIRONMENT](#project-environment)
-	* [PROJECT TEAM SKILL DEVELOPMENT REQUIREMENTS](#project-team-skill-development-requirements)
+    * [PROCESSES, PROCEDURES AND STANDARDS](#processes-procedures-and-standards)
+    * [PROJECT ENVIRONMENT](#project-environment)
+    * [PROJECT TEAM SKILL DEVELOPMENT REQUIREMENTS](#project-team-skill-development-requirements)
 * [DELIVERABLES, ACTIVITIES AND CAPITAL RESOURCES](#deliverables-activities-and-capital-resources)
-	* [DELIVERABLES](#deliverables)
-	* [ACTIVITIES](#activities)
-	* [RESOURCES](#resources)
+    * [DELIVERABLES](#deliverables)
+    * [ACTIVITIES](#activities)
+    * [RESOURCES](#resources)
 * [ORGANISATION AND STRUCTURE](#organisation-and-structure)
 * [RISKS](#risks)
 * [SCHEDULE](#schedule)
-	* [PROJECT TIME LINE](#project-time-line)
-	* [EXTERNAL DEPENDENCIES](#external-dependencies)
-	* [ASSUMPTIONS](#assumptions)
+    * [PROJECT TIME LINE](#project-time-line)
+    * [EXTERNAL DEPENDENCIES](#external-dependencies)
+    * [ASSUMPTIONS](#assumptions)
 * [BUDGET](#budget)
 * [REFERENCES](#references)
 * [TABLES INDEX](#tables-index)
@@ -122,27 +117,38 @@ Delete all the explanatory text in RED, including this box before submission.
 <div class="page"/><!-- page break -->
 
 # INTRODUCTION
-> *[Briefly explain what the purpose of this document is, who should read it and how it will assist with the project development]*
+This document is designed to serve as a guide to use in relation to the proposed plans and ideas for the project. 
+This document is deigned to be easily accessible to the client to see the intentions with the project. 
+This document will assist in defining future documents as this outlines expectations, proposed ideas and a rough plan for the project.
 
 ## BACKGROUND
-> *[Describe how this project (**not the software**) came into being and who the main players are.*\
-> *Discuss the overall driving forces behind the project and provide some insight into the organisations involved and the nature of the business domain]*
+The factory of the future focuses on developing technologies, 
+the latest being a chip assembling robot which is in need of a vision system. 
+The required pick and place tasks are currently unable to be completed in less than ideal conditions as well the system is far from autonomous. 
+The factory of the future wants this project to be completed to 
+both show how emerging technologies can be used to automate tasks as well as how robots can be incorporated into regular workflows.
 
 ## KEY PROJECT PERSONNEL
 The key personnel involve in this project are as follows:
 
 ### CLIENT
-> *[Discuss briefly your client]*
+@FelipMarti is a research fellow within the Factory of the Future. 
+With a background in IoT he is now working with intelligent robots and computer vision systems.
 
 ### OTHER STAKE HOLDERS
-> *[Other than the client, detail the list of people who hold a stake in the project.*\
-> *Include a description for the position and relevant contact details for each person.*\
-> *If unknown, define roles and make suggestions about who would be suitable]*
->
-> *[A stakeholder is a person people for whom the success or failure of the project will make a difference]*
+S.W: a fellow worker in the factory of the future, responsible for a good degree of robot demonstrations.\
+Swinburne clients: potential investors or researchers interested in the technology and wish to view it in progress.\
+Swinburne developers: People responsible for the maintaining of the system. 
 
 ### PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS
-> *[This is where you list your team, and indicate each one's role in the project]*
+@Slothman1: Team leader and client liaison\
+@vkach: Quality manager and developer\
+@dau501: Development manager and planning manager\
+@finnmcgearey: Support manager and developer\
+@Huy-GV: Quality manager and developer\
+@NickMcK14: Support manager and developer
+
+D.R.: Project supervisor
 
 <div class="page"/><!-- page break -->
 
