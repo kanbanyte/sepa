@@ -77,7 +77,7 @@ Delete all the explanatory text in RED, including this box before submission.
 <div class="page"/><!-- page break -->
 
 # CONTENTS
-<!-- TOC -->
+<!-- TOC depthfrom:1 depthto:3 -->
 
 * [BACKGROUND](#background)
 * [KEY PROJECT PERSONNEL](#key-project-personnel)
@@ -123,7 +123,8 @@ need more?
 @vkach: Quality manager and developer\
 @dau501: Development manager and planning manager\
 @finnmcgearey: Support manager and developer\
-@Huy-GV: Quality manager and developer
+@Huy-GV: Quality manager and developer\
+@NickMcK14: Support manager and developer
 
 D.R.: Project supervisor
 
