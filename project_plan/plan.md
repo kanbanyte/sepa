@@ -132,15 +132,16 @@ both show how emerging technologies can be used to automate tasks as well as how
 The key personnel involve in this project are as follows:
 
 ### CLIENT
-@FelipMarti is a research fellow within the factory of the future. With a background in IoT he is now working with Intelligent robots and computer vision systems.
+@FelipMarti is a research fellow within the Factory of the Future. 
+With a background in IoT he is now working with intelligent robots and computer vision systems.
 
 ### OTHER STAKE HOLDERS
 S.W: a fellow worker in the factory of the future, responsible for a good degree of robot demonstrations.\
-Swinburne clients: potential investors or researchers interested in the technology and wish to view it in progress
-need more?
+Swinburne clients: potential investors or researchers interested in the technology and wish to view it in progress.\
+Swinburne developers: People responsible for the maintaining of the system. 
 
 ### PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS
-@Slothman1: Team leader and Client Liason\
+@Slothman1: Team leader and client liaison\
 @vkach: Quality manager and developer\
 @dau501: Development manager and planning manager\
 @finnmcgearey: Support manager and developer\
