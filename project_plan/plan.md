@@ -164,8 +164,8 @@ The vision system should:
 * Be able to detect objects in a variety of lighting conditions and at various distances from the robot.
 * Be able to detect objects that are partially occluded or have complex shapes.
 
-Future work may arise depending on the schedule and progress of the scoped out project. One example of this,
-is ensuring the robot is able to pick up a fallen over/out of place object.
+Future work may arise depending on the schedule and progress of the scoped out project.
+One example of this, is ensuring the robot is able to pick up a fallen over/out of place object.
 
 ## CRITICAL SUCCESS FACTORS
 The critical success factors for this project include:
