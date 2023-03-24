@@ -248,25 +248,25 @@ Risks are a major problem in projects, they can slow things to a grinding halt i
 
 ##### Risk 1:
 Difficulty in hardware and software integration.\
-With the project utilising cameras, operating systems and robotics the integration of hardware and software can lead to issues down the line.\
+With the project utilising cameras, operating systems and robotics, the integration of hardware and software can lead to issues down the line.\
 Regular testing of the software on the operating systems as well as frequent integration with the hardware will avoid major issues.
 
 ##### Risk 2:
 Lack of expertise in computer vision and robotics.\
 As mentioned in the first risk this project is integrated with a robotics system.\
-With many people not working directly with robots a lack of experience is common, 
-however risks are easily mitigated with training and research into the system.
+With many people not working directly with robots, a lack of experience is common.
+However risks are easily mitigated with training and research into the system.
 
 ##### Risk 3:
 Inability to meet project deadlines.\
-in the duration of a project things will affect the deadlines be that team members falling ill,
+in the duration of a project things will affect the deadlines; be that team members falling ill,
 supervisors requesting work sooner, or even clients needing code faster.\
 A general mitigation strategy is to be organised, utilising project boards can help, also regular meetings to be aware of issues. 
 Overall this is a hard to mitigate risk as problems can arise quickly.
 
 ##### Risk 4:
 Changes in project requirements or objectives.\
-As mentioned above, change in objectives can change the deadline timing, making it harder to achieve in most cases.
+As mentioned above, changes in objectives can change the deadline timing, making it harder to achieve in most cases.
 However the larger issue is a change in objectives can change the budget, often demanding a time crunch or stretched resources.\
 To mitigate this issue a strong and verbose scope should be established at the beginning of the project, 
 and moving forward any changes to the scope must include additional modification of the deadlines.
@@ -287,12 +287,12 @@ To mitigate this issue multiple tasks should be completed simultaniously so that
 #### Risks Associated With This Project
 |Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy Number|Contingency|
 |:-:|:-|:-:|:-:|:-:|:-|
-|2|Difficulty in hardware and software intergration|H|M|1|revert back to working build, test more frequently from said build|
-|4|Lack of expertise in computer vision and robotics|H|L|2|Provide immediate training for team members from an expert|
-|1|Inability to meet project deadlines|M|H|3|Meet with the client or supervisor and discuss options|
-|5|Changes in project requirements or objectives|L|M|4|Change deadlines or task priority to accomodate changes|
-|3|Inadequate communication and collaboration among project team members|M|M|5|Immediate meeting to try and identify issues and impliment the fixes|
-|6|Difficulty in sourcing required materials or equipment|L|M|6|Work with what currently exists. alternatively wait for parts to arrive and continue from there|
+|2|Difficulty in hardware and software integration|H|M|1|Revert back to working build, test more frequently from said build.|
+|4|Lack of expertise in computer vision and robotics|H|L|2|Provide immediate training for team members from an expert.|
+|1|Inability to meet project deadlines|M|H|3|Meet with the client or supervisor and discuss options.|
+|5|Changes in project requirements or objectives|L|M|4|Change deadlines or task priority to accommodate changes.|
+|3|Inadequate communication and collaboration among project team members|M|M|5|Immediately hold a meeting to try and identify issues and implement possible fixes.|
+|6|Difficulty in sourcing required materials or equipment|L|M|6|Work with what is currently accessible. Alternatively wait for parts to arrive and continue from there.|
 
 **Table 2 Risks**
 
