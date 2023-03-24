@@ -244,25 +244,6 @@ The key personnel involve in this project are as follows:
 <div class="page"/><!-- page break -->
 
 # RISKS
-> *[Discuss any major risks that could affect your project plan]*
->
-> *[This is not a full risk analysis but more of a look at the risks that affect the running of the project]*
->
-> *[Take this seriously.*\
-> *When things start to go wrong, you will be expected to follow the strategies outlined here.*\
-> *Explain mitigation strategies in detail.*\
-> *Number each strategy and place the number in the table above]*
->
-> *[For each Risk record the following*
-> * *Rank*
-> * *Name*
-> * *Description*
-> * *Likelihood of occurrence*
-> * *Severity*
-> * *Strategy for mitigation (prevention)*
-> * *Contingency or fall-back position should the risk manifest itself.*\
-> *(plan B) - not an elaboration of the mitigation strategy]*
-
 Risks are a major problem in projects, they can slow things to a grinding halt if not properly dealt with and mitigated.
 
 ##### Risk 1:
@@ -306,12 +287,12 @@ To mitigate this issue multiple tasks should be completed simultaniously so that
 #### Risks Associated With This Project
 |Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy Number|Contingency|
 |:-:|:-|:-:|:-:|:-:|:-|
-|1|Difficulty in integrating hardware and software components|H|H|1|Consider alternative hardware and software components|
-|2|Lack of expertise in computer vision and robotics|H|H|2|Provide training and development opportunities for team members|
-|3|Inability to meet project deadlines due to unforeseen circumstances|M|H|3|Establish project management plan that includes contingency and flexibility in timelines|
-|4|Changes in project requirements or objectives|M|M|4|Regularly review and update project requirements and objectives with all stakeholders|
-|5|Inadequate communication and collaboration among project team members|L|M|5|Establish communication + collaboration protocols, facilitate regular meetings + check-ins|
-|6|Difficulty in sourcing required materials or equipment|L|M|6|Develop comprehensive list of required materials + equipment, identify potential suppliers + alternatives|
+|2|Difficulty in hardware and software intergration|H|M|1|revert back to working build, test more frequently from said build|
+|4|Lack of expertise in computer vision and robotics|H|L|2|Provide immediate training for team members from an expert|
+|1|Inability to meet project deadlines|M|H|3|Meet with the client or supervisor and discuss options|
+|5|Changes in project requirements or objectives|L|M|4|Change deadlines or task priority to accomodate changes|
+|3|Inadequate communication and collaboration among project team members|M|M|5|Immediate meeting to try and identify issues and impliment the fixes|
+|6|Difficulty in sourcing required materials or equipment|L|M|6|Work with what currently exists. alternatively wait for parts to arrive and continue from there|
 
 **Table 2 Risks**
 
