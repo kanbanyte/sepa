@@ -170,9 +170,10 @@ One example of this, is ensuring the robot is able to pick up a fallen over/out 
 ## CRITICAL SUCCESS FACTORS
 The critical success factors for this project include:
 * Developing a vision system that is accurate, efficient, and reliable.
-* Ensuring that the vision system is compatible with the robot's hardware and software.
-* Ensuring that the system can detect objects in a variety of lighting conditions and at various distances from the robot.
-* Ensuring that the system can detect objects that are partially occluded or have complex shapes.
+* Ensuring that the vision system:
+	* is compatible with the robot's hardware and software.
+	* can detect objects in a variety of lighting conditions and at various distances from the robot.
+	* can detect objects that are partially occluded or have complex shapes.
 
 ## ACCEPTANCE CRITERIA
 The acceptance criteria for this project include:
