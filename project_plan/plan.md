@@ -216,7 +216,7 @@ D.R.: Project supervisor
     * Include integration tests and results.
 
 ### Hardware modifications
-* Tool that mounts the depth camera such that all items of interests are within clear view.
+* Tool that mounts the depth camera such that all items of interest are within clear view.
 
 ## ACTIVITIES
 ### Research:
