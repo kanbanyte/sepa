@@ -182,17 +182,25 @@ The key personnel involve in this project are as follows:
 
 # ESTABLISHMENT
 ## PROCESSES, PROCEDURES AND STANDARDS
-The project team will follow the Kanban methodology for this project as it is a system that easily allows us to monitor our current tasks and allows for a more independent work style, thus increasing overall productivity.
+The project team will follow the Kanban methodology for this project as it is a system that easily allows us to monitor our current tasks and
+allows for a more independent work style, thus increasing overall productivity.
 
-The Kanban board will have 8 columns: `New`, `Reopened`, `Requested`, `Fix`, `Deploy`, `Merged`, `Closed`, and `Dropped`, which will be automated by GitHub's (classic) Projects automation features. The board will serve as the primary source of information for the team's progress, with each task being represented by a card that will move across the board's columns as it progresses through the project's workflow.
+The Kanban board will have 8 columns: `New`, `Reopened`, `Requested`, `Fix`, `Deploy`, `Merged`, `Closed`, and `Dropped`,
+which will be automated by GitHub's (classic) Projects automation features.
+The board will serve as the primary source of information for the team's progress,
+with each task being represented by a card that will move across the board's columns as it progresses through the project's workflow.
 
-The team will utilize GitHub as the source control system for this project. All code changes will be submitted via pull requests, and a team member other than the author will be responsible for reviewing the changes before they are merged into the `main` branch.
+The team will utilize GitHub as the source control system for this project.
+All code changes will be submitted via pull requests, and
+a team member other than the author will be responsible for reviewing the changes before they are merged into the `main` branch.
 
-All code produced must follow good programming practice, in particular code must follow consistent conventions of naming variables, functions, classes, etc. (such as camelCase or snake_case). Clear, concise comments will also be included to help with readability and comprehensibility.
+All code produced must follow good programming practice, in particular code must follow consistent conventions of naming variables, functions, classes, etc.
+(such as camelCase or snake_case).
+Clear, concise comments will also be included to help with readability and comprehensibility.
 
 ## PROJECT ENVIRONMENT
-The project will require the use of various programming lanugages, frameworks, modules, and development environments to be successfully completed. The following tools and technologies will be utilised throughout the project:
-
+The project will require the use of various programming lanugages, frameworks, modules, and development environments to be successfully completed.
+The following tools and technologies will be utilised throughout the project:
 * C/C++
 * Python
 * OpenCV
@@ -201,24 +209,25 @@ The project will require the use of various programming lanugages, frameworks, m
 * Markdown & CSS
 * Ubuntu Linux OS
 * Potential IDEs:
-    * Visual Studio
-    * Visual Studio Code
-    * VIM
-    * PyCharm
+	* Visual Studio
+	* Visual Studio Code
+	* VIM
+	* PyCharm
 
 ## PROJECT TEAM SKILL DEVELOPMENT REQUIREMENTS
-The project will require knowledge in multiple fields of study to successful deliver the final product; the team will be required to have expertise in the following areas:
-
+The project will require knowledge in multiple fields of study to successful deliver the final product;
+the team will be required to have expertise in the following areas:
 * Computer Vision
 * Sensors
 * Robotics
-    * Completed the tutorials for ROS
+	* Completed the tutorials for ROS
 * AI
 * Software Programming
-    * Python (Particularly OpenCV & PyTorch)
-    * C/C++
+	* Python (Particularly OpenCV & PyTorch)
+	* C/C++
 
-The team members will be encouraged to attend relevant training sessions and conferences to develop their skills in these areas. Online tutorials will be helpful references and sources for honing programming capabilities
+The team members will be encouraged to attend relevant training sessions and conferences to develop their skills in these areas.
+Online tutorials will be helpful references and sources for honing programming capabilities.
 
 <div class="page"/><!-- page break -->
 
