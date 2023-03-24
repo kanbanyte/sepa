@@ -182,18 +182,42 @@ The key personnel involve in this project are as follows:
 
 # ESTABLISHMENT
 ## PROCESSES, PROCEDURES AND STANDARDS
-> *[This section should refer to the methodology used.*
-> * *Identity a software development method that will be adopted for the project and discuss why it was chosen by the team for the project.*
-> * *Identify processes that will be adopted in the project, such as*
-> 	* *Versioning system*
-> 	* *User-Centred Design Process*
-> * *Identify and discuss briefly the program coding standards that will be adopted for this project]*
+The project team will follow the Kanban methodology for this project.
+The Kanban board will have 8 columns: `New`, `Reopened`, `Requested`, `Fix`, `Deploy`, `Merged`, `Closed`, and `Dropped`, which will be automated by GitHub's (classic) Projects automation features. The board will serve as the primary source of information for the team's progress, with each task being represented by a card that will move across the board's columns as it progresses through the project's workflow.
+
+The team will utilize GitHub as the source control system for this project. All code changes will be submitted via pull requests, and a team member other than the author will be responsible for reviewing the changes before they are merged into the `main` branch.
+
+All code produced must follow good programming practice, in particular code must follow consistent conventions of naming variables, functions, classes, etc. (such as camelCase or snake_case), and clear, concise comments will be included to help with readability and comprehensibility. 
 
 ## PROJECT ENVIRONMENT
-> *[Identify work places, computers, user accounts, server accounts, DBMS, and stationary required for software **development**, and later for software **deployment**]*
+The project will require the use of various programming lanugages, frameworks, modules, and development environments to be successfully completed. The following tools and technologies will be utilised throughout the project:
+
+* C/C++
+* Python
+* OpenCV
+* PyTorch
+* Robot Operating System (ROS2)
+* Markdown & CSS
+* Ubuntu Linux OS
+* Potential IDEs:
+    * Visual Studio
+    * Visual Studio Code
+    * VIM
+    * PyCharm
 
 ## PROJECT TEAM SKILL DEVELOPMENT REQUIREMENTS
-> *[Identify any training necessary for members of the project team]*
+The project will require knowledge in multiple fields of study to successful deliver the final product; the team will be required to have expertise in the following areas:
+
+* Computer Vision
+* Sensors
+* Robotics
+    * Completed the tutorials for ROS
+* AI
+* Software Programming
+    * Python (Particularly OpenCV & PyTorch)
+    * C/C++
+
+The team members will be encouraged to attend relevant training sessions and conferences to develop their skills in these areas. Online tutorials will be helpful references and sources for honing programming capabilities
 
 <div class="page"/><!-- page break -->
 
