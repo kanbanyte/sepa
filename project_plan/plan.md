@@ -259,7 +259,7 @@ However risks are easily mitigated with training and research into the system.
 
 ##### Risk 3:
 **Inability to meet project deadlines.**\
-in the duration of a project things will affect the deadlines; be that team members falling ill,
+In the duration of a project things will affect the deadlines; be that team members falling ill,
 supervisors requesting work sooner, or even clients needing code faster.\
 A general mitigation strategy is to be organised, utilising project boards can help, also regular meetings to be aware of issues. 
 Overall this is a hard to mitigate risk as problems can arise quickly.
