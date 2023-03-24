@@ -182,12 +182,13 @@ The key personnel involve in this project are as follows:
 
 # ESTABLISHMENT
 ## PROCESSES, PROCEDURES AND STANDARDS
-The project team will follow the Kanban methodology for this project.
+The project team will follow the Kanban methodology for this project as it is a system that easily allows us to monitor our current tasks and allows for a more independent work style, thus increasing overall productivity.
+
 The Kanban board will have 8 columns: `New`, `Reopened`, `Requested`, `Fix`, `Deploy`, `Merged`, `Closed`, and `Dropped`, which will be automated by GitHub's (classic) Projects automation features. The board will serve as the primary source of information for the team's progress, with each task being represented by a card that will move across the board's columns as it progresses through the project's workflow.
 
 The team will utilize GitHub as the source control system for this project. All code changes will be submitted via pull requests, and a team member other than the author will be responsible for reviewing the changes before they are merged into the `main` branch.
 
-All code produced must follow good programming practice, in particular code must follow consistent conventions of naming variables, functions, classes, etc. (such as camelCase or snake_case), and clear, concise comments will be included to help with readability and comprehensibility. 
+All code produced must follow good programming practice, in particular code must follow consistent conventions of naming variables, functions, classes, etc. (such as camelCase or snake_case). Clear, concise comments will also be included to help with readability and comprehensibility.
 
 ## PROJECT ENVIRONMENT
 The project will require the use of various programming lanugages, frameworks, modules, and development environments to be successfully completed. The following tools and technologies will be utilised throughout the project:
