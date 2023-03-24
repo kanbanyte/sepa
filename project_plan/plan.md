@@ -296,6 +296,13 @@ In projects teams often have to be led by a team member, this leader is responsi
 They are also there to ensure the team is working and collaborating effectively, if this isn't occuring work will be completed slower and usually not withing deadlines.\
 Mitigation strategies are having a good leader as well as utlising proper organisation.
 
+##### Risk 6:
+Difficulty in sourcing required materials or equipment.\
+As projects grow in size so too does the cost, this growing cost is partly due to required materials and equipment.
+The risk being that if for example, the camera was mounted upside down and ordering a replacement part were to take weeks,
+do you proceed forward or wait for the  required materials.\
+To mitigate this issue multiple tasks should be completed simultaniously so that when equipment becomes availible they are used quickly and the project is back on track.
+
 #### Risks Associated With This Project
 |Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy Number|Contingency|
 |:-:|:-|:-:|:-:|:-:|:-|
