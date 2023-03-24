@@ -195,7 +195,7 @@ All code changes will be submitted via pull requests, and
 a team member other than the author will be responsible for reviewing the changes before they are merged into the `main` branch.
 
 All code produced must follow good programming practice, in particular code must follow consistent conventions of naming variables, functions, classes, etc.
-(such as camelCase or snake_case).
+(for example camelCase or snake_case).
 Clear, concise comments will also be included to help with readability and comprehensibility.
 
 ## PROJECT ENVIRONMENT
