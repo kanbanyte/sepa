@@ -263,15 +263,22 @@ The key personnel involve in this project are as follows:
 > * *Contingency or fall-back position should the risk manifest itself.*\
 > *(plan B) - not an elaboration of the mitigation strategy]*
 
+Risks are a major problem in projects, they can slow things to a grinding halt if not properly dealt with and mitigated.
+
+##### Risk 1:
+Difficulty in hardware and software integration.\
+With the project utilizing cameras, operating systems and robotics the integration of hardware and software can lead to issues down the line.
+regular testing of the software on the operating systems as well as frequent integration with the hardware will avoid major issues.
+
 #### Risks Associated With This Project
 |Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy Number|Contingency|
-|:-|:-|:-:|:-:|:-|:-|
-|||||||
-|||||||
-|||||||
-|||||||
-|||||||
-|||||||
+|:-:|:-|:-:|:-:|:-:|:-|
+|1|Difficulty in integrating hardware and software components|H|H|1|Consider alternative hardware and software components|
+|2|Lack of expertise in computer vision and robotics|H|H|2|Provide training and development opportunities for team members|
+|3|Inability to meet project deadlines due to unforeseen circumstances|M|H|3|Establish project management plan that includes contingency and flexibility in timelines|
+|4|Changes in project requirements or objectives|M|M|4|Regularly review and update project requirements and objectives with all stakeholders|
+|5|Inadequate communication and collaboration among project team members|L|M|5|Establish communication + collaboration protocols, facilitate regular meetings + check-ins|
+|6|Difficulty in sourcing required materials or equipment|L|M|6|Develop comprehensive list of required materials + equipment, identify potential suppliers + alternatives|
 
 **Table 2 Risks**
 
