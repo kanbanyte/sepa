@@ -178,11 +178,12 @@ The critical success factors for this project include:
 ## ACCEPTANCE CRITERIA
 The acceptance criteria for this project include:
 * Successful implementation and testing of the vision system.
-* The system should be able to detect objects accurately and efficiently.
-* The system should be able to detect objects in a variety of lighting conditions and at various distances from the robot.
-* The system should be able to detect objects that are partially occluded or have complex shapes.
 * The vision system should be integrated with the robot's control system and enable the robot to perform pick and place tasks with increased efficiency and accuracy.
-* The system should be able to detect if objects are out of place or missing and halt the task until told to continue.
+* The system should be able to detect:
+	* objects accurately and efficiently.
+	* objects in a variety of lighting conditions and at various distances from the robot.
+	* objects that are partially occluded or have complex shapes.
+	* if objects are out of place or missing and halt the task until told to continue.
 
 <div class="page"/><!-- page break -->
 
