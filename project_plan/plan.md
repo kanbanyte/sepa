@@ -267,8 +267,34 @@ Risks are a major problem in projects, they can slow things to a grinding halt i
 
 ##### Risk 1:
 Difficulty in hardware and software integration.\
-With the project utilizing cameras, operating systems and robotics the integration of hardware and software can lead to issues down the line.
-regular testing of the software on the operating systems as well as frequent integration with the hardware will avoid major issues.
+With the project utilising cameras, operating systems and robotics the integration of hardware and software can lead to issues down the line.\
+Regular testing of the software on the operating systems as well as frequent integration with the hardware will avoid major issues.
+
+##### Risk 2:
+Lack of expertise in computer vision and robotics.\
+As mentioned in the first risk this project is integrated with a robotics system.\
+With many people not working directly with robots a lack of experience is common, 
+however risks are easily mitigated with training and research into the system.
+
+##### Risk 3:
+Inability to meet project deadlines.\
+in the duration of a project things will affect the deadlines be that team members falling ill,
+supervisors requesting work sooner, or even clients needing code faster.\
+A general mitigation strategy is to be organised, utilising project boards can help, also regular meetings to be aware of issues. 
+Overall this is a hard to mitigate risk as problems can arise quickly.
+
+##### Risk 4:
+Changes in project requirements or objectives.\
+As mentioned above, change in objectives can change the deadline timing, making it harder to achieve in most cases.
+However the larger issue is a change in objectives can change the budget, often demanding a time crunch or stretched resources.\
+To mitigate this issue a strong and verbose scope should be established at the beginning of the project, 
+and moving forward any changes to the scope must include additional modification of the deadlines.
+
+##### Risk 5:
+Inadequate communication and collaboration among project team members.\
+In projects teams often have to be led by a team member, this leader is responsible for ensuring the work submitted is acceptable.
+They are also there to ensure the team is working and collaborating effectively, if this isn't occuring work will be completed slower and usually not withing deadlines.\
+Mitigation strategies are having a good leader as well as utlising proper organisation.
 
 #### Risks Associated With This Project
 |Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy Number|Contingency|
