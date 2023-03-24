@@ -247,39 +247,39 @@ The key personnel involve in this project are as follows:
 Risks are a major problem in projects, they can slow things to a grinding halt if not properly dealt with and mitigated.
 
 ##### Risk 1:
-Difficulty in hardware and software integration.\
+**Difficulty in hardware and software integration.**\
 With the project utilising cameras, operating systems and robotics, the integration of hardware and software can lead to issues down the line.\
 Regular testing of the software on the operating systems as well as frequent integration with the hardware will avoid major issues.
 
 ##### Risk 2:
-Lack of expertise in computer vision and robotics.\
+**Lack of expertise in computer vision and robotics.**\
 As mentioned in the first risk this project is integrated with a robotics system.\
 With many people not working directly with robots, a lack of experience is common.
 However risks are easily mitigated with training and research into the system.
 
 ##### Risk 3:
-Inability to meet project deadlines.\
+**Inability to meet project deadlines.**\
 in the duration of a project things will affect the deadlines; be that team members falling ill,
 supervisors requesting work sooner, or even clients needing code faster.\
 A general mitigation strategy is to be organised, utilising project boards can help, also regular meetings to be aware of issues. 
 Overall this is a hard to mitigate risk as problems can arise quickly.
 
 ##### Risk 4:
-Changes in project requirements or objectives.\
+**Changes in project requirements or objectives.**\
 As mentioned above, changes in objectives can change the deadline timing, making it harder to achieve in most cases.
 However the larger issue is a change in objectives can change the budget, often demanding a time crunch or stretched resources.\
 To mitigate this issue a strong and verbose scope should be established at the beginning of the project, 
 and moving forward any changes to the scope must include additional modification of the deadlines.
 
 ##### Risk 5:
-Inadequate communication and collaboration among project team members.\
+**Inadequate communication and collaboration among project team members.**\
 In projects, teams often have to be led by a team member. 
 This leader is responsible for ensuring the work submitted is acceptable.
 They are also there to ensure the team is working and collaborating effectively. If this is not occurring work will be completed at a reduced pace and usually not within the set deadlines.\
 Mitigation strategies are having a good leader as well as utilising proper organisation.
 
 ##### Risk 6:
-Difficulty in sourcing required materials or equipment.\
+**Difficulty in sourcing required materials or equipment.**\
 As projects grow in size, so too does the cost. 
 This growing cost is partly due to required materials and equipment.
 The risk being that, if for example, the camera was mounted upside down and ordering a replacement part were to take weeks,
