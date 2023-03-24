@@ -160,9 +160,9 @@ To achieve this, the following must be achieved:
 ## SCOPE
 The scope of this project includes the development of a vision system that is compatible with the robot's hardware and software.
 
-The vision system should:
-* Be able to detect objects in a variety of lighting conditions and at various distances from the robot.
-* Be able to detect objects that are partially occluded or have complex shapes.
+The vision system should be able to detect objects:
+* in a variety of lighting conditions and at various distances from the robot.
+* that are partially occluded or have complex shapes.
 
 Future work may arise depending on the schedule and progress of the scoped out project.
 One example of this, is ensuring the robot is able to pick up a fallen over/out of place object.
