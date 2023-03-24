@@ -205,17 +205,42 @@ D.R.: Project supervisor
 
 # DELIVERABLES, ACTIVITIES AND CAPITAL RESOURCES
 ## DELIVERABLES
-> *[List and describe specific deliverables that will be completed.*\
-> *Deliverables are things you give to the client or the project supervisor]*
->
-> *[For example, software, manuals, documentation, poster, video, test results]*
+### Software systems
+* Functioning computer vision system satisfying all requirements within scope.
+* Functioning robotic control system satisfying all requirements within scope.
+
+### Documentation
+* Documents outlining design choices as specified in [System Documentation](#system-documentation).
+* Documents detailing test plans as specified in [Testing](#testing).
+    * Include simulation test plans and results.
+    * Include integration tests and results.
+
+### Hardware modifications
+* Tool that mounts the depth camera such that all items of interests are within clear view.
 
 ## ACTIVITIES
-> *[List and describe specific activities that will be executed in order to produce the deliverables as listed in section 4.1.*\
-> *For example, you can use phases, stages and activities defined in the selected process or lifecycle]*
->
-> *[In describing the activity, identify, list, and describe the task(s) involved in each activity.*\
-> *Each activity is made up of one or more tasks]*
+### Research:
+* Learn to use Robot OS within Ubuntu.
+* Study concepts of machine learning, with a focus on computer vision. 
+* Research ways to build an AI model based on project needs.
+
+### Design and implementation:
+* Model the problem into the software system.
+* Train the machine learning model in simulation.
+
+### Deployment:
+* Deploy the machine learning model in production.
+* Deploy the robotic control software into the robot arm.
+
+### Testing:
+* Test the computer vision system in simulation using a collection of photographs taken in various conditions.
+* Test the robotic control system in simulation, covering all identified edge cases.
+* Integration test on the robot arm with the control and computer system installed, covering all edge cases as identified in prior simulation tests.
+
+### System Documentation:
+* User flow documentation: robot behaviors given an input, including explanation for special cases.
+* Software architecture documentation: software models, their relationship and interactions. 
+* Design decision documentation: explanation for software tool/framework and various design choices.
 
 ## RESOURCES
 > *[List and describe specific resources needed in order to complete the project]*
