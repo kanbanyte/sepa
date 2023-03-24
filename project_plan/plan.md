@@ -142,7 +142,12 @@ The key personnel involve in this project are as follows:
 > *[A stakeholder is a person people for whom the success or failure of the project will make a difference]*
 
 ### PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS
-> *[This is where you list your team, and indicate each one's role in the project]*
+The project supervisor will oversee the project's implementation and ensure that it aligns with the client's objectives.
+The team leader will coordinate the project team's efforts to ensure that the project is delivered on time and within budget.
+The key project members will be responsible for developing the vision or sensing system and integrating it with the existing robot.
+
+Key project members can be separated into the robotic system developers, who are responsible for working directly with the robot to configure movement, and
+computer vision developers, who will work on writing the software to detect objects and send the data to the robot. 
 
 <div class="page"/><!-- page break -->
 
