@@ -151,16 +151,11 @@ The goal of this project is to be able to provide computer vision to a UR5 robot
 while using machine learning techniques to allow the robot to assess the situation and act accordingly.
 
 ## OBJECTIVES
-The objectives of this project are to design and implement a vision system for a pick \& place task
-using a robot located within the Factory of the Future.
-
+The objectives of this project are to design and implement a vision system for a pick and place task using a robot located within the Factory of the Future.
 To achieve this, the following must be achieved:
-* Develop a vision system that will enable the robot to locate objects to pick \& place,
-even if they are not in the predefined position.
-* The vision system should be able to detect objects accurately \& efficiently, and 
-provide the necessary information to the robot's control system.
-* The vision system should also be able to detect if objects are missing/out of place and 
-pause until given a command that it is safe to continue.
+* Develop a vision system that will enable the robot to locate objects to pick and place, even if they are not in the predefined position.
+* The vision system should be able to detect objects accurately and efficiently, and provide the necessary information to the robot's control system.
+* The vision system should also be able to detect if objects are missing/out of place and pause until given a command that it is safe to continue.
 
 ## SCOPE
 The scope of this project includes the development of a vision system that is compatible with the robot's hardware and software.
@@ -169,7 +164,7 @@ The vision system should:
 * Be able to detect objects in a variety of lighting conditions and at various distances from the robot.
 * Be able to detect objects that are partially occluded or have complex shapes.
 
-Future work may arise depending on the schedule and progress of the scoped out project. One example of this, 
+Future work may arise depending on the schedule and progress of the scoped out project. One example of this,
 is ensuring the robot is able to pick up a fallen over/out of place object.
 
 ## CRITICAL SUCCESS FACTORS
@@ -185,7 +180,7 @@ The acceptance criteria for this project include:
 * The system should be able to detect objects accurately and efficiently.
 * The system should be able to detect objects in a variety of lighting conditions and at various distances from the robot.
 * The system should be able to detect objects that are partially occluded or have complex shapes.
-* The vision system should be integrated with the robot's control system and enable the robot to perform pick and 
+* The vision system should be integrated with the robot's control system and enable the robot to perform pick and
 place tasks with increased efficiency and accuracy.
 * The system should be able to detect if objects are out of place or missing and halt the task until told to continue.
 
