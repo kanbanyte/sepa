@@ -20,7 +20,7 @@ List of your Names:
 |@vkach|Quality Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
 |@dau501|Development Manager/Planning Manager|id@swin.student.edu.au|04xx xxx xxx|
 |@finnmcgearey|Support Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
-|@|-|id@swin.student.edu.au|04xx xxx xxx|
+|@NickMcK14|Quality Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
 |@Huy-GV|Quality Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
 
 <!-- SUBJECT CODE, NAME, SEMESTER AND DATE -->
@@ -57,7 +57,7 @@ Delete all the explanatory text in RED, including this box before submission.
 |@vkach|-|||
 |@dau501|-|||
 |@finnmcgearey|-|||
-|@|-|||
+|@NickMcK14|-|||
 |@Huy-GV|-|||
 
 > *[When document is finalised for submission, all team members must affix their signature in the Document Sign Off table]*\
