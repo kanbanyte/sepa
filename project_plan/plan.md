@@ -1,5 +1,15 @@
 <link rel="stylesheet" href="../styles/styles.css" type="text/css">
 
+
+// initialize Mermaid to [1] log errors, [2] have loose security for first-party
+// authored diagrams, and [3] respect a preferred dark color scheme
+mermaid.initialize({
+  logLevel: "error", // [1]
+  securityLevel: "loose", // [2]
+  theme: (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) ?
+    "dark" :
+    "default" // [3]
+})
 <!-- TOC ignore:true -->
 # Robot Vision System For A Pick And Place Task
 <!--
@@ -279,12 +289,40 @@ The key personnel involve in this project are as follows:
 
 # SCHEDULE
 ## PROJECT TIME LINE
-> *[Given the tasks (group as activities) in Section 4.2, schedule each tasks using a Gantt chart or some other type of time line.*\
-> *You do not have to use Microsoft Project.*\
-> *Acceptable Gantt charts can be created using Excel or various graphics programs or can be hand-drawn]*
->
-> *[For each task, show the deadline, and who is allocated to each task (your team members).*\
-> *Often it is better to allocate two people to each task in case one becomes unavailable (e.g., breaks a leg)]*
+```mermaid
+gantt
+
+    title A Gantt Diagram
+    dateFormat DD-MM-YYYY
+    
+    section .
+    .: 01-01-2023, 1min
+    
+    section Research
+    Learn ROS :crit, active, a1, 22-03-2023, 28d
+    Research Machine Learning :crit, active, 22-03-2023, 28d
+    Research AI models :crit, active, 22-03-2023, 28d
+
+    section System Documentation
+    User flow :active, a2,  22-03-2023, 9d
+    Software architecture documentation    :a3, after a1, 14d
+    Design decision    :crit, a4, after a3, 14d
+
+    section Design/Implementation
+    Model problem     : after a4, 42d
+    Train AI    : after a4, 42d
+
+    section Testing
+    Test the computer vision  :  a5, 01-08-2023, 14d
+    Test the robotic control system      : 01-08-2023,14d
+    Integration test    :  a6, after a5, 14d
+    
+    section Deployment
+    Deploy machine learning model  :after a6, 14d
+    Deploy robotic control software : after a6, 14d
+
+    
+```
 
 ## EXTERNAL DEPENDENCIES
 * Availability of the UR5e robot arm and required trays
