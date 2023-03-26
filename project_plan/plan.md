@@ -1,15 +1,5 @@
 <link rel="stylesheet" href="../styles/styles.css" type="text/css">
 
-
-// initialize Mermaid to [1] log errors, [2] have loose security for first-party
-// authored diagrams, and [3] respect a preferred dark color scheme
-mermaid.initialize({
-  logLevel: "error", // [1]
-  securityLevel: "loose", // [2]
-  theme: (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) ?
-    "dark" :
-    "default" // [3]
-})
 <!-- TOC ignore:true -->
 # Robot Vision System For A Pick And Place Task
 <!--
