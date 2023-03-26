@@ -287,12 +287,17 @@ The key personnel involve in this project are as follows:
 > *Often it is better to allocate two people to each task in case one becomes unavailable (e.g., breaks a leg)]*
 
 ## EXTERNAL DEPENDENCIES
-> *[Describe any inputs from external parties that are required to ensure that the schedule is met.*\
-> *These dependencies, if any, must also be indicated in the time line (Section 7.1) as a critical point]*
+Availability of the UR5e robot arm and required trays
+Collaboration with the client to establish the acceptance criteria and testing requirements
+Availability of technical support and resources from suppliers of required hardware and software
 
 ## ASSUMPTIONS
-> *[Describe any assumptions that have been made in arriving at the schedule.*\
-> *These may be critical to the implementation of the software]*
+All necessary materials and equipment will be available on time
+All key project personnel will be available throughout the project duration
+No major technical issues will arise during the course of the project
+The project team has the required skills to develop the vision system prototype and integrate it with the robot system
+Collaboration with the client will be timely and productive
+The project team will be able to complete the project within the allocated timeline
 
 <div class="page"/><!-- page break -->
 
