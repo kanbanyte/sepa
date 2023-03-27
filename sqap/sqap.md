@@ -155,9 +155,10 @@ List of your Names:
 |||Coding Champion / Sargent At Arms|Coding Champion / Client Liaison|
 
 ## Purpose
-This document outlines the policies and procedures that members of Team 02 will follow to achieve an overall high standard of quality for Project Eagle,
-a Data Management System (DMS) for the Defence Materiel Organisation(DMO).\
-All team members are expected to adhere to the processes outlined in this document.
+> This document outlines the policies and procedures that members of Team 02 will follow to achieve an overall high standard of quality for Project Eagle,
+> a Data Management System (DMS) for the Defence Materiel Organisation(DMO).\
+> All team members are expected to adhere to the processes outlined in this document.
+
 
 <!-- TOC ignore:true -->
 # Chapter 2
