@@ -158,7 +158,7 @@ List of your Names:
 The robot vision system for a pick and place task will be tackled by group 24 and following this document; the software quality assurance plan (SQAP), 
 it will be ensured that the projects requirements and quality standards are met.
 The plan will outline the development process and testing procedures, including but not limited too reviewing, testing and integration.
-In addition, the plan will describe several tools and methodologies that will be implemented and used in to guarentee the solution's reliability,
+In addition, the plan will describe several tools and methodologies that will be implemented and used to guarantee the solution's reliability,
 maintainability and performance.
 Finally, the plan will identify the team; `team_name`, responsible for the development and testing of the software as well as their roles and responsibilities.
 <!-- TOC ignore:true -->
