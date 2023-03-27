@@ -212,16 +212,16 @@ The key personnel involve in this project are as follows:
 > *Each activity is made up of one or more tasks]*
 
 ## RESOURCES
-Hardware resources:
+### Hardware resources:
 This includes the necessary hardware components for the vision system implementation, such as cameras, sensors, and computer systems.
 
-Software resources:
+### Software resources:
 This includes software tools and libraries required for vision system development and integration, such as OpenCV and PyTorch.
 
-Human resources:
+### Human resources:
 This project will require a team of skilled professionals, including software engineers, computer vision experts, and robotics specialists.
 
-Budget:
+### Budget:
 A budget will need to be allocated for hardware and software resources, as well as any other project-related expenses.
 
 <div class="page"/><!-- page break -->
