@@ -624,41 +624,49 @@ Notes will distributed to client for confirmation.
 
 ### Coding practices
 General guidelines
-* Strictly follow C# and .NET standards as outlined in 5.2.1
-* Keep the code simple, avoid using unnecessary "clever" code.
-* All source files must use the standard header template
-* All methods, fields and properties must have comments that follows the official standard in 5.2.1,
-inherited class only requires comment if behaviors differ greatly from that outlines by its parent classes
-* Public properties are acceptable, however default setters are discouraged, and guards should be used in writing setters.
-* Development must be in-line with architectural design, in order to ensure transparency in code.
-* Once a week meetings (15 minutes) to report progress/difficulties in development, could be con-ducted after weekly team meeting.\
-The aim is to ensure problems are known early and progress are understood by the whole team.
+* For code written in C++, follow [C++ Core Guideline](https://peps.python.org/pep-0008/), with the following additions/ exceptions:
+	* Always use Java-style indentations, regardless of number of lines.
+	* For `.cpp` files, place `#include` directives in the following order:
+		1. Header file whose declarations are defined in the current file.
+		2. Standard library header files.
+		3. Third-party library header files.
+		4. Other header files in the project.
+* For code written in Python, follow [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
+
+* The following rules will override any (existing) similar rule in the guidelines for both languages:
+	* Public interfaces (functions, variables, constants, class names, etc.) must be fully documented.
+	* All classes must belong in separate files unless they are nested.
+	* All rules in the [project structure section](#guidelines-on-project-structure) and [namespace section](#guideline-on-naming-and-namespaces).
+
+// TODO: review naming rules for these guidelines and override them.
 
 <div class="page"/><!-- page break -->
 
 #### Guidelines on project structure
-There shall be only one Windows Form Application project for a particular module, it shall be the only User Interface project.
+* C++:
+	* Files within the same namespace are placed in the same folder.
+	* Header files `.h` and associated code files `.cpp` are placed in the same folder.
 
-All major components (ReportGenerator,DatabaseIOetc.) are to be implemented byC# libraries.
+* Python:
 
-User interface is to be implemented by native .NET form creator to ease future development, XML-based interface design is discouraged.
-
-There shall be a library project called `EagleStaticCommon` which contains helper or data components that are used by all other components.\
-To avoid breaking the layered architecture, `EagleStaticCommon` shall only contain static functions and properties.\
-However the decision of putting a component in `EagleStaticCommon` must be considered carefully to avoid overcrowding, which lead to confusion.
-
-#### Guideline on components design
-Each component design must be justified by thorough analysis into quality requirements of the component, applied design patterns or tactics.
-
-It is recommended that to the very least, a component design should incorporate and separate the following component into directories in the library:
-* Interface: include all abstract classes and interfaces
-* Enumeration: all enumerations
-* EventArgs: all subclasses of EventArgs if any
-* Structures: all data structures if any
-* Contracts: contract classes if any
+* Both languages should share the same project structure:
+	* Source files are placed in `src/`
+	* Tests are placed in `tests/`
+	* Documentation are placed in `docs/`
 
 #### Guideline on naming and namespaces
-Appropriate namespaces will be automatically created by Visual Studio if folder structure is set up in the project.
+* C++
+	* All code must be placed in a namespace.
+	* Use `PascalCase` for templates, namespaces, constants (independent or member), enum names and values.
+	* Use `snake_case` for functions (independent or member), local variables, function parameters, member fields.
+	* Prefix private, non-constant member fields with underscore `_` instead of using `this` unless requiring the `this` pointer.
+	* Prefix constants and enum values with `k`.
+	* Do __not__ use the `using namespace` statement. 
+
+* Python:
+	* Use `PascalCase` for classes and errors.
+	* Use `snake_case` for functions, variables, parameters. 
+	* Prefix private, non-constant member fields with underscore `_` (Python does not support private variables but this should rule should be adhered to where possible for communication purposes). 
 
 <div class="page"/><!-- page break -->
 
