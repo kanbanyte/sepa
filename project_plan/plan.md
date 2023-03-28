@@ -284,10 +284,17 @@ Online tutorials will be helpful references and sources for honing programming c
 * Design decision documentation: explanation for software tool/framework and various design choices.
 
 ## RESOURCES
-> *[List and describe specific resources needed in order to complete the project]*
->
-> *[Resources are things you need to do the project which may be provided by your client or university.*\
-> *For example, equipment, room, software library]*
+### Hardware resources:
+This includes the necessary hardware components for the vision system implementation, such as cameras, sensors, and computer systems.
+
+### Software resources:
+This includes software tools and libraries required for vision system development and integration, such as OpenCV and PyTorch.
+
+### Human resources:
+This project will require a team of skilled professionals, including software engineers, computer vision experts, and robotics specialists.
+
+### Budget:
+A budget will need to be allocated for hardware and software resources, as well as any other project-related expenses.
 
 <div class="page"/><!-- page break -->
 
