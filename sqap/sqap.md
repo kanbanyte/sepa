@@ -127,7 +127,7 @@ List of your Names:
 		* [Visual Studio](#visual-studio)
 		* [Virtual Machine](#virtual-machine)
 		* [Skype](#skype)
-	* [Design Methodology](#design-methodology)
+	* [Agile Methodology: Kanban](#agile-methodology-kanban)
 * [Records collection, maintenance and retention](#records-collection-maintenance-and-retention)
 * [Risk Management](#risk-management)
 	* [Purpose](#purpose)
@@ -924,23 +924,25 @@ If Skype meetings are deemed to be necessary, then all team members will need to
 
 <div class="page"/><!-- page break -->
 
-## Design Methodology
-* Spiral Lifecycle Model
-* Lifecycle model utilises multiple iterations which suits our modular design.
-* Each iteration will have its timeline specified in the project plan.
-* Each phase will have its timeline define in the module plan.
-* Can have independent modules being processed concurrently if practical.
-* The spiral model is endorsed by the client, and the shared understanding of the methodology will assist in communication on the topic of project planning.
-* The model treats each iteration as a new project plan modified to include the following phases:
-	* Requirements: Determining requirements for current iteration of the project
-	* Design: Building a project plan for this iteration including timeline, work allocation, and risk identification and management.
-	* Develop/Test: Programming, prototyping, documenting, verifying and validating as discussed in Design Phase
+## Agile Methodology: Kanban
 
-This modified model can be seen in the figure below.
+![kanban](https://www.nimblework.com/wp-content/uploads/2022/12/Simple-Kanban-Board-5-1024x628.webp)
 
-![fig91](https://cdn.discordapp.com/attachments/1086926990055063602/1087043259026649128/image.png)
+<sup>Figure Source: <https://www.nimblework.com/kanban/what-is-kanban/></sup>
 
-Figure9.1: SpiralSoftwareLifecycle Model
+The Kanban Agile Methodology approach will prioritize collaboration, flexibility, and continuous improvement.
+The Kanban board will be used to visualize the workflow and identify bottlenecks, enabling the team to respond quickly to changes and adapt the design accordingly.
+Regular communication and meetings will ensure that the design is meeting the project requirements, and
+the team will focus on delivering small, incremental changes to the design, allowing for feedback and iteration throughout the project lifecycle.
+
+Some key points for utilizing Kanban for software architecture and design in this project are:
+* Breaking down the overall design into smaller, more manageable components, and creating a backlog of tasks that need to be accomplished.
+* Prioritizing the backlog based on importance and complexity, and assigning each task to a specific team member or group.
+* Utilizing Kanban boards to visualize the workflow, track progress, and ensure visibility and collaboration among team members.
+
+Kanban is an iterative software development process that emphasizes flexibility, continuous improvement, and customer collaboration.
+This approach can help ensure that the software architecture and design process is efficient, effective, and customer-centric.
+By delivering small, incremental changes and seeking continuous feedback, the team can ensure that the final product meets the needs of its users.
 
 <div class="page"/><!-- page break -->
 
