@@ -415,7 +415,8 @@ A reminder email will also be sent to the required attendees with a PDF attachme
 # Chapter 5
 
 # Standards, Practices, Conventions and Metrics
-## Standards Purpose
+## Purpose
+
 Ensuing good quality work is produced standards are essential;
 this section will cover many standards of varying parts of the programming process.\
 These standards aim to provide a structured approach to software design and development,
