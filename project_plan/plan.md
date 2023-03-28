@@ -4,7 +4,7 @@
 # Robot Vision System For A Pick And Place Task
 <!--
 	Co-Author: @dau501
-	Editor(s):
+	Editor(s): @Slothman1, @Huy-GV, @finnmcgearey, @vkach, @NickMcK14
 	Year: 2023
 -->
 
@@ -16,11 +16,11 @@ List of your Names:
 
 |Name|Position|Email|Phone|
 |:-|:-|:-|:-|
-|@Slothman1|Team Leader/Client Liaison|id@swin.student.edu.au|1300 655 506|
-|@vkach|Quality Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
+|@Slothman1|Team Leader/Client Liaison|id@swin.student.edu.au|04xx xxx xxx|
 |@dau501|Development Manager/Planning Manager|id@swin.student.edu.au|04xx xxx xxx|
 |@finnmcgearey|Support Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
-|@NickMcK14|Quality Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
+|@vkach|Quality Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
+|@NickMcK14|Support Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
 |@Huy-GV|Quality Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
 
 <!-- SUBJECT CODE, NAME, SEMESTER AND DATE -->
@@ -34,31 +34,15 @@ Delete all the explanatory text in RED, including this box before submission.
 
 <div class="page"/><!-- page break -->
 
-# DOCUMENT CHANGE CONTROL
-|Version|Date|Authors|Summary of Changes|
-|:-|:-|:-|:-|
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-
-> *[Each time this document is revised, complete details of changes in Document Change Control table]*
-
 # DOCUMENT SIGN OFF
 |Name|Position|Signature|Date|
 |:-|:-|:-|:-|
-|@Slothman1|Lead|||
-|@vkach|-|||
-|@dau501|-|||
-|@finnmcgearey|-|||
-|@NickMcK14|-|||
-|@Huy-GV|-|||
+|@Slothman1|Team Leader/Client Liaison|||
+|@dau501|Development Manager/Planning Manager|||
+|@finnmcgearey|Support Manager/Developer|||
+|@vkach|Quality Manager/Developer|||
+|@NickMcK14|Support Manager/Developer|||
+|@Huy-GV|Quality Manager/Developer|||
 
 > *[When document is finalised for submission, all team members must affix their signature in the Document Sign Off table]*\
 > ***[No-one should sign unless they have read the report and agree with it.]***
@@ -66,11 +50,11 @@ Delete all the explanatory text in RED, including this box before submission.
 # CLIENT SIGN OFF
 |Name|Position|Signature|Date|
 |:-|:-|:-|:-|
-|-|-|-|-|
+|<br/>|<br/>|<br/>|<br/>|
 
 |Organisation|
 |:-|
-||
+|<br/><br/><br/><br/>|
 
 > *[Client to sign off on the Project Plan to signify they agree with the plan]*
 
@@ -79,35 +63,46 @@ Delete all the explanatory text in RED, including this box before submission.
 # CONTENTS
 <!-- TOC -->
 
-* [DOCUMENT CHANGE CONTROL](#document-change-control)
 * [DOCUMENT SIGN OFF](#document-sign-off)
 * [CLIENT SIGN OFF](#client-sign-off)
 * [CONTENTS](#contents)
 * [INTRODUCTION](#introduction)
-    * [BACKGROUND](#background)
-    * [KEY PROJECT PERSONNEL](#key-project-personnel)
-        * [CLIENT](#client)
-        * [OTHER STAKE HOLDERS](#other-stake-holders)
-        * [PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS](#project-supervisor-team-leader-and-key-project-members)
+	* [BACKGROUND](#background)
+	* [KEY PROJECT PERSONNEL](#key-project-personnel)
+		* [CLIENT](#client)
+		* [OTHER STAKE HOLDERS](#other-stake-holders)
+		* [PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS](#project-supervisor-team-leader-and-key-project-members)
 * [TERMS OF REFERENCE](#terms-of-reference)
-    * [OBJECTIVES](#objectives)
-    * [SCOPE](#scope)
-    * [CRITICAL SUCCESS FACTORS](#critical-success-factors)
-    * [ACCEPTANCE CRITERIA](#acceptance-criteria)
+	* [OBJECTIVES](#objectives)
+	* [SCOPE](#scope)
+	* [CRITICAL SUCCESS FACTORS](#critical-success-factors)
+	* [ACCEPTANCE CRITERIA](#acceptance-criteria)
 * [ESTABLISHMENT](#establishment)
-    * [PROCESSES, PROCEDURES AND STANDARDS](#processes-procedures-and-standards)
-    * [PROJECT ENVIRONMENT](#project-environment)
-    * [PROJECT TEAM SKILL DEVELOPMENT REQUIREMENTS](#project-team-skill-development-requirements)
+	* [PROCESSES, PROCEDURES AND STANDARDS](#processes-procedures-and-standards)
+	* [PROJECT ENVIRONMENT](#project-environment)
+	* [PROJECT TEAM SKILL DEVELOPMENT REQUIREMENTS](#project-team-skill-development-requirements)
 * [DELIVERABLES, ACTIVITIES AND CAPITAL RESOURCES](#deliverables-activities-and-capital-resources)
-    * [DELIVERABLES](#deliverables)
-    * [ACTIVITIES](#activities)
-    * [RESOURCES](#resources)
+	* [DELIVERABLES](#deliverables)
+		* [Software systems](#software-systems)
+		* [Documentation](#documentation)
+		* [Hardware modifications](#hardware-modifications)
+	* [ACTIVITIES](#activities)
+		* [Research:](#research)
+		* [Design and implementation:](#design-and-implementation)
+		* [Deployment:](#deployment)
+		* [Testing:](#testing)
+		* [System Documentation:](#system-documentation)
+	* [RESOURCES](#resources)
+		* [Hardware resources:](#hardware-resources)
+		* [Software resources:](#software-resources)
+		* [Human resources:](#human-resources)
+		* [Budget:](#budget)
 * [ORGANISATION AND STRUCTURE](#organisation-and-structure)
 * [RISKS](#risks)
 * [SCHEDULE](#schedule)
-    * [PROJECT TIME LINE](#project-time-line)
-    * [EXTERNAL DEPENDENCIES](#external-dependencies)
-    * [ASSUMPTIONS](#assumptions)
+	* [PROJECT TIME LINE](#project-time-line)
+	* [EXTERNAL DEPENDENCIES](#external-dependencies)
+	* [ASSUMPTIONS](#assumptions)
 * [BUDGET](#budget)
 * [REFERENCES](#references)
 * [TABLES INDEX](#tables-index)
@@ -117,36 +112,36 @@ Delete all the explanatory text in RED, including this box before submission.
 <div class="page"/><!-- page break -->
 
 # INTRODUCTION
-This document is designed to serve as a guide to use in relation to the proposed plans and ideas for the project. 
-This document is deigned to be easily accessible to the client to see the intentions with the project. 
+This document is designed to serve as a guide to use in relation to the proposed plans and ideas for the project.
+This document is deigned to be easily accessible to the client to see the intentions with the project.
 This document will assist in defining future documents as this outlines expectations, proposed ideas and a rough plan for the project.
 
 ## BACKGROUND
-The factory of the future focuses on developing technologies, 
-the latest being a chip assembling robot which is in need of a vision system. 
-The required pick and place tasks are currently unable to be completed in less than ideal conditions as well the system is far from autonomous. 
-The factory of the future wants this project to be completed to 
+The factory of the future focuses on developing technologies,
+the latest being a chip assembling robot which is in need of a vision system.
+The required pick and place tasks are currently unable to be completed in less than ideal conditions as well the system is far from autonomous.
+The factory of the future wants this project to be completed to
 both show how emerging technologies can be used to automate tasks as well as how robots can be incorporated into regular workflows.
 
 ## KEY PROJECT PERSONNEL
 The key personnel involve in this project are as follows:
 
 ### CLIENT
-@FelipMarti is a research fellow within the Factory of the Future. 
+@FelipMarti is a research fellow within the Factory of the Future.
 With a background in IoT he is now working with intelligent robots and computer vision systems.
 
 ### OTHER STAKE HOLDERS
 S.W: a fellow worker in the factory of the future, responsible for a good degree of robot demonstrations.\
 Swinburne clients: potential investors or researchers interested in the technology and wish to view it in progress.\
-Swinburne developers: People responsible for the maintaining of the system. 
+Swinburne developers: People responsible for the maintaining of the system.
 
 ### PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS
 @Slothman1: Team leader and client liaison\
-@vkach: Quality manager and developer\
 @dau501: Development manager and planning manager\
 @finnmcgearey: Support manager and developer\
-@Huy-GV: Quality manager and developer\
-@NickMcK14: Support manager and developer
+@vkach: Quality manager and developer\
+@NickMcK14: Support manager and developer\
+@Huy-GV: Quality manager and developer
 
 D.R.: Project supervisor
 
@@ -172,6 +167,8 @@ The vision system should be able to detect objects:
 
 Future work may arise depending on the schedule and progress of the scoped out project.
 One example of this, is ensuring the robot is able to pick up a fallen over/out of place object.
+
+<div class="page"/><!-- page break -->
 
 ## CRITICAL SUCCESS FACTORS
 The critical success factors for this project include:
@@ -227,6 +224,8 @@ The following tools and technologies will be utilised throughout the project:
 	* VIM
 	* PyCharm
 
+<div class="page"/><!-- page break -->
+
 ## PROJECT TEAM SKILL DEVELOPMENT REQUIREMENTS
 The project will require knowledge in multiple fields of study to successful deliver the final product;
 the team will be required to have expertise in the following areas:
@@ -253,8 +252,8 @@ Online tutorials will be helpful references and sources for honing programming c
 ### Documentation
 * Documents outlining design choices as specified in [System Documentation](#system-documentation).
 * Documents detailing test plans as specified in [Testing](#testing).
-    * Include simulation test plans and results.
-    * Include integration tests and results.
+	* Include simulation test plans and results.
+	* Include integration tests and results.
 
 ### Hardware modifications
 * Tool that mounts the depth camera such that all items of interest are within clear view.
@@ -262,7 +261,7 @@ Online tutorials will be helpful references and sources for honing programming c
 ## ACTIVITIES
 ### Research:
 * Learn to use Robot OS within Ubuntu.
-* Study concepts of machine learning, with a focus on computer vision. 
+* Study concepts of machine learning, with a focus on computer vision.
 * Research ways to build an AI model based on project needs.
 
 ### Design and implementation:
@@ -280,8 +279,10 @@ Online tutorials will be helpful references and sources for honing programming c
 
 ### System Documentation:
 * User flow documentation: robot behaviors given an input, including explanation for special cases.
-* Software architecture documentation: software models, their relationship and interactions. 
+* Software architecture documentation: software models, their relationship and interactions.
 * Design decision documentation: explanation for software tool/framework and various design choices.
+
+<div class="page"/><!-- page break -->
 
 ## RESOURCES
 ### Hardware resources:
@@ -400,6 +401,8 @@ timeline
 	}
 }%%
 ```
+
+<!-- ![time](https://cdn.discordapp.com/attachments/1086926990055063602/1090084644931776552/image.png) -->
 
 ## EXTERNAL DEPENDENCIES
 * Availability of the UR5e robot arm and required trays
