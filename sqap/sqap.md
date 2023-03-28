@@ -155,7 +155,7 @@ List of your Names:
 |||Coding Champion / Sargent At Arms|Coding Champion / Client Liaison|
 
 ## Purpose
-The robot vision system for a pick and place task will be tackled by group 24 and following this document; the software quality assurance plan (SQAP), 
+The robot vision system for a pick and place task will be tackled by group 24 and following this document; the software quality assurance plan (SQAP),
 it will be ensured that the projects requirements and quality standards are met.
 The plan will outline the development process and testing procedures, including but not limited too reviewing, testing and integration.
 In addition, the plan will describe several tools and methodologies that will be implemented and used to guarantee the solution's reliability,
@@ -396,13 +396,10 @@ Audits can be carried out internally and externally.
 
 ## Management Documents
 ### Meeting Agendas
-* This document will be of Latex type and will be prepared by the Team Leader (Or Meeting Chair)prior to each meeting.
-* All team members are expected to contribute to the agenda by requesting topics of their choice be added to the agenda.
-* Topics shall be owned by the team member who submitted them, unless otherwise stated.
-* Owners shall attend the meeting prepared to introduce and discuss their topic.
-* Submissions will be accepted by Close of Business (5:00PM)(COB) the day prior to the meeting.
-* The author of the agenda will upload to the SVN by COB the day before the meeting.\
-A reminder email will also be sent to the required attendees with a PDF attachment of the agenda.
+* This document will be of a markdown type (MD) and will be prepared by the team leader prior to each meeting.
+* Team members ar expected to contribute to the agenda, upon request their topic will be added.
+* Requested topics are expected to be presented by the team member that requested them, they are expected to attend the meeting ready to present.
+* Owners are expected to attend the meeting and topics accepted before the end of day prior to the meeting.
 
 ### Meeting Minutes
 * Will be collected at every meeting.
