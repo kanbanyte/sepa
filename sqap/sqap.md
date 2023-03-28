@@ -422,6 +422,7 @@ These standards aim to provide a structured approach to software design and deve
 these primarily being in regards to scalability, maintainability and integrability.\
 These standards also provide a basis for testing and validation, ensuing that the system performs as expected and meets the expectations of the client.
 By adhering to these standards the development team can mitigate potential risks and ensure the successful and satisfactory delivery of the project.
+
 ## Standards
 The following standards will be used as the basis for quality control in this project.\
 They shall be adhered to closely throughout the software lifecycle.\
