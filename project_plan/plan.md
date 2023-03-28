@@ -280,38 +280,46 @@ The key personnel involve in this project are as follows:
 # SCHEDULE
 ## PROJECT TIME LINE
 ```mermaid
-gantt
+timeline
+	title Schedule/Time Line
 
-    title A Gantt Diagram
-    dateFormat DD-MM-YYYY
-    
-    section .
-    .: 01-01-2023, 1min
-    
-    section Research
-    Learn ROS :crit, active, a1, 22-03-2023, 28d
-    Research Machine Learning :crit, active, 22-03-2023, 28d
-    Research AI models :crit, active, 22-03-2023, 28d
+	section Research
+		22-03-2023
+			: Learn ROS
+			: Research Machine Learning
+			: Research AI Models
 
-    section System Documentation
-    User flow :active, a2,  22-03-2023, 9d
-    Software architecture documentation    :a3, after a1, 14d
-    Design decision    :crit, a4, after a3, 14d
+	section System Documentation
+		22-03-2023 : User Flow
+		19-04-2023 : Software Architecture Documentation
+		03-05-2023 : Design Decision
 
-    section Design/Implementation
-    Model problem     : after a4, 42d
-    Train AI    : after a4, 42d
+	section Design/Implementation
+		17-05-2023
+			: Model Problem
+			: Train AI
 
-    section Testing
-    Test the computer vision  :  a5, 01-08-2023, 14d
-    Test the robotic control system      : 01-08-2023,14d
-    Integration test    :  a6, after a5, 14d
-    
-    section Deployment
-    Deploy machine learning model  :after a6, 14d
-    Deploy robotic control software : after a6, 14d
+	section Testing
+		01-08-2023
+			: Test The Computer Vision
+			: Test The Robotic Control System
+		15-08-2023 : Integration Test
 
-    
+	section Deployment
+		29-08-2023
+			: Deploy Machine Learning Model
+			: Deploy Robotic Control Software
+
+%%{
+	init: {
+		'logLevel': 'debug',
+		'theme': 'dark',
+		'themeVariables': {
+			'cScale0': '#355691',
+			'cScale1': '#5f5aa2'
+		}
+	}
+}%%
 ```
 
 ## EXTERNAL DEPENDENCIES
