@@ -118,8 +118,8 @@ This document will assist in defining future documents as this outlines expectat
 
 ## BACKGROUND
 The factory of the future focuses on developing technologies,
-the latest being a chip assembling robot which is in need of a vision system.
-The required pick and place tasks are currently unable to be completed in less than ideal conditions as well the system is far from autonomous.
+the latest being a Cobot that assists an operator assemble devices, which is in need of a vision system.
+The required pick and place tasks are currently unable to be completed in conditions outside of pre-programmed ones, as well the system lacking a perception system.
 The factory of the future wants this project to be completed to
 both show how emerging technologies can be used to automate tasks as well as how robots can be incorporated into regular workflows.
 
@@ -131,10 +131,12 @@ The key personnel involve in this project are as follows:
 With a background in IoT he is now working with intelligent robots and computer vision systems.
 
 ### OTHER STAKE HOLDERS
-S.W: a fellow worker in the factory of the future, responsible for a good degree of robot demonstrations.\
+Shuo Wang: Senior Technical Officer at the Factory of the Future, responsible for designing,
+developing and maintaining equipment for safe use and for demonstrations at the Factory of the Future\
 Swinburne clients: potential investors or researchers interested in the technology and wish to view it in progress.\
-Swinburne developers: People responsible for the maintaining of the system.
-
+Swinburne developers: People responsible for the maintaining of the system.\
+Prem Prakash Jayaraman: The Director of the Factory of the Future.
+Prof. Jayaraman is responsible for leading and overseeing the projects within the Factory of the Future.
 ### PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS
 @Slothman1: Team leader and client liaison\
 @dau501: Development manager and planning manager\
@@ -143,20 +145,21 @@ Swinburne developers: People responsible for the maintaining of the system.
 @NickMcK14: Support manager and developer\
 @Huy-GV: Quality manager and developer
 
-D.R.: Project supervisor
+Dana Rezazdegan: Project supervisor
 
 <div class="page"/><!-- page break -->
 
 # TERMS OF REFERENCE
-The goal of this project is to be able to provide computer vision to a UR5 robot arm,
+The goal of this project is to be able to provide a vision system to a Cobot,
 while using machine learning techniques to allow the robot to assess the situation and act accordingly.
-
+Currently the position of the objects are predefined, if an object doesn't exist there then the robot cannot perform the pick and place task.
 ## OBJECTIVES
 The objectives of this project are to design and implement a vision system for a pick and place task using a robot located within the Factory of the Future.
 To achieve this, the following must be achieved:
 * Develop a vision system that will enable the robot to locate objects to pick and place, even if they are not in the predefined position.
 * The vision system should be able to detect objects accurately and efficiently, and provide the necessary information to the robot's control system.
 * The vision system should also be able to detect if objects are missing/out of place and pause until given a command that it is safe to continue.
+* The vision system will provide the robot with ample information to perform and subsequently execute its task.
 
 ## SCOPE
 The scope of this project includes the development of a vision system that is compatible with the robot's hardware and software.
@@ -177,6 +180,7 @@ The critical success factors for this project include:
 	* is compatible with the robot's hardware and software.
 	* can detect objects in a variety of lighting conditions and at various distances from the robot.
 	* can detect objects that are partially occluded or have complex shapes.
+* Developing necessary code so that the robot can perform the required task from vision system inputs.
 
 ## ACCEPTANCE CRITERIA
 The acceptance criteria for this project include:
@@ -187,6 +191,7 @@ The acceptance criteria for this project include:
 	* objects in a variety of lighting conditions and at various distances from the robot.
 	* objects that are partially occluded or have complex shapes.
 	* if objects are out of place or missing and halt the task until told to continue.
+* The robot should move and perform its programmed task.
 
 <div class="page"/><!-- page break -->
 
@@ -195,21 +200,21 @@ The acceptance criteria for this project include:
 The project team will follow the Kanban methodology for this project as it is a system that easily allows us to monitor our current tasks and
 allows for a more independent work style, thus increasing overall productivity.
 
-The Kanban board will have 8 columns: `New`, `Reopened`, `Requested`, `Fix`, `Deploy`, `Merged`, `Closed`, and `Dropped`,
+The Kanban board will have 8 columns: **New**, **Reopened**, **Requested**, **Fix**, **Deploy**, **Merged**, **Closed**, and **Dropped**,
 which will be automated by GitHub's (classic) Projects automation features.
 The board will serve as the primary source of information for the team's progress,
 with each task being represented by a card that will move across the board's columns as it progresses through the project's workflow.
 
 The team will utilize GitHub as the source control system for this project.
 All code changes will be submitted via pull requests, and
-a team member other than the author will be responsible for reviewing the changes before they are merged into the `main` branch.
+a team member other than the author will be responsible for reviewing the changes before they are merged into the **main** branch.
 
 All code produced must follow good programming practice, in particular code must follow consistent conventions of naming variables, functions, classes, etc.
 (for example camelCase or snake_case).
 Clear, concise comments will also be included to help with readability and comprehensibility.
 
 ## PROJECT ENVIRONMENT
-The project will require the use of various programming lanugages, frameworks, modules, and development environments to be successfully completed.
+The project will require the use of various programming languages, frameworks, modules, and development environments to be successfully completed.
 The following tools and technologies will be utilised throughout the project:
 * C/C++
 * Python
@@ -217,7 +222,7 @@ The following tools and technologies will be utilised throughout the project:
 * PyTorch
 * Robot Operating System (ROS2)
 * Markdown & CSS
-* Ubuntu Linux OS
+* Ubuntu OS
 * Potential IDEs:
 	* Visual Studio
 	* Visual Studio Code
@@ -230,7 +235,7 @@ The following tools and technologies will be utilised throughout the project:
 The project will require knowledge in multiple fields of study to successful deliver the final product;
 the team will be required to have expertise in the following areas:
 * Computer Vision
-* Sensors
+* ZED camera
 * Robotics
 	* Completed the tutorials for ROS
 * AI
@@ -260,7 +265,7 @@ Online tutorials will be helpful references and sources for honing programming c
 
 ## ACTIVITIES
 ### Research:
-* Learn to use Robot OS within Ubuntu.
+* Learn to use Robot operating System (ROS) within Ubuntu.
 * Study concepts of machine learning, with a focus on computer vision.
 * Research ways to build an AI model based on project needs.
 
@@ -281,7 +286,9 @@ Online tutorials will be helpful references and sources for honing programming c
 * User flow documentation: robot behaviors given an input, including explanation for special cases.
 * Software architecture documentation: software models, their relationship and interactions.
 * Design decision documentation: explanation for software tool/framework and various design choices.
-
+* Instillation manual
+* Steps on how to run the system
+* Standard of Practice (SoP)
 <div class="page"/><!-- page break -->
 
 ## RESOURCES
@@ -328,8 +335,8 @@ Risks are a major problem in projects, they can slow things to a grinding halt i
 
 ##### Risk 1:
 **Difficulty in hardware and software integration.**\
-With the project utilising cameras, operating systems and robotics, the integration of hardware and software can lead to issues down the line.\
-Regular testing of the software on the operating systems as well as frequent integration with the hardware will avoid major issues.
+With the project utilising cameras, ROS and robotics, the integration of hardware and software can lead to issues down the line.\
+Regular testing of the software with ROS as well as frequent integration with the hardware will avoid major issues.
 
 ##### Risk 2:
 **Lack of expertise in computer vision and robotics.**\
@@ -341,14 +348,14 @@ However risks are easily mitigated with training and research into the system.
 **Inability to meet project deadlines.**\
 In the duration of a project things will affect the deadlines; be that team members falling ill,
 supervisors requesting work sooner, or even clients needing code faster.\
-A general mitigation strategy is to be organised, utilising project boards can help, also regular meetings to be aware of issues. 
+A general mitigation strategy is to be organised, utilising project boards can help, also regular meetings to be aware of issues.
 Overall this is a hard to mitigate risk as problems can arise quickly.
 
 ##### Risk 4:
 **Changes in project requirements or objectives.**\
 As mentioned above, changes in objectives can change the deadline timing, making it harder to achieve in most cases.
 However the larger issue is a change in objectives can change the budget, often demanding a time crunch or stretched resources.\
-To mitigate this issue a strong and verbose scope should be established at the beginning of the project, 
+To mitigate this issue a strong and verbose scope should be established at the beginning of the project,
 and moving forward any changes to the scope must include additional modification of the deadlines.
 
 ##### Risk 5:
