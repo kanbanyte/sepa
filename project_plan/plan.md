@@ -351,20 +351,61 @@ Online tutorials will be helpful references and sources for honing programming c
 
 # SCHEDULE
 ## PROJECT TIME LINE
-> *[Given the tasks (group as activities) in Section 4.2, schedule each tasks using a Gantt chart or some other type of time line.*\
-> *You do not have to use Microsoft Project.*\
-> *Acceptable Gantt charts can be created using Excel or various graphics programs or can be hand-drawn]*
->
-> *[For each task, show the deadline, and who is allocated to each task (your team members).*\
-> *Often it is better to allocate two people to each task in case one becomes unavailable (e.g., breaks a leg)]*
+```mermaid
+timeline
+	title Schedule/Time Line
+
+	section Research
+		22-03-2023
+			: Learn ROS
+			: Research Machine Learning
+			: Research AI Models
+
+	section System Documentation
+		22-03-2023 : User Flow
+		19-04-2023 : Software Architecture Documentation
+		03-05-2023 : Design Decision
+
+	section Design/Implementation
+		17-05-2023
+			: Model Problem
+			: Train AI
+
+	section Testing
+		01-08-2023
+			: Test The Computer Vision
+			: Test The Robotic Control System
+		15-08-2023 : Integration Test
+
+	section Deployment
+		29-08-2023
+			: Deploy Machine Learning Model
+			: Deploy Robotic Control Software
+
+%%{
+	init: {
+		'logLevel': 'debug',
+		'theme': 'dark',
+		'themeVariables': {
+			'cScale0': '#355691',
+			'cScale1': '#5f5aa2'
+		}
+	}
+}%%
+```
 
 ## EXTERNAL DEPENDENCIES
-> *[Describe any inputs from external parties that are required to ensure that the schedule is met.*\
-> *These dependencies, if any, must also be indicated in the time line (Section 7.1) as a critical point]*
+* Availability of the UR5e robot arm and required trays
+* Collaboration with the client to establish the acceptance criteria and testing requirements
+* Availability of technical support and resources from suppliers of required hardware and software
 
 ## ASSUMPTIONS
-> *[Describe any assumptions that have been made in arriving at the schedule.*\
-> *These may be critical to the implementation of the software]*
+* All necessary materials and equipment will be available on time
+* All key project personnel will be available throughout the project duration
+* No major technical issues will arise during the course of the project
+* The project team has the required skills to develop the vision system prototype and integrate it with the robot system
+* Collaboration with the client will be timely and productive
+* The project team will be able to complete the project within the allocated timeline
 
 <div class="page"/><!-- page break -->
 
