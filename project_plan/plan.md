@@ -119,7 +119,7 @@ This document will assist in defining future documents as this outlines expectat
 ## BACKGROUND
 The factory of the future focuses on developing technologies,
 the latest being a Cobot that assists an operator assemble devices, which is in need of a vision system.
-The required pick and place tasks are currently unable to be completed in conditions outside of pre-programmed ones, as well the system lacking a perception system.
+Currently, the required pick and place tasks are only performed under rigidly pre-programmed conditions due to the lack of a perception system.
 The factory of the future wants this project to be completed to
 both show how emerging technologies can be used to automate tasks as well as how robots can be incorporated into regular workflows.
 
@@ -223,7 +223,7 @@ The following tools and technologies will be utilised throughout the project:
 * Robot Operating System (ROS2)
 * Markdown & CSS
 * Ubuntu OS
-* Potential IDEs:
+* Potential IDEs/ text editors:
 	* Visual Studio
 	* Visual Studio Code
 	* VIM
@@ -286,7 +286,7 @@ Online tutorials will be helpful references and sources for honing programming c
 * User flow documentation: robot behaviors given an input, including explanation for special cases.
 * Software architecture documentation: software models, their relationship and interactions.
 * Design decision documentation: explanation for software tool/framework and various design choices.
-* Instillation manual
+* Installation manual
 * Steps on how to run the system
 * Standard of Practice (SoP)
 <div class="page"/><!-- page break -->
