@@ -131,12 +131,13 @@ The key personnel involve in this project are as follows:
 With a background in IoT he is now working with intelligent robots and computer vision systems.
 
 ### OTHER STAKE HOLDERS
-Shuo Wang: Senior Technical Officer at the Factory of the Future, responsible for designing,
+S.W: Senior Technical Officer at the Factory of the Future, responsible for designing,
 developing and maintaining equipment for safe use and for demonstrations at the Factory of the Future\
 Swinburne clients: potential investors or researchers interested in the technology and wish to view it in progress.\
 Swinburne developers: People responsible for the maintaining of the system.\
-Prem Prakash Jayaraman: The Director of the Factory of the Future.
-Prof. Jayaraman is responsible for leading and overseeing the projects within the Factory of the Future.
+Prem P.J: The Director of the Factory of the Future.
+Prof. J is responsible for leading and overseeing the projects within the Factory of the Future.
+
 ### PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS
 @Slothman1: Team leader and client liaison\
 @dau501: Development manager and planning manager\
@@ -145,7 +146,7 @@ Prof. Jayaraman is responsible for leading and overseeing the projects within th
 @NickMcK14: Support manager and developer\
 @Huy-GV: Quality manager and developer
 
-Dana Rezazdegan: Project supervisor
+D.R: Project supervisor
 
 <div class="page"/><!-- page break -->
 
@@ -153,6 +154,7 @@ Dana Rezazdegan: Project supervisor
 The goal of this project is to be able to provide a vision system to a Cobot,
 while using machine learning techniques to allow the robot to assess the situation and act accordingly.
 Currently the position of the objects are predefined, if an object doesn't exist there then the robot cannot perform the pick and place task.
+
 ## OBJECTIVES
 The objectives of this project are to design and implement a vision system for a pick and place task using a robot located within the Factory of the Future.
 To achieve this, the following must be achieved:
@@ -289,6 +291,7 @@ Online tutorials will be helpful references and sources for honing programming c
 * Installation manual
 * Steps on how to run the system
 * Standard of Practice (SoP)
+
 <div class="page"/><!-- page break -->
 
 ## RESOURCES
