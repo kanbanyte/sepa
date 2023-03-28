@@ -86,7 +86,7 @@ List of your Names:
 	* [Management Documents](#management-documents)
 		* [Meeting Agendas](#meeting-agendas)
 		* [Meeting Minutes](#meeting-minutes)
-* [Standards, practices, conventions and metrics](#standards-practices-conventions-and-metrics)
+* [Standards, Practices, Conventions and Metrics](#standards-practices-conventions-and-metrics)
 	* [Purpose](#purpose)
 	* [Standards](#standards)
 		* [Coding Standard](#coding-standard)
@@ -414,7 +414,7 @@ A reminder email will also be sent to the required attendees with a PDF attachme
 <!-- TOC ignore:true -->
 # Chapter 5
 
-# Standards, practices, conventions and metrics
+# Standards, Practices, Conventions and Metrics
 ## Purpose
 Standards are essential for measuring and thus ensuring software quality.\
 This section covers technical, documentation as well as process standards which guide the project's development and management.\
@@ -429,9 +429,15 @@ The detailed procedure for assessment against the standards and practices can be
 All documentation (including the full SVN repository) will be available for the client a pon completion of the project for any future usage.
 
 ## Standards
-The following standards will be used as the basis for quality control in this project.\
-They shall be adhered to closely throughout the software lifecycle.\
-Standards will be reviewed to ensure that they are being met.
+The proposed software development process will adhere to a number of industry standards including:
+* [ISO/IEC/IEEE 12207](https://www.iso.org/standard/63712.html) for software development life cycle processes,
+* [ISO/IEC/IEEE 15288](https://www.iso.org/standard/63711.html) for system life cycle processes, and
+* [ISO/IEC 25010](https://www.iso.org/standard/35733.html) for software product quality.
+
+In addition, coding standards such as [MISRA-C](https://en.wikipedia.org/wiki/MISRA_C) and
+[CERT C](https://en.wikipedia.org/wiki/CERT_Coding_Standards) will be followed during the development process for C/C++ software.\
+These standards will ensure that the project is developed in a systematic and controlled manner, meets quality requirements, and is maintainable in the long term.
+To ensure compliance with standards, the project team will identify and adopt additional guidelines relevant to the project's domain and requirements.
 
 ### Coding Standard
 The following language-specific standards are used
