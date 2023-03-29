@@ -647,7 +647,7 @@ Shared:
 #### Guidelines on project structure
 * Source files are placed in `src/`
 * Tests are placed in `tests/`
-* Documentation are placed in `docs/`
+* Documentation are placed in `documentation/`
 
 #### Guideline on naming and namespaces
 C++:
