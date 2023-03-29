@@ -775,11 +775,6 @@ Sample outputs from the client will allow a basic understanding for the team,
 but ultimately the client will be responsible for communication specific uses of the software to ensure the team can adapt it to suit.
 
 ## Installation and User Documentation Generation
-Use cases shall be validated and verified by the client with the assistance of the testing team.\
-Sample outputs from the client will allow a basic understanding for the team,
-but ultimately the client will be responsible for communication specific uses of the software to ensure the team can adapt it to suit.
-
-## Installation and User Documentation Generation
 The releases will be an in the form of an executable and a set of .dll files that will be provided to the client.\
 There is no installation as such,the user simply runs the executable.\
 All input and output files will be located as part of the GUI.
