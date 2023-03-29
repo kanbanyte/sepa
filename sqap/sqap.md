@@ -86,8 +86,8 @@ List of your Names:
 	* [Management Documents](#management-documents)
 		* [Meeting Agendas](#meeting-agendas)
 		* [Meeting Minutes](#meeting-minutes)
-* [Standards, practices, conventions and metrics](#standards-practices-conventions-and-metrics)
-	* [Purpose](#purpose)
+* [Standards, Practices, Conventions and Metrics](#standards-practices-conventions-and-metrics)
+	* [Purpose](#purpose-1)
 	* [Standards](#standards)
 		* [Coding Standard](#coding-standard)
 		* [Documentation Formatting Standard](#documentation-formatting-standard)
@@ -127,7 +127,7 @@ List of your Names:
 		* [Visual Studio](#visual-studio)
 		* [Virtual Machine](#virtual-machine)
 		* [Skype](#skype)
-	* [Design Methodology](#design-methodology)
+	* [Agile Methodology: Kanban](#agile-methodology-kanban)
 * [Records collection, maintenance and retention](#records-collection-maintenance-and-retention)
 * [Risk Management](#risk-management)
 	* [Purpose](#purpose)
@@ -155,10 +155,12 @@ List of your Names:
 |||Coding Champion / Sargent At Arms|Coding Champion / Client Liaison|
 
 ## Purpose
-This document outlines the policies and procedures that members of Team 02 will follow to achieve an overall high standard of quality for Project Eagle,
-a Data Management System (DMS) for the Defence Materiel Organisation(DMO).\
-All team members are expected to adhere to the processes outlined in this document.
-
+The robot vision system for a pick and place task will be tackled by group 24 and following this document; the software quality assurance plan (SQAP),
+it will be ensured that the projects requirements and quality standards are met.
+The plan will outline the development process and testing procedures, including but not limited too reviewing, testing and integration.
+In addition, the plan will describe several tools and methodologies that will be implemented and used to guarantee the solution's reliability,
+maintainability and performance.
+Finally, the plan will identify the team; `team_name`, responsible for the development and testing of the software as well as their roles and responsibilities.
 <!-- TOC ignore:true -->
 # Chapter 2
 
@@ -394,13 +396,10 @@ Audits can be carried out internally and externally.
 
 ## Management Documents
 ### Meeting Agendas
-* This document will be of Latex type and will be prepared by the Team Leader (Or Meeting Chair)prior to each meeting.
-* All team members are expected to contribute to the agenda by requesting topics of their choice be added to the agenda.
-* Topics shall be owned by the team member who submitted them, unless otherwise stated.
-* Owners shall attend the meeting prepared to introduce and discuss their topic.
-* Submissions will be accepted by Close of Business (5:00PM)(COB) the day prior to the meeting.
-* The author of the agenda will upload to the SVN by COB the day before the meeting.\
-A reminder email will also be sent to the required attendees with a PDF attachment of the agenda.
+* This document will be of a markdown type (`.md`) and will be prepared by the team leader prior to each meeting.
+* Team members are expected to contribute to the agenda, upon request their topic will be added.
+* Requested topics are expected to be presented by the team member that requested them, they are expected to attend the meeting ready to present.
+* Owners are expected to attend the meeting and topics accepted before the end of day prior to the meeting.
 
 ### Meeting Minutes
 * Will be collected at every meeting.
@@ -414,24 +413,23 @@ A reminder email will also be sent to the required attendees with a PDF attachme
 <!-- TOC ignore:true -->
 # Chapter 5
 
-# Standards, practices, conventions and metrics
+# Standards, Practices, Conventions and Metrics
 ## Purpose
-Standards are essential for measuring and thus ensuring software quality.\
-This section covers technical, documentation as well as process standards which guide the project's development and management.\
-These standards mainly govern the output quality of each project's deliverable: libraries, applications, documents.\
-In addition, they also serve as the development guidelines throughout the projects.
-
-This section also includes practices that the development team shall adhere to, and will be assessed against.
-
-These standards and practices are the basis to ensure and measure quality of the project's deliverables.\
-The detailed procedure for assessment against the standards and practices can be found in the Reviews and Audits section.
-
-All documentation (including the full SVN repository) will be available for the client a pon completion of the project for any future usage.
+Ensuing good quality work is produced standards are essential;
+this section will cover many standards of varying parts of the programming process.\
+These standards aim to provide a structured approach to software design and development,
+these primarily being in regards to scalability, maintainability and integrability.\
+These standards also provide a basis for testing and validation, ensuing that the system performs as expected and meets the expectations of the client.
+By adhering to these standards the development team can mitigate potential risks and ensure the successful and satisfactory delivery of the project.
 
 ## Standards
-The following standards will be used as the basis for quality control in this project.\
-They shall be adhered to closely throughout the software lifecycle.\
-Standards will be reviewed to ensure that they are being met.
+The proposed software development process will adhere to a number of industry standards including:
+* [ISO/IEC/IEEE 12207](https://www.iso.org/standard/63712.html) for software development life cycle processes.
+* [ISO/IEC/IEEE 15288](https://www.iso.org/standard/63711.html) for system life cycle processes.
+* [ISO/IEC 25010](https://www.iso.org/standard/35733.html) for software product quality.
+
+These standards will ensure that the project is developed in a systematic and controlled manner, meets quality requirements, and is maintainable in the long term.
+To ensure compliance with standards, the project team will identify and adopt additional guidelines relevant to the project's domain and requirements.
 
 ### Coding Standard
 The following language-specific standards are used
@@ -922,23 +920,25 @@ If Skype meetings are deemed to be necessary, then all team members will need to
 
 <div class="page"/><!-- page break -->
 
-## Design Methodology
-* Spiral Lifecycle Model
-* Lifecycle model utilises multiple iterations which suits our modular design.
-* Each iteration will have its timeline specified in the project plan.
-* Each phase will have its timeline define in the module plan.
-* Can have independent modules being processed concurrently if practical.
-* The spiral model is endorsed by the client, and the shared understanding of the methodology will assist in communication on the topic of project planning.
-* The model treats each iteration as a new project plan modified to include the following phases:
-	* Requirements: Determining requirements for current iteration of the project
-	* Design: Building a project plan for this iteration including timeline, work allocation, and risk identification and management.
-	* Develop/Test: Programming, prototyping, documenting, verifying and validating as discussed in Design Phase
+## Agile Methodology: Kanban
 
-This modified model can be seen in the figure below.
+![kanban](https://www.nimblework.com/wp-content/uploads/2022/12/Simple-Kanban-Board-5-1024x628.webp)
 
-![fig91](https://cdn.discordapp.com/attachments/1086926990055063602/1087043259026649128/image.png)
+<sup>Figure Source: <https://www.nimblework.com/kanban/what-is-kanban/></sup>
 
-Figure9.1: SpiralSoftwareLifecycle Model
+The Kanban Agile Methodology approach will prioritize collaboration, flexibility, and continuous improvement.
+The Kanban board will be used to visualize the workflow and identify bottlenecks, enabling the team to respond quickly to changes and adapt the design accordingly.
+Regular communication and meetings will ensure that the design is meeting the project requirements, and
+the team will focus on delivering small, incremental changes to the design, allowing for feedback and iteration throughout the project lifecycle.
+
+Some key points for utilizing Kanban for software architecture and design in this project are:
+* Breaking down the overall design into smaller, more manageable components, and creating a backlog of tasks that need to be accomplished.
+* Prioritizing the backlog based on importance and complexity, and assigning each task to a specific team member or group.
+* Utilizing Kanban boards to visualize the workflow, track progress, and ensure visibility and collaboration among team members.
+
+Kanban is an iterative software development process that emphasizes flexibility, continuous improvement, and customer collaboration.
+This approach can help ensure that the software architecture and design process is efficient, effective, and customer-centric.
+By delivering small, incremental changes and seeking continuous feedback, the team can ensure that the final product meets the needs of its users.
 
 <div class="page"/><!-- page break -->
 
