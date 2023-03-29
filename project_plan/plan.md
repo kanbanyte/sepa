@@ -14,14 +14,14 @@
 ## Industry Project 24
 List of your Names:
 
-|Name|Position|Email|Phone|
-|:-|:-|:-|:-|
-|@Slothman1|Team Leader/Client Liaison|id@swin.student.edu.au|04xx xxx xxx|
-|@dau501|Development Manager/Planning Manager|id@swin.student.edu.au|04xx xxx xxx|
-|@finnmcgearey|Support Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
-|@vkach|Quality Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
-|@NickMcK14|Support Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
-|@Huy-GV|Quality Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
+|Name|Position|Email|
+|:-|:-|:-|
+|@Slothman1|Team Leader/Client Liaison|id@swin.student.edu.au|
+|@dau501|Development Manager/Planning Manager|id@swin.student.edu.au|
+|@finnmcgearey|Support Manager/Developer|id@swin.student.edu.au|
+|@vkach|Quality Manager/Developer|id@swin.student.edu.au|
+|@NickMcK14|Support Manager/Developer|id@swin.student.edu.au|
+|@Huy-GV|Quality Manager/Developer|id@swin.student.edu.au|
 
 <!-- SUBJECT CODE, NAME, SEMESTER AND DATE -->
 
@@ -117,11 +117,11 @@ This document is deigned to be easily accessible to the client to see the intent
 This document will assist in defining future documents as this outlines expectations, proposed ideas and a rough plan for the project.
 
 ## BACKGROUND
-The factory of the future focuses on developing technologies,
+The Factory of the Future focuses on developing technologies,
 the latest being a Cobot that assists an operator assemble devices, which is in need of a vision system.
 Currently, the required pick and place tasks are only performed under rigidly pre-programmed conditions due to the lack of a perception system.
-The factory of the future wants this project to be completed to
-both show how emerging technologies can be used to automate tasks as well as how robots can be incorporated into regular workflows.
+The Factory of the Future wants this project to be completed to both show how emerging technologies can be used to automate tasks,
+as well as, how robots can be incorporated into regular workflows.
 
 ## KEY PROJECT PERSONNEL
 The key personnel involve in this project are as follows:
@@ -132,7 +132,7 @@ With a background in IoT he is now working with intelligent robots and computer 
 
 ### OTHER STAKE HOLDERS
 S.W: Senior Technical Officer at the Factory of the Future, responsible for designing,
-developing and maintaining equipment for safe use and for demonstrations at the Factory of the Future\
+developing and maintaining equipment for safe use and for demonstrations at the Factory of the Future.\
 Swinburne clients: potential investors or researchers interested in the technology and wish to view it in progress.\
 Swinburne developers: People responsible for the maintaining of the system.\
 Prem P.J: The Director of the Factory of the Future.
@@ -223,7 +223,7 @@ The following tools and technologies will be utilised throughout the project:
 * OpenCV
 * PyTorch
 * Robot Operating System (ROS2)
-* Markdown & CSS
+* Markdown and CSS
 * Ubuntu OS
 * Potential IDEs/ text editors:
 	* Visual Studio
@@ -237,7 +237,7 @@ The following tools and technologies will be utilised throughout the project:
 The project will require knowledge in multiple fields of study to successful deliver the final product;
 the team will be required to have expertise in the following areas:
 * Computer Vision
-* ZED camera
+* Sensors (ZED camera)
 * Robotics
 	* Completed the tutorials for ROS
 * AI
@@ -267,7 +267,7 @@ Online tutorials will be helpful references and sources for honing programming c
 
 ## ACTIVITIES
 ### Research:
-* Learn to use Robot operating System (ROS) within Ubuntu.
+* Learn to use Robot Operating System (ROS) within Ubuntu.
 * Study concepts of machine learning, with a focus on computer vision.
 * Research ways to build an AI model based on project needs.
 
@@ -338,8 +338,8 @@ Risks are a major problem in projects, they can slow things to a grinding halt i
 
 ##### Risk 1:
 **Difficulty in hardware and software integration.**\
-With the project utilising cameras, ROS and robotics, the integration of hardware and software can lead to issues down the line.\
-Regular testing of the software with ROS as well as frequent integration with the hardware will avoid major issues.
+With the project utilising cameras and ROS the integration of hardware and software can lead to issues down the line.\
+Regular testing of the software in Ubuntu OS as well as frequent integration with the hardware will avoid major issues.
 
 ##### Risk 2:
 **Lack of expertise in computer vision and robotics.**\
