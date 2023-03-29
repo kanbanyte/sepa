@@ -624,49 +624,44 @@ Notes will distributed to client for confirmation.
 
 ### Coding practices
 General guidelines
-* For code written in C++, follow [C++ Core Guideline](https://peps.python.org/pep-0008/), with the following additions/ exceptions:
-	* Always use Java-style indentations, regardless of number of lines.
-	* For `.cpp` files, place `#include` directives in the following order:
-		1. Header file whose declarations are defined in the current file.
-		2. Standard library header files.
-		3. Third-party library header files.
-		4. Other header files in the project.
-* For code written in Python, follow [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
 
-* The following rules will override any (existing) similar rule in the guidelines for both languages:
-	* Public interfaces (functions, variables, constants, class names, etc.) must be fully documented.
-	* All classes must belong in separate files unless they are nested.
-	* All rules in the [project structure section](#guidelines-on-project-structure) and [namespace section](#guideline-on-naming-and-namespaces).
+C++:
+* Follow [C++ Core Guideline](https://peps.python.org/pep-0008/).
+* Always use Java-style indentations, regardless of number of lines.
+* For `.cpp` files, place `#include` directives in the following order:
+	1. Header file whose declarations are defined in the current file.
+	2. Standard library header files.
+	3. Third-party library header files.
+	4. Other header files in the project.
 
-// TODO: review naming rules for these guidelines and override them.
+Python:
+* Follow [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/).
+
+Shared:
+* Public interfaces (functions, variables, constants, class names, etc.) must be fully documented.
+* All classes must belong in separate files unless they are nested.
+* All rules in the [project structure section](#guidelines-on-project-structure) and [namespace section](#guideline-on-naming-and-namespaces).
 
 <div class="page"/><!-- page break -->
 
 #### Guidelines on project structure
-* C++:
-	* Files within the same namespace are placed in the same folder.
-	* Header files `.h` and associated code files `.cpp` are placed in the same folder.
-
-* Python:
-
-* Both languages should share the same project structure:
-	* Source files are placed in `src/`
-	* Tests are placed in `tests/`
-	* Documentation are placed in `docs/`
+* Source files are placed in `src/`
+* Tests are placed in `tests/`
+* Documentation are placed in `docs/`
 
 #### Guideline on naming and namespaces
-* C++
-	* All code must be placed in a namespace.
-	* Use `PascalCase` for templates, namespaces, constants (independent or member), enum names and values.
-	* Use `snake_case` for functions (independent or member), local variables, function parameters, member fields.
-	* Prefix private, non-constant member fields with underscore `_` instead of using `this` unless requiring the `this` pointer.
-	* Prefix constants and enum values with `k`.
-	* Do __not__ use the `using namespace` statement. 
+C++:
+* All code must be placed in a namespace.
+* Use `PascalCase` for templates, namespaces, constants (independent or member), enum names, enum values and class names.
+* Use `snake_case` for functions (independent or member), local variables, function parameters, member fields.
+* Prefix private, non-constant member fields with underscore `_` instead of using `this` unless requiring the `this` pointer.
+* Prefix constants and enum values with `k`.
+* Prefer `using std::cout` over `using namespace std`. 
 
-* Python:
-	* Use `PascalCase` for classes and errors.
-	* Use `snake_case` for functions, variables, parameters. 
-	* Prefix private, non-constant member fields with underscore `_` (Python does not support private variables but this should rule should be adhered to where possible for communication purposes). 
+Python:
+* Use `PascalCase` for classes and errors.
+* Use `snake_case` for functions, local variables, function parameters, member fields. 
+* Prefix private, non-constant member fields with underscore `_` (Python does not support private variables but this should rule should be adhered to where possible for communication purposes). 
 
 <div class="page"/><!-- page break -->
 
