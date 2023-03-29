@@ -288,9 +288,9 @@ Online tutorials will be helpful references and sources for honing programming c
 * User flow documentation: robot behaviors given an input, including explanation for special cases.
 * Software architecture documentation: software models, their relationship and interactions.
 * Design decision documentation: explanation for software tool/framework and various design choices.
-* Installation manual
-* Steps on how to run the system
-* Standard of Practice (SoP)
+* Installation manual.
+* Instruction manual.
+* Standard of Practice (SoP).
 
 <div class="page"/><!-- page break -->
 
