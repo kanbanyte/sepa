@@ -251,15 +251,25 @@ They should work with the Usability Champion to ensure that exceptions and error
 They are to ensure tests carried out by other members are captured and recorded.
 
 ### Communication Roles
-#### Client
-The Client Liaison acts as the single point of contact between the team and the client.\
-This allows coordination of all incoming and outgoing correspondence with the client and distribution to all team members.\
-They are also responsible for setting up regular Client Meetings
+The communication roles are those necessary for effective communication between team members and between the client and stakeholders.
+These roles will take on the responsibility of understanding the relevant information they need to communicate and
+be able to clearly provide such information to the group they need to communicate with.
 
-#### Supervisor
-The Supervisor Liaison allows the University and Supervisor to have a single point of contact for the team.\
-However, other team members may contact the Supervisor for issues themselves.\
-The role is typically filled by the Team Leader.
+The communication roles to be established will be:
+#### **Software architects and designers:**
+Responsible for developing the software architecture and design and ensuring that it aligns with the project's objectives and adheres to quality standards.
+They should also collaborate with subject matter experts to ensure that the system design meets the project's objectives.
+
+#### **Project Team Members with Expertise in Computer Vision, Sensors, Robotics, and AI:**  
+Responsible for providing input and review of the software architecture and design to ensure that it aligns with the project's objectives.
+
+#### **Stakeholders:**  
+Responsible for providing input and feedback on the project's software development process and ensuring that it meets the project's requirements.
+
+#### **Project Manager:**  
+Responsible for facilitating communication between team members and ensuring that communication is effective and efficient.
+They should also ensure that the project's software design documentation is complete, accurate, and up-to-date to facilitate communication with the development team and
+stakeholders.
 
 <div class="page"/><!-- page break -->
 
