@@ -86,8 +86,8 @@ List of your Names:
 	* [Management Documents](#management-documents)
 		* [Meeting Agendas](#meeting-agendas)
 		* [Meeting Minutes](#meeting-minutes)
-* [Standards, practices, conventions and metrics](#standards-practices-conventions-and-metrics)
-	* [Purpose](#purpose)
+* [Standards, Practices, Conventions and Metrics](#standards-practices-conventions-and-metrics)
+	* [Purpose](#purpose-1)
 	* [Standards](#standards)
 		* [Coding Standard](#coding-standard)
 		* [Documentation Formatting Standard](#documentation-formatting-standard)
@@ -416,19 +416,14 @@ A reminder email will also be sent to the required attendees with a PDF attachme
 <!-- TOC ignore:true -->
 # Chapter 5
 
-# Standards, practices, conventions and metrics
+# Standards, Practices, Conventions and Metrics
 ## Purpose
-Standards are essential for measuring and thus ensuring software quality.\
-This section covers technical, documentation as well as process standards which guide the project's development and management.\
-These standards mainly govern the output quality of each project's deliverable: libraries, applications, documents.\
-In addition, they also serve as the development guidelines throughout the projects.
-
-This section also includes practices that the development team shall adhere to, and will be assessed against.
-
-These standards and practices are the basis to ensure and measure quality of the project's deliverables.\
-The detailed procedure for assessment against the standards and practices can be found in the Reviews and Audits section.
-
-All documentation (including the full SVN repository) will be available for the client a pon completion of the project for any future usage.
+Ensuing good quality work is produced standards are essential;
+this section will cover many standards of varying parts of the programming process.\
+These standards aim to provide a structured approach to software design and development,
+these primarily being in regards to scalability, maintainability and integrability.\
+These standards also provide a basis for testing and validation, ensuing that the system performs as expected and meets the expectations of the client.
+By adhering to these standards the development team can mitigate potential risks and ensure the successful and satisfactory delivery of the project.
 
 ## Standards
 The following standards will be used as the basis for quality control in this project.\
