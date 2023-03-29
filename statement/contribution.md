@@ -24,60 +24,87 @@ The following is a template to present and must be signed by all team members.
 <div class="page"/><!-- page break -->
 
 ## Documents
-### Software Development
+### Project Plan
 |Name|Section|Page No.|Details|
 |:-|:-|:-|:-|
-|<br/>|<br/>|<br/>|<br/>|
+|@Slothman1|<br/>|<br/>|<br/>|
+|@dau501|<br/>|<br/>|<br/>|
+|@finnmcgearey|<br/>|<br/>|<br/>|
+|@vkach|<br/>|<br/>|<br/>|
+|@NickMcK14|<br/>|<br/>|<br/>|
+|@Huy-GV|<br/>|<br/>|<br/>|
 
-### Design
-|Name|Section|Page No.|Details|
-|:-|:-|:-|:-|
-|<br/>|<br/>|<br/>|<br/>|
+<div class="page"/><!-- page break -->
 
-### Research
+### Software Quality Assurance Plan
 |Name|Section|Page No.|Details|
 |:-|:-|:-|:-|
-|<br/>|<br/>|<br/>|<br/>|
+|@Slothman1|<br/>|<br/>|<br/>|
+|@dau501|<br/>|<br/>|<br/>|
+|@finnmcgearey|<br/>|<br/>|<br/>|
+|@vkach|<br/>|<br/>|<br/>|
+|@NickMcK14|<br/>|<br/>|<br/>|
+|@Huy-GV|<br/>|<br/>|<br/>|
 
-### Networks
-|Name|Section|Page No.|Details|
-|:-|:-|:-|:-|
-|<br/>|<br/>|<br/>|<br/>|
+<div class="page"/><!-- page break -->
 
-### Project Management
+### Project-Specific Assessment Criteria
 |Name|Section|Page No.|Details|
 |:-|:-|:-|:-|
-|<br/>|<br/>|<br/>|<br/>|
+|@Slothman1|<br/>|<br/>|<br/>|
+|@dau501|<br/>|<br/>|<br/>|
+|@finnmcgearey|<br/>|<br/>|<br/>|
+|@vkach|<br/>|<br/>|<br/>|
+|@NickMcK14|<br/>|<br/>|<br/>|
+|@Huy-GV|<br/>|<br/>|<br/>|
 
-### Meetings
-|Name|Section|Page No.|Details|
-|:-|:-|:-|:-|
-|<br/>|<br/>|<br/>|<br/>|
+<div class="page"/><!-- page break -->
 
-### Testing
+### Software Requirements Specification
 |Name|Section|Page No.|Details|
 |:-|:-|:-|:-|
-|<br/>|<br/>|<br/>|<br/>|
+|@Slothman1|<br/>|<br/>|<br/>|
+|@dau501|<br/>|<br/>|<br/>|
+|@finnmcgearey|<br/>|<br/>|<br/>|
+|@vkach|<br/>|<br/>|<br/>|
+|@NickMcK14|<br/>|<br/>|<br/>|
+|@Huy-GV|<br/>|<br/>|<br/>|
 
-### Presentation
-|Name|Section|Page No.|Details|
-|:-|:-|:-|:-|
-|<br/>|<br/>|<br/>|<br/>|
+<div class="page"/><!-- page break -->
 
-### Manuals
+### System Architecture Design and Research Report
 |Name|Section|Page No.|Details|
 |:-|:-|:-|:-|
-|<br/>|<br/>|<br/>|<br/>|
+|@Slothman1|<br/>|<br/>|<br/>|
+|@dau501|<br/>|<br/>|<br/>|
+|@finnmcgearey|<br/>|<br/>|<br/>|
+|@vkach|<br/>|<br/>|<br/>|
+|@NickMcK14|<br/>|<br/>|<br/>|
+|@Huy-GV|<br/>|<br/>|<br/>|
 
-### Deployment
+<div class="page"/><!-- page break -->
+
+### Detailed Design and Implementation Report
 |Name|Section|Page No.|Details|
 |:-|:-|:-|:-|
-|<br/>|<br/>|<br/>|<br/>|
+|@Slothman1|<br/>|<br/>|<br/>|
+|@dau501|<br/>|<br/>|<br/>|
+|@finnmcgearey|<br/>|<br/>|<br/>|
+|@vkach|<br/>|<br/>|<br/>|
+|@NickMcK14|<br/>|<br/>|<br/>|
+|@Huy-GV|<br/>|<br/>|<br/>|
+
+<div class="page"/><!-- page break -->
 
 ### Other
 |Name|Section|Page No.|Details|
 |:-|:-|:-|:-|
-|<br/>|<br/>|<br/>|<br/>|
+|@Slothman1|<br/>|<br/>|<br/>|
+|@dau501|<br/>|<br/>|<br/>|
+|@finnmcgearey|<br/>|<br/>|<br/>|
+|@vkach|<br/>|<br/>|<br/>|
+|@NickMcK14|<br/>|<br/>|<br/>|
+|@Huy-GV|<br/>|<br/>|<br/>|
 
 <div class="page"/><!-- page break -->
 
