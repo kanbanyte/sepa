@@ -778,23 +778,11 @@ Therefore, strong consultation with them will result in a product that works, is
 The requirements outlined in SRS shall be verified and validated by the client to ensure the product is suitable for deployment and use.
 
 ## Use case generation
-Use cases shall be validated and verified by the client with the assistance of the testing team.\
-Sample outputs from the client will allow a basic understanding for the team,
-but ultimately the client will be responsible for communication specific uses of the software to ensure the team can adapt it to suit.
+Effective Installation and User Documentation is an essential part of software development as it ensures that users can easily install, configure and use the software.
 
-## Installation and User Documentation Generation
-The releases will be an in the form of an executable and a set of .dll files that will be provided to the client.\
-There is no installation as such,the user simply runs the executable.\
-All input and output files will be located as part of the GUI.
-
-The client will also be supplied with a comprehensive user document that details the GUI and should have some examples of how to use it.\
-The client will also be supplied documentation of the code and the design documents.\
-This is to assist with maintainability and use for future projects.
-
-Once code has been finalised, and testing is completed, they will be supplied with all of the source code and a final build of the software.
-* Tailored for a particular module, tests will be outlined within the module plans.
-* Modules will be tested against a set of defined use-cases as agreed by client.
-* Testing will consist of both black and white box testing.
+To achieve this, the project should include comprehensive and easy-to-follow installation instructions and user manuals for the vision or sensing system.
+The documentation should be written in clear and concise language, and include relevant screenshots and diagrams to aid the users.
+Additionally, the installation process should be rigorously tested to ensure that it is error-free and robust, and the user documentation should be updated regularly to reflect changes in the software.
 
 <div class="page"/><!-- page break -->
 
