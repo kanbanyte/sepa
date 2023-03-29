@@ -765,42 +765,22 @@ We will work with the client to creatic metrics we can use to measure the succes
 <div class="page"/><!-- page break -->
 
 ## Requirement
-Our testing will aim to validate that our solution meets all the requirments outlined in thhe SRS above.\
-This will require them team to have clear communication with the client to ensure their needs are met by our software.\
-This will allow the team to create effective tests, specifically tailored to the requirments of the client.
+The overall goal of the team is to satisfy the clients needs when building the software.\
+Therefore, strong consultation with them will result in a product that works, is usable and maintainable.\
+The requirements outlined in SRS shall be verified and validated by the client to ensure the product is suitable for deployment and use.
 
 ## Use case generation
-For the use case generation, we need to identify the various scenarios in which the robot will operate and the interactions with the system.
-
-The use cases will:
-
-* include details about the inputs, outputs, and actions of the system.
-* be generated based on the requirements and will help in validating the system's functionality.
-* also help in identifying any potential issues or edge cases that need to be addressed during the development process.
-
-We will need to define our input domain in odrer to generate valid test cases. For our software solution this is all possible positions of chips, covers, batteries and trays.
-
-Our system would be considered as untestable program because the output cannot be verified meaning it doesn't have a test oracle. A test orcacle is a procedure which the outputs of a system can be verified against. This means we will have to use metamorphic testing.
-
-Metamorphic testing is defined by the following process:
-
-* Defining an initial test case
-* Identifing properties of the problem (metamorphic relations)
-* Creating follow-up test cases from the intial test case using the metamorphic relations
-* Verifying the metamorphic relations (MR) using the systems outputs.
-
-For this software solution, an example of a MR is that the position of a chip placed in the holding bracket is the same regardless if multiple or no chips are placed in the adjacent slots. Therefore the therortical output of the system should be that it can identify the chip given any arrangement of other chips.
+Use cases shall be validated and verified by the client with the assistance of the testing team.\
+Sample outputs from the client will allow a basic understanding for the team,
+but ultimately the client will be responsible for communication specific uses of the software to ensure the team can adapt it to suit.
 
 ## Installation and User Documentation Generation
+Use cases shall be validated and verified by the client with the assistance of the testing team.\
+Sample outputs from the client will allow a basic understanding for the team,
+but ultimately the client will be responsible for communication specific uses of the software to ensure the team can adapt it to suit.
 
-Effective Installation and User Documentation is an essential part of software development as it ensures that users can easily install, configure and use the software.
-
-To achieve this, the project should include comprehensive and easy-to-follow installation instructions and user manuals for the vision or sensing system.
-The documentation should be written in clear and concise language, and include relevant screenshots and diagrams to aid the users.
-Additionally, the installation process should be rigorously tested to ensure that it is error-free and robust, and the user documentation should be updated regularly to reflect changes in the software.
-
-
--The releases will be an in the form of an executable and a set of .dll files that will be provided to the client.\
+## Installation and User Documentation Generation
+The releases will be an in the form of an executable and a set of .dll files that will be provided to the client.\
 There is no installation as such,the user simply runs the executable.\
 All input and output files will be located as part of the GUI.
 
