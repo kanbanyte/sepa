@@ -217,38 +217,16 @@ Reads out documents for the inspectors.
 <div class="page"/><!-- page break -->
 
 ### Champion Roles
-Champion is a role that directly responsible for ensuring the quality of a particular area assigned to them,
-as well as the compliance of standards and procedures of their section's of the project.\
-They are not however responsible for completing majority of the works.\
-They are to delegate work, assist where appropriate and are the single point of contact for issues.
+A champion in a role is considered the primary person responsible for the quality of the work associated with that role.
+While multiple team members could take on the same role, the champion of that role is essentially the leader of the role. 
+It would be necessary to have a champion for the software architect, software designer, and software developer roles.
+* The software architect is responsible for creating the overall architecture of the system, defining its components and interactions.
+* The software designer designs specific modules and subsystems utilising the architectural plans.
+* The software developer is responsible for writing the code that implements the design,
+working closely with the designer to ensure that the code meets the design specifications and requirements.
 
-Team Leader is responsible ensuring the team works effectively together to achieve successful completion of the project.\
-The Team Leader typically chairs team meetings and is the supervisor liaison.\
-They should be notified of any political issues within the team.\
-The team leader is also responsible for monitoring the completion of work logs to ensure members are recording time spend, and contributing.\
-They are also responsible for writing status reports where applicable and attending team leader meetings.
-
-Documentation Champion in in charge of making sure all documentation is consistent, complete and to a high standard.\
-This includes Latex formatting and filenames.
-
-SVN Champion is responsible for ensuring that the repository is used to its full potential and enforcing the SVN standards.\
-They are also responsible for maintaining directory structure and resolving any issues with the repository.
-
-Mantis Champion is responsible for maintaining the Mantis bug tracker and ensuring tasks are closed out once completed.\
-They should encourage members to complete their allocated tasks.
-
-Usability Champion needs to ensure the product meets usability related non-functional requirements.\
-They should understand the Client Requirements and ensure that any products are built with the client use in mind.\
-They should assist with testing to ensure the GUIs are usable and intuitive.
-
-The Code Champion is responsible for quality and on schedule delivery of code.\
-They are to ensure other members are building and uploading code that compiles and is up to standard.\
-They are responsible for ensuring delegated works are completed in a timely manner.
-
-Testing Champion is responsible for running and reporting on test results.\
-This includes Unit and functional testing.\
-They should work with the Usability Champion to ensure that exceptions and errors are understandable and informative.\
-They are to ensure tests carried out by other members are captured and recorded.
+Champion roles are crucial for ensuring that the software is designed and developed according to best practices, meets the requirements of the project,
+and is maintainable and scalable over time.
 
 ### Communication Roles
 #### Client
