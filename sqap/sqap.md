@@ -396,8 +396,8 @@ Audits can be carried out internally and externally.
 
 ## Management Documents
 ### Meeting Agendas
-* This document will be of a markdown type (MD) and will be prepared by the team leader prior to each meeting.
-* Team members ar expected to contribute to the agenda, upon request their topic will be added.
+* This document will be of a markdown type (`.md`) and will be prepared by the team leader prior to each meeting.
+* Team members are expected to contribute to the agenda, upon request their topic will be added.
 * Requested topics are expected to be presented by the team member that requested them, they are expected to attend the meeting ready to present.
 * Owners are expected to attend the meeting and topics accepted before the end of day prior to the meeting.
 
