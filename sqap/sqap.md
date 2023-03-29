@@ -423,9 +423,13 @@ These standards also provide a basis for testing and validation, ensuing that th
 By adhering to these standards the development team can mitigate potential risks and ensure the successful and satisfactory delivery of the project.
 
 ## Standards
-The following standards will be used as the basis for quality control in this project.\
-They shall be adhered to closely throughout the software lifecycle.\
-Standards will be reviewed to ensure that they are being met.
+The proposed software development process will adhere to a number of industry standards including:
+* [ISO/IEC/IEEE 12207](https://www.iso.org/standard/63712.html) for software development life cycle processes.
+* [ISO/IEC/IEEE 15288](https://www.iso.org/standard/63711.html) for system life cycle processes.
+* [ISO/IEC 25010](https://www.iso.org/standard/35733.html) for software product quality.
+
+These standards will ensure that the project is developed in a systematic and controlled manner, meets quality requirements, and is maintainable in the long term.
+To ensure compliance with standards, the project team will identify and adopt additional guidelines relevant to the project's domain and requirements.
 
 ### Coding Standard
 The following language-specific standards are used
