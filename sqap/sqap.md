@@ -336,61 +336,23 @@ as well as distribution of the test results supplied by the client to the team (
 
 # Documentation
 ## Software Documents
-### SQAP
-TheSQAP is a plan written before any development that outlines all standard practices and
-procedures to ensure a quality process therefore help produce a high quality product.
-
-### SRS
-A Software Requirements Specification will be developed to describe the behaviour of the proposed DMS as derived from client requirements.\
-The SRS will be based on the IEEE 830 standard, but will be modified to make it appropriate for our project.\
-A general outline of the document is as follows:
-1. Introduction
-	1. Purpose - Outline of the SRS
-	2. Scope - What the DMS is, what it will do and its application
-	3. Definitions, acronyms, and abbreviations
-	4. References
-	5. Overview
-2. Overall description
-	1. Product perspective - How the product works with other tools, i.e., dataflow
-	2. Product functions
-	3. User characteristics - Who will use the product, what training will they get
-	4. Constraints
-	5. Assumptions and dependencies
-3. Specific requirements
+This section will provide an overview of the various software documents that will be created to ensure that the software architecture and
+design are thoroughly documented and therefore highly intelligible.
 
 ### Project Plan
-A document to guide the building of the product.\
-It will include a brief description of the project and why it should be built,
-what needs to be done to build the software and a timeline for when modules should be complete.
+This document will give a general outline of the project direction, including:
+* An overview of the project description
+* 
 
-As more modules are mapped and more details are known about each item, the project plan is to be updated.\
-It should also contain milestones where applicable and deliverable dates.
+### Software Quality Assurance Plan (SQAP)
 
-### Module Plan
-Module plan is to be developed following requirement analysis phase of each iteration of the software life-cycle.
+### Code Documentation
 
-Module plan contains:
-* Module scope
-* Design solution for module
-* Work division
-* Timeline of artifacts and testing
+### Self-Assessment Reports
 
-### Self-assessment reports
-A self-assessment report is to be completed by each team member each as per the unit outline that will provide evidence of work completed and self reflection.\
-It will document knowledge and experience that has been gained during the process.
+### Software/System Requirements Specification (SRS)
 
-This document should contain the following sections:
-* Summary
-* Work completed
-* Mistakes made
-* Knowledge gained
-* Evidence
-
-### Audit Report
-When ever an audit is carried out a document must be produced that indicates the outcome;
-anything that does not follow the processes outlined in this document SQAP, whether the process is followed and corrective actions.
-
-Audits can be carried out internally and externally.
+### System Architecture Design and Research Report (SADRR)
 
 ## Management Documents
 ### Meeting Agendas
