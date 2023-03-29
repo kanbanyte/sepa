@@ -1,6 +1,12 @@
 <link rel="stylesheet" href="../styles/contribution.css" type="text/css">
 
 # SEPA Students Contribution Statement (Who Did What?)
+<!--
+	Co-Author: @dau501
+	Editor(s):
+	Year: 2023
+-->
+
 As you are to be individually assessed it is necessary to ensure your marker understands your individual contribution.\
 This document is to demonstrate who was responsible for each piece or contribution to each piece of work in your project.\
 The details of this document must reconcile with your project documents, your work logs, peer reviews and meeting minutes.\
