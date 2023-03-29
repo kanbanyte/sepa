@@ -199,8 +199,7 @@ The Chair is not expected to take minutes.
 <div class="page"/><!-- page break -->
 
 ### Formal Review Meeting Roles
-Formal review meetings will be conducted to thoroughly check finished work in order to maximise the quality of the
-software architecture and design.
+Formal review meetings will be conducted to thoroughly check finished work in order to maximise the quality of the software architecture and design.
 During the meeting, team members should provide constructive feedback and
 ensure that the software architecture and design aligns with the project's objectives and adheres to quality standards.
 
