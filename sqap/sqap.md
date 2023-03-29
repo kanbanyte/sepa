@@ -416,7 +416,6 @@ A reminder email will also be sent to the required attendees with a PDF attachme
 
 # Standards, Practices, Conventions and Metrics
 ## Purpose
-
 Ensuing good quality work is produced standards are essential;
 this section will cover many standards of varying parts of the programming process.\
 These standards aim to provide a structured approach to software design and development,
