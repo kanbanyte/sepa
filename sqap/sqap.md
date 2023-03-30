@@ -185,14 +185,17 @@ These roles will be for regular meetings to discuss the current progress of the 
 will help ensure successful completion of the project and cohesion between team members.\
 The meeting roles will consist of:
 
-#### Project Manager
-Coordinates meetings and ensure effective communication between team members.
+#### Meeting Manager
+Coordinates meetings and ensure effective communication between meeting members.
+Summarises the meeting, describing and allocating any future tasks to the relevant members.
 
-#### Lead Software Architect and Designer
-Oversees the project's software architecture and design activities.
+#### Scribe
+Records any important information and meeting minutes during the meeting for future reference and records.
 
-#### Experts in Computer Vision, Sensors, Robotics, and AI
-Provide their input during the meeting t
+#### Moderator
+Ensures meeting remains within time and each member is able to state and discuss their relevant item.
+Keeps track of meeting minutes for the scribe to record.
+Makes sure that only nobody talks over another to keep the discussion understandable and time efficient.
 
 <div class="page"/><!-- page break -->
 
