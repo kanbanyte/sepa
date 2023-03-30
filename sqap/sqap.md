@@ -276,7 +276,7 @@ They will also communicate with the team leader should they need to contact the 
 
 #### Client
 The client will communicate with team members should they require updates on progress.
-Team members, particularly those working with the cobot, can correspond with the client to seek clarification on specific requirements. 
+Team members, particularly those working with the cobot, can correspond with the client to seek clarification on specific requirements.
 
 #### Team Leader:
 Responsible for facilitating communication between team members and ensuring that communication is effective and efficient.
@@ -643,14 +643,15 @@ If this cannot be achieved, then at the very least a status report should be ema
 <div class="page"/><!-- page break -->
 
 ### Meetings
-* Team meetings will be held on a weekly basis and will have a standard length30to 60minutes.
-* All team members are required to be present.
-* If a team member can not be present, an apology needs to be communicated directly to the team leader As Soon as Possible (ASAP).
-* All meetings require minutes to be taken.
-* A meeting outside of the weekly team meeting does not need all members present; notes are required.
-* Any meeting with the client requires at least two members present, again notes will be taken.\
-Notes will distributed to client for confirmation.
-* notes will be stored on the SVN
+Regular meetings with all team members present will be held. The following goals and tasks should be completed for each week:
+* All members are to attend each meeting.
+* If a member cannot attend a particular meeting, all other members are to be notified ahead of time.
+* All members are to provide updates on progress of current tasking, challenges that were completed and are currently being tackled.
+* Members can use this time to ask for help from other members if required.
+* A meeting agenda will be constructed for each regularly scheduled meeting to ensure all topics requiring discussion are covered.
+* A meeting minutes document will be constructed for each meeting to ensure that all topics covered in the meeting are recorded accurately.
+* A member of the team must be assigned the responsibility of both documents for each week.
+Or different member can be delegated the task each week on agreement of all team members.
 
 ### Worklogs
 * Weekly update of Worklogs on the SVN
