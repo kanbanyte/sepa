@@ -341,8 +341,15 @@ design are thoroughly documented and therefore highly intelligible.
 
 ### Project Plan
 This document will give a general outline of the project direction, including:
-* An overview of the project description
-* 
+* Overview of the project description and background information.
+* Details about the client, stakeholders, and other involved individuals.
+* Objectives of the project.
+* Acceptable standards and required skills necessary for completion.
+* Project deliverables
+* Required research
+* Design, implementation, and testing
+* Risks associated with the project
+* Schedule and time line
 
 ### Software Quality Assurance Plan (SQAP)
 
