@@ -753,7 +753,7 @@ Failure to meet the prescribed practices will be communicated to relevant team m
 For the testing phase of the project, a comprehensive approach will be used to ensure that the Robot Vision System is functioning optimally.
 
 Unit testing will be performed on individual software components to verify their correct functionality.
-This will likely make up most of the intial testiing as the team has a lack of experince with computer vision and
+This will likely make up most of the intial testing as the team has a lack of experience with computer vision and
 robotic control so we will need to validate that our solutions are on the right track as we learn new skills.
 This will largely be assisted by feedback from the client and other team members.
 
@@ -762,7 +762,7 @@ Integration testing will be conducted to ensure that the various components of t
 Additionally, system-level testing will be carried out to validate that the entire Robot Vision System meets the project's requirements.
 The testing process will be automated where possible, and any issues that arise will be documented and addressed promptly.
 The team will also perform some usability/function testing to test edge cases where the placement of parts and
-robot arm are in incorrect possitions to test the robustness of the software solution and see what exceptions are thrown.
+robot arm are in incorrect positions to test the robustness of the software solution and see what exceptions are thrown.
 These tests will allow the team to design user friendly error messages.
 
 We will work with the client to creatic metrics we can use to measure the success of the solution.
