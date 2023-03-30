@@ -363,10 +363,14 @@ This document will contain:
 * Testing information.
 * How problem reporting and corrective action will be taken.
 * Tools and methodologies that will be used.
-* Record collection and maintenance
-* Risk management
+* Record collection and maintenance.
+* Risk management.
 
 ### Code Documentation
+Code documentation will contain the following:
+* Description of the various created modules.
+* Description of functions and classes and how to utilise them in code.
+* Interdependency of each module or dependencies on external modules.
 
 ### Self-Assessment Reports
 
