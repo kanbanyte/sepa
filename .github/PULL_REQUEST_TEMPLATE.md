@@ -4,6 +4,7 @@
 * **Issue**: #0
 * **Board**: Please see [SEPA Board](https://github.com/orgs/kanbanyte/projects/7?fullscreen=true).
 * **Discussion**: #0
+* **Role**: @kanbanyte/sepagroup
 > ^^^Template Description^^^<!-- Delete this line when done. -->
 
 <!--
@@ -23,11 +24,19 @@ Remove all commented out lines + everything below when done.
 	- [ ] Author `@dau501` to your *username*.
 	- [ ] Issue `#0` to related issue *no*.
 	- [ ] Discussion `#0` to related discussion *no*.
-<!-- Delete discussion entirely if one doesn't already exist. -->
+	- [ ] Role `@kanbanyte/sepagroup` to your *team*.\
+	Valid Teams (Roles):
+		* @kanbanyte/sepaleader
+		* @kanbanyte/sepamanager
+		* @kanbanyte/sepaquality
+		* @kanbanyte/sepasupport
+<!-- Please only provide one from the listed teams. -->
 
 ### Right->:
 * **Reviewers**:
-	- [ ] Select a reviewer (if unsure @Slothman1 is Team Leader or @dau501 by default)
+	- [ ] Select a reviewer\
+	(if unsure @Slothman1 is the @kanbanyte/sepaleader or @dau501 the @kanbanyte/sepamanager by default)
+		* Alternatively you could select a team member with the same role as yourself.
 * **Assignees**:
 	- [ ] Assign yourself
 * **Labels**:
