@@ -612,33 +612,32 @@ They shall be adhered to closely throughout the software life cycle.\
 Practices will be audited to ensure that they are being followed appropriately.
 
 ### Communication Practices
+Effective communication between all parties associated with this project will use the practices laid out in this section to ensure quality control and
+that the project progresses smoothly.
+Communication with the following parties will use the respective practices:
+
 #### Client
-* All contact will be made to the client through the client liaison champion.
-* In the event that the champion is absent or on leave, alternative arrangements will be made (In advance if possible).
-* Contact will be primarily made through email.
-* Phone calls maybe used in the event that emails cannot provide enough detailed information.
-* Meetings with the client shall be regular, taking place approximately every three weeks.\
-However correspondence via phone or email should be more regular
-* Meetings will always have a minimum of two team members present.
+* Communication will occur primarily through Group Leader.
+* Regular updates as to progress of research/development.
+* Communication to primarily occur through email, face-to-face meetings can be arranged on an as needed basis.
+* Communication is to be of a formal and respectful manner.
+* All team members will be appraised of communication with the client, unless urgency requires otherwise.
 
 #### Team
-* Email will be the primary method of communication, when face to face communication can not be conducted.
-* Student email addresses are to be used in all email communications.
-* Emailing of documents will not occur if the item can or is held in the SVN with the exception of finalised meeting agendas and meeting minutes in PDF format only.
-* Emails need to be checked daily.
-* If a request for reply or acknowledgement of email receipt, members are to respond upon reading for the first time.
-* Email communication will be kept to a professional standard.
-* Emails can be used to confirm verbal contracts.
-* Skype meetings are permitted if face-to-face meetings are unable to be arranged, but should be kept to a minimum.
+* Communication within group will primarily occur through Discord.
+* Regular team meetings to discuss progress, issues, and feedback.
+* Meetings will be arranged on Discord, unless a face-to-face meeting is required.
+* Attendance to meetings is expected, except when absence has been discussed and understood by other team members.
+* Collaborative work will be fostered by using Github features such as Discussions and Pull Requests for development.
+* A Kanban Board will be used as a project management tool to track issues and pull requests, and to keep all team members up-to-date.
 
 #### Supervisor
-* Formal contact with the supervisor will conducted by the Team Leader.
-* Supervisor will be present atone meeting per fortnight, at the request of the team leader (typically the Weekly Team Meeting).
-* Contact will primarily be through email.
-* Agreements with supervisor will be confirmed via email.
-* All emails to the supervisor should CC the entire team unless they are of a personal nature.
-* If the team meeting is held out of business hours, then a separate meeting should be arranged with the supervisor.\
-If this cannot be achieved, then at the very least a status report should be emailed to the supervisor to ensure they remain up to date with the progress.
+* Communication will occur primarily through Group Leader.
+* Weekly meetings on Microsoft Teams to be held between team members and supervisor to discuss current progress and challenges being tackled.
+* Communication to primarily occur through email, in-person meetings can be arranged on an as needed basis.
+* Communication is to be of a formal and respectful manner.
+* Inter-personal issues will be reported to supervisor to discuss possible actions and/or solutions for resolution.
+* All team members will be appraised of communication with the client, unless urgency or personal issues require otherwise.
 
 <div class="page"/><!-- page break -->
 
