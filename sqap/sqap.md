@@ -109,7 +109,7 @@ List of your Names:
 	* [Requirement](#requirement)
 	* [Use case generation](#use-case-generation)
 	* [Installation and User Documentation Generation](#installation-and-user-documentation-generation)
-* [Problem reporting and corrective action](#problem-reporting-and-corrective-action)
+* [Problem Reporting and Corrective Action](#problem-reporting-and-corrective-action)
 	* [Personnel](#personnel)
 	* [Work](#work)
 		* [Project major time line](#project-major-time-line)
@@ -817,12 +817,13 @@ Once code has been finalised, and testing is completed, they will be supplied wi
 <!-- TOC ignore:true -->
 # Chapter 8
 
-# Problem reporting and corrective action
+# Problem Reporting and Corrective Action
 ## Personnel
-If an issue arises with personnel the Team Leader is to be notified.\
-The Team Leader will follow up on the issue to gather all the facts.\
-Once known the Team Leader will suggest a corrective action.\
-Corrective Action can include but is not limited to: counselling, team reorganization, protocol changes.
+If an issue arises with personnel, the Team Leader is to be notified immediately, and
+they will propose corrective action, which can include team reorganization, or protocol changes.
+In the event of issues arising amongst team personnel, they should first be brought to the attention of the project manager or team leader for resolution.
+Corrective action may include training, reallocation of tasks, or a discussion of expectations to ensure that team members are able to perform their roles effectively.
+It is the responsibility of all team members to report any issues promptly to ensure that they are addressed in a timely manner.
 
 ## Work
 ### Project major time line
