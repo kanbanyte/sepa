@@ -222,7 +222,7 @@ While multiple team members could take on the same role, the champion of that ro
 Champion roles are crucial for ensuring that the software is designed and developed according to best practices, meets the requirements of the project,
 and is maintainable and scalable over time.\
 The following will be the champion roles for the project:
- 
+
 #### Software Architect
 Responsible for creating the overall architecture of the system, defining its components and interactions.
 
@@ -990,26 +990,51 @@ preventative actions aim to reduce the likelihood of risks occurring and reducti
 <div class="page"/><!-- page break -->
 
 ## Risks with respect to the work to be done
-* Corruption of repository
-	* Probability: Low.
-	* Impact: High resulting in loss of work.
-	* Reductive Action: Weekly backups plus local checkouts reduce impact significantly.
-* Design Errors
-	* Probability: High.
-	* Impact: High, design errors would potentially increase production time and/or produce a deliverable not valid to client requirements.
-	* Preventative Action: Rigorous design methodology prior to development.
+|Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy|Contingency|
+|:-:|:-|:-:|:-:|:-|:-|
+|1|GitHub repository loss.|L|H|Frequent backups.|Restore with latest backup.|
+|2|Temporary member absence.|M|M|Allocate work between at least 2 members.|Organize work handover to another member.|
+|3|Inappropriate design.|L-M|M-H|Members communicate their schedules|Members who cannot attend meetings provide updates to the team
+|4|Un-deployable software
+|5|Lacks of skills/knowledge
+|6|Time shortage|
+
+* GitHub repository loss.\
+GitHub is a highly reliable product trusted by organizations of different scales, so the probability of a repository being loss,
+either because of data corruption or cybersecurity breaches are low.
+However, as the centralized storage for code and documents, its loss will severely affect the project.
+To mitigate this, copies of the repository should be created frequently and kept by different members.
+In the unlikely event of repository loss, the latest back up is used and the team will perform a general check to identify missing data.
+* Temporary absence of team member.\
+Team member can be temporarily absent due to illness or personal matters, and may not complete allocated work on time.
+This loss of productivity has a moderate impact on the team's progress, which can minimized by dividing work multiple team members.
+If a team member is absent and is unlikely to finish their task on time, the task will be transferred to a different member immediately.
+The absent team member should alert the team of their condition and time estimates as soon as possible so the team can react accordingly.
+* Inappropriate design.\
+The design step is crucial because it shapes how the product is created.
+Miscommunication, lack of understanding or lack of perspectives can easily lead to bad design
+and the implementation stage will be severely impacted if an unsuitable design is selected.
+Frequently communication and strict peer reviews will help identify and eliminate inappropriate design early.
+It may also be helpful to create contingency design in advance.
+If it becomes apparent that the product is built along a bad plan, the team should find and fix pain points, or employ the contingency design.
+* Un-deployable software.\
+Both the robotic control software and computer vision system are developed locally,
+and there is a moderate risk of failing to deploy them to the respective hardware i.e. the robotic arm and depth camera.
+This results in a loss of product functionality or full functionalities not delivered by the deadline.
+The preventative action for this risk is frequent deployment incomplete software to ensure compatibility.
+If a deployment fails, depending on the stage of the project, the team will allocate a suitable number of members to investigate and devise a fix.
+* Lack of skills or knowledge.\
+Although team members come from a variety of background, they might find themselves unable to complete their task due to a lack of knowledge or experience.
+The result is incomplete or low quality product, and the issue can propagate to other dependent tasks or features.
+The team can remedy this by familiarizing themselves with relevant concepts and techniques.
+If a member overly struggles with their task, the team can swap their tasks or re-allocate an additional member to provide assistance.
 * Time Shortage
-	* Probability: High.
-	* Impact: High, resulting in a loss of product quality, loss of functionality or delivered past deadline.
-	* Preventative Action: Rigorous design methodology prior to development including work distribution and conservative timelines.
-* Illness or absence of team members
-	* Probability: High.
-	* Impact: Variable impact dependant on time in schedule.
-	* Reductive Action: Shared understanding of work allows load to be distributed.
-* Software non deployable
-	* Probability: Moderate.
-	* Impact: High,will be unable to provide client with the DMS.
-	* Preventative Action: Regular contact with client with minor releases to ensure that they can be deployed on the system.
+The project can be incomplete by the deadline due to a variety of reasons: team member absence, project difficulty, management trouble.
+The probability of this risk for a complex project is high, and it leads to a product not delivered as originally outlined,
+or delivered without meeting all specified quality attributes.
+Rigorous planning, a conservative timeline as well as careful monitoring will reduce the probability of this happening.
+If the team predicts that the project will not be finished on time, a meeting is held to re-prioritize tasks based on their progress and importance.
+The client and supervisor will also receive notifications in such case to provide further assistance.
 
 ## Risks with respect to the management
 |Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy|Contingency|
