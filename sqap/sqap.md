@@ -101,7 +101,7 @@ List of your Names:
 		* [SVN](#svn)
 		* [Coding practices](#coding-practices)
 * [Reviews and Audits](#reviews-and-audits)
-	* [Purpose](#purpose-2)
+	* [Purpose](#purpose)
 	* [Review/Audit list](#reviewaudit-list)
 		* [Reviews](#reviews)
 		* [Audits](#audits)
