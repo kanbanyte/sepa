@@ -256,20 +256,21 @@ These roles will take on the responsibility of understanding the relevant inform
 be able to clearly provide such information to the group they need to communicate with.
 
 The communication roles to be established will be:
-#### **Software architects and designers:**
+
+#### Software Architects and Designers:
 Responsible for developing the software architecture and design and ensuring that it aligns with the project's objectives and adheres to quality standards.
 They should also collaborate with subject matter experts to ensure that the system design meets the project's objectives.
 
-#### **Project Team Members with Expertise in Computer Vision, Sensors, Robotics, and AI:**  
+#### Project Team Members with Expertise in Computer Vision, Sensors, Robotics, and AI:
 Responsible for providing input and review of the software architecture and design to ensure that it aligns with the project's objectives.
 
-#### **Stakeholders:**  
+#### Stakeholders:
 Responsible for providing input and feedback on the project's software development process and ensuring that it meets the project's requirements.
 
-#### **Project Manager:**  
+#### Project Manager:
 Responsible for facilitating communication between team members and ensuring that communication is effective and efficient.
-They should also ensure that the project's software design documentation is complete, accurate, and up-to-date to facilitate communication with the development team and
-stakeholders.
+They should also ensure that the project's software design documentation is complete, accurate, and
+up-to-date to facilitate communication with the development team and stakeholders.
 
 <div class="page"/><!-- page break -->
 
