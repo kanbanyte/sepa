@@ -661,7 +661,8 @@ C++:
 Python:
 * Use `PascalCase` for classes and errors.
 * Use `snake_case` for functions, local variables, function parameters, member fields. 
-* Prefix private, non-constant member fields with underscore `_` (Python does not support private variables but this should rule should be adhered to where possible for communication purposes). 
+* Prefix private, non-constant member fields with underscore `_`
+(Python does not support private variables but this should rule should be adhered to where possible for communication purposes).
 
 <div class="page"/><!-- page break -->
 
