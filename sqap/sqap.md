@@ -130,7 +130,7 @@ List of your Names:
 	* [Agile Methodology: Kanban](#agile-methodology-kanban)
 * [Records collection, maintenance and retention](#records-collection-maintenance-and-retention)
 * [Risk Management](#risk-management)
-	* [Purpose](#purpose)
+	* [Purpose](#purpose-3)
 	* [Categorization](#categorization)
 	* [Risks with respect to the work to be done](#risks-with-respect-to-the-work-to-be-done)
 	* [Risks with respect to the management](#risks-with-respect-to-the-management)
@@ -222,7 +222,7 @@ While multiple team members could take on the same role, the champion of that ro
 Champion roles are crucial for ensuring that the software is designed and developed according to best practices, meets the requirements of the project,
 and is maintainable and scalable over time.\
 The following will be the champion roles for the project:
- 
+
 #### Software Architect
 Responsible for creating the overall architecture of the system, defining its components and interactions.
 
@@ -1012,7 +1012,10 @@ All documentation will be retained in repository for the duration of the project
 
 # Risk Management
 ## Purpose
-Risk management is undertaken to facilitate the creation of a product that is high quality, on time and delivers the scope specified by the client.
+Unforeseen events can and will happen during the course of this project.
+To ensure that a functional and high quality product is delivered on schedule, it is vital that risks are identified, analyzed and accounted for.
+This section involves risk categorization and listing corresponding countermeasures.
+
 ## Categorization
 For this project three major categories of risks have been identified:
 1. Risks with respect to the work to be done.
