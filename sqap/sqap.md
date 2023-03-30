@@ -218,15 +218,32 @@ Reads out documents for the inspectors.
 
 ### Champion Roles
 A champion in a role is considered the primary person responsible for the quality of the work associated with that role.
-While multiple team members could take on the same role, the champion of that role is essentially the leader of the role. 
-It would be necessary to have a champion for the software architect, software designer, and software developer roles.
-* The software architect is responsible for creating the overall architecture of the system, defining its components and interactions.
-* The software designer designs specific modules and subsystems utilising the architectural plans.
-* The software developer is responsible for writing the code that implements the design,
-working closely with the designer to ensure that the code meets the design specifications and requirements.
-
+While multiple team members could take on the same role, the champion of that role is essentially the leader of the role.
 Champion roles are crucial for ensuring that the software is designed and developed according to best practices, meets the requirements of the project,
-and is maintainable and scalable over time.
+and is maintainable and scalable over time.\
+The following will be the champion roles for the project:
+ 
+#### Software Architect
+Responsible for creating the overall architecture of the system, defining its components and interactions.
+
+#### Software Designer
+Designs specific modules and subsystems utilising the architectural plans.
+
+#### Software Developer
+Responsible for writing the code that implements the design, working closely with the designer to ensure that the code meets the design specifications and requirements.
+
+#### Cobot/Hardware Champion
+Will be primarily responsible for working with the cobot and ensuring all code is compatible and functional.
+
+#### OS Integration Champion
+Ensures that all code functions on Ubuntu as there may be compatibility issues between Windows and Ubuntu.
+
+#### API Champion
+Should have extra understanding regarding the APIs used such as ROS to ensure no unnecessary development of functions occurs.
+They will also ensure the functions used are the most appropriate for the situation.
+
+#### Documentation Champion
+
 
 ### Communication Roles
 #### Client
