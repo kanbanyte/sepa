@@ -246,6 +246,14 @@ They will also ensure the functions used are the most appropriate for the situat
 Ensures all code documentation is descriptive and explains the relevant functions and modules sufficiently.
 Additionally, they will make sure all developers write concise and informative comments in their code to facilitate documentation creation.
 
+#### GitHub Management Champion
+Has expertise in managing GitHub repositories that will allow for better collaboration and efficiency.
+They will be able to answer questions regarding GitHub tools and techniques that will make creating and editing work and software much easier.
+
+#### Kanban Methodology Champion
+Expertly understands the Kanban methodology which provides the team with an efficient and more individualistic working approach.
+This champion role will help the team meet goals by providing them with a better understand of the Kanban methodology.
+
 ### Communication Roles
 #### Client
 The Client Liaison acts as the single point of contact between the team and the client.\
