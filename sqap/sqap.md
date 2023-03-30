@@ -201,20 +201,17 @@ The Chair is not expected to take minutes.
 <div class="page"/><!-- page break -->
 
 ### Formal Review Meeting Roles
-#### Moderator
-Plans the review and coordinates the review process
+Formal review meetings will be conducted to thoroughly check finished work in order to maximise the quality of the software architecture and design.
+During the meeting, team members should provide constructive feedback and
+ensure that the software architecture and design aligns with the project's objectives and adheres to quality standards.
 
-#### Scribe
-Documents any issues or problems found during the review
-
-#### Inspector
-Examines the document/product for defects
-
-#### Author
-The creator of the work being reviewed
-
-#### Reader
-Reads out documents for the inspectors.
+The roles for such meetings will be similar to the meeting roles described in the previous section.
+The formal review meetings roles will be as follows:
+* The lead software architect and designer, along with other software architects and designers involved in the project
+* Subject matter experts in computer vision, sensors, robotics, and AI to ensure the quality of the software design.
+* The project manager to facilitate the review meeting and ensure effective communication between team members.
+* Team members to review the software architecture and design documentation in advance and
+provide constructive feedback during the meeting to ensure that the software design aligns with the project's objectives and adheres to quality standards.
 
 <div class="page"/><!-- page break -->
 
