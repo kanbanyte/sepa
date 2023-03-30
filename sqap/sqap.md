@@ -345,13 +345,26 @@ This document will give a general outline of the project direction, including:
 * Details about the client, stakeholders, and other involved individuals.
 * Objectives of the project.
 * Acceptable standards and required skills necessary for completion.
-* Project deliverables
-* Required research
-* Design, implementation, and testing
-* Risks associated with the project
-* Schedule and time line
+* Project deliverables.
+* Required research.
+* Design, implementation, and testing.
+* Risks associated with the project.
+* Schedule and time line.
 
 ### Software Quality Assurance Plan (SQAP)
+The SQAP is a document that describes the measures to be taken to ensure the maximisation of the quality of the project deliverables.\
+This document will contain:
+* The purpose of the document.
+* The various roles required to successfully complete the project.
+* Tasks and responsibilities of each member and role.
+* Outline of the documentation that will be produced.
+* Standards and practices that will be followed.
+* Information about reviews and audits.
+* Testing information.
+* How problem reporting and corrective action will be taken.
+* Tools and methodologies that will be used.
+* Record collection and maintenance
+* Risk management
 
 ### Code Documentation
 
