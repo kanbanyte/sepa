@@ -258,25 +258,46 @@ be able to clearly provide such information to the group they need to communicat
 The communication roles to be established will be:
 
 #### Software Architects and Designers:
-Responsible for developing the software architecture and design and ensuring that it aligns with the project's objectives and adheres to quality standards.
+Software architects and designers are responsible for developing the software architecture and design and ensuring that it aligns with the project's objectives and
+adheres to quality standards.
 They should also collaborate with subject matter experts to ensure that the system design meets the project's objectives.
 
 #### Project Team Members with Expertise in Computer Vision, Sensors, Robotics, and AI:
-Responsible for providing input and review of the software architecture and design to ensure that it aligns with the project's objectives.
+Team members with expertise in these fields are responsible for providing input and review of the software architecture and
+design to ensure that it aligns with the project's objectives.
 
-#### Stakeholders:
-Responsible for providing input and feedback on the project's software development process and ensuring that it meets the project's requirements.
+#### Project Superviser
+The project superviser will be consulted regarding information about the project and will provide feedback on work when necessary.
+They will also communicate with the team leader should they need to contact the team regarding any work or updates on project progress.
 
-#### Project Manager:
+#### Client
+The client will communicate with team members should they require updates on progress.
+Team members, particularly those working with the cobot, can correspond with the client to seek clarification on specific requirements. 
+
+#### Team Leader:
 Responsible for facilitating communication between team members and ensuring that communication is effective and efficient.
 They should also ensure that the project's software design documentation is complete, accurate, and
 up-to-date to facilitate communication with the development team and stakeholders.
 
 #### Quality Manager
+Quality managers ensure quality is maximised throughout the project,
+and therefore will be responsible for communicating quality requirements to the relevant team members.
+They will also provide the project superviser and client with updates regarding the quality of the deliverables currently being worked on.
 
 #### Support Manager
+The support managers are responsible for providing support to other team members, the project superviser, or the client with regards to the project.
+They will communicate with other team members to help them with work, research, or testing if necessary.
+Should the superviser or client require assistance with understanding the deliverables or software,
+the support managers should relay information to them regarding these aspects.
 
 #### Development Manager
+Development managers coordinate with the software developers to keep progress steady and ensure code functions correctly.
+They will be able to provide the superviser, client, and team leader with updates regarding the development and testing process.
+
+#### Planning Manager
+The planning manager plans for the future documents, software components, etc.
+to be delivered by potentially allocating work to the relevant members.
+The will coordinate other managers to be able to meet requirements and deadlines to keep the project progressing efficiently and consistently.
 
 <div class="page"/><!-- page break -->
 
