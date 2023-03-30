@@ -567,9 +567,9 @@ The first release will be 100 and each additional release will be incremented by
 <div class="page"/><!-- page break -->
 
 ## Practices
-The following practices will be used as the basis for quality control in this project.\
-They shall be adhered to closely throughout the software life cycle.\
-Practices will be audited to ensure that they are being followed appropriately.
+This section will cover several practises that will be employed as a basis for quality control wtihin the project.
+These practises will be followed closely throughout development, frequent audits will ensure that this is the case.
+Through rigurous upholding of the outlined practises the quality of the project will be maintained and ensured the deliverables be of high quality.
 
 ### Communication Practices
 #### Client
