@@ -86,8 +86,8 @@ List of your Names:
 	* [Management Documents](#management-documents)
 		* [Meeting Agendas](#meeting-agendas)
 		* [Meeting Minutes](#meeting-minutes)
-* [Standards, Practices, Conventions and Metrics](#standards-practices-conventions-and-metrics)
-	* [Purpose](#purpose-1)
+* [Standards, practices, conventions and metrics](#standards-practices-conventions-and-metrics)
+	* [Purpose](#purpose)
 	* [Standards](#standards)
 		* [Coding Standard](#coding-standard)
 		* [Documentation Formatting Standard](#documentation-formatting-standard)
@@ -127,7 +127,7 @@ List of your Names:
 		* [Visual Studio](#visual-studio)
 		* [Virtual Machine](#virtual-machine)
 		* [Skype](#skype)
-	* [Agile Methodology: Kanban](#agile-methodology-kanban)
+	* [Design Methodology](#design-methodology)
 * [Records collection, maintenance and retention](#records-collection-maintenance-and-retention)
 * [Risk Management](#risk-management)
 	* [Purpose](#purpose)
@@ -779,7 +779,6 @@ The requirements outlined in SRS shall be verified and validated by the client t
 
 ## Use case generation
 Use cases shall be validated and verified by the client with the assistance of the testing team.\
-
 Sample outputs from the client will allow a basic understanding for the team,
 but ultimately the client will be responsible for communication specific uses of the software to ensure the team can adapt it to suit.
 
