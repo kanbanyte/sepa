@@ -272,6 +272,12 @@ Responsible for facilitating communication between team members and ensuring tha
 They should also ensure that the project's software design documentation is complete, accurate, and
 up-to-date to facilitate communication with the development team and stakeholders.
 
+#### Quality Manager
+
+#### Support Manager
+
+#### Development Manager
+
 <div class="page"/><!-- page break -->
 
 ## Tasks and Responsibilities
