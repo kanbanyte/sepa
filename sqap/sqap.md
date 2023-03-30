@@ -766,9 +766,9 @@ For example what is the acceptable processing time; 1 minute or 1 hour?
 <div class="page"/><!-- page break -->
 
 ## Requirement
-The overall goal of the team is to satisfy the clients needs when building the software.\
-Therefore, strong consultation with them will result in a product that works, is usable and maintainable.\
-The requirements outlined in SRS shall be verified and validated by the client to ensure the product is suitable for deployment and use.
+Our testing will aim to validate that our solution meets all the requirments outlined in thhe SRS above.\
+This will require them team to have clear communication with the client to ensure their needs are met by our software.\
+This will allow the team to create effective tests, specifically tailored to the requirments of the client.
 
 ## Use case generation
 Use cases shall be validated and verified by the client with the assistance of the testing team.\
