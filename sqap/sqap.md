@@ -182,12 +182,17 @@ The following section will detail the various roles within the team for various 
 
 ### Meeting Roles
 These roles will be for regular meetings to discuss the current progress of the project and
-will help ensure successful completion of the project and cohesion between team members.  
+will help ensure successful completion of the project and cohesion between team members.\
+The meeting roles will consist of:
 
-The team will be composed of the following roles:
-* Project manager to coordinate meetings and ensure effective communication between team members.
-* Lead software architect and designer to oversee the project's software architecture and design activities.
-* Experts in computer vision, sensors, robotics, and AI should be included to provide input into the software architecture and design process.
+#### Project Manager
+Coordinates meetings and ensure effective communication between team members.
+
+#### Lead Software Architect and Designer
+Oversees the project's software architecture and design activities.
+
+#### Experts in Computer Vision, Sensors, Robotics, and AI
+Provide their input during the meeting t
 
 <div class="page"/><!-- page break -->
 
