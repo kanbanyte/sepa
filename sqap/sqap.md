@@ -974,7 +974,8 @@ All documentation will be retained in repository for the duration of the project
 # Risk Management
 ## Purpose
 Risk management is undertaken to facilitate the creation of a product that is high quality, on time and delivers the scope specified by the client.
-## Categorization
+
+## Categorisation
 For this project, risks are divided into 3 categories:
 1. Risks with respect to the work to be done.
 2. Risks with respect to the management.
