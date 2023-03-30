@@ -623,10 +623,11 @@ Notes will distributed to client for confirmation.
 * Temporary/intermediate files are not to be committed
 
 ### Coding practices
-General guidelines
+This section includes coding guidelines.
+Any rule mentioned in this documents will override third-party guidelines.
 
 C++:
-* Follow [C++ Core Guideline](https://peps.python.org/pep-0008/).
+* Follow [the Google C++ Guideline](https://google.github.io/styleguide/cppguide.html).
 * Always use Java-style indentations, regardless of number of lines.
 * For `.cpp` files, place `#include` directives in the following order:
 	1. Header file whose declarations are defined in the current file.
@@ -635,7 +636,7 @@ C++:
 	4. Other header files in the project.
 
 Python:
-* Follow [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/).
+* Follow [the Google Python guideline](https://google.github.io/styleguide/pyguide.html).
 
 Shared:
 * Public interfaces (functions, variables, constants, class names, etc.) must be fully documented.
@@ -652,15 +653,16 @@ Shared:
 #### Guideline on naming and namespaces
 C++:
 * All code must be placed in a namespace.
-* Use `PascalCase` for templates, namespaces, constants (independent or member), enum names, enum values and class names.
-* Use `snake_case` for functions (independent or member), local variables, function parameters, member fields.
-* Prefix private, non-constant member fields with underscore `_` instead of using `this` unless requiring the `this` pointer.
-* Prefix constants and enum values with `k`.
-* Prefer `using std::cout` over `using namespace std`. 
+* Use `PascalCase` for templates, namespaces, enum names, enum values and class names.
+* Use `SCREAMING_SNAKE_CASE` for constants.
+* Use `snake_case` for functions, local variables, function parameters and member fields.
+* Prefix private, non-constant member fields with underscore `_` instead of using the `this` pointer unless required.
+* Avoid the [the Hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation).
+* Prefer `using foo::bar` over `using namespace foo`.
 
 Python:
 * Use `PascalCase` for classes and errors.
-* Use `snake_case` for functions, local variables, function parameters, member fields. 
+* Use `snake_case` for functions, local variables, function parameters, member fields.
 * Prefix private, non-constant member fields with underscore `_`
 (Python does not support private variables but this should rule should be adhered to where possible for communication purposes).
 
