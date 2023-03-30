@@ -567,9 +567,9 @@ The first release will be 100 and each additional release will be incremented by
 <div class="page"/><!-- page break -->
 
 ## Practices
-This section will cover several practises that will be employed as a basis for quality control wtihin the project.
-These practises will be followed closely throughout development, frequent audits will ensure that this is the case.
-Through rigurous upholding of the outlined practises the quality of the project will be maintained and ensured the deliverables be of high quality.
+This section will cover several practises that will be employed as a basis for quality control wtihin the project.\
+These practises will be followed closely throughout development, frequent audits will ensure that this is the case.\
+Through rigorous upholding of the outlined practises the quality of the project will be maintained and ensured the deliverables be of high quality.
 
 ### Communication Practices
 #### Client
