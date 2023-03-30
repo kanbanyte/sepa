@@ -386,10 +386,10 @@ This document should contain the following sections:
 * Evidence
 
 ### Audit Report
-When ever an audit is carried out a document must be produced that indicates the outcome;
-anything that does not follow the processes outlined in this document SQAP, whether the process is followed and corrective actions.
-
-Audits can be carried out internally and externally.
+Audits, whenther carried out internally or externally, must produce a document.\
+Anything that is found that doesn't follow the processes outlined in the SQAP will result in corrective actions.
+Audit reports should assess the projects scalability, maintainability and suitability.
+Additionally an evaluation of the design documents should be carried out during an audit.
 
 ## Management Documents
 ### Meeting Agendas
