@@ -180,23 +180,24 @@ Finally, the plan will identify the team; `team_name`, responsible for the devel
 
 # Management
 ## Organisation/Roles
-The following list contains currently identified Roles:
+The following section will detail the various roles within the team for various scenarios.
 
 ### Meeting Roles
-#### Chair
-Performed by the Team Leader and is responsible for running/controlling the meeting as well as deter-mining and distributing the agenda for the meeting.\
-Apologies and items to be added to the agenda from other team members are to be sent to the Chair prior to meeting.
+These roles will be for regular meetings to discuss the current progress of the project and
+will help ensure successful completion of the project and cohesion between team members.\
+The meeting roles will consist of:
 
-#### Sargent at Arms
-Keeps an eye on proceedings and time spent on each item.\
-Responsible for keeping the meeting on topic and on time.\
-Their conduct must ensure that team members still have the ability to voice their opinions and ideas.\
-Additional time can be utilized for discussion outside of the arranged meeting time.
+#### Meeting Manager
+Coordinates meetings and ensure effective communication between meeting members.
+Summarises the meeting, describing and allocating any future tasks to the relevant members.
 
 #### Scribe
-Records the meeting minutes and is responsible for circulation of meeting minutes.\
-This role will be rotated through team members on a monthly basis as follows: Justin, Ben, Ha, Alex, Jason and Simon.\
-The Chair is not expected to take minutes.
+Records any important information and meeting minutes during the meeting for future reference and records.
+
+#### Moderator
+Ensures meeting remains within time and each member is able to state and discuss their relevant item.
+Keeps track of meeting minutes for the scribe to record.
+Makes sure that only nobody talks over another to keep the discussion understandable and time efficient.
 
 <div class="page"/><!-- page break -->
 
