@@ -781,23 +781,26 @@ The requirements outlined in SRS shall be verified and validated by the client t
 For the use case generation, we need to identify the various scenarios in which the robot will operate and the interactions with the system.
 
 The use cases will:
-
 * include details about the inputs, outputs, and actions of the system.
 * be generated based on the requirements and will help in validating the system's functionality.
 * also help in identifying any potential issues or edge cases that need to be addressed during the development process.
 
-We will need to define our input domain in odrer to generate valid test cases. For our software solution this is all possible positions of chips, covers, batteries and trays.
+We will need to define our input domain in order to generate valid test cases.
+For our software solution, this is all possible positions of chips, covers, batteries and trays.
 
-Our system would be considered as untestable program because the output cannot be verified meaning it doesn't have a test oracle. A test orcacle is a procedure which the outputs of a system can be verified against. This means we will have to use metamorphic testing.
+Our system would be considered as an untestable program because the output cannot be verified, meaning it doesn't have a test oracle.
+A test oracle is a procedure in which the outputs of a system can be verified against.
+This means we will have to use metamorphic testing.
 
 Metamorphic testing is defined by the following process:
-
 * Defining an initial test case
-* Identifing properties of the problem (metamorphic relations)
-* Creating follow-up test cases from the intial test case using the metamorphic relations
-* Verifying the metamorphic relations (MR) using the systems outputs.
+* Identifying properties of the problem and metamorphic relations (MR)
+* Creating follow-up test cases from the initial test case using previously developed MRs
+* Verifying the MRs using the systems outputs
 
-For this software solution, an example of a MR is that the position of a chip placed in the holding bracket is the same regardless if multiple or no chips are placed in the adjacent slots. Therefore the therortical output of the system should be that it can identify the chip given any arrangement of other chips.
+For this software solution,
+an example of a MR is that the position of a chip placed in the holding bracket is the same regardless of the number of chips placed in adjacent slots.
+Therefore, the theoretical output of the system should be that it can identify a specified chip irrespective of any arrangement of surrounding chips.
 
 
 ## Installation and User Documentation Generation
