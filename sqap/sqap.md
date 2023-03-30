@@ -588,7 +588,7 @@ Communication with the following parties will use the respective practices:
 * Regular team meetings to discuss progress, issues, and feedback.
 * Meetings will be arranged on Discord, unless a face-to-face meeting is required.
 * Attendance to meetings is expected, except when absence has been discussed and understood by other team members.
-* Collaborative work will be fostered by using Git features such as Discussions and Pull Requests for development.
+* Collaborative work will be fostered by using Github features such as Discussions and Pull Requests for development.
 * A Kanban Board will be used as a project management tool to track issues and pull requests, and to keep all team members up-to-date.
 
 #### Supervisor
