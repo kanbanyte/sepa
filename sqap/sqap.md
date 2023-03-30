@@ -255,15 +255,53 @@ Expertly understands the Kanban methodology which provides the team with an effi
 This champion role will help the team meet goals by providing them with a better understand of the Kanban methodology.
 
 ### Communication Roles
-#### Client
-The Client Liaison acts as the single point of contact between the team and the client.\
-This allows coordination of all incoming and outgoing correspondence with the client and distribution to all team members.\
-They are also responsible for setting up regular Client Meetings
+The communication roles are those necessary for effective communication between team members and between the client and stakeholders.
+These roles will take on the responsibility of understanding the relevant information they need to communicate and
+be able to clearly provide such information to the group they need to communicate with.
 
-#### Supervisor
-The Supervisor Liaison allows the University and Supervisor to have a single point of contact for the team.\
-However, other team members may contact the Supervisor for issues themselves.\
-The role is typically filled by the Team Leader.
+The communication roles to be established will be:
+
+#### Software Architects and Designers:
+Software architects and designers are responsible for developing the software architecture and design and ensuring that it aligns with the project's objectives and
+adheres to quality standards.
+They should also collaborate with subject matter experts to ensure that the system design meets the project's objectives.
+
+#### Project Team Members with Expertise in Computer Vision, Sensors, Robotics, and AI:
+Team members with expertise in these fields are responsible for providing input and review of the software architecture and
+design to ensure that it aligns with the project's objectives.
+
+#### Project Superviser
+The project superviser will be consulted regarding information about the project and will provide feedback on work when necessary.
+They will also communicate with the team leader should they need to contact the team regarding any work or updates on project progress.
+
+#### Client
+The client will communicate with team members should they require updates on progress.
+Team members, particularly those working with the cobot, can correspond with the client to seek clarification on specific requirements. 
+
+#### Team Leader:
+Responsible for facilitating communication between team members and ensuring that communication is effective and efficient.
+They should also ensure that the project's software design documentation is complete, accurate, and
+up-to-date to facilitate communication with the development team and stakeholders.
+
+#### Quality Manager
+Quality managers ensure quality is maximised throughout the project,
+and therefore will be responsible for communicating quality requirements to the relevant team members.
+They will also provide the project superviser and client with updates regarding the quality of the deliverables currently being worked on.
+
+#### Support Manager
+The support managers are responsible for providing support to other team members, the project superviser, or the client with regards to the project.
+They will communicate with other team members to help them with work, research, or testing if necessary.
+Should the superviser or client require assistance with understanding the deliverables or software,
+the support managers should relay information to them regarding these aspects.
+
+#### Development Manager
+Development managers coordinate with the software developers to keep progress steady and ensure code functions correctly.
+They will be able to provide the superviser, client, and team leader with updates regarding the development and testing process.
+
+#### Planning Manager
+The planning manager plans for the future documents, software components, etc.
+to be delivered by potentially allocating work to the relevant members.
+The will coordinate other managers to be able to meet requirements and deadlines to keep the project progressing efficiently and consistently.
 
 <div class="page"/><!-- page break -->
 
