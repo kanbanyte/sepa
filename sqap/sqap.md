@@ -669,8 +669,8 @@ Appropriate namespaces will be automatically created by Visual Studio if folder 
 
 # Reviews and Audits
 ## Purpose
-Outlined in this section will be a set of procedures used to validate project deliverables and to verify team processes
-in regards to the defined requirements and standards.\
+Outlined in this section will be a set of procedures used to validate project deliverables and
+to verify team processes in regards to the defined requirements and standards.\
 With regards to validation, it will be checked through internal and external reviews, and verification through audits.
 These reviews and audits will help ensure that deliverables are up to scratch and product quality is maintained.
 The information on these reviews and Audits are found earlier in the document under chapter 5.
