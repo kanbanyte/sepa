@@ -117,7 +117,7 @@ List of your Names:
 		* [Crossed-states tasks](#crossed-states-tasks)
 		* [Task creation](#task-creation)
 		* [Task assignment](#task-assignment)
-		* [Task life](#task-life)
+		* [Task Life](#task-life)
 		* [Issue Categories](#issue-categories)
 * [Tools and methodologies](#tools-and-methodologies)
 	* [Tools](#tools)
@@ -845,15 +845,14 @@ Task creator must check for existing issue prior to creating task.
 ### Task assignment
 When a task cannot be assigned upon creation, the respective champion of the task must perform assignment within 24h of task creation.
 
-### Task life
-Assignee (who is assigned to the task), must response within 12h if the assignment is deemed in appropriate.
+### Task Life
+Tasks would be created as **issues** on GitHub, and then moved across the Kanban board's columns as they progress through the workflow.
+Each task would have an assignee responsible for working on it, and
+a resolver responsible for ensuring that solutions are checked against appropriate standards and practices before **approving** the changes via *review*.
 
-Resolver is responsible to ensure solutions are checked against the appropriate standards and practices prior to marking the issue as "Resolved".
-
-It is stressed that the resolver must entered the time spent on the task into the time-spent box before confirming as 'resolved'.
-
-After an issue is marked "Resolved",
-respective champion is responsible to formally/informally review the task (exception for trivial tasks), then mark the issue as "closed"
+The task life would also include testing and maintenance stages, in which the task is verified and validated for functionality and
+then maintained to ensure its continued operation and improvement over time.
+Finally, the task would be *closed* via a **pull request** after it has been formally *reviewed* by the respective champion and *merged* into the **main** branch.
 
 ### Issue Categories
 Categories can be updated to adapt to the project's development, the following are most up to date:
