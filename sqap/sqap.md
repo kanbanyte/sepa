@@ -1012,7 +1012,7 @@ This is a relatively low risk due to the importance of the capstone project.
 However, its impact is high because the team's total productivity is reduced and prior planning might no longer be appropriate.\
 There is no way to prevent this from occurring, but to minimize its impact,
 all tasks should be broken up and allocated to as many members as possible to avoid dependence on a single person.
-* Inability to hold regular meetings with all members present\
+* Inability to hold regular meetings with all members present.\
 This is a moderate-low risk.
 The project requires frequent communication between team members and ideally the team should hold regular meetings to keep all members up to date.
 Since each member has work and academic commitments it is possible that there may not be free time for a meeting where all members can attend.\
