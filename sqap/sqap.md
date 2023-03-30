@@ -593,7 +593,7 @@ Communication with the following parties will use the respective practices:
 
 #### Supervisor
 * Communication will occur primarily through Group Leader.
-* Weekly meetings to update the supervisor about progress and challenges being tackled. 
+* Weekly meetings on Microsoft Teams to be held between team members and supervisor to discuss current progress and challenges being tackled.
 * Communication to primarily occur through email, in-person meetings can be arranged on an as needed basis.
 * Communication is to be of a formal and respectful manner.
 * Inter-personal issues will be reported to supervisor to discuss possible actions and/or solutions for resolution.
