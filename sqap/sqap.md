@@ -803,13 +803,11 @@ Once code has been finalised, and testing is completed, they will be supplied wi
 
 # Problem Reporting and Corrective Action
 ## Personnel
-The SQAP outlines a clear process for reporting and addressing personnel-related problems.
 If an issue arises with personnel, the Team Leader is to be notified immediately, and
 they will propose corrective action, which can include team reorganization, or protocol changes.
-The project team must adhere to coding standards and best practices to ensure that the software is reliable and maintainable.
-The team will work collaboratively to create a detailed software architecture and design document and use version control software to manage the codebase.
-Regular training sessions will be conducted on software architecture and
-design best practices to ensure that the project team is adequately prepared to meet the project's goals.
+In the event of issues arising amongst team personnel, they should first be brought to the attention of the project manager or team leader for resolution.
+Corrective action may include training, reallocation of tasks, or a discussion of expectations to ensure that team members are able to perform their roles effectively.
+It is the responsibility of all team members to report any issues promptly to ensure that they are addressed in a timely manner.
 
 ## Work
 ### Project major time line
