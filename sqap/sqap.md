@@ -222,7 +222,7 @@ While multiple team members could take on the same role, the champion of that ro
 Champion roles are crucial for ensuring that the software is designed and developed according to best practices, meets the requirements of the project,
 and is maintainable and scalable over time.\
 The following will be the champion roles for the project:
-	
+
 #### Software Architect
 Responsible for creating the overall architecture of the system, defining its components and interactions.
 
