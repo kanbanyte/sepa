@@ -1012,19 +1012,39 @@ preventative actions aim to reduce the likelihood of risks occurring and reducti
 	* Preventative Action: Regular contact with client with minor releases to ensure that they can be deployed on the system.
 
 ## Risks with respect to the management
-* Illness or sudden absence of team leader
-	* Probability: Moderate.
-	* Impact: Variable impact dependent on time in schedule.
-	* Reductive Action: Emergency meeting to be organised by Team Leader to elect temporary team leader.
-* SQAP not suitable for our purposes
-	* Probability: Low.
-	* Impact: High, failure to follow SQAP would reduce product quality.
-	* Preventative Action: SQAP to be produced with full team input and cleared with team supervisor.
-* Team member leaves the team
-	* Probability: Low.
-	* Impact: High, their roles and responsibilities are no longer being fulfilled, and the amount of man hours the team can provide in a given time is diminished.
-	* Preventative Action: None.\
-	However, roles and responsibilities will need to be redistributed to the remaining team members.
+|Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy|Contingency|
+|:-:|:-|:-:|:-:|:-|:-|
+|1|Team leader absence.|L|M-H|Co-leader selected in advance.|Emergency vote.|
+|2|Team member leaves.|L|H|Distribute work between at least 2 members.|Organize work handover to another member.|
+|3|Inability to hold regular team meetings.|L-M|M-H|Members communicate their schedules|Members who cannot attend meetings provide updates to the team asynchronously.|
+|4|Supervisor absence.|L|L|None|Asynchronous updates and catch-up meeting if needed.|
+|5|Conflicts within the team.|M|H|Regular communication.|Irregular meetings to resolve disputes.|
+
+* Temporary absence of team leader.\
+The team leader can be temporarily absent due to illness or personal matters, and its impact varies depending on when it happens.\
+To ensure smooth operation at all times, the team can preemptively allocate a second leader who automatically assumes control when the primary leader is away.
+If both leaders are absent, an emergency team meeting is held to select another temporary leader.
+* Team member leaves.\
+This is a relatively low risk due to the importance of the capstone project.
+However, its impact is high because the team's total productivity is reduced and prior planning might no longer be appropriate.\
+There is no way to prevent this from occurring, but to minimize its impact,
+all tasks should be broken up and allocated to as many members as possible to avoid dependence on a single person.
+* Inability to hold regular meetings with all members present.\
+This is a moderate-low risk.
+The project requires frequent communication between team members and ideally the team should hold regular meetings to keep all members up to date.
+Since each member has work and academic commitments it is possible that there may not be free time for a meeting where all members can attend.\
+The risk can be mitigated by members communicating their schedules with others.
+In the worst case scenario, members who cannot attend regular meetings need to write separate report and update themselves with the team progress on their own.
+* Temporary absence of Supervisor.\
+The supervisor can be temporarily absent due to illness or scheduling conflict.
+This is a low risk and depending on the stages of the project, will not have a significant impact on the project.\
+When this event occurs, the team will continue as usual and the team leader will draft an email detailing the progress of the project,
+questions for the supervisor and potentially organize a replacement meeting if necessary.
+* Conflicts within the team.\
+Conflicts among the team are common in projects of any scale.
+This risk has a significant impact as it directly harms the team's productivity and causes delays to planned work.\
+The keys to keep the problem from happening and to remedy it if it occurs are frequent communication between team members and a democratically-run leadership.
+To prevent disputes from spiralling out of control, team members should voice their opinions as soon as possible, either in team meetings or mails/messages.
 
 <div class="page"/><!-- page break -->
 
