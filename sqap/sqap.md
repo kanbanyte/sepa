@@ -217,38 +217,42 @@ provide constructive feedback during the meeting to ensure that the software des
 <div class="page"/><!-- page break -->
 
 ### Champion Roles
-Champion is a role that directly responsible for ensuring the quality of a particular area assigned to them,
-as well as the compliance of standards and procedures of their section's of the project.\
-They are not however responsible for completing majority of the works.\
-They are to delegate work, assist where appropriate and are the single point of contact for issues.
+A champion in a role is considered the primary person responsible for the quality of the work associated with that role.
+While multiple team members could take on the same role, the champion of that role is essentially the leader of the role.
+Champion roles are crucial for ensuring that the software is designed and developed according to best practices, meets the requirements of the project,
+and is maintainable and scalable over time.\
+The following will be the champion roles for the project:
+ 
+#### Software Architect
+Responsible for creating the overall architecture of the system, defining its components and interactions.
 
-Team Leader is responsible ensuring the team works effectively together to achieve successful completion of the project.\
-The Team Leader typically chairs team meetings and is the supervisor liaison.\
-They should be notified of any political issues within the team.\
-The team leader is also responsible for monitoring the completion of work logs to ensure members are recording time spend, and contributing.\
-They are also responsible for writing status reports where applicable and attending team leader meetings.
+#### Software Designer
+Designs specific modules and subsystems utilising the architectural plans.
 
-Documentation Champion in in charge of making sure all documentation is consistent, complete and to a high standard.\
-This includes Latex formatting and filenames.
+#### Software Developer
+Responsible for writing the code that implements the design, working closely with the designer to ensure that the code meets the design specifications and requirements.
 
-SVN Champion is responsible for ensuring that the repository is used to its full potential and enforcing the SVN standards.\
-They are also responsible for maintaining directory structure and resolving any issues with the repository.
+#### Cobot/Hardware Champion
+Will be primarily responsible for working with the cobot and ensuring all code is compatible and functional.
 
-Mantis Champion is responsible for maintaining the Mantis bug tracker and ensuring tasks are closed out once completed.\
-They should encourage members to complete their allocated tasks.
+#### OS Integration Champion
+Ensures that all code functions on Ubuntu as there may be compatibility issues between Windows and Ubuntu.
 
-Usability Champion needs to ensure the product meets usability related non-functional requirements.\
-They should understand the Client Requirements and ensure that any products are built with the client use in mind.\
-They should assist with testing to ensure the GUIs are usable and intuitive.
+#### API Champion
+Should have extra understanding regarding the APIs used such as ROS to ensure no unnecessary development of functions occurs.
+They will also ensure the functions used are the most appropriate for the situation.
 
-The Code Champion is responsible for quality and on schedule delivery of code.\
-They are to ensure other members are building and uploading code that compiles and is up to standard.\
-They are responsible for ensuring delegated works are completed in a timely manner.
+#### Documentation Champion
+Ensures all code documentation is descriptive and explains the relevant functions and modules sufficiently.
+Additionally, they will make sure all developers write concise and informative comments in their code to facilitate documentation creation.
 
-Testing Champion is responsible for running and reporting on test results.\
-This includes Unit and functional testing.\
-They should work with the Usability Champion to ensure that exceptions and errors are understandable and informative.\
-They are to ensure tests carried out by other members are captured and recorded.
+#### GitHub Management Champion
+Has expertise in managing GitHub repositories that will allow for better collaboration and efficiency.
+They will be able to answer questions regarding GitHub tools and techniques that will make creating and editing work and software much easier.
+
+#### Kanban Methodology Champion
+Expertly understands the Kanban methodology which provides the team with an efficient and more individualistic working approach.
+This champion role will help the team meet goals by providing them with a better understand of the Kanban methodology.
 
 ### Communication Roles
 #### Client
