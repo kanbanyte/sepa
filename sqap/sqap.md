@@ -1005,7 +1005,7 @@ preventative actions aim to reduce the likelihood of risks occurring and reducti
 
 * Temporary absence of team leader.\
 The team leader can be temporarily absent due to illness or personal matters, and its impact varies depending on when it happens.\
-To ensure smooth operation at all times, the team can pre-select a second leader who automatically assumes control when the primary leader is away.
+To ensure smooth operation at all times, the team can preemptively allocate a second leader who automatically assumes control when the primary leader is away.
 If both leaders are absent, an emergency team meeting is held to select another temporary leader.
 * Team member leaves.\
 This is a relatively low risk due to the importance of the capstone project.
