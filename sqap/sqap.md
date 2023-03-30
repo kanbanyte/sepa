@@ -771,9 +771,30 @@ This will require them team to have clear communication with the client to ensur
 This will allow the team to create effective tests, specifically tailored to the requirments of the client.
 
 ## Use case generation
-Use cases shall be validated and verified by the client with the assistance of the testing team.\
-Sample outputs from the client will allow a basic understanding for the team,
-but ultimately the client will be responsible for communication specific uses of the software to ensure the team can adapt it to suit.
+For the use case generation, we need to identify the various scenarios in which the robot will operate and the interactions with the system.
+
+The use cases will:
+* include details about the inputs, outputs, and actions of the system.
+* be generated based on the requirements and will help in validating the system's functionality.
+* also help in identifying any potential issues or edge cases that need to be addressed during the development process.
+
+We will need to define our input domain in order to generate valid test cases.
+For our software solution, this is all possible positions of chips, covers, batteries and trays.
+
+Our system would be considered as an untestable program because the output cannot be verified, meaning it doesn't have a test oracle.
+A test oracle is a procedure in which the outputs of a system can be verified against.
+This means we will have to use metamorphic testing.
+
+Metamorphic testing is defined by the following process:
+* Defining an initial test case
+* Identifying properties of the problem and metamorphic relations (MR)
+* Creating follow-up test cases from the initial test case using previously developed MRs
+* Verifying the MRs using the systems outputs
+
+For this software solution,
+an example of a MR is that the position of a chip placed in the holding bracket is the same regardless of the number of chips placed in adjacent slots.
+Therefore, the theoretical output of the system should be that it can identify a specified chip irrespective of any arrangement of surrounding chips.
+
 
 ## Installation and User Documentation Generation
 The releases will be an in the form of an executable and a set of .dll files that will be provided to the client.\
