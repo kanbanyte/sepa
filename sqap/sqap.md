@@ -101,7 +101,7 @@ List of your Names:
 		* [SVN](#svn)
 		* [Coding practices](#coding-practices)
 * [Reviews and Audits](#reviews-and-audits)
-	* [Purpose](#purpose)
+	* [Purpose](#purpose-2)
 	* [Review/Audit list](#reviewaudit-list)
 		* [Reviews](#reviews)
 		* [Audits](#audits)
@@ -117,7 +117,7 @@ List of your Names:
 		* [Crossed-states tasks](#crossed-states-tasks)
 		* [Task creation](#task-creation)
 		* [Task assignment](#task-assignment)
-		* [Task life](#task-life)
+		* [Task Life](#task-life)
 		* [Issue Categories](#issue-categories)
 * [Tools and methodologies](#tools-and-methodologies)
 	* [Tools](#tools)
@@ -180,77 +180,79 @@ Finally, the plan will identify the team; `team_name`, responsible for the devel
 
 # Management
 ## Organisation/Roles
-The following list contains currently identified Roles:
+The following section will detail the various roles within the team for various scenarios.
 
 ### Meeting Roles
-#### Chair
-Performed by the Team Leader and is responsible for running/controlling the meeting as well as deter-mining and distributing the agenda for the meeting.\
-Apologies and items to be added to the agenda from other team members are to be sent to the Chair prior to meeting.
+These roles will be for regular meetings to discuss the current progress of the project and
+will help ensure successful completion of the project and cohesion between team members.\
+The meeting roles will consist of:
 
-#### Sargent at Arms
-Keeps an eye on proceedings and time spent on each item.\
-Responsible for keeping the meeting on topic and on time.\
-Their conduct must ensure that team members still have the ability to voice their opinions and ideas.\
-Additional time can be utilized for discussion outside of the arranged meeting time.
+#### Meeting Manager
+Coordinates meetings and ensure effective communication between meeting members.
+Summarises the meeting, describing and allocating any future tasks to the relevant members.
 
 #### Scribe
-Records the meeting minutes and is responsible for circulation of meeting minutes.\
-This role will be rotated through team members on a monthly basis as follows: Justin, Ben, Ha, Alex, Jason and Simon.\
-The Chair is not expected to take minutes.
+Records any important information and meeting minutes during the meeting for future reference and records.
+
+#### Moderator
+Ensures meeting remains within time and each member is able to state and discuss their relevant item.
+Keeps track of meeting minutes for the scribe to record.
+Makes sure that only nobody talks over another to keep the discussion understandable and time efficient.
 
 <div class="page"/><!-- page break -->
 
 ### Formal Review Meeting Roles
-#### Moderator
-Plans the review and coordinates the review process
+Formal review meetings will be conducted to thoroughly check finished work in order to maximise the quality of the software architecture and design.
+During the meeting, team members should provide constructive feedback and
+ensure that the software architecture and design aligns with the project's objectives and adheres to quality standards.
 
-#### Scribe
-Documents any issues or problems found during the review
-
-#### Inspector
-Examines the document/product for defects
-
-#### Author
-The creator of the work being reviewed
-
-#### Reader
-Reads out documents for the inspectors.
+The roles for such meetings will be similar to the meeting roles described in the previous section.
+The formal review meetings roles will be as follows:
+* The lead software architect and designer, along with other software architects and designers involved in the project
+* Subject matter experts in computer vision, sensors, robotics, and AI to ensure the quality of the software design.
+* The project manager to facilitate the review meeting and ensure effective communication between team members.
+* Team members to review the software architecture and design documentation in advance and
+provide constructive feedback during the meeting to ensure that the software design aligns with the project's objectives and adheres to quality standards.
 
 <div class="page"/><!-- page break -->
 
 ### Champion Roles
-Champion is a role that directly responsible for ensuring the quality of a particular area assigned to them,
-as well as the compliance of standards and procedures of their section's of the project.\
-They are not however responsible for completing majority of the works.\
-They are to delegate work, assist where appropriate and are the single point of contact for issues.
+A champion in a role is considered the primary person responsible for the quality of the work associated with that role.
+While multiple team members could take on the same role, the champion of that role is essentially the leader of the role.
+Champion roles are crucial for ensuring that the software is designed and developed according to best practices, meets the requirements of the project,
+and is maintainable and scalable over time.\
+The following will be the champion roles for the project:
+ 
+#### Software Architect
+Responsible for creating the overall architecture of the system, defining its components and interactions.
 
-Team Leader is responsible ensuring the team works effectively together to achieve successful completion of the project.\
-The Team Leader typically chairs team meetings and is the supervisor liaison.\
-They should be notified of any political issues within the team.\
-The team leader is also responsible for monitoring the completion of work logs to ensure members are recording time spend, and contributing.\
-They are also responsible for writing status reports where applicable and attending team leader meetings.
+#### Software Designer
+Designs specific modules and subsystems utilising the architectural plans.
 
-Documentation Champion in in charge of making sure all documentation is consistent, complete and to a high standard.\
-This includes Latex formatting and filenames.
+#### Software Developer
+Responsible for writing the code that implements the design, working closely with the designer to ensure that the code meets the design specifications and requirements.
 
-SVN Champion is responsible for ensuring that the repository is used to its full potential and enforcing the SVN standards.\
-They are also responsible for maintaining directory structure and resolving any issues with the repository.
+#### Cobot/Hardware Champion
+Will be primarily responsible for working with the cobot and ensuring all code is compatible and functional.
 
-Mantis Champion is responsible for maintaining the Mantis bug tracker and ensuring tasks are closed out once completed.\
-They should encourage members to complete their allocated tasks.
+#### OS Integration Champion
+Ensures that all code functions on Ubuntu as there may be compatibility issues between Windows and Ubuntu.
 
-Usability Champion needs to ensure the product meets usability related non-functional requirements.\
-They should understand the Client Requirements and ensure that any products are built with the client use in mind.\
-They should assist with testing to ensure the GUIs are usable and intuitive.
+#### API Champion
+Should have extra understanding regarding the APIs used such as ROS to ensure no unnecessary development of functions occurs.
+They will also ensure the functions used are the most appropriate for the situation.
 
-The Code Champion is responsible for quality and on schedule delivery of code.\
-They are to ensure other members are building and uploading code that compiles and is up to standard.\
-They are responsible for ensuring delegated works are completed in a timely manner.
+#### Documentation Champion
+Ensures all code documentation is descriptive and explains the relevant functions and modules sufficiently.
+Additionally, they will make sure all developers write concise and informative comments in their code to facilitate documentation creation.
 
-Testing Champion is responsible for running and reporting on test results.\
-This includes Unit and functional testing.\
-They should work with the Usability Champion to ensure that exceptions and errors are understandable and informative.\
-They are to ensure tests carried out by other members are captured and recorded.
+#### GitHub Management Champion
+Has expertise in managing GitHub repositories that will allow for better collaboration and efficiency.
+They will be able to answer questions regarding GitHub tools and techniques that will make creating and editing work and software much easier.
+
+#### Kanban Methodology Champion
+Expertly understands the Kanban methodology which provides the team with an efficient and more individualistic working approach.
+This champion role will help the team meet goals by providing them with a better understand of the Kanban methodology.
 
 ### Communication Roles
 #### Client
@@ -389,10 +391,10 @@ This document should contain the following sections:
 * Evidence
 
 ### Audit Report
-When ever an audit is carried out a document must be produced that indicates the outcome;
-anything that does not follow the processes outlined in this document SQAP, whether the process is followed and corrective actions.
-
-Audits can be carried out internally and externally.
+Audits, whenther carried out internally or externally, must produce a document.\
+Anything that is found that doesn't follow the processes outlined in the SQAP will result in corrective actions.
+Audit reports should assess the projects scalability, maintainability and suitability.
+Additionally an evaluation of the design documents should be carried out during an audit.
 
 ## Management Documents
 ### Meeting Agendas
@@ -665,16 +667,11 @@ Appropriate namespaces will be automatically created by Visual Studio if folder 
 
 # Reviews and Audits
 ## Purpose
-This section of the SQAP defines a set of procedures used to validate project deliverables and
-to verify team processes with respect to defined requirements and standards.
-
-The purpose of validation is to ensure that the correct deliverables are being produced with respect to the client requirements and team standards.\
-This is done through internal and external reviews.
-
-The purpose of verification is the ensure that processes outlined in the SQAP are followed to ensure product quality.\
-This is done through internal and external audits.
-
-The standards, procedures and practices can be found in chapter 5, Standards and Practices.
+Outlined in this section will be a set of procedures used to validate project deliverables and
+to verify team processes in regards to the defined requirements and standards.\
+With regards to validation, it will be checked through internal and external reviews, and verification through audits.
+These reviews and audits will help ensure that deliverables are up to scratch and product quality is maintained.
+The information on these reviews and Audits are found earlier in the document under chapter 5.
 
 ## Review/Audit list
 ### Reviews
@@ -771,14 +768,35 @@ For example what is the acceptable processing time; 1 minute or 1 hour?
 <div class="page"/><!-- page break -->
 
 ## Requirement
-The overall goal of the team is to satisfy the clients needs when building the software.\
-Therefore, strong consultation with them will result in a product that works, is usable and maintainable.\
-The requirements outlined in SRS shall be verified and validated by the client to ensure the product is suitable for deployment and use.
+Our testing will aim to validate that our solution meets all the requirments outlined in thhe SRS above.\
+This will require them team to have clear communication with the client to ensure their needs are met by our software.\
+This will allow the team to create effective tests, specifically tailored to the requirments of the client.
 
 ## Use case generation
-Use cases shall be validated and verified by the client with the assistance of the testing team.\
-Sample outputs from the client will allow a basic understanding for the team,
-but ultimately the client will be responsible for communication specific uses of the software to ensure the team can adapt it to suit.
+For the use case generation, we need to identify the various scenarios in which the robot will operate and the interactions with the system.
+
+The use cases will:
+* include details about the inputs, outputs, and actions of the system.
+* be generated based on the requirements and will help in validating the system's functionality.
+* also help in identifying any potential issues or edge cases that need to be addressed during the development process.
+
+We will need to define our input domain in order to generate valid test cases.
+For our software solution, this is all possible positions of chips, covers, batteries and trays.
+
+Our system would be considered as an untestable program because the output cannot be verified, meaning it doesn't have a test oracle.
+A test oracle is a procedure in which the outputs of a system can be verified against.
+This means we will have to use metamorphic testing.
+
+Metamorphic testing is defined by the following process:
+* Defining an initial test case
+* Identifying properties of the problem and metamorphic relations (MR)
+* Creating follow-up test cases from the initial test case using previously developed MRs
+* Verifying the MRs using the systems outputs
+
+For this software solution,
+an example of a MR is that the position of a chip placed in the holding bracket is the same regardless of the number of chips placed in adjacent slots.
+Therefore, the theoretical output of the system should be that it can identify a specified chip irrespective of any arrangement of surrounding chips.
+
 
 ## Installation and User Documentation Generation
 The releases will be an in the form of an executable and a set of .dll files that will be provided to the client.\
@@ -843,15 +861,14 @@ Task creator must check for existing issue prior to creating task.
 ### Task assignment
 When a task cannot be assigned upon creation, the respective champion of the task must perform assignment within 24h of task creation.
 
-### Task life
-Assignee (who is assigned to the task), must response within 12h if the assignment is deemed in appropriate.
+### Task Life
+Tasks would be created as **issues** on GitHub, and then moved across the Kanban board's columns as they progress through the workflow.
+Each task would have an assignee responsible for working on it, and
+a resolver responsible for ensuring that solutions are checked against appropriate standards and practices before **approving** the changes via *review*.
 
-Resolver is responsible to ensure solutions are checked against the appropriate standards and practices prior to marking the issue as "Resolved".
-
-It is stressed that the resolver must entered the time spent on the task into the time-spent box before confirming as 'resolved'.
-
-After an issue is marked "Resolved",
-respective champion is responsible to formally/informally review the task (exception for trivial tasks), then mark the issue as "closed"
+The task life would also include testing and maintenance stages, in which the task is verified and validated for functionality and
+then maintained to ensure its continued operation and improvement over time.
+Finally, the task would be *closed* via a **pull request** after it has been formally *reviewed* by the respective champion and *merged* into the **main** branch.
 
 ### Issue Categories
 Categories can be updated to adapt to the project's development, the following are most up to date:
@@ -995,30 +1012,39 @@ preventative actions aim to reduce the likelihood of risks occurring and reducti
 	* Preventative Action: Regular contact with client with minor releases to ensure that they can be deployed on the system.
 
 ## Risks with respect to the management
-
-|Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy Number|Contingency|
-|:-:|:-|:-:|:-:|:-:|:-|
+|Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy|Contingency|
+|:-:|:-|:-:|:-:|:-|:-|
 |1|Team leader absence.|L|M-H|Co-leader selected in advance.|Emergency vote.|
 |2|Team member leaves.|L|H|Distribute work between at least 2 members.|Organize work handover to another member.|
 |3|Inability to hold regular team meetings.|L-M|M-H|Members communicate their schedules|Members who cannot attend meetings provide updates to the team asynchronously.|
-|4|Supervisor absence|L|L|None|Asynchronous updates and catch-up meeting if needed.|
-|5|Conflicts within the team|M|H|Regular communication|Irregular meetings to sort out disputes.|
+|4|Supervisor absence.|L|L|None|Asynchronous updates and catch-up meeting if needed.|
+|5|Conflicts within the team.|M|H|Regular communication.|Irregular meetings to resolve disputes.|
 
 * Temporary absence of team leader.\
 The team leader can be temporarily absent due to illness or personal matters, and its impact varies depending on when it happens.\
-To ensure smooth operation at all time, the team can select a second leader in advance who automatically assumes control when the main leader is away. If both leaders are absent, an emergency team meeting needs to be held to select another temporary leader.
+To ensure smooth operation at all times, the team can preemptively allocate a second leader who automatically assumes control when the primary leader is away.
+If both leaders are absent, an emergency team meeting is held to select another temporary leader.
 * Team member leaves.\
-This is a relatively low risk due to the importance of the capstone project. However, its impact is high because the team's total productivity is reduced and prior planning might no longer be appropriate.\
-There is no way to prevent this from occurring, but to minimize its impact, all tasks should be broken up and divided among as many members as possible to avoid reliance on a single person.
-* Inability to hold regular meetings with all members present\
-This is a moderate-low risk. The project requires frequent communication between team members and ideally the team should hold regular meetings to keep all members up to date. With every member having work and other study commitment it is possible that there is no free timeslot for a team meeting.\
-The risk can be mitigated by members communicating their schedules with others. In the worst case scenario, members who cannot attend regular meetings need to write separate report and update themselves with the team progress on their own.
+This is a relatively low risk due to the importance of the capstone project.
+However, its impact is high because the team's total productivity is reduced and prior planning might no longer be appropriate.\
+There is no way to prevent this from occurring, but to minimize its impact,
+all tasks should be broken up and allocated to as many members as possible to avoid dependence on a single person.
+* Inability to hold regular meetings with all members present.\
+This is a moderate-low risk.
+The project requires frequent communication between team members and ideally the team should hold regular meetings to keep all members up to date.
+Since each member has work and academic commitments it is possible that there may not be free time for a meeting where all members can attend.\
+The risk can be mitigated by members communicating their schedules with others.
+In the worst case scenario, members who cannot attend regular meetings need to write separate report and update themselves with the team progress on their own.
 * Temporary absence of Supervisor.\
-The supervisor can be temporarily absent due to illness or scheduling conflict. This is a low risk and depending on the stages of the project, will not have a significant impact on the project.\
-When this event occurs, the team will carry on as usual and the team leader shall write an email detailing the project's progress, questions for the supervisor and potentially organize a catch-up meeting as soon as possible if necessary.
+The supervisor can be temporarily absent due to illness or scheduling conflict.
+This is a low risk and depending on the stages of the project, will not have a significant impact on the project.\
+When this event occurs, the team will continue as usual and the team leader will draft an email detailing the progress of the project,
+questions for the supervisor and potentially organize a replacement meeting if necessary.
 * Conflicts within the team.\
-Conflicts among the team are common in projects of any scale. This risk has a significant impact as it directly harms the team's productivity and cause delays to planned work.\
-The keys to keep the problem from happening and to remedy it if it occurs are frequent communication between team members and a democratically-run leadership. To prevent disputes from spiralling out of control, team members should voice their opinions as soon as possible, either in team meetings or mails/messages.
+Conflicts among the team are common in projects of any scale.
+This risk has a significant impact as it directly harms the team's productivity and causes delays to planned work.\
+The keys to keep the problem from happening and to remedy it if it occurs are frequent communication between team members and a democratically-run leadership.
+To prevent disputes from spiralling out of control, team members should voice their opinions as soon as possible, either in team meetings or mails/messages.
 
 <div class="page"/><!-- page break -->
 
