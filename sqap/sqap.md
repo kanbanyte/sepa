@@ -995,9 +995,8 @@ preventative actions aim to reduce the likelihood of risks occurring and reducti
 	* Preventative Action: Regular contact with client with minor releases to ensure that they can be deployed on the system.
 
 ## Risks with respect to the management
-
-|Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy Number|Contingency|
-|:-:|:-|:-:|:-:|:-:|:-|
+|Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy|Contingency|
+|:-:|:-|:-:|:-:|:-|:-|
 |1|Team leader absence.|L|M-H|Co-leader selected in advance.|Emergency vote.|
 |2|Team member leaves.|L|H|Distribute work between at least 2 members.|Organize work handover to another member.|
 |3|Inability to hold regular team meetings.|L-M|M-H|Members communicate their schedules|Members who cannot attend meetings provide updates to the team asynchronously.|
