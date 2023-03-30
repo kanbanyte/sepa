@@ -222,7 +222,7 @@ While multiple team members could take on the same role, the champion of that ro
 Champion roles are crucial for ensuring that the software is designed and developed according to best practices, meets the requirements of the project,
 and is maintainable and scalable over time.\
 The following will be the champion roles for the project:
- 
+	
 #### Software Architect
 Responsible for creating the overall architecture of the system, defining its components and interactions.
 
@@ -975,17 +975,17 @@ All documentation will be retained in repository for the duration of the project
 ## Purpose
 Risk management is undertaken to facilitate the creation of a product that is high quality, on time and delivers the scope specified by the client.
 ## Categorization
-For this project three major categories of risks have been identified:
+For this project, risks are divided into 3 categories:
 1. Risks with respect to the work to be done.
 2. Risks with respect to the management.
 3. Risks with respect to the client.
 
-In the following sections each of these categories have their major risks identified.\
-For each risk, a description, a probability to occur, its impact and the preventative/(reductive) action associated are given.
+In the following sections each of these categories have their major risks identified.
+For each risk, a description, a probability of occurrence, its level of impact, mitigation strategy and contingency plan are given.
 
-Both the probability of a risk occurring and the impact of a risk if it does occur have been quantified as being low, moderate or high.\
-Actions have been categorized as preventative and reductive;
-preventative actions aim to reduce the likelihood of risks occurring and reductive actions reduce the impact of risks if they do occur.
+Both the probability of a risk occurring and its effect are quantified as being low, moderate or high.
+Risks are managed with a mitigation strategy and a contingency plan.
+The mitigation strategy is designed to reduce the likelihood of risks occurring and the contingency plan is used to minimize the impact of materialized risks.
 
 <div class="page"/><!-- page break -->
 
