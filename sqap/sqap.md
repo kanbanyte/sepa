@@ -373,10 +373,33 @@ Code documentation will contain the following:
 * Interdependency of each module or dependencies on external modules.
 
 ### Self-Assessment Reports
+These reports will be introspective documents reporting on how each member thought each other performed, which will contain:
+* A review of the client.
+* Categories regarding metrics such as quantity and quality of work, communication, etc.
 
 ### Software/System Requirements Specification (SRS)
+The SRS will describe the requirements of the software/system that will be developed.
+It will include:
+* Purpose of the document.
+* Overall description of the system that is to be developed.
+* Features of the software.
+* System requirements such as hardware requirements.
+* Acceptance Criteria for the software.
+* Documentation to be delivered.
+* Functional requirements of the software.
+* Quality requirements.
+* Interface requirements such as user interfaces, and hardware/software interfaces.
 
 ### System Architecture Design and Research Report (SADRR)
+This document will give information about the overall system architecture and design, as well as additional research into the project.
+Contained within this document will be:
+* Overview of the document.
+* Problem analysis which will outline the goals of the software systen and any assumptions and simplifications.
+* High-level system architecture and alternatives
+* Additional research
+	* Research into the application domain
+	* Research into the system design
+	* Research into platforms, languages, and tools
 
 ## Management Documents
 ### Meeting Agendas
