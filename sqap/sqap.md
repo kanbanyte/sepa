@@ -243,7 +243,8 @@ Should have extra understanding regarding the APIs used such as ROS to ensure no
 They will also ensure the functions used are the most appropriate for the situation.
 
 #### Documentation Champion
-
+Ensures all code documentation is descriptive and explains the relevant functions and modules sufficiently.
+Additionally, they will make sure all developers write concise and informative comments in their code to facilitate documentation creation.
 
 ### Communication Roles
 #### Client
