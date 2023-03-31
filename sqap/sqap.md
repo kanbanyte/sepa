@@ -992,10 +992,10 @@ preventative actions aim to reduce the likelihood of risks occurring and reducti
 ## Risks with respect to the work to be done
 |Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy|Contingency|
 |:-:|:-|:-:|:-:|:-|:-|
-|1|GitHub repository loss.|L|H|Frequent backups.|Restore using latest backup.|
-|2|Temporary member absence.|L|M|Allocate work between at least 2 members.|Organize work handover to another member.|
-|3|Inappropriate design.|M|M-H|Frequent communication and contingency design.|Focus on fixing pain points or use the second design.|
-|4|Un-deployable software.|M|H|Frequent deployment.|Team re-prioritize tasks to focus on fixing deployment issues.|
+|1|GitHub repository loss.|L|H|Recurrent backups.|Restore using latest backup.|
+|2|Temporary member absence.|L|M|Allocate work to at least 2 members.|Organize work handover to another member.|
+|3|Inappropriate design.|M|M-H|Regular communication and contingency design.|Focus on fixing pain points or use the second design.|
+|4|Un-deployable software.|M|H|Frequent deployment.|Re-prioritize tasks to focus on fixing deployment issues.|
 |5|Lacks of skills/knowledge.|M|H|Start training early.|Re-assign tasks or allocate additional members.|
 |6|Time shortage.|H|H|Careful and conservative planning.|Re-prioritize tasks and contact supervisor/client.|
 
@@ -1007,7 +1007,8 @@ The repository should be often copied and retained by several members to reduce 
 In the unlikely event of repository loss, the latest back up is used and the team will perform a general check to find any missing material.
 * Temporary absence of team member.\
 Team member can be temporarily absent due to illness or personal matters, and may not complete assigned work on time.
-This loss of productivity has a moderate impact on the team's progress, which can minimized by dividing work multiple team members.\
+This temporary loss of productivity has a moderate impact on the team's progress.\
+The risk can minimized by spreading work to multiple team members.
 If a team member is absent and is unlikely to finish their task on time, the task will be transferred to a different member immediately.
 The absent team member should alert the team of their condition and time estimates as soon as possible so the team can react accordingly.
 * Inappropriate design.\
@@ -1028,7 +1029,7 @@ Although team members come from a variety of background, they might find themsel
 The result is incomplete or low quality product, and the issue can propagate to other dependent tasks or features.\
 The team can remedy this by familiarizing themselves with relevant concepts and techniques.
 If a member overly struggles with their task, the team can swap their tasks or re-allocate an additional member to provide assistance.
-* Time Shortage
+* Time shortage
 The project can be incomplete by the deadline due to a variety of reasons: team member absence, project difficulty, management trouble.
 The probability of this risk for a complex project is high, and it leads to a product not delivered as originally outlined,
 or delivered without fulfilling all quality standards.\
