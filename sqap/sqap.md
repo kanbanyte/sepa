@@ -555,26 +555,47 @@ The Warsaw theme should also be used to ensure visual consistency.
 The following document tree describes the SVN structure.\
 Additional folders may be added at the discretion of team members after consulting with the SVN champion.
 
-The following describes the Folder structure of **main**.
-Additional folders exist however this should give an overview of expected conventions.
-```brainfuck
-repos
-	+---main
-		\---.github
-		+---meeting_minutes
-			\---agendas
-		+---project_plan
-			+---plan.md
-		+---sqap
-			+---sqap.md
-		+---self assessment reports
-			+---team_member_1
-				\---self_peer_review_tm1.md
-			\---team_member_2
-		+---srs
-			+---srs.md
-	+---README.md
-	+---.gitignore
+The following describes the Folder structure from the perspective of the **main** branch of the repository.
+Additional folders exist; however, this should give an overview of expected conventions.
+```diff
+main
+|	.gitignore
+|	project24proposal.md
+|	README.md
+|	self-peer_review_template.md
+|	worklog_template.md
+|
++-------.github
+|	|	PULL_REQUEST_TEMPLATE.md
+|	|
+|	\-------ISSUE_TEMPLATE
+|			config.yml
+|
++-------criteria
+|		criteria.md
+|
++-------design_report
+|		design.md
+|
++-------project_plan
+|		plan.md
+|
++-------sadrr
+|		sadrr.md
+|
++-------sqap
+|		sqap.md
+|
++-------srs
+|		srs.md
+|
++-------statement
+|		contribution.md
+|
+\-------styles
+		contribution.css
+		styles.css
+		worklog.css
 ```
 
 <div class="page"/><!-- page break -->
