@@ -77,11 +77,12 @@ List of your Names:
 		* [Champions](#champions)
 * [Documentation](#documentation)
 	* [Software Documents](#software-documents)
-		* [SQAP](#sqap)
-		* [SRS](#srs)
 		* [Project Plan](#project-plan)
-		* [Module Plan](#module-plan)
-		* [Self-assessment reports](#self-assessment-reports)
+		* [Software Quality Assurance Plan SQAP](#software-quality-assurance-plan-sqap)
+		* [Code Documentation](#code-documentation)
+		* [Self-Assessment Reports](#self-assessment-reports)
+		* [Software/System Requirements Specification SRS](#softwaresystem-requirements-specification-srs)
+		* [System Architecture Design and Research Report SADRR](#system-architecture-design-and-research-report-sadrr)
 		* [Audit Report](#audit-report)
 	* [Management Documents](#management-documents)
 		* [Meeting Agendas](#meeting-agendas)
@@ -109,10 +110,10 @@ List of your Names:
 	* [Requirement](#requirement)
 	* [Use case generation](#use-case-generation)
 	* [Installation and User Documentation Generation](#installation-and-user-documentation-generation)
-* [Problem reporting and corrective action](#problem-reporting-and-corrective-action)
+* [Problem Reporting and Corrective Action](#problem-reporting-and-corrective-action)
 	* [Personnel](#personnel)
 	* [Work](#work)
-		* [Project major time line](#project-major-time-line)
+		* [Project Milestones](#project-milestones)
 		* [Stage-dependent tasks](#stage-dependent-tasks)
 		* [Crossed-states tasks](#crossed-states-tasks)
 		* [Task creation](#task-creation)
@@ -130,7 +131,7 @@ List of your Names:
 	* [Agile Methodology: Kanban](#agile-methodology-kanban)
 * [Records collection, maintenance and retention](#records-collection-maintenance-and-retention)
 * [Risk Management](#risk-management)
-	* [Purpose](#purpose)
+	* [Purpose](#purpose-3)
 	* [Categorization](#categorization)
 	* [Risks with respect to the work to be done](#risks-with-respect-to-the-work-to-be-done)
 	* [Risks with respect to the management](#risks-with-respect-to-the-management)
@@ -255,15 +256,53 @@ Expertly understands the Kanban methodology which provides the team with an effi
 This champion role will help the team meet goals by providing them with a better understand of the Kanban methodology.
 
 ### Communication Roles
-#### Client
-The Client Liaison acts as the single point of contact between the team and the client.\
-This allows coordination of all incoming and outgoing correspondence with the client and distribution to all team members.\
-They are also responsible for setting up regular Client Meetings
+The communication roles are those necessary for effective communication between team members and between the client and stakeholders.
+These roles will take on the responsibility of understanding the relevant information they need to communicate and
+be able to clearly provide such information to the group they need to communicate with.
 
-#### Supervisor
-The Supervisor Liaison allows the University and Supervisor to have a single point of contact for the team.\
-However, other team members may contact the Supervisor for issues themselves.\
-The role is typically filled by the Team Leader.
+The communication roles to be established will be:
+
+#### Software Architects and Designers:
+Software architects and designers are responsible for developing the software architecture and design and ensuring that it aligns with the project's objectives and
+adheres to quality standards.
+They should also collaborate with subject matter experts to ensure that the system design meets the project's objectives.
+
+#### Project Team Members with Expertise in Computer Vision, Sensors, Robotics, and AI:
+Team members with expertise in these fields are responsible for providing input and review of the software architecture and
+design to ensure that it aligns with the project's objectives.
+
+#### Project Superviser
+The project superviser will be consulted regarding information about the project and will provide feedback on work when necessary.
+They will also communicate with the team leader should they need to contact the team regarding any work or updates on project progress.
+
+#### Client
+The client will communicate with team members should they require updates on progress.
+Team members, particularly those working with the cobot, can correspond with the client to seek clarification on specific requirements.
+
+#### Team Leader:
+Responsible for facilitating communication between team members and ensuring that communication is effective and efficient.
+They should also ensure that the project's software design documentation is complete, accurate, and
+up-to-date to facilitate communication with the development team and stakeholders.
+
+#### Quality Manager
+Quality managers ensure quality is maximised throughout the project,
+and therefore will be responsible for communicating quality requirements to the relevant team members.
+They will also provide the project superviser and client with updates regarding the quality of the deliverables currently being worked on.
+
+#### Support Manager
+The support managers are responsible for providing support to other team members, the project superviser, or the client with regards to the project.
+They will communicate with other team members to help them with work, research, or testing if necessary.
+Should the superviser or client require assistance with understanding the deliverables or software,
+the support managers should relay information to them regarding these aspects.
+
+#### Development Manager
+Development managers coordinate with the software developers to keep progress steady and ensure code functions correctly.
+They will be able to provide the superviser, client, and team leader with updates regarding the development and testing process.
+
+#### Planning Manager
+The planning manager plans for the future documents, software components, etc.
+to be delivered by potentially allocating work to the relevant members.
+The will coordinate other managers to be able to meet requirements and deadlines to keep the project progressing efficiently and consistently.
 
 <div class="page"/><!-- page break -->
 
@@ -340,58 +379,73 @@ as well as distribution of the test results supplied by the client to the team (
 
 # Documentation
 ## Software Documents
-### SQAP
-TheSQAP is a plan written before any development that outlines all standard practices and
-procedures to ensure a quality process therefore help produce a high quality product.
-
-### SRS
-A Software Requirements Specification will be developed to describe the behaviour of the proposed DMS as derived from client requirements.\
-The SRS will be based on the IEEE 830 standard, but will be modified to make it appropriate for our project.\
-A general outline of the document is as follows:
-1. Introduction
-	1. Purpose - Outline of the SRS
-	2. Scope - What the DMS is, what it will do and its application
-	3. Definitions, acronyms, and abbreviations
-	4. References
-	5. Overview
-2. Overall description
-	1. Product perspective - How the product works with other tools, i.e., dataflow
-	2. Product functions
-	3. User characteristics - Who will use the product, what training will they get
-	4. Constraints
-	5. Assumptions and dependencies
-3. Specific requirements
+This section will provide an overview of the various software documents that will be created to ensure that the software architecture and
+design are thoroughly documented and therefore highly intelligible.
 
 ### Project Plan
-A document to guide the building of the product.\
-It will include a brief description of the project and why it should be built,
-what needs to be done to build the software and a timeline for when modules should be complete.
+This document will give a general outline of the project direction, including:
+* Overview of the project description and background information.
+* Details about the client, stakeholders, and other involved individuals.
+* Objectives of the project.
+* Acceptable standards and required skills necessary for completion.
+* Project deliverables.
+* Required research.
+* Design, implementation, and testing.
+* Risks associated with the project.
+* Schedule and time line.
 
-As more modules are mapped and more details are known about each item, the project plan is to be updated.\
-It should also contain milestones where applicable and deliverable dates.
+### Software Quality Assurance Plan (SQAP)
+The SQAP is a document that describes the measures to be taken to ensure the maximisation of the quality of the project deliverables.\
+This document will contain:
+* The purpose of the document.
+* The various roles required to successfully complete the project.
+* Tasks and responsibilities of each member and role.
+* Outline of the documentation that will be produced.
+* Standards and practices that will be followed.
+* Information about reviews and audits.
+* Testing information.
+* How problem reporting and corrective action will be taken.
+* Tools and methodologies that will be used.
+* Record collection and maintenance.
+* Risk management.
 
-### Module Plan
-Module plan is to be developed following requirement analysis phase of each iteration of the software life-cycle.
+### Code Documentation
+Code documentation will contain the following:
+* Description of the various created modules.
+* Description of functions and classes and how to utilise them in code.
+* Interdependency of each module or dependencies on external modules.
 
-Module plan contains:
-* Module scope
-* Design solution for module
-* Work division
-* Timeline of artifacts and testing
+### Self-Assessment Reports
+These reports will be introspective documents reporting on how each member thought each other performed, which will contain:
+* A review of the client.
+* Categories regarding metrics such as quantity and quality of work, communication, etc.
 
-### Self-assessment reports
-A self-assessment report is to be completed by each team member each as per the unit outline that will provide evidence of work completed and self reflection.\
-It will document knowledge and experience that has been gained during the process.
+### Software/System Requirements Specification (SRS)
+The SRS will describe the requirements of the software/system that will be developed.
+It will include:
+* Purpose of the document.
+* Overall description of the system that is to be developed.
+* Features of the software.
+* System requirements such as hardware requirements.
+* Acceptance Criteria for the software.
+* Documentation to be delivered.
+* Functional requirements of the software.
+* Quality requirements.
+* Interface requirements such as user interfaces, and hardware/software interfaces.
 
-This document should contain the following sections:
-* Summary
-* Work completed
-* Mistakes made
-* Knowledge gained
-* Evidence
+### System Architecture Design and Research Report (SADRR)
+This document will give information about the overall system architecture and design, as well as additional research into the project.
+Contained within this document will be:
+* Overview of the document.
+* Problem analysis which will outline the goals of the software systen and any assumptions and simplifications.
+* High-level system architecture and alternatives
+* Additional research
+	* Research into the application domain
+	* Research into the system design
+	* Research into platforms, languages, and tools
 
 ### Audit Report
-Audits, whenther carried out internally or externally, must produce a document.\
+Audits, whether carried out internally or externally, must produce a document.\
 Anything that is found that doesn't follow the processes outlined in the SQAP will result in corrective actions.
 Audit reports should assess the projects scalability, maintainability and suitability.
 Additionally an evaluation of the design documents should be carried out during an audit.
@@ -569,50 +623,50 @@ The first release will be 100 and each additional release will be incremented by
 <div class="page"/><!-- page break -->
 
 ## Practices
-The following practices will be used as the basis for quality control in this project.\
-They shall be adhered to closely throughout the software life cycle.\
-Practices will be audited to ensure that they are being followed appropriately.
+This section will cover several practises that will be employed as a basis for quality control wtihin the project.\
+These practises will be followed closely throughout development, frequent audits will ensure that this is the case.\
+Through rigorous upholding of the outlined practises the quality of the project will be maintained and ensured the deliverables be of high quality.
 
 ### Communication Practices
+Effective communication between all parties associated with this project will use the practices laid out in this section to ensure quality control and
+that the project progresses smoothly.
+Communication with the following parties will use the respective practices:
+
 #### Client
-* All contact will be made to the client through the client liaison champion.
-* In the event that the champion is absent or on leave, alternative arrangements will be made (In advance if possible).
-* Contact will be primarily made through email.
-* Phone calls maybe used in the event that emails cannot provide enough detailed information.
-* Meetings with the client shall be regular, taking place approximately every three weeks.\
-However correspondence via phone or email should be more regular
-* Meetings will always have a minimum of two team members present.
+* Communication will occur primarily through Group Leader.
+* Regular updates as to progress of research/development.
+* Communication to primarily occur through email, face-to-face meetings can be arranged on an as needed basis.
+* Communication is to be of a formal and respectful manner.
+* All team members will be appraised of communication with the client, unless urgency requires otherwise.
 
 #### Team
-* Email will be the primary method of communication, when face to face communication can not be conducted.
-* Student email addresses are to be used in all email communications.
-* Emailing of documents will not occur if the item can or is held in the SVN with the exception of finalised meeting agendas and meeting minutes in PDF format only.
-* Emails need to be checked daily.
-* If a request for reply or acknowledgement of email receipt, members are to respond upon reading for the first time.
-* Email communication will be kept to a professional standard.
-* Emails can be used to confirm verbal contracts.
-* Skype meetings are permitted if face-to-face meetings are unable to be arranged, but should be kept to a minimum.
+* Communication within group will primarily occur through Discord.
+* Regular team meetings to discuss progress, issues, and feedback.
+* Meetings will be arranged on Discord, unless a face-to-face meeting is required.
+* Attendance to meetings is expected, except when absence has been discussed and understood by other team members.
+* Collaborative work will be fostered by using Github features such as Discussions and Pull Requests for development.
+* A Kanban Board will be used as a project management tool to track issues and pull requests, and to keep all team members up-to-date.
 
 #### Supervisor
-* Formal contact with the supervisor will conducted by the Team Leader.
-* Supervisor will be present atone meeting per fortnight, at the request of the team leader (typically the Weekly Team Meeting).
-* Contact will primarily be through email.
-* Agreements with supervisor will be confirmed via email.
-* All emails to the supervisor should CC the entire team unless they are of a personal nature.
-* If the team meeting is held out of business hours, then a separate meeting should be arranged with the supervisor.\
-If this cannot be achieved, then at the very least a status report should be emailed to the supervisor to ensure they remain up to date with the progress.
+* Communication will occur primarily through Group Leader.
+* Weekly meetings on Microsoft Teams to be held between team members and supervisor to discuss current progress and challenges being tackled.
+* Communication to primarily occur through email, in-person meetings can be arranged on an as needed basis.
+* Communication is to be of a formal and respectful manner.
+* Inter-personal issues will be reported to supervisor to discuss possible actions and/or solutions for resolution.
+* All team members will be appraised of communication with the client, unless urgency or personal issues require otherwise.
 
 <div class="page"/><!-- page break -->
 
 ### Meetings
-* Team meetings will be held on a weekly basis and will have a standard length30to 60minutes.
-* All team members are required to be present.
-* If a team member can not be present, an apology needs to be communicated directly to the team leader As Soon as Possible (ASAP).
-* All meetings require minutes to be taken.
-* A meeting outside of the weekly team meeting does not need all members present; notes are required.
-* Any meeting with the client requires at least two members present, again notes will be taken.\
-Notes will distributed to client for confirmation.
-* notes will be stored on the SVN
+Regular meetings with all team members present will be held. The following goals and tasks should be completed for each week:
+* All members are to attend each meeting.
+* If a member cannot attend a particular meeting, all other members are to be notified ahead of time.
+* All members are to provide updates on progress of current tasking, challenges that were completed and are currently being tackled.
+* Members can use this time to ask for help from other members if required.
+* A meeting agenda will be constructed for each regularly scheduled meeting to ensure all topics requiring discussion are covered.
+* A meeting minutes document will be constructed for each meeting to ensure that all topics covered in the meeting are recorded accurately.
+* A member of the team must be assigned the responsibility of both documents for each week.
+Or different member can be delegated the task each week on agreement of all team members.
 
 ### Worklogs
 * Weekly update of Worklogs on the SVN
@@ -745,25 +799,22 @@ Failure to meet the prescribed practices will be communicated to relevant team m
 # Chapter 7
 
 # Testing
-Testing will be predominately in the form of field testing with the assistance of the client.\
-This is the accepted method due the domain knowledge requirement of the user, and the restrictive nature of the project.\
-The team are to perform as many tests on the releases before handing over to the client.\
-Unit tests can be utilised, but will not make up a large part of the testing.\
-The can be used for confirming numerical data generated by the program has been manipulated correctly.
+For the testing phase of the project, a comprehensive approach will be used to ensure that the Robot Vision System is functioning optimally.
 
-The team will also perform some usability/function testing on the prototype prior to release.\
-This will most likely be involve trying to break/crash the program.\
-As the project is heavily reliant on import and export of data, there are numerous times when IO Exceptions could be thrown.\
-As part of this testing, the tester is to document all error, messages and general comments relating to usability of the GUI.\
-The tester should also be provided with a list of performance metrics to be tested and monitored during the testing process.\
-Some examples are: CPU usage, memory usage, processing time, closing opened files and termination of processes correctly.
+Unit testing will be performed on individual software components to verify their correct functionality.
+This will likely make up most of the intial testing as the team has a lack of experience with computer vision and
+robotic control so we will need to validate that our solutions are on the right track as we learn new skills.
+This will largely be assisted by feedback from the client and other team members.
 
-Once the team has made their best effort to break the program, handled all exceptions, provided usable error messages and
-are satisfied with the release, it is to be given to the client for feedback.
+Integration testing will be conducted to ensure that the various components of the system are working together effectively.
 
-The release should be accompanied with feedback sheets for the client to complete and return to the team so that issues can be repeated, and ultimately, resolved.\
-The client will also be expected to provide an acceptable performance level for the metrics used.\
-For example what is the acceptable processing time; 1 minute or 1 hour?
+Additionally, system-level testing will be carried out to validate that the entire Robot Vision System meets the project's requirements.
+The testing process will be automated where possible, and any issues that arise will be documented and addressed promptly.
+The team will also perform some usability/function testing to test edge cases where the placement of parts and
+robot arm are in incorrect positions to test the robustness of the software solution and see what exceptions are thrown.
+These tests will allow the team to design user friendly error messages.
+
+We will work with the client to creatic metrics we can use to measure the success of the solution.
 
 <div class="page"/><!-- page break -->
 
@@ -817,30 +868,34 @@ Once code has been finalised, and testing is completed, they will be supplied wi
 <!-- TOC ignore:true -->
 # Chapter 8
 
-# Problem reporting and corrective action
+# Problem Reporting and Corrective Action
 ## Personnel
-If an issue arises with personnel the Team Leader is to be notified.\
-The Team Leader will follow up on the issue to gather all the facts.\
-Once known the Team Leader will suggest a corrective action.\
-Corrective Action can include but is not limited to: counselling, team reorganization, protocol changes.
+If an issue arises with personnel, the Team Leader is to be notified immediately, and
+they will propose corrective action, which can include team reorganization, or protocol changes.
+In the event of issues arising amongst team personnel, they should first be brought to the attention of the project manager or team leader for resolution.
+Corrective action may include training, reallocation of tasks, or a discussion of expectations to ensure that team members are able to perform their roles effectively.
+It is the responsibility of all team members to report any issues promptly to ensure that they are addressed in a timely manner.
 
 ## Work
-### Project major time line
-There is one parent project, which is ProjectEagle.\
-ProjectEagle shall contain multiple sub-projects, which are the major modules that will be developed: Module 1-2, Module 3, and Module 4.
+### Project Milestones
+Establishing project milestones is crucial to ensure successful planning, development, testing, and
+deployment of the Robot Vision System using Kanban Agile methodology and Semantic Versioning.
+A realistic and feasible set of project milestones should account for each stage of the project's lifecycle and
+ensure each milestone is achieved within the specified time frame.
+There is one project that being; **developing a perception system for a cobot**.\
+This project will then have milestones to fulfill the Kanban methodology and allow for more focused goals.\
+Some examples of these milestones are as follows:
+* Mounting the camera and the information from the camera being processed.
+* System is integrated with ROS correctly.
+* Initial test build uploaded to provided hardware and tests pass.
+* Machine learning model built and has a correct analysis of area 90% of the time.
 
-ProjectEagle will have multiple Versions (Manage\Project \Version), each shall be a major milestone for development.
+The milestones should align with the Kanban board and consider all phases of the project lifecycle while factoring in possible risks and contingencies.
+GitHub's issues, pull requests, and discussions can help in tracking progress,
+identifying and resolving issues, and labelling each milestone to indicate the stage of development.
 
-Each sub-project will also have multiple version, with each major version is one iteration.
-
-To implement spiral process model,the following postfix is included into each sub-project version to indicate the stage
-* "dsg" indicating the design stage.
-* "dev" indicating the development stage.
-* "tst" indicating the testing stage.
-
-Release date of each version is the due date, scope is to be planned according to this due date.
-
-Progress of the current stage can be viewed by visiting "Road map" page.
+Regular reviews and updates of the project milestones are necessary to ensure alignment with the Kanban board and timely achievement of each milestone.
+Any changes to the milestones should be communicated and discussed with the project team using GitHub's discussions to ensure everyone is on the same page.
 
 ### Stage-dependent tasks
 Stage-dependent issues and tasks must indicate which sub-project they belong to, as well as which version\
@@ -973,10 +1028,12 @@ All documentation will be retained in repository for the duration of the project
 
 # Risk Management
 ## Purpose
-Risk management is undertaken to facilitate the creation of a product that is high quality, on time and delivers the scope specified by the client.
+Unforeseen events can and will happen during the course of this project.
+To ensure that a functional and high quality product is delivered on schedule, it is vital that risks are identified, analyzed and accounted for.
+This section involves risk categorization and listing corresponding countermeasures.
 
-## Categorisation
-For this project, risks are divided into 3 categories:
+## Categorization
+For this project three major categories of risks have been identified:
 1. Risks with respect to the work to be done.
 2. Risks with respect to the management.
 3. Risks with respect to the client.
