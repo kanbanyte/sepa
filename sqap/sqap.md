@@ -93,7 +93,7 @@ List of your Names:
 		* [Coding Standard](#coding-standard)
 		* [Documentation Formatting Standard](#documentation-formatting-standard)
 		* [Filename/Location standards](#filenamelocation-standards)
-		* [SVN standards](#svn-standards)
+		* [Software Versioning Strategy: SemVer](#software-versioning-strategy-semver)
 		* [Document Releases](#document-releases)
 	* [Practices](#practices)
 		* [Communication Practices](#communication-practices)
@@ -589,7 +589,12 @@ repos
 <div class="page"/><!-- page break -->
 
 ### Software Versioning Strategy: SemVer
-Versioning is a critical aspect of software development that helps developers and users manage changes to a project.
+
+![three-part_version_number](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Semver.jpg/330px-Semver.jpg)
+
+*<sup>Figure Source: <https://en.wikipedia.org/wiki/Software_versioning></sup>*
+
+Versioning is a critical aspect of software development that helps developers and users manage changes to a project.\
 Semantic Versioning, or SemVer for short,
 is a widely-adopted standard for versioning software projects that provides clear guidelines for how to version software releases and manage dependencies between them.
 
@@ -597,6 +602,10 @@ The SemVer standard uses a three-part version number in the format "MAJOR.MINOR.
 The MAJOR version number indicates significant changes that may introduce incompatibilities with earlier versions,
 the MINOR version number indicates new functionality added in a backwards-compatible manner, and
 the PATCH version number indicates bug fixes or minor changes that are backwards-compatible.
+
+![different_components](https://media.geeksforgeeks.org/wp-content/uploads/semver.png)
+
+*<sup>Figure Source: <https://www.geeksforgeeks.org/introduction-semantic-versioning/></sup>*
 
 In order to use SemVer effectively, it's important to follow these guidelines:
 * Increase the MAJOR version when making incompatible changes
@@ -609,86 +618,13 @@ Adherence to SemVer ensures that version numbers convey meaningful information a
 This enables developers and users to make informed decisions about which versions of a project to use and when to upgrade, and
 helps prevent compatibility issues between different versions of the same project.
 
+![release_life_cycle](https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Software_dev2.svg/360px-Software_dev2.svg.png)
+
+*<sup>Figure Source: <https://en.wikipedia.org/wiki/Software_release_life_cycle></sup>*
+
 By following the guidelines provided by the SemVer standard,
 teams can ensure that their software projects are versioned in a consistent and predictable way,
 making it easier to manage dependencies and collaborate with other teams or individuals.
-
-#### Semantic Versioning Specifications
-Software using Semantic Versioning must declare a public API.
-This API can exist strictly in documentation or be declared in the code itself.
-
-A normal version number will be written as X.Y.Z where X, Y, and Z are non-negative integers
-and do not contain leading zeroes. X is the major version, Y is the minor version, and Z is the patch version.
-Each element must increase numerically. Example: 1.4.0 -> 1.5.0 -> 1.6.0.
-
-Version 1.0.0 defines the public API.
-The way in which the version number is incremented after this is dependent on the defined public API and
-how it changes.
-
-Once a versioned package has been released, the specific contents of that version can never be modified.
-Any changes must be released as a new version.
-
-Major version zero (0.y.z) is for initial development.
-Anything in this version may change at any time.
-
-Patch version Z (x.y.Z | x > 0) \
-It must be incremented if:
-* Only backwards compatible bug fixes are introduced
-A bug fix is defined as an internal change that fixes incorrect behaviour.
-
-Minor version Y (x.Y.z | x > 0)\
-It must be incremented if:
-* New, backwards compatible functionality is introduced to the public API
-* Any public API functionality is marked as deprecated
-It may also be incremented if:
-* Substantial new functionality or improvements are introduced within the private code
-* It includes patch level changes
-Patch version must be reset to 0 when minor version is incremented.
-
-Major version X (X.y.z | X > 0) \
-It must be incremented if:
-* Any backwards incompatible changes are introduced to the public API.]
-It may also be incremented if:
-* It includes minor and patch level changes
-Patch and minor versions must be reset to 0 when the major version is incremented.
-
-A pre-release version may be denoted by adding a hyphen and 
-a series of dot separated identifiers immediately following the patch version.
-
-Identifiers must:
-* Comprise of only ASCII alphanumerics and hyphens [0-9A-Za-z-]
-
-Identifiers can not:
-* Be empty
-* Include leading zeroes
-
-A pre-release version indicates that the version is unstable and
-might not satisfy the intended compatibility requirements as denoted by its associated normal version.
-Examples: 1.0.0-alpha, 1.0.0-alpha.5, 1.0.0-x.9.z.14.
-
-Build metadata may be denoted by appending a plus sign and
-a series of dot separated identifiers immediately following the patch or pre-release version.
-These are identifiers share the same properties as the identifiers used in pre-release versions.
-Examples: 1.0.0-alpha+001, 1.0.0+111222333, 1.0.0-beta+exp.jpg.ff3355cc.
-
-Precedence refers to how versions are compared to each other when ordered.
-Precedence is calculated by separating the version into major, minor, patch and pre-release identifiers.
-Two versions that differ only by the build metadata, have the same precedence.
-Therefore, build metadata identifiers are ignored when determining precedence.
-
-To determine precedence, compare each of the identifiers by the first difference.
-Example: 1.0.0 < 2.0.0 < 2.1.0 < 2.1.1.
-
-When major, minor, and patch are equal, a pre-release version has lower precedence than a normal version:
-Example: 1.0.0-alpha < 1.0.0.
-
-Precedence for two pre-release versions with the same major, minor, and
-patch version must be determined by comparing each dot separated identifier from left to righ,
-until a difference is found as follows:
-* Identifiers consisting of only digits are compared numerically.
-* Identifiers with letters or hyphens are compared lexically in ASCII sort order.
-* Numeric identifiers always have lower precedence than non-numeric identifiers.
-* A larger set of pre-release fields has a higher precedence than a smaller set, if all of the preceding identifiers are equal
 
 ### Document Releases
 In the event that a document is released to an outside party; be it submission to the university or the client it must be:
@@ -1072,7 +1008,7 @@ If Skype meetings are deemed to be necessary, then all team members will need to
 
 ![kanban](https://www.nimblework.com/wp-content/uploads/2022/12/Simple-Kanban-Board-5-1024x628.webp)
 
-<sup>Figure Source: <https://www.nimblework.com/kanban/what-is-kanban/></sup>
+*<sup>Figure Source: <https://www.nimblework.com/kanban/what-is-kanban/></sup>*
 
 The Kanban Agile Methodology approach will prioritize collaboration, flexibility, and continuous improvement.
 The Kanban board will be used to visualize the workflow and identify bottlenecks, enabling the team to respond quickly to changes and adapt the design accordingly.
