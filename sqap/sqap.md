@@ -135,7 +135,7 @@ List of your Names:
 	* [Categorization](#categorization)
 	* [Risks With Respect To The Work To Be Done](#risks-with-respect-to-the-work-to-be-done)
 	* [Risks with respect to the management](#risks-with-respect-to-the-management)
-	* [Risks with respect to the client](#risks-with-respect-to-the-client)
+	* [Risks With Respect To The Client](#risks-with-respect-to-the-client)
 
 <!-- /TOC -->
 
@@ -1154,16 +1154,25 @@ To prevent disputes from spiralling out of control, team members should voice th
 
 <div class="page"/><!-- page break -->
 
-## Risks with respect to the client
-* Changing client requirements
-	* Probability: Moderate.
-	* Impact: Moderate, increased workload and timeline issues.
-	* PreventativeAction: Rigorous discussion of requirements plus official SRS document early in project timeline.
-* Client unavailable
-	* Probability: Moderate.
-	* Impact: Low, unavailability for questions and software releases
-	* ReductiveAction: Vital questions for client to be communicated before they become critical.
-* Client abandons project
-	* Probability: Low.
-	* Impact: High, No more work modules for the project to complete.
-	* Reductive Action: Get as many modules and requirements off the client as possible.
+## Risks With Respect To The Client
+|Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy|Contingency|
+|:-:|:-|:-:|:-:|:-|:-|
+|1|Client absence.|M|M-H|Regular discussion.|Avoid making important decisions.|
+|2|Client replaced.|L|H|None|Update project progress to new client.|
+|3|Requirement change.|M|H|None|Re-organize project plan and negotiate with client.|
+
+1. Temporary absence of project client.\
+The project client can be temporarily absent due to illness or other commitments.
+The severity level varies from moderate to high, depending on the stage of the project.\
+The client's absence will not affect the project if the team regularly communicates and keeps the clients up-to-date.
+When the client is away, the team will continue as usual, but will delay making important decisions until the client is consulted.
+2. Client is replaced.\
+The project client may leave and replaced with someone else.
+This is highly unlikely given that the client works in the Factory of the Future, when the project takes place.
+However, this risk, if materialized, will have serious ramifications on the project.\
+There is no measures to prevent this from happening, and when it does, the team can only inform the new client with the project and
+ensure that their vision is aligned with the team's.
+3. Requirement change.\
+Requirements can change as the project evolves, which can be problematic to the ongoing work and future plans.\
+The team have little influence over project requirements, but can lessen the level of impact by maintaining consistent communication with the client and
+in extreme case, negotiate the requirements.
