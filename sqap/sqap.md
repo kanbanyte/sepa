@@ -607,8 +607,7 @@ By establishing and following clear version control standards,
 the team can ensure that the project's source code is maintained in a controlled and
 organized manner, allowing for seamless collaboration and efficient development.
 
-#### Semantic Versioning Specification
-
+#### Semantic Versioning Specifications
 Software using Semantic Versioning must declare a public API.
 This API can exist strictly in documentation or be declared in the code itself.
 
