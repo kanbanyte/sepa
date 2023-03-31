@@ -114,7 +114,7 @@ List of your Names:
 	* [Work](#work)
 		* [Project major time line](#project-major-time-line)
 		* [Stage-dependent tasks](#stage-dependent-tasks)
-		* [Crossed-states tasks](#crossed-states-tasks)
+		* [Cross-Functional Tasks](#cross-functional-tasks)
 		* [Task creation](#task-creation)
 		* [Task assignment](#task-assignment)
 		* [Task life](#task-life)
@@ -830,9 +830,14 @@ Progress of the current stage can be viewed by visiting "Road map" page.
 Stage-dependent issues and tasks must indicate which sub-project they belong to, as well as which version\
 (e.g., [Module 1-2] v1.0 dsg indicating this issue belong to design phase of Module 1-2 first release).
 
-### Crossed-states tasks
-Crossed-states tasks and issues must indicate parent's version.\
-For example, documentation tasks may fall under ProjectEagle v1.0.
+### Cross-Functional Tasks
+Cross-functional tasks and issues must indicate the base version they belong to, such as Project 24 v0.1.0-a.
+This information is essential for maintaining software quality and facilitating collaboration among cross-functional teams.
+For example, tasks may fall under the scope of Project 24 v0.1.0-a and
+require collaboration among team members with expertise in different areas such as computer vision, sensors, robotics, and AI.
+To ensure successful completion of cross-functional tasks, the team will adopt an Agile methodology using Kanban board to manage the development process.
+Finally, the team will use Semantic Versioning (SemVer) for software versioning and
+GitHub for source control to ensure that code changes are properly tracked and managed.
 
 ### Task creation
 Minute taker is to convert meeting's actions to task and assign to appropriate developer.\
