@@ -117,7 +117,7 @@ List of your Names:
 		* [Stage-dependent tasks](#stage-dependent-tasks)
 		* [Cross-Functional Tasks](#cross-functional-tasks)
 		* [Task creation](#task-creation)
-		* [Task assignment](#task-assignment)
+		* [Task Assignment](#task-assignment)
 		* [Task Life](#task-life)
 		* [Issue Categories](#issue-categories)
 * [Tools and methodologies](#tools-and-methodologies)
@@ -935,8 +935,11 @@ Task creator must check for existing issue prior to creating task.
 
 <div class="page"/><!-- page break -->
 
-### Task assignment
-When a task cannot be assigned upon creation, the respective champion of the task must perform assignment within 24h of task creation.
+### Task Assignment
+Tasks will be assigned to team members based on their respective areas of expertise and availability.\
+The Development Manager will be responsible for initially assigning tasks to team members.\
+If a task cannot be assigned at the time of creation, the Development Manager will ensure that the task is assigned within 24 hours.\
+Team members who are assigned tasks are expected to provide progress updates to the Development Manager on a regular basis.
 
 ### Task Life
 Tasks would be created as **issues** on GitHub, and then moved across the Kanban board's columns as they progress through the workflow.
