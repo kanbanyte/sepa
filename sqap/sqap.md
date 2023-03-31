@@ -488,9 +488,15 @@ These standards will ensure that the project is developed in a systematic and co
 To ensure compliance with standards, the project team will identify and adopt additional guidelines relevant to the project's domain and requirements.
 
 ### Coding Standard
-The following language-specific standards are used
-* Swinburne C# and .NET Standard
-* Swinburne Java Standards (Spikes only, N/A for final coding as C# is the chosen language.)
+The software produced should follow coding standards that allow for the code to be more easily maintainable, readable, and errorless.
+Therefore, the standards will describe rules for variable naming, code formatting, commenting, and error handling, which will be enforced through code reviews.\
+Two standards in particular will need to be adhered to:
+* [Google C++ Guidelines](https://google.github.io/styleguide/cppguide.html)
+* [Google Python Guidelines](https://google.github.io/styleguide/pyguide.html)
+
+Any code not adhering to these particular standards will be corrected before deployment to maintain quality standards.
+
+Further information about coding practices can be found in the [coding practices](#coding-practices) section.
 
 <div class="page"/><!-- page break -->
 
