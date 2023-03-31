@@ -1000,7 +1000,7 @@ preventative actions aim to reduce the likelihood of risks occurring and reducti
 |6|Time shortage.|H|H|Careful and conservative planning.|Re-prioritize tasks and contact supervisor/client.|
 
 1. GitHub repository loss.\
-GitHub is a highly reliable product trusted by organizations of different scales, so the probability of a repository being loss,
+GitHub is a highly reliable product trusted by organizations of different scales, so the probability of a repository being lost,
 either because of data corruption or cybersecurity breaches are low.
 However, as the centralized storage for code and documents, its loss will severely affect the project.\
 The repository should be often copied and retained by several members to reduce this risk.
