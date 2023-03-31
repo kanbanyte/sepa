@@ -132,7 +132,7 @@ List of your Names:
 * [Risk Management](#risk-management)
 	* [Purpose](#purpose)
 	* [Categorization](#categorization)
-	* [Risks with respect to the work to be done](#risks-with-respect-to-the-work-to-be-done)
+	* [Risks With Respect To The Work To Be Done](#risks-with-respect-to-the-work-to-be-done)
 	* [Risks with respect to the management](#risks-with-respect-to-the-management)
 	* [Risks with respect to the client](#risks-with-respect-to-the-client)
 
