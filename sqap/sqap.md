@@ -814,13 +814,20 @@ Establishing project milestones is crucial to ensure successful planning, develo
 deployment of the Robot Vision System using Kanban Agile methodology and Semantic Versioning.
 A realistic and feasible set of project milestones should account for each stage of the project's lifecycle and
 ensure each milestone is achieved within the specified time frame.
+There is one project that being; **developing a perception system for a cobot**.\
+This project will then have milestones to fulfill the Kanban methodology and allow for more focused goals.\
+Some examples of these milestones are as follows:
+* Mounting the camera and the information from the camera being processed.
+* System is integrated with ROS correctly.
+* Initial test build uploaded to provided hardware and tests pass.
+* Machine learning model built and has a correct analysis of area 90% of the time.
 
 The milestones should align with the Kanban board and consider all phases of the project lifecycle while factoring in possible risks and contingencies.
-GitHub's Issues, Pull Requests, and Discussions can help in tracking progress,
-identifying and resolving issues, and labeling each milestone to indicate the stage of development.
+GitHub's issues, pull requests, and discussions can help in tracking progress,
+identifying and resolving issues, and labelling each milestone to indicate the stage of development.
 
 Regular reviews and updates of the project milestones are necessary to ensure alignment with the Kanban board and timely achievement of each milestone.
-Any changes to the milestones should be communicated and discussed with the project team using GitHub's Discussions to ensure everyone is on the same page.
+Any changes to the milestones should be communicated and discussed with the project team using GitHub's discussions to ensure everyone is on the same page.
 
 ### Stage-dependent tasks
 Stage-dependent issues and tasks must indicate which sub-project they belong to, as well as which version\
