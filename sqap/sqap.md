@@ -677,42 +677,48 @@ Or different member can be delegated the task each week on agreement of all team
 * Temporary/intermediate files are not to be committed
 
 ### Coding practices
-General guidelines
-* Strictly follow C# and .NET standards as outlined in 5.2.1
-* Keep the code simple, avoid using unnecessary "clever" code.
-* All source files must use the standard header template
-* All methods, fields and properties must have comments that follows the official standard in 5.2.1,
-inherited class only requires comment if behaviors differ greatly from that outlines by its parent classes
-* Public properties are acceptable, however default setters are discouraged, and guards should be used in writing setters.
-* Development must be in-line with architectural design, in order to ensure transparency in code.
-* Once a week meetings (15 minutes) to report progress/difficulties in development, could be con-ducted after weekly team meeting.\
-The aim is to ensure problems are known early and progress are understood by the whole team.
+This section includes coding guidelines.
+Any rule mentioned in this documents will override third-party guidelines.
+
+C++:
+* Follow [the Google C++ Guideline](https://google.github.io/styleguide/cppguide.html).
+* Always use Java-style indentations, regardless of number of lines.
+* For `.cpp` files, place `#include` directives in the following order:
+	1. Header file whose declarations are defined in the current file.
+	2. Standard library header files.
+	3. Third-party library header files.
+	4. Other header files in the project.
+
+Python:
+* Follow [the Google Python guideline](https://google.github.io/styleguide/pyguide.html).
+
+Shared:
+* Public interfaces (functions, variables, constants, class names, etc.) must be fully documented.
+* All classes must belong in separate files unless they are nested.
+* All rules in the [project structure section](#guidelines-on-project-structure) and [namespace section](#guideline-on-naming-and-namespaces).
 
 <div class="page"/><!-- page break -->
 
 #### Guidelines on project structure
-There shall be only one Windows Form Application project for a particular module, it shall be the only User Interface project.
-
-All major components (ReportGenerator,DatabaseIOetc.) are to be implemented byC# libraries.
-
-User interface is to be implemented by native .NET form creator to ease future development, XML-based interface design is discouraged.
-
-There shall be a library project called `EagleStaticCommon` which contains helper or data components that are used by all other components.\
-To avoid breaking the layered architecture, `EagleStaticCommon` shall only contain static functions and properties.\
-However the decision of putting a component in `EagleStaticCommon` must be considered carefully to avoid overcrowding, which lead to confusion.
-
-#### Guideline on components design
-Each component design must be justified by thorough analysis into quality requirements of the component, applied design patterns or tactics.
-
-It is recommended that to the very least, a component design should incorporate and separate the following component into directories in the library:
-* Interface: include all abstract classes and interfaces
-* Enumeration: all enumerations
-* EventArgs: all subclasses of EventArgs if any
-* Structures: all data structures if any
-* Contracts: contract classes if any
+* Source files are placed in `src/`
+* Tests are placed in `tests/`
+* Documentation are placed in `documentation/`
 
 #### Guideline on naming and namespaces
-Appropriate namespaces will be automatically created by Visual Studio if folder structure is set up in the project.
+C++:
+* All code must be placed in a namespace.
+* Use `PascalCase` for templates, namespaces, enum names, enum values and class names.
+* Use `SCREAMING_SNAKE_CASE` for constants.
+* Use `snake_case` for functions, local variables, function parameters and member fields.
+* Prefix private, non-constant member fields with underscore `_` instead of using the `this` pointer unless required.
+* Avoid the [the Hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation).
+* Prefer `using foo::bar` over `using namespace foo`.
+
+Python:
+* Use `PascalCase` for classes and errors.
+* Use `snake_case` for functions, local variables, function parameters, member fields.
+* Prefix private, non-constant member fields with underscore `_`
+(Python does not support private variables but this should rule should be adhered to where possible for communication purposes).
 
 <div class="page"/><!-- page break -->
 
