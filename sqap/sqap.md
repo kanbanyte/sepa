@@ -864,18 +864,20 @@ Therefore, the theoretical output of the system should be that it can identify a
 
 
 ## Installation and User Documentation Generation
-The releases will be an in the form of an executable and a set of .dll files that will be provided to the client.\
-There is no installation as such,the user simply runs the executable.\
-All input and output files will be located as part of the GUI.
+Effective Installation and User Documentation is an essential part of software development as it ensures that users can easily install, configure and use the software.
 
-The client will also be supplied with a comprehensive user document that details the GUI and should have some examples of how to use it.\
-The client will also be supplied documentation of the code and the design documents.\
-This is to assist with maintainability and use for future projects.
+To achieve this, the project should include comprehensive and easy-to-follow installation instructions and user manuals for the vision or sensing system.
+The documentation should be written in clear and concise language, and include relevant screenshots and diagrams to aid the users.
+Additionally, the installation process should be rigorously tested to ensure that it is error-free and robust, and
+the user documentation should be updated regularly to reflect changes in the software.
 
-Once code has been finalised, and testing is completed, they will be supplied with all of the source code and a final build of the software.
-* Tailored for a particular module, tests will be outlined within the module plans.
-* Modules will be tested against a set of defined use-cases as agreed by client.
-* Testing will consist of both black and white box testing.
+Our software solution doesn't require installation, the executable is run at time of operation.
+All input and output files will be incorporated as part of the GUI.
+
+The client will be given a full user guide that will outline how to interact with the GUI.
+This document will give the client and user examples of how the software solution works and how it is to be used.
+The code and the design documents' documentation will also be sent to the client.
+These documents will allow the client to successfully maintain and implement our software solution in future projects.
 
 <div class="page"/><!-- page break -->
 
