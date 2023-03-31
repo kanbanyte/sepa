@@ -588,24 +588,30 @@ repos
 
 <div class="page"/><!-- page break -->
 
-### SVN standards
-Version control is a crucial aspect of software development and
-enables teams to manage changes to the source code effectively.
-The SVN (Subversion) standard provides guidelines for version control and
-management of source code, allowing developers to track changes and 
-revert to earlier versions if necessary.
-Adherence to SVN standards ensures consistency and facilitates collaboration among team members.
+### Software Versioning Strategy: SemVer
+Versioning is a critical aspect of software development that helps developers and users manage changes to a project.
+Semantic Versioning, or SemVer for short,
+is a widely-adopted standard for versioning software projects that provides clear guidelines for how to version software releases and manage dependencies between them.
 
-In order to establish a well-defined SVN workflow, the team should consider the following:
+The SemVer standard uses a three-part version number in the format "MAJOR.MINOR.PATCH" to convey information about changes to the software.
+The MAJOR version number indicates significant changes that may introduce incompatibilities with earlier versions,
+the MINOR version number indicates new functionality added in a backwards-compatible manner, and
+the PATCH version number indicates bug fixes or minor changes that are backwards-compatible.
 
-* Guidelines for committing, branching, merging, and tagging code changes
-* Procedures for resolving conflicts and addressing issues that arise during version control
-* Protocols for managing access to the code repository, including permissions and authentication
-* Policies for backup and disaster recovery of the code repository
+In order to use SemVer effectively, it's important to follow these guidelines:
+* Increase the MAJOR version when making incompatible changes
+* Increase the MINOR version when adding new functionality in a backwards-compatible manner
+* Increase the PATCH version when making backwards-compatible bug fixes or other minor changes
+* Use pre-release version numbers (such as 1.0.0-alpha) to indicate that a version is not yet stable or complete
+* Use build metadata (such as 1.0.0+build.1) to indicate additional build information without changing the version semantics
 
-By establishing and following clear version control standards, 
-the team can ensure that the project's source code is maintained in a controlled and
-organized manner, allowing for seamless collaboration and efficient development.
+Adherence to SemVer ensures that version numbers convey meaningful information about the state of the software and the nature of changes between releases.
+This enables developers and users to make informed decisions about which versions of a project to use and when to upgrade, and
+helps prevent compatibility issues between different versions of the same project.
+
+By following the guidelines provided by the SemVer standard,
+teams can ensure that their software projects are versioned in a consistent and predictable way,
+making it easier to manage dependencies and collaborate with other teams or individuals.
 
 #### Semantic Versioning Specifications
 Software using Semantic Versioning must declare a public API.
