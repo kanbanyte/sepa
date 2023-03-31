@@ -1038,12 +1038,12 @@ For this project three major categories of risks have been identified:
 2. Risks with respect to the management.
 3. Risks with respect to the client.
 
-In the following sections each of these categories have their major risks identified.\
-For each risk, a description, a probability to occur, its impact and the preventative/(reductive) action associated are given.
+In the following sections each of these categories have their major risks identified.
+For each risk, a description, a probability of occurrence, its level of impact, mitigation strategy and contingency plan are given.
 
-Both the probability of a risk occurring and the impact of a risk if it does occur have been quantified as being low, moderate or high.\
-Actions have been categorized as preventative and reductive;
-preventative actions aim to reduce the likelihood of risks occurring and reductive actions reduce the impact of risks if they do occur.
+Both the probability of a risk occurring and its effect are quantified as being low, moderate or high.
+Risks are managed with a mitigation strategy and a contingency plan.
+The mitigation strategy is designed to reduce the likelihood of risks occurring and the contingency plan is used to minimize the impact of materialized risks.
 
 <div class="page"/><!-- page break -->
 
