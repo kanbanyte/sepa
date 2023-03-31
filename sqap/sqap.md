@@ -589,27 +589,101 @@ repos
 <div class="page"/><!-- page break -->
 
 ### SVN standards
-* All Commits to the SVN are required to have a corresponding message, which follows the following standard:\
-[Mantis Issue ID] file .ext - Sect ion/Module - List of Changes (brief and concise).
+Version control is a crucial aspect of software development and
+enables teams to manage changes to the source code effectively.
+The SVN (Subversion) standard provides guidelines for version control and
+management of source code, allowing developers to track changes and 
+revert to earlier versions if necessary.
+Adherence to SVN standards ensures consistency and facilitates collaboration among team members.
 
-In the event that sections are not relevant the fields are still included but left blank.\
-i.e., [] file.ext\
---committed the new file
-* Ensure files to be committed are not currently open in their respective editors.
+In order to establish a well-defined SVN workflow, the team should consider the following:
 
-#### Branching Standard
-This SVN will utilise the Branch-When-Needed system.\
-Users commit their day-to-day work on `/trunk`.
-1. `/trunk` must compile and pass regression tests at all times.
-2. A single commit (change-set) must not be so large so as to discourage peer-review.
-3. If rules 1 and 2 come into conflict (i.e., it's impossible to make a series of small commits without disrupting the trunk),
-then the user should create a branch and commit a series of smaller change-sets there.\
-This allows peer-review without disrupting the stability of `/trunk`.
+* Guidelines for committing, branching, merging, and tagging code changes
+* Procedures for resolving conflicts and addressing issues that arise during version control
+* Protocols for managing access to the code repository, including permissions and authentication
+* Policies for backup and disaster recovery of the code repository
 
-Pros: `/trunk` is guaranteed to be stable at all times.\
-The hassle of branching/merging is somewhat rare.
+By establishing and following clear version control standards, 
+the team can ensure that the project's source code is maintained in a controlled and
+organized manner, allowing for seamless collaboration and efficient development.
 
-Cons: Adds a bit of burden to users' daily work: they must compile and test before every commit.
+#### Semantic Versioning Specification
+
+Software using Semantic Versioning must declare a public API.
+This API can exist strictly in documentation or be declared in the code itself.
+
+A normal version number will be written as X.Y.Z where X, Y, and Z are non-negative integers
+and do not contain leading zeroes. X is the major version, Y is the minor version, and Z is the patch version.
+Each element must increase numerically. Example: 1.4.0 -> 1.5.0 -> 1.6.0.
+
+Version 1.0.0 defines the public API.
+The way in which the version number is incremented after this is dependent on the defined public API and
+how it changes.
+
+Once a versioned package has been released, the specific contents of that version can never be modified.
+Any changes must be released as a new version.
+
+Major version zero (0.y.z) is for initial development.
+Anything in this version may change at any time.
+
+Patch version Z (x.y.Z | x > 0) \
+It must be incremented if:
+* Only backwards compatible bug fixes are introduced
+A bug fix is defined as an internal change that fixes incorrect behaviour.
+
+Minor version Y (x.Y.z | x > 0)\
+It must be incremented if:
+* New, backwards compatible functionality is introduced to the public API
+* Any public API functionality is marked as deprecated
+It may also be incremented if:
+* Substantial new functionality or improvements are introduced within the private code
+* It includes patch level changes
+Patch version must be reset to 0 when minor version is incremented.
+
+Major version X (X.y.z | X > 0) \
+It must be incremented if:
+* Any backwards incompatible changes are introduced to the public API.]
+It may also be incremented if:
+* It includes minor and patch level changes
+Patch and minor versions must be reset to 0 when the major version is incremented.
+
+A pre-release version may be denoted by adding a hyphen and 
+a series of dot separated identifiers immediately following the patch version.
+
+Identifiers must:
+* Comprise of only ASCII alphanumerics and hyphens [0-9A-Za-z-]
+
+Identifiers can not:
+* Be empty
+* Include leading zeroes
+
+A pre-release version indicates that the version is unstable and
+might not satisfy the intended compatibility requirements as denoted by its associated normal version.
+Examples: 1.0.0-alpha, 1.0.0-alpha.5, 1.0.0-x.9.z.14.
+
+Build metadata may be denoted by appending a plus sign and
+a series of dot separated identifiers immediately following the patch or pre-release version.
+These are identifiers share the same properties as the identifiers used in pre-release versions.
+Examples: 1.0.0-alpha+001, 1.0.0+111222333, 1.0.0-beta+exp.jpg.ff3355cc.
+
+Precedence refers to how versions are compared to each other when ordered.
+Precedence is calculated by separating the version into major, minor, patch and pre-release identifiers.
+Two versions that differ only by the build metadata, have the same precedence.
+Therefore, build metadata identifiers are ignored when determining precedence.
+
+To determine precedence, compare each of the identifiers by the first difference.
+Example: 1.0.0 < 2.0.0 < 2.1.0 < 2.1.1.
+
+When major, minor, and patch are equal, a pre-release version has lower precedence than a normal version:
+Example: 1.0.0-alpha < 1.0.0.
+
+Precedence for two pre-release versions with the same major, minor, and
+patch version must be determined by comparing each dot separated identifier from left to righ,
+until a difference is found as follows:
+* Identifiers consisting of only digits are compared numerically.
+* Identifiers with letters or hyphens are compared lexically in ASCII sort order.
+* Numeric identifiers always have lower precedence than non-numeric identifiers.
+* A larger set of pre-release fields has a higher precedence than a smaller set, if all of the preceding identifiers are equal
 
 ### Document Releases
 In the event that a document is released to an outside party; be it submission to the university or the client it must be:
