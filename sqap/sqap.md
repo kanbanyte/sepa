@@ -135,7 +135,7 @@ List of your Names:
 	* [Categorization](#categorization)
 	* [Risks with respect to the work to be done](#risks-with-respect-to-the-work-to-be-done)
 	* [Risks with respect to the management](#risks-with-respect-to-the-management)
-	* [Risks with respect to the client](#risks-with-respect-to-the-client)
+	* [Risks With Respect To The Client](#risks-with-respect-to-the-client)
 
 <!-- /TOC -->
 
