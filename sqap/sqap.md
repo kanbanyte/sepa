@@ -311,14 +311,14 @@ The will coordinate other managers to be able to meet requirements and deadlines
 The team members involved have several key responsibilities.
 
 These responsibilities include:
-* Understanding the overall project requirements
+* Understanding the overall project requirements.
 * Creating:
-	* an architectural design that meets those requirements
-	* a detailed design that defines the components and interactions of the software
+	* an architectural design that meets those requirements.
+	* a detailed design that defines the components and interactions of the software.
 * Ensuring that the design is:
-	* of high quality and adheres to the project's coding standards
+	* of high quality and adheres to the project's coding standards.
 	* testable, and that it meets the project's functional and non-functional requirements.
-* All team members must maintain accountability of tasks they are responsible for and ensuring that others members are also held accountable for their responsibilities.
+* All team members must maintain accountability of tasks they're responsible for and ensuring that others members are also held accountable for their responsibilities.
 * Each team member is responsible for communicating any issues that may hinder their input into the project and are encouraged to ask for help when needed.
 
 ### Champions
