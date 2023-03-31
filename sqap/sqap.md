@@ -113,7 +113,7 @@ List of your Names:
 * [Problem Reporting and Corrective Action](#problem-reporting-and-corrective-action)
 	* [Personnel](#personnel)
 	* [Work](#work)
-		* [Project major time line](#project-major-time-line)
+		* [Project Milestones](#project-milestones)
 		* [Stage-dependent tasks](#stage-dependent-tasks)
 		* [Crossed-states tasks](#crossed-states-tasks)
 		* [Task creation](#task-creation)
@@ -877,22 +877,25 @@ Corrective action may include training, reallocation of tasks, or a discussion o
 It is the responsibility of all team members to report any issues promptly to ensure that they are addressed in a timely manner.
 
 ## Work
-### Project major time line
-There is one parent project, which is ProjectEagle.\
-ProjectEagle shall contain multiple sub-projects, which are the major modules that will be developed: Module 1-2, Module 3, and Module 4.
+### Project Milestones
+Establishing project milestones is crucial to ensure successful planning, development, testing, and
+deployment of the Robot Vision System using Kanban Agile methodology and Semantic Versioning.
+A realistic and feasible set of project milestones should account for each stage of the project's lifecycle and
+ensure each milestone is achieved within the specified time frame.
+There is one project that being; **developing a perception system for a cobot**.\
+This project will then have milestones to fulfill the Kanban methodology and allow for more focused goals.\
+Some examples of these milestones are as follows:
+* Mounting the camera and the information from the camera being processed.
+* System is integrated with ROS correctly.
+* Initial test build uploaded to provided hardware and tests pass.
+* Machine learning model built and has a correct analysis of area 90% of the time.
 
-ProjectEagle will have multiple Versions (Manage\Project \Version), each shall be a major milestone for development.
+The milestones should align with the Kanban board and consider all phases of the project lifecycle while factoring in possible risks and contingencies.
+GitHub's issues, pull requests, and discussions can help in tracking progress,
+identifying and resolving issues, and labelling each milestone to indicate the stage of development.
 
-Each sub-project will also have multiple version, with each major version is one iteration.
-
-To implement spiral process model,the following postfix is included into each sub-project version to indicate the stage
-* "dsg" indicating the design stage.
-* "dev" indicating the development stage.
-* "tst" indicating the testing stage.
-
-Release date of each version is the due date, scope is to be planned according to this due date.
-
-Progress of the current stage can be viewed by visiting "Road map" page.
+Regular reviews and updates of the project milestones are necessary to ensure alignment with the Kanban board and timely achievement of each milestone.
+Any changes to the milestones should be communicated and discussed with the project team using GitHub's discussions to ensure everyone is on the same page.
 
 ### Stage-dependent tasks
 Stage-dependent issues and tasks must indicate which sub-project they belong to, as well as which version\
