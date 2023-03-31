@@ -494,6 +494,7 @@ Two standards in particular will need to be adhered to:
 * [Google C++ Guidelines](https://google.github.io/styleguide/cppguide.html)
 * [Google Python Guidelines](https://google.github.io/styleguide/pyguide.html)
 
+These standards were chosen because they are very comprehensive and allow for a high-quality production of code, thus making it easier to understand and maintain.
 Any code not adhering to these particular standards will be corrected before deployment to maintain quality standards.
 
 Further information about coding practices can be found in the [coding practices](#coding-practices) section.
