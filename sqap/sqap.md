@@ -831,10 +831,11 @@ Stage-dependent issues and tasks must indicate which sub-project they belong to,
 (e.g., [Module 1-2] v1.0 dsg indicating this issue belong to design phase of Module 1-2 first release).
 
 ### Cross-Functional Tasks
-Cross-functional tasks and issues must indicate the base version they belong to, such as Project 24 v0.1.0-a.
-This information is essential for maintaining software quality and facilitating collaboration among cross-functional teams.
-For example, tasks may fall under the scope of Project 24 v0.1.0-a and
+Cross-functional tasks and issues must indicate the base version they belong to, such as **Project 24 v0.1.0-a**.\
+This information is essential for maintaining software quality and facilitating collaboration among cross-functional teams.\
+For example, tasks may fall under the scope of **Project 24 v0.1.0-a** and
 require collaboration among team members with expertise in different areas such as computer vision, sensors, robotics, and AI.
+
 To ensure successful completion of cross-functional tasks, the team will adopt an Agile methodology using Kanban board to manage the development process.
 Finally, the team will use Semantic Versioning (SemVer) for software versioning and
 GitHub for source control to ensure that code changes are properly tracked and managed.
