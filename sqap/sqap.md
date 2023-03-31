@@ -785,22 +785,18 @@ but ultimately the client will be responsible for communication specific uses of
 ## Installation and User Documentation Generation
 Effective Installation and User Documentation is an essential part of software development as it ensures that users can easily install, configure and use the software.
 
-To achieve this, the project should include comprehensive and easy-to-follow installation instructions
-and user manuals for the vision or sensing system.
-The documentation should be written in clear and concise language,
-and include relevant screenshots and diagrams to aid the users.
-Additionally, the installation process should be rigorously tested to ensure that it is error-free and robust,
-and the user documentation should be updated regularly to reflect changes in the software.
+To achieve this, the project should include comprehensive and easy-to-follow installation instructions and user manuals for the vision or sensing system.
+The documentation should be written in clear and concise language, and include relevant screenshots and diagrams to aid the users.
+Additionally, the installation process should be rigorously tested to ensure that it is error-free and robust, and
+the user documentation should be updated regularly to reflect changes in the software.
 
 Our software solution doesn't require installation, the executable is run at time of operation.
 All input and output files will be incorporated as part of the GUI.
 
-The client will be given a full user guide that will outline how to interact with the GUI. 
-This document will give the client and user examples of how the software solution works and
-how it is to be used. 
+The client will be given a full user guide that will outline how to interact with the GUI.
+This document will give the client and user examples of how the software solution works and how it is to be used.
 The code and the design documents' documentation will also be sent to the client.
-These documents will allow the client to successfully maintain and
-implement our software solution in future projects.
+These documents will allow the client to successfully maintain and implement our software solution in future projects.
 
 <div class="page"/><!-- page break -->
 
