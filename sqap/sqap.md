@@ -115,7 +115,7 @@ List of your Names:
 		* [Project major time line](#project-major-time-line)
 		* [Stage-dependent tasks](#stage-dependent-tasks)
 		* [Crossed-states tasks](#crossed-states-tasks)
-		* [Task creation](#task-creation)
+		* [Task Creation](#task-creation)
 		* [Task assignment](#task-assignment)
 		* [Task life](#task-life)
 		* [Issue Categories](#issue-categories)
@@ -834,11 +834,15 @@ Stage-dependent issues and tasks must indicate which sub-project they belong to,
 Crossed-states tasks and issues must indicate parent's version.\
 For example, documentation tasks may fall under ProjectEagle v1.0.
 
-### Task creation
-Minute taker is to convert meeting's actions to task and assign to appropriate developer.\
-Developer is responsible to divide the task logically into smaller tasks if necessary.\
-Team member would also create task as appropriate: for bug reporting or planning.\
-Task creator must check for existing issue prior to creating task.
+### Task Creation
+Task creation involves several steps to ensure proper documentation and tracking throughout the development process.\
+Requirements for pick and place tasks are analysed to identify specific system needs.
+
+The team creates a design specification outlining how system components work together.\
+Tasks are assigned to team members based on priority, and progress is monitored daily.
+
+Issues and bugs are tracked using GitHub and resolved by the appropriate team member.\
+Following these guidelines ensures proper task tracking, documentation, and software quality throughout development.
 
 <div class="page"/><!-- page break -->
 
