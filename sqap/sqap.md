@@ -1119,7 +1119,7 @@ To prevent disputes from spiralling out of control, team members should voice th
 
 <div class="page"/><!-- page break -->
 
-## Risks with respect to the client
+## Risks With Respect To The Client
 |Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy|Contingency|
 |:-:|:-|:-:|:-:|:-|:-|
 |1|Client absence.|M|M-H|Regular discussion.|Avoid making important decisions.|
