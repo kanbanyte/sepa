@@ -619,13 +619,14 @@ The hassle of branching/merging is somewhat rare.
 Cons: Adds a bit of burden to users' daily work: they must compile and test before every commit.
 
 ### Document Releases
-In the event that a document is released to an outside party; be it submission to the university or the client it must be:
-* Converted into a static format such as a pdf
-* Appropriately renamed with a revision number
-* Moved to a release folder within its current folder
-
-Each release will be named as follows: filename rxxx, where xxx is a number.\
-The first release will be 100 and each additional release will be incremented by 10 i.e., filename r100 will be followed by filename r110.
+If the need arises that a document is required for a University submission or by the client,
+a systematic approach will be taken towards the development of documents within the team.
+The following practices will ensure that quality control is maintained by all participants:
+* Document generation and collaborative work will take place primarily on Github.
+* Team members will all work collaboratively to assign themselves and others task and sections of documents to work on.
+* Team members will ensure that fellow members are happy with their work by using Github features such as pull requests and issues to verify.
+* Once all sections have been completed by all participants, the report will be export to .pdf format for submission.
+* The final results is to be validated by all team members before submission to ensure that mistake are minimal and all required information is covered.
 
 <div class="page"/><!-- page break -->
 
