@@ -542,7 +542,7 @@ Where possible, all text documents will be written in LaTeX to ensure they are e
 * Presentations should be done using the LaTeX beamer package.\
 The Warsaw theme should also be used to ensure visual consistency.
 
-### Filename/Location standards
+### Filename/Location Standards
 * Management documents will be contained in their own folder in case more are added or needed.
 * All folder names will be in lowercase.
 * Whitespace will not exist in folder names, using `_` instead.
