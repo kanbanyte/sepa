@@ -77,11 +77,12 @@ List of your Names:
 		* [Champions](#champions)
 * [Documentation](#documentation)
 	* [Software Documents](#software-documents)
-		* [SQAP](#sqap)
-		* [SRS](#srs)
 		* [Project Plan](#project-plan)
-		* [Module Plan](#module-plan)
-		* [Self-assessment reports](#self-assessment-reports)
+		* [Software Quality Assurance Plan SQAP](#software-quality-assurance-plan-sqap)
+		* [Code Documentation](#code-documentation)
+		* [Self-Assessment Reports](#self-assessment-reports)
+		* [Software/System Requirements Specification SRS](#softwaresystem-requirements-specification-srs)
+		* [System Architecture Design and Research Report SADRR](#system-architecture-design-and-research-report-sadrr)
 		* [Audit Report](#audit-report)
 	* [Management Documents](#management-documents)
 		* [Meeting Agendas](#meeting-agendas)
@@ -378,58 +379,73 @@ as well as distribution of the test results supplied by the client to the team (
 
 # Documentation
 ## Software Documents
-### SQAP
-TheSQAP is a plan written before any development that outlines all standard practices and
-procedures to ensure a quality process therefore help produce a high quality product.
-
-### SRS
-A Software Requirements Specification will be developed to describe the behaviour of the proposed DMS as derived from client requirements.\
-The SRS will be based on the IEEE 830 standard, but will be modified to make it appropriate for our project.\
-A general outline of the document is as follows:
-1. Introduction
-	1. Purpose - Outline of the SRS
-	2. Scope - What the DMS is, what it will do and its application
-	3. Definitions, acronyms, and abbreviations
-	4. References
-	5. Overview
-2. Overall description
-	1. Product perspective - How the product works with other tools, i.e., dataflow
-	2. Product functions
-	3. User characteristics - Who will use the product, what training will they get
-	4. Constraints
-	5. Assumptions and dependencies
-3. Specific requirements
+This section will provide an overview of the various software documents that will be created to ensure that the software architecture and
+design are thoroughly documented and therefore highly intelligible.
 
 ### Project Plan
-A document to guide the building of the product.\
-It will include a brief description of the project and why it should be built,
-what needs to be done to build the software and a timeline for when modules should be complete.
+This document will give a general outline of the project direction, including:
+* Overview of the project description and background information.
+* Details about the client, stakeholders, and other involved individuals.
+* Objectives of the project.
+* Acceptable standards and required skills necessary for completion.
+* Project deliverables.
+* Required research.
+* Design, implementation, and testing.
+* Risks associated with the project.
+* Schedule and time line.
 
-As more modules are mapped and more details are known about each item, the project plan is to be updated.\
-It should also contain milestones where applicable and deliverable dates.
+### Software Quality Assurance Plan (SQAP)
+The SQAP is a document that describes the measures to be taken to ensure the maximisation of the quality of the project deliverables.\
+This document will contain:
+* The purpose of the document.
+* The various roles required to successfully complete the project.
+* Tasks and responsibilities of each member and role.
+* Outline of the documentation that will be produced.
+* Standards and practices that will be followed.
+* Information about reviews and audits.
+* Testing information.
+* How problem reporting and corrective action will be taken.
+* Tools and methodologies that will be used.
+* Record collection and maintenance.
+* Risk management.
 
-### Module Plan
-Module plan is to be developed following requirement analysis phase of each iteration of the software life-cycle.
+### Code Documentation
+Code documentation will contain the following:
+* Description of the various created modules.
+* Description of functions and classes and how to utilise them in code.
+* Interdependency of each module or dependencies on external modules.
 
-Module plan contains:
-* Module scope
-* Design solution for module
-* Work division
-* Timeline of artifacts and testing
+### Self-Assessment Reports
+These reports will be introspective documents reporting on how each member thought each other performed, which will contain:
+* A review of the client.
+* Categories regarding metrics such as quantity and quality of work, communication, etc.
 
-### Self-assessment reports
-A self-assessment report is to be completed by each team member each as per the unit outline that will provide evidence of work completed and self reflection.\
-It will document knowledge and experience that has been gained during the process.
+### Software/System Requirements Specification (SRS)
+The SRS will describe the requirements of the software/system that will be developed.
+It will include:
+* Purpose of the document.
+* Overall description of the system that is to be developed.
+* Features of the software.
+* System requirements such as hardware requirements.
+* Acceptance Criteria for the software.
+* Documentation to be delivered.
+* Functional requirements of the software.
+* Quality requirements.
+* Interface requirements such as user interfaces, and hardware/software interfaces.
 
-This document should contain the following sections:
-* Summary
-* Work completed
-* Mistakes made
-* Knowledge gained
-* Evidence
+### System Architecture Design and Research Report (SADRR)
+This document will give information about the overall system architecture and design, as well as additional research into the project.
+Contained within this document will be:
+* Overview of the document.
+* Problem analysis which will outline the goals of the software systen and any assumptions and simplifications.
+* High-level system architecture and alternatives
+* Additional research
+	* Research into the application domain
+	* Research into the system design
+	* Research into platforms, languages, and tools
 
 ### Audit Report
-Audits, whenther carried out internally or externally, must produce a document.\
+Audits, whether carried out internally or externally, must produce a document.\
 Anything that is found that doesn't follow the processes outlined in the SQAP will result in corrective actions.
 Audit reports should assess the projects scalability, maintainability and suitability.
 Additionally an evaluation of the design documents should be carried out during an audit.
