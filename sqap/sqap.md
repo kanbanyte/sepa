@@ -323,56 +323,34 @@ These responsibilities include:
 
 ### Champions
 #### Team Leader
-* Responsible for the running of weekly team meetings.
-* Responsible for the booking of weekly meeting room.
-* Responsible for maintaining administrative documentation.
-* Responsible for motivating and tracking team progress.
-* Responsible for monitoring work logs and time spent on project.
-* Responsible for being a point of contact for issues/resolution.
-* Responsible for liaising with supervisor
+* Must ensure that all team members are keeping up to date with work and tasking.
+* Responsible for organising and holding meetings with supervisor, client or team members.
+* Will be the point of contact for any inter-personal issues that may arise.
 
 #### Client Liaison
-* This champion is directly responsible for all communications with the client.
-* Correspondence from team members must be relayed to/from client in a timely manner via client liaison.
-* Minor/non-urgent communications are to be collated to avoid bombarding client.
-* Any compiled versions that need to be tested will be sent via the liaison.
-* Liaison is responsible for ensuring client receives all relevant information for a test,
-as well as distribution of the test results supplied by the client to the team (bidirectional communication).
-
-#### Usability and Graphical User Interface (GUI)
-* Responsible for ensuring team members take usability into account during development.
-* Responsible for ensuring consistency of GUI
-* Responsible for ensuring that performance does not negatively impact usability.
+* Is responsible for maintaining contact with client and ensuring the client is up to date with the progress of the project.
+* Must ensure that any communication with client is mindful and respectful.
+* Will be the point of contact if any team member or the client needs to communicate with each other.
 
 #### Documentation
-* Responsible for creating and maintaining document templates.
-* Maintaining quality and standards of documents.
-* Responsible for providing assistance with documentation issues.
-* Responsible for maintaining documentation tools.
+* Must ensure that documentation is completed by all developers and maintains certain standards.
+* Must be able to provide assistance should any team member requires it.
 
 #### Code
-* Responsible for quality control of code artifacts.
-* Responsible for tracking code progress
-* In charge of organising developer meetings to discuss progress and address any difficulties or concerns.
-* In charge of ensuring appropriate workload is assigned for each developer.
-* In charge of ensuring standards and best practices are met and followed, respectively, during the development process.
+* Must ensure that all code follows standards and practices set out at the beginning of development.
+* Responsible for delegating coding tasks and workloads.
+* Must ensure that code is being developed at an appropriate pace to ensure targets are met.
 
-#### SVN
-* Creating and maintaining repository.
-* Monitoring commit messages.
-* Maintaining file structure and location standards.
-* Providing assistance with branching and merging.
+#### Semantic Versioning
+* Must ensure that all released versions follow label accordingly following standards and principles.
+* Must ensure that all team members work aligns with the next planned version release.
+* Will be able to provide assistance should any team member require it.
 
-#### Mantis
-* Creating and maintaining Mantis
-* Closing out resolved issue
-* Monitoring progress of members with issues/tasks
 
 #### Testing
-* Completing or delegating running of tests
-* Reporting results of tests to team and on SVN
-* Building test documents
-* Encouraging testing within the team and compile results
+* Must ensure that all testing tasks are delegated appropriately.
+* Must ensure that all testing ensures that the results satisfy requirements of the project.
+* Responsible for making all team members aware of the results of testing.
 
 <div class="page"/><!-- page break -->
 
