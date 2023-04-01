@@ -107,7 +107,7 @@ List of your Names:
 	* [Tools](#tools)
 		* [Markdown](#markdown)
 		* [GitHub](#github)
-		* [SVN](#svn)
+		* [SemVer](#semver)
 		* [VS Code](#vs-code)
 		* [Virtual Machine](#virtual-machine)
 		* [Discord](#discord)
@@ -887,9 +887,10 @@ GitHub can be used as an issue tracking tool, providing a user-friendly and feat
 By utilizing GitHub for issue tracking,
 team members can easily collaborate and communicate on project issues, leading to more efficient and effective issue resolution.
 
-### SVN
-All commit and updates by team members shall be done through TortoiseSVN or SmartSVN client to avoid potential problems.\
-Both programs have been tested to work, so it is up to the individual to choose which program they prefer.
+### SemVer
+All versioning updates by team members shall follow Semantic Versioning (SemVer) principles to avoid potential issues.\
+By adhering to SemVer, team members can ensure that software versioning is consistent and understandable across the entire team.\
+It is up to each individual to familiarize themselves with SemVer principles and incorporate them into their versioning workflow.
 
 ### VS Code
 VS Code (Visual Studio Code) is the recommended code editor for the project, providing powerful debugging tools, built-in Git support, and a wide range of extensions.
