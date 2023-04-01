@@ -1019,9 +1019,15 @@ provides a simple to use and feature-rich platform to track issues,progress and 
 All commit and updates by team members shall be done through TortoiseSVN or SmartSVN client to avoid potential problems.\
 Both programs have been tested to work, so it is up to the individual to choose which program they prefer.
 
-### Visual Studio
-VisualStudio2010 (available via MSDNAcademicAlliance in association with Swinburne FICT faculty) is selected as the standard C# development environment.\
-It provides state-of-the-art development tool as well as supporting client's .NET 2.0 standard environment.
+### IDEs
+
+In the development of software you need something to create and modify code files, below will be a select few of some possible ones for the project.
+
+#### Visual studio 2019/2022
+A development environment made by microsoft Visual studio is a powerful IDE specialised in C type language development.
+With extensive support for C, C++ and C# it is the ideal and recommended solution to software development in C type languages.\
+Visual studio also provides tools for developing other languages,
+ however they are lacking in as extensive features as the languages described above and other options should be sought out
 
 ### Virtual Machine
 All development will be done on a virtual machine with a Windows XP 32bit image provided by the client.\
