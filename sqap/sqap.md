@@ -348,7 +348,7 @@ These responsibilities include:
 
 
 #### Testing
-* Must ensure that all testing tasks are delegates appropriately.
+* Must ensure that all testing tasks are delegated appropriately.
 * Must ensure that all testing ensures that the results satisfy requirements of the project.
 * Responsible for making all team members aware of the results of testing.
 
