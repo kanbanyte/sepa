@@ -546,10 +546,10 @@ The Warsaw theme should also be used to ensure visual consistency.
 * Management documents will be contained in their own folder in case more are added or needed.
 * All folder names will be in lowercase.
 * Whitespace will not exist in folder names, using `_` instead.
-* A README.md will be kept in the main folder and act as a guide to the software.
+* A Markdown document will be kept in the main folder and act as a guide to the software.
 * Files of the same type will get their own folder, for example meeting minutes and progress reports.
 * Code files will be named after the appropriate task or class they provide.
-* For files that require dates they will be presented with a DDMMYY format
+* For files that require dates they will be presented with a DDMMYYYY format
 
 #### Document Tree
 The following document tree describes the SVN structure.\
