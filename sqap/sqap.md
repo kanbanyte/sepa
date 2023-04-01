@@ -125,7 +125,7 @@ List of your Names:
 		* [LaTeX](#latex)
 		* [Issues tracking](#issues-tracking)
 		* [SVN](#svn)
-		* [Visual Studio](#visual-studio)
+		* [VS Code](#vs-code)
 		* [Virtual Machine](#virtual-machine)
 		* [Skype](#skype)
 	* [Agile Methodology: Kanban](#agile-methodology-kanban)
@@ -1023,9 +1023,10 @@ provides a simple to use and feature-rich platform to track issues,progress and 
 All commit and updates by team members shall be done through TortoiseSVN or SmartSVN client to avoid potential problems.\
 Both programs have been tested to work, so it is up to the individual to choose which program they prefer.
 
-### Visual Studio
-VisualStudio2010 (available via MSDNAcademicAlliance in association with Swinburne FICT faculty) is selected as the standard C# development environment.\
-It provides state-of-the-art development tool as well as supporting client's .NET 2.0 standard environment.
+### VS Code
+VS Code (Visual Studio Code) is the recommended code editor for the project, providing powerful debugging tools, built-in Git support, and a wide range of extensions.
+By utilizing VS Code, team members can collaborate more efficiently and ensure consistency and quality in the project's codebase.
+Its versatility and ease of use make it an ideal tool for project development.
 
 ### Virtual Machine
 All development will be done on a virtual machine with a Windows XP 32bit image provided by the client.\
