@@ -838,11 +838,11 @@ For example, documentation tasks may fall under ProjectEagle v1.0.
 Task creation involves several steps to ensure proper documentation and tracking throughout the development process.\
 Requirements for pick and place tasks are analysed to identify specific system needs.
 
-The team creates a design specification outlining how system components work together.\
+The team creates a design specification outlining how system components interact.\
 Tasks are assigned to team members based on priority, and progress is monitored daily.
 
 Issues and bugs are tracked using GitHub and resolved by the appropriate team member.\
-Following these guidelines ensures proper task tracking, documentation, and software quality throughout development.
+Following these guidelines ensures proper task tracking, documentation, and consistent software quality.
 
 <div class="page"/><!-- page break -->
 
