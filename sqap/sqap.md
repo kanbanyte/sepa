@@ -1029,6 +1029,10 @@ With extensive support for C, C++ and C# it is the ideal and recommended solutio
 Visual studio also provides tools for developing other languages,
  however they are lacking in as extensive features as the languages described above and other options should be sought out
 
+#### Pycharm
+Pycharm is a specialised development environment for Python development,
+with many helpful features PyCharm is a comprehensive and feature rich solution to Python programming.
+With a variety of packages and options to customise the coding experience PyCharm allows programmers to explore all aspects to Python programming.
 ### Virtual Machine
 All development will be done on a virtual machine with a Windows XP 32bit image provided by the client.\
 The recommended Virtual Machine software is VirtualBox version 4.1.8.
