@@ -122,7 +122,7 @@ List of your Names:
 		* [Issue Categories](#issue-categories)
 * [Tools and methodologies](#tools-and-methodologies)
 	* [Tools](#tools)
-		* [LaTeX](#latex)
+		* [Markdown](#markdown)
 		* [Issues tracking](#issues-tracking)
 		* [SVN](#svn)
 		* [Visual Studio](#visual-studio)
@@ -1005,9 +1005,11 @@ Categories can be updated to adapt to the project's development, the following a
 
 # Tools and methodologies
 ## Tools
-### LaTeX
-To compile the documentation TEX files, pdflatex should be used, on Windows the MiKTeX 2.9 package provides this.\
-The recommended editor for LaTeX files is the Texmaker editor, version3.3.1 has been recommended.
+### Markdown
+To write documentation, Markdown can be used.\
+This lightweight markup language is easy to learn with plain text formatting syntax that can be converted to other formats like PDF, and
+produces HTML files that can be viewed in any web browser.\
+A recommended editor for Markdown files is Visual Studio Code, which provides syntax highlighting and preview functionality.
 
 ### Issues tracking
 Issue tracking tool is Mantis.\
