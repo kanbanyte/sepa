@@ -127,7 +127,7 @@ List of your Names:
 		* [SVN](#svn)
 		* [Visual Studio](#visual-studio)
 		* [Virtual Machine](#virtual-machine)
-		* [Skype](#skype)
+		* [Discord](#discord)
 	* [Agile Methodology: Kanban](#agile-methodology-kanban)
 * [Records collection, maintenance and retention](#records-collection-maintenance-and-retention)
 * [Risk Management](#risk-management)
@@ -1031,8 +1031,10 @@ It provides state-of-the-art development tool as well as supporting client's .NE
 All development will be done on a virtual machine with a Windows XP 32bit image provided by the client.\
 The recommended Virtual Machine software is VirtualBox version 4.1.8.
 
-### Skype
-If Skype meetings are deemed to be necessary, then all team members will need to download and install Skype and have access to a microphone and speakers.
+### Discord
+In order for team members to participate in Discord meetings, it is necessary for them to download and install the application on their device.
+Additionally, they will need to have access to a microphone and speakers to be able to communicate effectively during the meeting.
+Following these guidelines will ensure that all team members are prepared for successful meetings on Discord.
 
 <div class="page"/><!-- page break -->
 
