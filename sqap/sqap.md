@@ -1060,7 +1060,7 @@ By delivering small, incremental changes and seeking continuous feedback, the te
 # Records collection, maintenance and retention
 Management documents, which encapsulates Minutes, Agendas and Notes, will be added to the teams GitHub repository.\
 Any form of administration in terms of breaches in standards and practices will be documented on the GitHub repository.\
-Documents that are added to the GitHub repository and finalised should not be modified.
+Documents that are added to the GitHub repository and finalized should not be modified.
 
 <!-- TOC ignore:true -->
 # Chapter 11
