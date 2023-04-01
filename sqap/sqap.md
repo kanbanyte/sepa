@@ -115,9 +115,9 @@ List of your Names:
 	* [Work](#work)
 		* [Project Milestones](#project-milestones)
 		* [Stage-dependent tasks](#stage-dependent-tasks)
-		* [Crossed-states tasks](#crossed-states-tasks)
+		* [Cross-Functional Tasks](#cross-functional-tasks)
 		* [Task creation](#task-creation)
-		* [Task assignment](#task-assignment)
+		* [Task Assignment](#task-assignment)
 		* [Task Life](#task-life)
 		* [Issue Categories](#issue-categories)
 * [Tools and methodologies](#tools-and-methodologies)
@@ -133,7 +133,7 @@ List of your Names:
 * [Risk Management](#risk-management)
 	* [Purpose](#purpose-3)
 	* [Categorization](#categorization)
-	* [Risks with respect to the work to be done](#risks-with-respect-to-the-work-to-be-done)
+	* [Risks With Respect To The Work To Be Done](#risks-with-respect-to-the-work-to-be-done)
 	* [Risks with respect to the management](#risks-with-respect-to-the-management)
 	* [Risks With Respect To The Client](#risks-with-respect-to-the-client)
 
@@ -605,10 +605,10 @@ Versioning is a critical aspect of software development that helps developers an
 Semantic Versioning, or SemVer for short,
 is a widely-adopted standard for versioning software projects that provides clear guidelines for how to version software releases and manage dependencies between them.
 
-The SemVer standard uses a three-part version number in the format "MAJOR.MINOR.PATCH" to convey information about changes to the software.
-The MAJOR version number indicates significant changes that may introduce incompatibilities with earlier versions,
-the MINOR version number indicates new functionality added in a backwards-compatible manner, and
-the PATCH version number indicates bug fixes or minor changes that are backwards-compatible.
+The SemVer standard uses a three-part version number in the format "MAJOR.MINOR.PATCH" to convey information about changes to the software:
+* The MAJOR version number indicates significant changes that may not be backwards-compatible.
+* The MINOR version number indicates an addition of backwards-compatible functionalities.
+* The PATCH version number indicates backwards-compatible bug fixes or minor changes.
 
 ![different_components](https://media.geeksforgeeks.org/wp-content/uploads/semver.png)
 
@@ -634,13 +634,14 @@ teams can ensure that their software projects are versioned in a consistent and 
 making it easier to manage dependencies and collaborate with other teams or individuals.
 
 ### Document Releases
-In the event that a document is released to an outside party; be it submission to the university or the client it must be:
-* Converted into a static format such as a pdf
-* Appropriately renamed with a revision number
-* Moved to a release folder within its current folder
-
-Each release will be named as follows: filename rxxx, where xxx is a number.\
-The first release will be 100 and each additional release will be incremented by 10 i.e., filename r100 will be followed by filename r110.
+If the need arises that a document is required for a University submission or by the client,
+a systematic approach will be taken towards the development of documents within the team.
+The following practices will ensure that quality control is maintained by all participants:
+* Document generation and collaborative work will take place primarily on Github.
+* Team members will all work collaboratively to assign themselves and others task and sections of documents to work on.
+* Team members will ensure that fellow members are happy with their work by using Github features such as pull requests and issues to verify.
+* Once all sections have been completed by all participants, the report will be export to .pdf format for submission.
+* The final results is to be validated by all team members before submission to ensure that mistake are minimal and all required information is covered.
 
 <div class="page"/><!-- page break -->
 
@@ -878,18 +879,20 @@ Therefore, the theoretical output of the system should be that it can identify a
 
 
 ## Installation and User Documentation Generation
-The releases will be an in the form of an executable and a set of .dll files that will be provided to the client.\
-There is no installation as such,the user simply runs the executable.\
-All input and output files will be located as part of the GUI.
+Effective Installation and User Documentation is an essential part of software development as it ensures that users can easily install, configure and use the software.
 
-The client will also be supplied with a comprehensive user document that details the GUI and should have some examples of how to use it.\
-The client will also be supplied documentation of the code and the design documents.\
-This is to assist with maintainability and use for future projects.
+To achieve this, the project should include comprehensive and easy-to-follow installation instructions and user manuals for the vision or sensing system.
+The documentation should be written in clear and concise language, and include relevant screenshots and diagrams to aid the users.
+Additionally, the installation process should be rigorously tested to ensure that it is error-free and robust, and
+the user documentation should be updated regularly to reflect changes in the software.
 
-Once code has been finalised, and testing is completed, they will be supplied with all of the source code and a final build of the software.
-* Tailored for a particular module, tests will be outlined within the module plans.
-* Modules will be tested against a set of defined use-cases as agreed by client.
-* Testing will consist of both black and white box testing.
+Our software solution doesn't require installation, the executable is run at time of operation.
+All input and output files will be incorporated as part of the GUI.
+
+The client will be given a full user guide that will outline how to interact with the GUI.
+This document will give the client and user examples of how the software solution works and how it is to be used.
+The code and the design documents' documentation will also be sent to the client.
+These documents will allow the client to successfully maintain and implement our software solution in future projects.
 
 <div class="page"/><!-- page break -->
 
@@ -929,9 +932,15 @@ Any changes to the milestones should be communicated and discussed with the proj
 Stage-dependent issues and tasks must indicate which sub-project they belong to, as well as which version\
 (e.g., [Module 1-2] v1.0 dsg indicating this issue belong to design phase of Module 1-2 first release).
 
-### Crossed-states tasks
-Crossed-states tasks and issues must indicate parent's version.\
-For example, documentation tasks may fall under ProjectEagle v1.0.
+### Cross-Functional Tasks
+Cross-functional tasks and issues must indicate the base version they belong to, such as **Project 24 v0.1.0-a**.\
+This information is essential for maintaining software quality and facilitating collaboration among cross-functional teams.\
+For example, tasks may fall under the scope of **Project 24 v0.1.0-a** and
+require collaboration among team members with expertise in different areas such as computer vision, sensors, robotics, and AI.
+
+To ensure successful completion of cross-functional tasks, the team will adopt an Agile methodology using Kanban board to manage the development process.
+Finally, the team will use Semantic Versioning (SemVer) for software versioning and
+GitHub for source control to ensure that code changes are properly tracked and managed.
 
 ### Task creation
 Minute taker is to convert meeting's actions to task and assign to appropriate developer.\
@@ -941,8 +950,11 @@ Task creator must check for existing issue prior to creating task.
 
 <div class="page"/><!-- page break -->
 
-### Task assignment
-When a task cannot be assigned upon creation, the respective champion of the task must perform assignment within 24h of task creation.
+### Task Assignment
+Tasks will be assigned to team members based on their respective areas of expertise and availability.\
+The Development Manager will be responsible for initially assigning tasks to team members.\
+If a task cannot be assigned at the time of creation, the Development Manager will ensure that the task is assigned within 24 hours.\
+Team members who are assigned tasks are expected to provide progress updates to the Development Manager on a regular basis.
 
 ### Task Life
 Tasks would be created as **issues** on GitHub, and then moved across the Kanban board's columns as they progress through the workflow.
@@ -1075,27 +1087,53 @@ The mitigation strategy is designed to reduce the likelihood of risks occurring 
 
 <div class="page"/><!-- page break -->
 
-## Risks with respect to the work to be done
-* Corruption of repository
-	* Probability: Low.
-	* Impact: High resulting in loss of work.
-	* Reductive Action: Weekly backups plus local checkouts reduce impact significantly.
-* Design Errors
-	* Probability: High.
-	* Impact: High, design errors would potentially increase production time and/or produce a deliverable not valid to client requirements.
-	* Preventative Action: Rigorous design methodology prior to development.
-* Time Shortage
-	* Probability: High.
-	* Impact: High, resulting in a loss of product quality, loss of functionality or delivered past deadline.
-	* Preventative Action: Rigorous design methodology prior to development including work distribution and conservative timelines.
-* Illness or absence of team members
-	* Probability: High.
-	* Impact: Variable impact dependant on time in schedule.
-	* Reductive Action: Shared understanding of work allows load to be distributed.
-* Software non deployable
-	* Probability: Moderate.
-	* Impact: High,will be unable to provide client with the DMS.
-	* Preventative Action: Regular contact with client with minor releases to ensure that they can be deployed on the system.
+## Risks With Respect To The Work To Be Done
+|Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy|Contingency|
+|:-:|:-|:-:|:-:|:-|:-|
+|1|GitHub repository loss.|L|H|Recurrent backups.|Restore using latest backup.|
+|2|Temporary member absence.|L|M|Allocate work to at least 2 members.|Organize work handover to another member.|
+|3|Inappropriate design.|M|M-H|Regular communication and contingency design.|Focus on fixing pain points or use the second design.|
+|4|Un-deployable software.|M|H|Frequent deployment.|Re-prioritize tasks to focus on fixing deployment issues.|
+|5|Lacks of skills/knowledge.|M|H|Start training early.|Re-assign tasks or allocate additional members.|
+|6|Time shortage.|H|H|Careful and conservative planning.|Re-prioritize tasks and contact supervisor/client.|
+
+1. GitHub repository loss.\
+GitHub is a highly reliable product trusted by organizations of different scales, so the probability of a repository being lost,
+either because of data corruption or cybersecurity breaches are low.
+However, as the centralized storage for code and documents, its loss will severely affect the project.\
+The repository should be often copied and retained by several members to reduce this risk.
+In the unlikely event of repository loss, the latest back up is used and the team will perform a general check to find any missing material.
+2. Temporary absence of team member.\
+Team member can be temporarily absent due to illness or personal matters, and may not complete assigned work on time.
+This temporary loss of productivity has a moderate impact on the team's progress.\
+The risk can minimized by spreading work to multiple team members.
+If a team member is absent and is unlikely to finish their task on time, the task will be transferred to a different member immediately.
+The absent team member should alert the team of their condition and time estimates as soon as possible so the team can react accordingly.
+3. Inappropriate design.\
+The design step is crucial because it shapes how the product is created.
+Miscommunication, lack of understanding or lack of perspectives can easily lead to bad design
+and the implementation stage will be severely impacted if an unsuitable design is selected.\
+Regular communication and strict peer reviews will help detect and eliminate problematic design early.
+It may also be helpful to create contingency design in advance.
+If it becomes apparent that the product is built along a bad plan, the team should find and fix pain points, or employ the contingency design.
+4. Un-deployable software.\
+Both the robotic control software and computer vision system are developed locally,
+and there is a moderate risk of failing to deploy them to the respective hardware i.e. the robotic arm and depth camera.
+This results in a loss of product functionality or full capabilities not delivered by the deadline.\
+The preventative action for this risk is frequent deployment incomplete software to guarantee compatibility.
+If a deployment fails, depending on the stage of the project, the team will assign a reasonable number of members to investigate and devise a fix.
+5. Lack of skills or knowledge.\
+Although team members come from a variety of background, they might find themselves unable to complete their task due to a lack of knowledge or experience.
+The result is incomplete or low quality product, and the issue can propagate to other dependent tasks or features.\
+The team can remedy this by familiarizing themselves with relevant concepts and techniques.
+If a member overly struggles with their task, the team can swap their tasks or re-allocate an additional member to provide assistance.
+6. Time shortage
+The project can be incomplete by the deadline due to a variety of reasons: team member absence, project difficulty, management trouble.
+The probability of this risk for a complex project is high, and it leads to a product not delivered as originally outlined,
+or delivered without fulfilling all quality standards.\
+Cautious planning, a conservative timeline as well as vigilant monitoring will reduce the probability of this happening.
+If the team anticipates that the project will not be finished on time, a meeting is held to re-prioritize tasks based on their progress and importance.
+The client and supervisor will also receive notifications in such case to provide further assistance.
 
 ## Risks with respect to the management
 |Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy|Contingency|
