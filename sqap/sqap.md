@@ -341,10 +341,11 @@ These responsibilities include:
 * Responsible for delegating tasks and workloads.
 * Must ensure that code is being developed at an appropriate pace to ensure targets are met.
 
-#### SVN
-* Responsible for the repository and its maintenance.
-* Must ensure practices and standards are being met by all team members.
-* Can provide assistance to any team member should they require it.
+#### Semantic Versioning
+* Must ensure that all released versions follow label accordingly following standards and principles.
+* Must ensure that all team members work aligns with the next planned version release.
+* Will be able to provide assistance should any team member require it.
+
 
 #### Testing
 * Must ensure that all testing tasks are delegates appropriately.
