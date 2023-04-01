@@ -88,7 +88,7 @@ List of your Names:
 	* [Purpose](#purpose-2)
 * [Testing](#testing)
 	* [Requirement](#requirement)
-	* [Use case generation](#use-case-generation)
+	* [Use Case Generation](#use-case-generation)
 	* [Installation and User Documentation Generation](#installation-and-user-documentation-generation)
 * [Problem Reporting and Corrective Action](#problem-reporting-and-corrective-action)
 	* [Personnel](#personnel)
@@ -98,21 +98,22 @@ List of your Names:
 		* [Task Creation](#task-creation)
 		* [Task Assignment](#task-assignment)
 		* [Task Life](#task-life)
-* [Tools and methodologies](#tools-and-methodologies)
+* [Tools and Methodologies](#tools-and-methodologies)
 	* [Tools](#tools)
 		* [Markdown](#markdown)
 		* [GitHub](#github)
 		* [SemVer](#semver)
 		* [VS Code](#vs-code)
+		* [IDEs](#ides)
 		* [Virtual Machine](#virtual-machine)
 		* [Discord](#discord)
 	* [Agile Methodology: Kanban](#agile-methodology-kanban)
-* [Records collection, maintenance and retention](#records-collection-maintenance-and-retention)
+* [Records Collection, Maintenance and Retention](#records-collection-maintenance-and-retention)
 * [Risk Management](#risk-management)
 	* [Purpose](#purpose-3)
-	* [Categorization](#categorization)
+	* [Categorisation](#categorisation)
 	* [Risks With Respect To The Work To Be Done](#risks-with-respect-to-the-work-to-be-done)
-	* [Risks with respect to the management](#risks-with-respect-to-the-management)
+	* [Risks With Respect To The Management](#risks-with-respect-to-the-management)
 	* [Risks With Respect To The Client](#risks-with-respect-to-the-client)
 
 <!-- /TOC -->
@@ -721,7 +722,7 @@ Our testing will aim to validate that our solution meets all the requirements ou
 This will require them team to have clear communication with the client to ensure their needs are met by our software.\
 This will allow the team to create effective tests, specifically tailored to the requirements of the client.
 
-## Use case generation
+## Use Case Generation
 For the use case generation, we need to identify the various scenarios in which the robot will operate and the interactions with the system.
 
 The use cases will:
@@ -838,7 +839,7 @@ Finally, the task would be *closed* via a **pull request** after it has been for
 <!-- TOC ignore:true -->
 # Chapter 9
 
-# Tools and methodologies
+# Tools and Methodologies
 ## Tools
 ### Markdown
 This lightweight markup language is easy to learn with plain text formatting syntax that can be converted to other formats like PDF, and
@@ -916,7 +917,7 @@ By delivering small, incremental changes and seeking continuous feedback, the te
 <!-- TOC ignore:true -->
 # Chapter 10
 
-# Records collection, maintenance and retention
+# Records Collection, Maintenance and Retention
 Management documents, which encapsulates Minutes, Agendas and Notes, will be added to the teams GitHub repository.\
 Any form of administration in terms of breaches in standards and practices will be documented on the GitHub repository.\
 Documents that are added to the GitHub repository and finalized should not be modified.
@@ -993,7 +994,7 @@ Cautious planning, a conservative timeline as well as vigilant monitoring will r
 If the team anticipates that the project will not be finished on time, a meeting is held to re-prioritize tasks based on their progress and importance.
 The client and supervisor will also receive notifications in such case to provide further assistance.
 
-## Risks with respect to the management
+## Risks With Respect To The Management
 |Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy|Contingency|
 |:-:|:-|:-:|:-:|:-|:-|
 |1|Team leader absence.|L|M-H|Co-leader selected in advance.|Emergency vote.|
