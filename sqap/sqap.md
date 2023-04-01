@@ -1058,10 +1058,9 @@ By delivering small, incremental changes and seeking continuous feedback, the te
 # Chapter 10
 
 # Records collection, maintenance and retention
-Minutes, Agendas and Notes from meetings are added to project team's SVN Repository as described in SVN Procedures.\
-Minutes and Notes will be added following approval by meeting participants.
-
-All documentation will be retained in repository for the duration of the project.
+Management documents, which encapsulates Minutes, Agendas and notes, will be added to the teams Github repository.\
+Any form of administration in terms of breaches in standards and practises will be documented on the Github repository.\
+Once a document has been contributed to the repository and has been agreed upon the document shouldn't be modified.
 
 <!-- TOC ignore:true -->
 # Chapter 11
