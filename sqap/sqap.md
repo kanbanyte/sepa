@@ -1006,7 +1006,6 @@ Categories can be updated to adapt to the project's development, the following a
 # Tools and methodologies
 ## Tools
 ### Markdown
-To write documentation, Markdown can be used.\
 This lightweight markup language is easy to learn with plain text formatting syntax that can be converted to other formats like PDF, and
 produces HTML files that can be viewed in any web browser.\
 A recommended editor for Markdown files is Visual Studio Code, which provides syntax highlighting and preview functionality.
