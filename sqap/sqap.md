@@ -1024,8 +1024,11 @@ VisualStudio2010 (available via MSDNAcademicAlliance in association with Swinbur
 It provides state-of-the-art development tool as well as supporting client's .NET 2.0 standard environment.
 
 ### Virtual Machine
-All development will be done on a virtual machine with a Windows XP 32bit image provided by the client.\
-The recommended Virtual Machine software is VirtualBox version 4.1.8.
+The software system is expected to be compatible with Ubuntu 22.04 LTS.
+A virtual machine is the recommended development environment for team members who do not use Ubuntu as their primary operating system or dual boot into Ubuntu.\
+The recommended virtualizer is [VirtualBox 7.0](https://www.virtualbox.org/wiki/Downloads)
+(available on both Windows and MacOS) running with the [Ubuntu 22.04.02 LTS Jammy Jellyfish](https://ubuntu.com/download/desktop) disk image.
+The virtual machine should have a minimum of 8 GB of RAM and 30 GB of storage.
 
 ### Skype
 If Skype meetings are deemed to be necessary, then all team members will need to download and install Skype and have access to a microphone and speakers.
