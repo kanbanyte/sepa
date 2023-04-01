@@ -1010,9 +1010,9 @@ To compile the documentation TEX files, pdflatex should be used, on Windows the 
 The recommended editor for LaTeX files is the Texmaker editor, version3.3.1 has been recommended.
 
 ### GitHub
-GitHub can be used as an issue tracking tool, providing a user-friendly and feature-rich platform to track issues, progress, and team effort.
+GitHub is used as the issue tracking tool, providing a user-friendly and feature-rich platform to track issues, progress, and perform code reviews.
 By utilizing GitHub for issue tracking,
-team members can easily collaborate and communicate on project issues, leading to more efficient and effective issue resolution.
+team members can easily collaborate and communicate on project tasks, leading to more efficient and effective issue resolution.
 
 ### SVN
 All commit and updates by team members shall be done through TortoiseSVN or SmartSVN client to avoid potential problems.\
