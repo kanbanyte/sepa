@@ -598,10 +598,10 @@ Versioning is a critical aspect of software development that helps developers an
 Semantic Versioning, or SemVer for short,
 is a widely-adopted standard for versioning software projects that provides clear guidelines for how to version software releases and manage dependencies between them.
 
-The SemVer standard uses a three-part version number in the format "MAJOR.MINOR.PATCH" to convey information about changes to the software.
-The MAJOR version number indicates significant changes that may introduce incompatibilities with earlier versions,
-the MINOR version number indicates new functionality added in a backwards-compatible manner, and
-the PATCH version number indicates bug fixes or minor changes that are backwards-compatible.
+The SemVer standard uses a three-part version number in the format "MAJOR.MINOR.PATCH" to convey information about changes to the software:
+* The MAJOR version number indicates significant changes that may not be backwards-compatible.
+* The MINOR version number indicates an addition of backwards-compatible functionalities.
+* The PATCH version number indicates backwards-compatible bug fixes or minor changes.
 
 ![different_components](https://media.geeksforgeeks.org/wp-content/uploads/semver.png)
 
