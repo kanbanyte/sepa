@@ -93,7 +93,7 @@ List of your Names:
 		* [Coding Standard](#coding-standard)
 		* [Documentation Formatting Standard](#documentation-formatting-standard)
 		* [Filename/Location standards](#filenamelocation-standards)
-		* [SVN standards](#svn-standards)
+		* [Software Versioning Strategy: SemVer](#software-versioning-strategy-semver)
 		* [Document Releases](#document-releases)
 	* [Practices](#practices)
 		* [Communication Practices](#communication-practices)
@@ -595,28 +595,43 @@ repos
 
 <div class="page"/><!-- page break -->
 
-### SVN standards
-* All Commits to the SVN are required to have a corresponding message, which follows the following standard:\
-[Mantis Issue ID] file .ext - Sect ion/Module - List of Changes (brief and concise).
+### Software Versioning Strategy: SemVer
 
-In the event that sections are not relevant the fields are still included but left blank.\
-i.e., [] file.ext\
---committed the new file
-* Ensure files to be committed are not currently open in their respective editors.
+![three-part_version_number](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Semver.jpg/330px-Semver.jpg)
 
-#### Branching Standard
-This SVN will utilise the Branch-When-Needed system.\
-Users commit their day-to-day work on `/trunk`.
-1. `/trunk` must compile and pass regression tests at all times.
-2. A single commit (change-set) must not be so large so as to discourage peer-review.
-3. If rules 1 and 2 come into conflict (i.e., it's impossible to make a series of small commits without disrupting the trunk),
-then the user should create a branch and commit a series of smaller change-sets there.\
-This allows peer-review without disrupting the stability of `/trunk`.
+*<sup>Figure Source: <https://en.wikipedia.org/wiki/Software_versioning></sup>*
 
-Pros: `/trunk` is guaranteed to be stable at all times.\
-The hassle of branching/merging is somewhat rare.
+Versioning is a critical aspect of software development that helps developers and users manage changes to a project.\
+Semantic Versioning, or SemVer for short,
+is a widely-adopted standard for versioning software projects that provides clear guidelines for how to version software releases and manage dependencies between them.
 
-Cons: Adds a bit of burden to users' daily work: they must compile and test before every commit.
+The SemVer standard uses a three-part version number in the format "MAJOR.MINOR.PATCH" to convey information about changes to the software.
+The MAJOR version number indicates significant changes that may introduce incompatibilities with earlier versions,
+the MINOR version number indicates new functionality added in a backwards-compatible manner, and
+the PATCH version number indicates bug fixes or minor changes that are backwards-compatible.
+
+![different_components](https://media.geeksforgeeks.org/wp-content/uploads/semver.png)
+
+*<sup>Figure Source: <https://www.geeksforgeeks.org/introduction-semantic-versioning/></sup>*
+
+In order to use SemVer effectively, it's important to follow these guidelines:
+* Increase the MAJOR version when making incompatible changes
+* Increase the MINOR version when adding new functionality in a backwards-compatible manner
+* Increase the PATCH version when making backwards-compatible bug fixes or other minor changes
+* Use pre-release version numbers (such as 1.0.0-alpha) to indicate that a version is not yet stable or complete
+* Use build metadata (such as 1.0.0+build.1) to indicate additional build information without changing the version semantics
+
+Adherence to SemVer ensures that version numbers convey meaningful information about the state of the software and the nature of changes between releases.
+This enables developers and users to make informed decisions about which versions of a project to use and when to upgrade, and
+helps prevent compatibility issues between different versions of the same project.
+
+![release_life_cycle](https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Software_dev2.svg/360px-Software_dev2.svg.png)
+
+*<sup>Figure Source: <https://en.wikipedia.org/wiki/Software_release_life_cycle></sup>*
+
+By following the guidelines provided by the SemVer standard,
+teams can ensure that their software projects are versioned in a consistent and predictable way,
+making it easier to manage dependencies and collaborate with other teams or individuals.
 
 ### Document Releases
 In the event that a document is released to an outside party; be it submission to the university or the client it must be:
@@ -1009,7 +1024,7 @@ If Skype meetings are deemed to be necessary, then all team members will need to
 
 ![kanban](https://www.nimblework.com/wp-content/uploads/2022/12/Simple-Kanban-Board-5-1024x628.webp)
 
-<sup>Figure Source: <https://www.nimblework.com/kanban/what-is-kanban/></sup>
+*<sup>Figure Source: <https://www.nimblework.com/kanban/what-is-kanban/></sup>*
 
 The Kanban Agile Methodology approach will prioritize collaboration, flexibility, and continuous improvement.
 The Kanban board will be used to visualize the workflow and identify bottlenecks, enabling the team to respond quickly to changes and adapt the design accordingly.
