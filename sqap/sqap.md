@@ -31,16 +31,6 @@ List of your Names:
 <div class="page"/><!-- page break -->
 
 <!-- TOC ignore:true -->
-## Review history
-|Version|Date|Author|Comments|
-|:-|:-|:-|:-|
-|1.00||All Authors|Created initial draft document.|
-|1.10||All Authors|Updated based on feedback from external reviews.|
-|1.20||S. Smith|Updated based on internal review and Supervisor feedback.|
-|1.30||S. Smith & T. Le|Updated based on internal review and Supervisor feedback.|
-|1.40||All|Final Submission.|
-
-<!-- TOC ignore:true -->
 ## Acronyms/Abbreviations
 **ASAP** &emsp; As Soon as Possible\
 **COB** &emsp; Close of Business (5:00 PM)\
@@ -63,7 +53,6 @@ List of your Names:
 <!-- TOC -->
 
 * [Introduction](#introduction)
-	* [Author List/Roles](#author-listroles)
 	* [Purpose](#purpose)
 * [Reference Documents](#reference-documents)
 * [Management](#management)
@@ -98,14 +87,10 @@ List of your Names:
 	* [Practices](#practices)
 		* [Communication Practices](#communication-practices)
 		* [Meetings](#meetings)
-		* [Worklogs](#worklogs)
 		* [SVN](#svn)
 		* [Coding practices](#coding-practices)
 * [Reviews and Audits](#reviews-and-audits)
 	* [Purpose](#purpose-2)
-	* [Review/Audit list](#reviewaudit-list)
-		* [Reviews](#reviews)
-		* [Audits](#audits)
 * [Testing](#testing)
 	* [Requirement](#requirement)
 	* [Use case generation](#use-case-generation)
@@ -114,12 +99,10 @@ List of your Names:
 	* [Personnel](#personnel)
 	* [Work](#work)
 		* [Project Milestones](#project-milestones)
-		* [Stage-dependent tasks](#stage-dependent-tasks)
 		* [Cross-Functional Tasks](#cross-functional-tasks)
 		* [Task Creation](#task-creation)
 		* [Task Assignment](#task-assignment)
 		* [Task Life](#task-life)
-		* [Issue Categories](#issue-categories)
 * [Tools and methodologies](#tools-and-methodologies)
 	* [Tools](#tools)
 		* [LaTeX](#latex)
@@ -145,16 +128,6 @@ List of your Names:
 # Chapter 1
 
 # Introduction
-## Author List/Roles
-|Author|Student ID|Role Semester 1|Role Semester 2|
-|:-|:-|:-|:-|
-|||Team Leader / Supervisor Liaison|Testing/Usability Champion|
-|||SVN / Mantis Champion|Documentation / Quality Champion|
-|||Client Liaison|N.A (No longer part of Team)|
-|||Usability/Quality Champion|SVN / Mantis Champion|
-|||Documentation Champion|Team Leader / Supervisor Liaison|
-|||Coding Champion / Sargent At Arms|Coding Champion / Client Liaison|
-
 ## Purpose
 The robot vision system for a pick and place task will be tackled by group 24 and following this document; the software quality assurance plan (SQAP),
 it will be ensured that the projects requirements and quality standards are met.
@@ -691,11 +664,6 @@ Regular meetings with all team members present will be held. The following goals
 * A member of the team must be assigned the responsibility of both documents for each week.
 Or different member can be delegated the task each week on agreement of all team members.
 
-### Worklogs
-* Weekly update of Worklogs on the SVN
-* Team Leader to monitor Worklogs.
-* Team Leader to monitor and maintain the project hours summary sheet
-
 ### SVN
 * Temporary/intermediate files are not to be committed
 
@@ -755,72 +723,6 @@ to verify team processes in regards to the defined requirements and standards.\
 With regards to validation, it will be checked through internal and external reviews, and verification through audits.
 These reviews and audits will help ensure that deliverables are up to scratch and product quality is maintained.
 The information on these reviews and Audits are found earlier in the document under chapter 5.
-
-## Review/Audit list
-### Reviews
-Reviews are held during all phases of the project's life-cycle.
-
-#### Formal Review Process
-All formal review meetings must use the following process,a formal review is to be declared ona case by case basis:
-1. Are view committee is selected and the specified roles are filled.
-2. The Moderator identifies and/or confirms the review's objectives.
-3. The Moderator ensures that all members of the committee understand the objectives and the review process.
-4. &nbsp;
-	1. Individual: the review committee will prepare to review the work by examining it carefully for potential defects.
-	2. Team: there view committee meets at a planned time to pool the results of their preparation activity and
-	arrive at a consensus regarding the status of the document or standard being reviewed
-5. Author of the work makes the required changes as specified by the review committee.
-6. Moderator verifies that the actions required by the Author have taken place.
-
-<div class="page"/><!-- page break -->
-
-#### Informal Review Processes
-#### Code
-Code quality is to be ensured through regular reviews as listed below.\
-In the event that code is found to be unsatisfactory the results will be communicated to the relevant team member and raised as an Issue.
-1. Peer review: Code commits shall be reviewed by a peer developer, assigned in the team meeting, as recommended by the Code champion, for the following aspects.\
-Weekly inspection will be carried out on all commits by the assigned peer prior to the next meeting.
-	* Coding Standard
-	* Task Completion
-	* Verified against initial specifications, from each stage's detail design.
-	* Agreement upon any changes to specifications
-2. Client review: Every 2 weeks, all working branches are merged and sent to client for testing and review against the following:
-(The method of transfer will not require meeting with the client face to face and is distinctly different from client meetings.)
-	* Deliverable time line
-	* Verified against specifications
-	* Validate task completion
-
-#### Meeting
-Meeting quality will primarily be maintained through audits of the correct process but all meeting related documents will also be reviewed for quality.
-
-Meeting minutes will be reviewed following the first meeting of each secretary against the standards.\
-This is done alongside the formal acceptance of minutes at the conclusion of each meeting.
-
-Agenda will be accepted prior to each meeting and formally reviewed prior to the following meeting.
-
-Any documents found to be unsatisfactory will have results communicated to the secretary and raised as an Issue.
-
-<div class="page"/><!-- page break -->
-
-#### Management Document
-Management documents will be reviewed against document standards prior to being finalised and released.\
-In the event that the document is found to be unsatisfactory, a list of improvements will be generated and raised as an issue.\
-One example of this is the feed back sheets provided by the supervisor.
-
-### Audits
-Audits should be held regularly during all phases of the project's life-cycle to ensure processes put in place are being adhered to.
-
-#### Coding Practices Audit
-Coding practices will be audited by code champion on a case by case basis (normally as a result of consecutive unsatisfactory peer reviews).\
-Failure to meet defined coding processes will result in a list of improvements being generated and communicated to responsible team member(s).
-
-#### Communication Audit
-Communications will be audited on a monthly basis by Team Leader.\
-Failure to meet defined communication processes will result in a list of improvements being generated and communicated to responsible team member(s).
-
-#### SVN Practices Audit
-SVN Practices will be audited as part of the routine maintenance by the SVN champion.\
-Failure to meet the prescribed practices will be communicated to relevant team members with recommendations for improvement.
 
 <div class="page"/><!-- page break -->
 
@@ -928,10 +830,6 @@ identifying and resolving issues, and labelling each milestone to indicate the s
 Regular reviews and updates of the project milestones are necessary to ensure alignment with the Kanban board and timely achievement of each milestone.
 Any changes to the milestones should be communicated and discussed with the project team using GitHub's discussions to ensure everyone is on the same page.
 
-### Stage-dependent tasks
-Stage-dependent issues and tasks must indicate which sub-project they belong to, as well as which version\
-(e.g., [Module 1-2] v1.0 dsg indicating this issue belong to design phase of Module 1-2 first release).
-
 ### Cross-Functional Tasks
 Cross-functional tasks and issues must indicate the base version they belong to, such as **Project 24 v0.1.0-a**.\
 This information is essential for maintaining software quality and facilitating collaboration among cross-functional teams.\
@@ -968,39 +866,6 @@ a resolver responsible for ensuring that solutions are checked against appropria
 The task life would also include testing and maintenance stages, in which the task is verified and validated for functionality and
 then maintained to ensure its continued operation and improvement over time.
 Finally, the task would be *closed* via a **pull request** after it has been formally *reviewed* by the respective champion and *merged* into the **main** branch.
-
-### Issue Categories
-Categories can be updated to adapt to the project's development, the following are most up to date:
-* Administration
-* Audit - External
-* Audit - Internal
-* Client Liaison
-* Coding - Prototype
-* Documentation - AD
-* Documentation - General
-* Documentation - PP
-* Documentation - SAR
-* Documentation - SD
-* Documentation - SQAP
-* Documentation - SRS
-* Lecture
-* Meeting - Client
-* Meeting - Other
-* Meeting - Weekly
-* Presentation Preparation
-* Research - Coding
-* Research - Documentation
-* Review - External
-* Review - Internal
-* SVN Management
-* Requirements - Module 1
-* Design - Module 1
-* Coding - Module 1
-* Testing - Module 1
-* Requirements - Module 3
-* Design - Module 3
-* Coding - Module 3
-* Testing - Module 3
 
 <div class="page"/><!-- page break -->
 
