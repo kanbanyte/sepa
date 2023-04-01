@@ -36,8 +36,8 @@ List of your Names:
 * **COB**: Close of Business (5:00 PM)
 * **GUI**: Graphical User Interface
 * **IEEE**: Institute of Electrical and Electronics Engineers
-* **SQAP**: SoftwareQuality Assurance Plan
-* **SRS**: SoftwareRequirements Specification
+* **SQAP**: Software Quality Assurance Plan
+* **SRS**: Software Requirements Specification
 * **SemVer**: Semantic Versioning
 * **Project 24**: Robot Vision System For A Pick And Place Task
 
@@ -478,8 +478,8 @@ Further information about coding practices can be found in the [coding practices
 <div class="page"/><!-- page break -->
 
 ### Documentation Formatting Standard
-All project documentation should be formatted according to Markdown's documentation formatting standards to ensure consistency and readability.
-The formatting standard defines rules for all Project 24 documentation to ensure consistency and readability.\
+All project documentation should be formatted according to Markdowns documentation formatting standards to ensure consistency and readability.
+The formatting standard defines rules for all Project 24's documentation to ensure consistency and readability.\
 By adhering to these guidelines, team members can quickly and easily find information and understand the contents of the documents.
 
 These standards include:
@@ -956,7 +956,7 @@ Unforeseen events can and will happen during the course of this project.
 To ensure that a functional and high quality product is delivered on schedule, it is vital that risks are identified, analysed and accounted for.
 This section involves risk categorization and listing corresponding countermeasures.
 
-## Categorization
+## Categorisation
 For this project three major categories of risks have been identified:
 1. Risks with respect to the work to be done.
 2. Risks with respect to the management.
