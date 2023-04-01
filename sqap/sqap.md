@@ -87,7 +87,7 @@ List of your Names:
 	* [Practices](#practices)
 		* [Communication Practices](#communication-practices)
 		* [Meetings](#meetings)
-		* [SVN](#svn)
+		* [Semantic Versioning](#semantic-versioning)
 		* [Coding practices](#coding-practices)
 * [Reviews and Audits](#reviews-and-audits)
 	* [Purpose](#purpose-2)
@@ -434,10 +434,11 @@ Additionally an evaluation of the design documents should be carried out during 
 
 ### Meeting Minutes
 * Will be collected at every meeting.
-* Must follow the minutes template as outlined on the SVN.
-* Will be collected as either a raw .txt file or LaTeX file and then converted to latex format.
-* Formatted minutes will be released on the SVN no later than the following day's COB.
-* APDF copy of the minute scan also be emailed if requested, however, members are expected to find the minutes on the SVN and complete their actions independently.
+* Must follow the minutes template as outlined in the GitHub repository.
+* Will be collected as either a raw .txt file or Markdown file.
+* Formatted minutes will be released in the repository no later than the following day's COB.
+* A PDF copy of the minutes can also be emailed upon request, however,
+members are expected to find the minutes in the repository and complete their actions independently.
 
 <div class="page"/><!-- page break -->
 
@@ -477,52 +478,25 @@ Further information about coding practices can be found in the [coding practices
 <div class="page"/><!-- page break -->
 
 ### Documentation Formatting Standard
-Where possible, all text documents will be written in LaTeX to ensure they are easily merge-able.
-* No non-standard LaTeX package should be used.
-* The hyper ref package should be used in all documents; so that all links function correctly.
-* The line `\setlength{\parskip}{1}` can be added to the document header to remove paragraph indents, and use vertical space to separate paragraphs instead.
-* All documents should use the `fullpage` package so that the margins are a reasonable and consistent size.
-* No references should be hard-coded but rather use the `\label-\ref` standard.
-* Only the document classes article, report and beamer should be used.
-* No customizing of the fonts; everything should be left at the default.
-* Tabs should be converted to spaces with a width of 4.
-* Indenting of the mark-up should be done to improve readability.
-* Figures:
-	* All figures need to be in directory called "figures" where the TEX file is located.
-	* All figures need to be wrapped in a `\begin{figure}[H]` command and labelled with an appropriate caption under the figure.
-		```latex
-		\begin{figure}[H]
-			\centering
-			\includegraphics{imagefile.png}
-			\caption{This is the caption}
-		\end{figure}
-		```
-* Tables
-	* All tables need to be wrapped in a `\begin{table}[H]`.
-	* All tables should be labelled with an appropriate caption under the table.
-	* All tables should have borders like in the example below
-	* The use of long tables is accepted to allow tables to span multiple pages.
-		```latex
-		\begin{table}[H]
-			\centering
-			\begin{tabular}{l|l|l}
-				\hline
-				col1 & col2 & col3 \\ \hline \hline
-				1 & 2 & 3 \\\hline
-			\end{tabular}
-			\caption{This is the caption}
-		\end{table}
-		```
-* Acronyms should be added to an acronyms table created with the code example below, and used with the `\ac{}` command
-	```latex
-	\section*{Acronyms}
-	\begin{acronym}[TDMA]
-		\acro{COB}{Close of Business}
-		\acro{IEEE}{Institute of Electrical and Electronics Engineers}
-	\end{acronym}
-	```
-* Presentations should be done using the LaTeX beamer package.\
-The Warsaw theme should also be used to ensure visual consistency.
+All project documentation should be formatted according to Markdown's documentation formatting standards to ensure consistency and readability.
+The formatting standard defines rules for all Project 24 documentation to ensure consistency and readability.\
+By adhering to these guidelines, team members can quickly and easily find information and understand the contents of the documents.
+
+These standards include:
+* Use clear and concise writing
+* Organize content using headings and subheadings
+* Use bullet points or numbered lists to structure information
+* Include tables and diagrams when appropriate to clarify information
+* Use a consistent font and font size throughout the document
+* Include a table of contents for multi-page documents
+* Use a consistent file naming convention
+
+In addition to these guidelines, all documentation should be created using Markdown.\
+All team members are responsible for ensuring that their documentation adheres to the formatting standard.\
+In addition, specific document types related to Project 24 may have additional formatting requirements, which will be outlined in their respective templates.
+
+By adhering to the documentation formatting standard and using Markdown,
+we can ensure that all project documentation related to Project 24 is consistent, clear, and easy to understand.
 
 ### Filename/Location standards
 * All file and folder names will be lowercase.\
@@ -666,8 +640,10 @@ Regular meetings with all team members present will be held. The following goals
 * A member of the team must be assigned the responsibility of both documents for each week.
 Or different member can be delegated the task each week on agreement of all team members.
 
-### SVN
-* Temporary/intermediate files are not to be committed
+### Semantic Versioning
+The software versioning strategy for this project will follow Semantic Versioning (SemVer).\
+This strategy will ensure that versions are released in a manner that is compatible with the software dependencies and usage.\
+This strategy will provide clarity to the team and stakeholders about the purpose and impact of each software release.
 
 ### Coding practices
 This section includes coding guidelines.
