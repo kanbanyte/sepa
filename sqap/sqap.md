@@ -308,16 +308,18 @@ The will coordinate other managers to be able to meet requirements and deadlines
 
 ## Tasks and Responsibilities
 ### General Team Member Responsibilities
-* If a team member is selected for a task they will complete the task by the allocated time.\
-If unable to complete task in time, member is to raise an issue prior to deadline with the team leader.
-* Meeting Actions are binding unless changed at a later meeting.
-* Team members are responsible for the logging of their own time sheets.
-* Members are to conduct themselves in an appropriate manner facilitating a healthy work environment.
-* Members are required to maintain communication with team.
-* Members are required to follow all processes as described in the SQAP.
-* Members must make their best effort attend all allocated meetings/workshops and are to submit an apology if they are unable to attend.
-* Members are to follow all directives from champions.
-* Members are to actively partake in group discussion and provide input to the product and the process.
+The team members involved have several key responsibilities.
+
+These responsibilities include:
+* Understanding the overall project requirements.
+* Creating:
+	* an architectural design that meets those requirements.
+	* a detailed design that defines the components and interactions of the software.
+* Ensuring that the design is:
+	* of high quality and adheres to the project's coding standards.
+	* testable, and that it meets the project's functional and non-functional requirements.
+* All team members must maintain accountability of tasks they're responsible for and ensuring that others members are also held accountable for their responsibilities.
+* Each team member is responsible for communicating any issues that may hinder their input into the project and are encouraged to ask for help when needed.
 
 ### Champions
 #### Team Leader
