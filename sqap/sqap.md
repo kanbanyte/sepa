@@ -92,7 +92,7 @@ List of your Names:
 	* [Standards](#standards)
 		* [Coding Standard](#coding-standard)
 		* [Documentation Formatting Standard](#documentation-formatting-standard)
-		* [Filename/Location standards](#filenamelocation-standards)
+		* [Filename/Location Standards](#filenamelocation-standards)
 		* [SVN standards](#svn-standards)
 		* [Document Releases](#document-releases)
 	* [Practices](#practices)
@@ -546,10 +546,10 @@ The Warsaw theme should also be used to ensure visual consistency.
 * Management documents will be contained in their own folder in case more are added or needed.
 * All folder names will be in lowercase.
 * Whitespace will not exist in folder names, using `_` instead.
-* README.md will be kept in the main folder and act as a guide.
+* A README.md will be kept in the main folder and act as a guide to the software.
 * Files of the same type will get their own folder, for example meeting minutes and progress reports.
-* Code files will be named after the namespace, class or function they provide.
-* For files that require dates they will be presented with a DD/MM/YY format
+* Code files will be named after the appropriate task or class they provide.
+* For files that require dates they will be presented with a DDMMYY format
 
 #### Document Tree
 The following document tree describes the SVN structure.\
