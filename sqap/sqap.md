@@ -7,7 +7,7 @@
 # Robot Vision System For A Pick And Place Task
 <!--
 	Co-Author: @dau501
-	Editor(s):
+	Editor(s): @Slothman1, @NickMcK14, @finnmcgearey, @Huy-GV, @vkach
 	Year: 2023
 -->
 
@@ -17,34 +17,29 @@
 ## Industry Project 24
 List of your Names:
 
-|Name|Position|Email|Phone|
-|:-|:-|:-|:-|
-|@Slothman1|Team Leader/Client Liaison|id@swin.student.edu.au|04xx xxx xxx|
-|@vkach|Quality Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
-|@dau501|Development Manager/Planning Manager|id@swin.student.edu.au|04xx xxx xxx|
-|@finnmcgearey|Support Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
-|@|-|id@swin.student.edu.au|04xx xxx xxx|
-|@Huy-GV|Quality Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
+|Name|Position|Email|
+|:-|:-|:-|
+|@Slothman1|Team Leader/Client Liaison|id@swin.student.edu.au|
+|@dau501|Development Manager/Planning Manager|id@swin.student.edu.au|
+|@finnmcgearey|Support Manager/Developer|id@swin.student.edu.au|
+|@vkach|Quality Manager/Developer|id@swin.student.edu.au|
+|@NickMcK14|Support Manager/Developer|id@swin.student.edu.au|
+|@Huy-GV|Quality Manager/Developer|id@swin.student.edu.au|
 
 <!-- SUBJECT CODE, NAME, SEMESTER AND DATE -->
 
 <div class="page"/><!-- page break -->
 
 <!-- TOC ignore:true -->
-## Acronyms/Abbreviations
-**ASAP** &emsp; As Soon as Possible\
-**COB** &emsp; Close of Business (5:00 PM)\
-**DMO** &emsp; Defence Materiel Organisation\
-**DMS** &emsp; Data Management System\
-**GUI** &emsp; Graphical User Interface\
-**IEEE** &emsp; Institute of Electrical and Electronics Engineers\
-**JDK** &emsp; Java Development Kit\
-**JRE** &emsp; Java Runtime Environment\
-**Ver.** &emsp; Version\
-**SQAP** &emsp; SoftwareQuality Assurance Plan \
-**SRS** &emsp; SoftwareRequirements Specification \
-**SVN** &emsp; Subversion \
-**SVVP** &emsp; SoftwareVerification and Validation Plan
+## Domain Vocabulary
+* **ASAP**: As Soon as Possible
+* **COB**: Close of Business (5:00 PM)
+* **GUI**: Graphical User Interface
+* **IEEE**: Institute of Electrical and Electronics Engineers
+* **SQAP**: SoftwareQuality Assurance Plan
+* **SRS**: SoftwareRequirements Specification
+* **SemVer**: Semantic Versioning
+* **Project 24**: Robot Vision System For A Pick And Place Task
 
 <div class="page"/><!-- page break -->
 
@@ -244,8 +239,8 @@ They should also collaborate with subject matter experts to ensure that the syst
 Team members with expertise in these fields are responsible for providing input and review of the software architecture and
 design to ensure that it aligns with the project's objectives.
 
-#### Project Superviser
-The project superviser will be consulted regarding information about the project and will provide feedback on work when necessary.
+#### Project Supervisor
+The project supervisor will be consulted regarding information about the project and will provide feedback on work when necessary.
 They will also communicate with the team leader should they need to contact the team regarding any work or updates on project progress.
 
 #### Client
@@ -260,17 +255,17 @@ up-to-date to facilitate communication with the development team and stakeholder
 #### Quality Manager
 Quality managers ensure quality is maximised throughout the project,
 and therefore will be responsible for communicating quality requirements to the relevant team members.
-They will also provide the project superviser and client with updates regarding the quality of the deliverables currently being worked on.
+They will also provide the project supervisor and client with updates regarding the quality of the deliverables currently being worked on.
 
 #### Support Manager
-The support managers are responsible for providing support to other team members, the project superviser, or the client with regards to the project.
+The support managers are responsible for providing support to other team members, the project supervisor, or the client with regards to the project.
 They will communicate with other team members to help them with work, research, or testing if necessary.
-Should the superviser or client require assistance with understanding the deliverables or software,
+Should the supervisor or client require assistance with understanding the deliverables or software,
 the support managers should relay information to them regarding these aspects.
 
 #### Development Manager
 Development managers coordinate with the software developers to keep progress steady and ensure code functions correctly.
-They will be able to provide the superviser, client, and team leader with updates regarding the development and testing process.
+They will be able to provide the supervisor, client, and team leader with updates regarding the development and testing process.
 
 #### Planning Manager
 The planning manager plans for the future documents, software components, etc.
@@ -412,7 +407,7 @@ It will include:
 This document will give information about the overall system architecture and design, as well as additional research into the project.
 Contained within this document will be:
 * Overview of the document.
-* Problem analysis which will outline the goals of the software systen and any assumptions and simplifications.
+* Problem analysis which will outline the goals of the software system and any assumptions and simplifications.
 * High-level system architecture and alternatives
 * Additional research
 	* Research into the application domain
@@ -595,7 +590,7 @@ The following practices will ensure that quality control is maintained by all pa
 <div class="page"/><!-- page break -->
 
 ## Practices
-This section will cover several practises that will be employed as a basis for quality control wtihin the project.\
+This section will cover several practises that will be employed as a basis for quality control within the project.\
 These practises will be followed closely throughout development, frequent audits will ensure that this is the case.\
 Through rigorous upholding of the outlined practises the quality of the project will be maintained and ensured the deliverables be of high quality.
 
@@ -711,7 +706,7 @@ The information on these reviews and Audits are found earlier in the document un
 For the testing phase of the project, a comprehensive approach will be used to ensure that the Robot Vision System is functioning optimally.
 
 Unit testing will be performed on individual software components to verify their correct functionality.
-This will likely make up most of the intial testing as the team has a lack of experience with computer vision and
+This will likely make up most of the initial testing as the team has a lack of experience with computer vision and
 robotic control so we will need to validate that our solutions are on the right track as we learn new skills.
 This will largely be assisted by feedback from the client and other team members.
 
@@ -723,14 +718,14 @@ The team will also perform some usability/function testing to test edge cases wh
 robot arm are in incorrect positions to test the robustness of the software solution and see what exceptions are thrown.
 These tests will allow the team to design user friendly error messages.
 
-We will work with the client to creatic metrics we can use to measure the success of the solution.
+We will work with the client to create metrics we can use to measure the success of the solution.
 
 <div class="page"/><!-- page break -->
 
 ## Requirement
-Our testing will aim to validate that our solution meets all the requirments outlined in thhe SRS above.\
+Our testing will aim to validate that our solution meets all the requirements outlined in the SRS above.\
 This will require them team to have clear communication with the client to ensure their needs are met by our software.\
-This will allow the team to create effective tests, specifically tailored to the requirments of the client.
+This will allow the team to create effective tests, specifically tailored to the requirements of the client.
 
 ## Use case generation
 For the use case generation, we need to identify the various scenarios in which the robot will operate and the interactions with the system.
@@ -794,7 +789,7 @@ deployment of the Robot Vision System using Kanban Agile methodology and Semanti
 A realistic and feasible set of project milestones should account for each stage of the project's lifecycle and
 ensure each milestone is achieved within the specified time frame.
 There is one project that being; **developing a perception system for a cobot**.\
-This project will then have milestones to fulfill the Kanban methodology and allow for more focused goals.\
+This project will then have milestones to fulfil the Kanban methodology and allow for more focused goals.\
 Some examples of these milestones are as follows:
 * Mounting the camera and the information from the camera being processed.
 * System is integrated with ROS correctly.
@@ -926,7 +921,7 @@ All documentation will be retained in repository for the duration of the project
 # Risk Management
 ## Purpose
 Unforeseen events can and will happen during the course of this project.
-To ensure that a functional and high quality product is delivered on schedule, it is vital that risks are identified, analyzed and accounted for.
+To ensure that a functional and high quality product is delivered on schedule, it is vital that risks are identified, analysed and accounted for.
 This section involves risk categorization and listing corresponding countermeasures.
 
 ## Categorization
@@ -1001,27 +996,27 @@ The client and supervisor will also receive notifications in such case to provid
 |4|Supervisor absence.|L|L|None|Asynchronous updates and catch-up meeting if needed.|
 |5|Conflicts within the team.|M|H|Regular communication.|Irregular meetings to resolve disputes.|
 
-* Temporary absence of team leader.\
+1. Temporary absence of team leader.\
 The team leader can be temporarily absent due to illness or personal matters, and its impact varies depending on when it happens.\
-To ensure smooth operation at all times, the team can preemptively allocate a second leader who automatically assumes control when the primary leader is away.
+To ensure smooth operation at all times, the team can pre-emptively allocate a second leader who automatically assumes control when the primary leader is away.
 If both leaders are absent, an emergency team meeting is held to select another temporary leader.
-* Team member leaves.\
+2. Team member leaves.\
 This is a relatively low risk due to the importance of the capstone project.
 However, its impact is high because the team's total productivity is reduced and prior planning might no longer be appropriate.\
 There is no way to prevent this from occurring, but to minimize its impact,
 all tasks should be broken up and allocated to as many members as possible to avoid dependence on a single person.
-* Inability to hold regular meetings with all members present.\
+3. Inability to hold regular meetings with all members present.\
 This is a moderate-low risk.
 The project requires frequent communication between team members and ideally the team should hold regular meetings to keep all members up to date.
 Since each member has work and academic commitments it is possible that there may not be free time for a meeting where all members can attend.\
 The risk can be mitigated by members communicating their schedules with others.
 In the worst case scenario, members who cannot attend regular meetings need to write separate report and update themselves with the team progress on their own.
-* Temporary absence of Supervisor.\
+4. Temporary absence of Supervisor.\
 The supervisor can be temporarily absent due to illness or scheduling conflict.
 This is a low risk and depending on the stages of the project, will not have a significant impact on the project.\
 When this event occurs, the team will continue as usual and the team leader will draft an email detailing the progress of the project,
 questions for the supervisor and potentially organize a replacement meeting if necessary.
-* Conflicts within the team.\
+5. Conflicts within the team.\
 Conflicts among the team are common in projects of any scale.
 This risk has a significant impact as it directly harms the team's productivity and causes delays to planned work.\
 The keys to keep the problem from happening and to remedy it if it occurs are frequent communication between team members and a democratically-run leadership.
