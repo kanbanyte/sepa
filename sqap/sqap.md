@@ -338,7 +338,7 @@ These responsibilities include:
 
 #### Code
 * Must ensure that all code follows standards set out at the beginning of development.
-* Responsible for delegating tasks and workloads.
+* Responsible for delegating coding tasks and workloads.
 * Must ensure that code is being developed at an appropriate pace to ensure targets are met.
 
 #### Semantic Versioning
