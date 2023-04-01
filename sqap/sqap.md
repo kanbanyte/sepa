@@ -92,7 +92,7 @@ List of your Names:
 	* [Standards](#standards)
 		* [Coding Standard](#coding-standard)
 		* [Documentation Formatting Standard](#documentation-formatting-standard)
-		* [Filename/Location standards](#filenamelocation-standards)
+		* [Filename/Location Standards](#filenamelocation-standards)
 		* [Software Versioning Strategy: SemVer](#software-versioning-strategy-semver)
 		* [Document Releases](#document-releases)
 	* [Practices](#practices)
@@ -551,48 +551,60 @@ Where possible, all text documents will be written in LaTeX to ensure they are e
 * Presentations should be done using the LaTeX beamer package.\
 The Warsaw theme should also be used to ensure visual consistency.
 
-### Filename/Location standards
-* All file and folder names will be lowercase.\
-With the exception of the code folder where uppercase characters are allowed for the purposes of integrating with MicrosoftVisualStudio's standards.
-* There shall be no whitespace (spaces) in filenames.
-* " " will be used to delimit the file and folder names in the event that the name is multiple words.
-* Management/Administration files will be named as follows "filename yyyymmdd".
-* Coding files shall be organised in folders in this structure \trunk\code\eagle\subproject\, \subproject is the programming unit (Java or .NET projects)
-* Coding file shall be named inform at of subproject abbr namespace `filename.extension`, where namespace represents the subcomponents of a sub project.
-* Management/Administration related files are to kept within the docs folder.
-* Multiple related files with similar content such as the meeting minutes are to be stored within an appropriately named encapsulating folder.
+### Filename/Location Standards
+* Management documents will be contained in their own folder in case more are added or needed.
+* All folder names will be in lowercase.
+* Whitespace will not exist in folder names, using `_` instead.
+* A Markdown document will be kept in the main folder and act as a guide to the software.
+* Files of the same type will get their own folder, for example meeting minutes and progress reports.
+* Code files will be named after the appropriate task or class they provide.
+* For files that require dates they will be presented with a DDMMYYYY format
 
 #### Document Tree
 The following document tree describes the SVN structure.\
 Additional folders may be added at the discretion of team members after consulting with the SVN champion.
-```brainfuck
-repos
-	+---trunk
-		+---docs
-			+---meetings minutes
-				\---agendas
-			+---presentations
-				+---project presentation 1
-				\---figures
-			+---sqap
-				+---figures
-				+---references
-				\---release
-			+---project plan
-				+---figures
-				\---release
-			+---self assessment reports
-			+---srs
-				+---figures
-				+---release
-				\---mockup
-			+---standards
-			\---worklogs
-		+---code
-			+---eagle
-				\---subproject
-	+---tags
-	\---branches
+
+The following describes the Folder structure from the perspective of the **main** branch of the repository.
+Additional folders exist; however, this should give an overview of expected conventions.
+```diff
+main
+|	.gitignore
+|	project24proposal.md
+|	README.md
+|	self-peer_review_template.md
+|	worklog_template.md
+|
++-------.github
+|	|	PULL_REQUEST_TEMPLATE.md
+|	|
+|	\-------ISSUE_TEMPLATE
+|			config.yml
+|
++-------criteria
+|		criteria.md
+|
++-------design_report
+|		design.md
+|
++-------project_plan
+|		plan.md
+|
++-------sadrr
+|		sadrr.md
+|
++-------sqap
+|		sqap.md
+|
++-------srs
+|		srs.md
+|
++-------statement
+|		contribution.md
+|
+\-------styles
+		contribution.css
+		styles.css
+		worklog.css
 ```
 
 <div class="page"/><!-- page break -->
