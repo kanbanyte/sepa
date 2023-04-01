@@ -1020,19 +1020,19 @@ All commit and updates by team members shall be done through TortoiseSVN or Smar
 Both programs have been tested to work, so it is up to the individual to choose which program they prefer.
 
 ### IDEs
-
 In the development of software you need something to create and modify code files, below will be a select few of some possible ones for the project.
 
 #### Visual studio 2019/2022
 A development environment made by microsoft Visual studio is a powerful IDE specialised in C type language development.
 With extensive support for C, C++ and C# it is the ideal and recommended solution to software development in C type languages.\
 Visual studio also provides tools for developing other languages,
- however they are lacking in as extensive features as the languages described above and other options should be sought out
+however they are lacking in as extensive features as the languages described above and other options should be sought out
 
 #### Pycharm
 Pycharm is a specialised development environment for Python development,
 with many helpful features PyCharm is a comprehensive and feature rich solution to Python programming.
 With a variety of packages and options to customise the coding experience PyCharm allows programmers to explore all aspects to Python programming.
+
 ### Virtual Machine
 All development will be done on a virtual machine with a Windows XP 32bit image provided by the client.\
 The recommended Virtual Machine software is VirtualBox version 4.1.8.
