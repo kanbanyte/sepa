@@ -76,7 +76,7 @@ List of your Names:
 	* [Standards](#standards)
 		* [Coding Standard](#coding-standard)
 		* [Documentation Formatting Standard](#documentation-formatting-standard)
-		* [Filename/Location standards](#filenamelocation-standards)
+		* [Filename/Location Standards](#filenamelocation-standards)
 		* [Software Versioning Strategy: SemVer](#software-versioning-strategy-semver)
 		* [Document Releases](#document-releases)
 	* [Practices](#practices)
@@ -498,48 +498,60 @@ In addition, specific document types related to Project 24 may have additional f
 By adhering to the documentation formatting standard and using Markdown,
 we can ensure that all project documentation related to Project 24 is consistent, clear, and easy to understand.
 
-### Filename/Location standards
-* All file and folder names will be lowercase.\
-With the exception of the code folder where uppercase characters are allowed for the purposes of integrating with MicrosoftVisualStudio's standards.
-* There shall be no whitespace (spaces) in filenames.
-* " " will be used to delimit the file and folder names in the event that the name is multiple words.
-* Management/Administration files will be named as follows "filename yyyymmdd".
-* Coding files shall be organised in folders in this structure \trunk\code\eagle\subproject\, \subproject is the programming unit (Java or .NET projects)
-* Coding file shall be named inform at of subproject abbr namespace `filename.extension`, where namespace represents the subcomponents of a sub project.
-* Management/Administration related files are to kept within the docs folder.
-* Multiple related files with similar content such as the meeting minutes are to be stored within an appropriately named encapsulating folder.
+### Filename/Location Standards
+* Management documents will be contained in their own folder in case more are added or needed.
+* All folder names will be in lowercase.
+* Whitespace will not exist in folder names, using `_` instead.
+* A Markdown document will be kept in the main folder and act as a guide to the software.
+* Files of the same type will get their own folder, for example meeting minutes and progress reports.
+* Code files will be named after the appropriate task or class they provide.
+* For files that require dates they will be presented with a DDMMYYYY format
 
 #### Document Tree
 The following document tree describes the SVN structure.\
 Additional folders may be added at the discretion of team members after consulting with the SVN champion.
-```brainfuck
-repos
-	+---trunk
-		+---docs
-			+---meetings minutes
-				\---agendas
-			+---presentations
-				+---project presentation 1
-				\---figures
-			+---sqap
-				+---figures
-				+---references
-				\---release
-			+---project plan
-				+---figures
-				\---release
-			+---self assessment reports
-			+---srs
-				+---figures
-				+---release
-				\---mockup
-			+---standards
-			\---worklogs
-		+---code
-			+---eagle
-				\---subproject
-	+---tags
-	\---branches
+
+The following describes the Folder structure from the perspective of the **main** branch of the repository.
+Additional folders exist; however, this should give an overview of expected conventions.
+```diff
+main
+|	.gitignore
+|	project24proposal.md
+|	README.md
+|	self-peer_review_template.md
+|	worklog_template.md
+|
++-------.github
+|	|	PULL_REQUEST_TEMPLATE.md
+|	|
+|	\-------ISSUE_TEMPLATE
+|			config.yml
+|
++-------criteria
+|		criteria.md
+|
++-------design_report
+|		design.md
+|
++-------project_plan
+|		plan.md
+|
++-------sadrr
+|		sadrr.md
+|
++-------sqap
+|		sqap.md
+|
++-------srs
+|		srs.md
+|
++-------statement
+|		contribution.md
+|
+\-------styles
+		contribution.css
+		styles.css
+		worklog.css
 ```
 
 <div class="page"/><!-- page break -->
@@ -852,16 +864,16 @@ Finally, the task would be *closed* via a **pull request** after it has been for
 
 # Tools and methodologies
 ## Tools
+
 ### Markdown
-To write documentation, Markdown can be used.\
 This lightweight markup language is easy to learn with plain text formatting syntax that can be converted to other formats like PDF, and
 produces HTML files that can be viewed in any web browser.\
 A recommended editor for Markdown files is Visual Studio Code, which provides syntax highlighting and preview functionality.
 
 ### GitHub
-GitHub can be used as an issue tracking tool, providing a user-friendly and feature-rich platform to track issues, progress, and team effort.
+GitHub is used as the issue tracking tool, providing a user-friendly and feature-rich platform to track issues, progress, and perform code reviews.
 By utilizing GitHub for issue tracking,
-team members can easily collaborate and communicate on project issues, leading to more efficient and effective issue resolution.
+team members can easily collaborate and communicate on project tasks, leading to more efficient and effective issue resolution.
 
 ### SemVer
 All versioning updates by team members shall follow Semantic Versioning (SemVer) principles to avoid potential issues.\
@@ -872,6 +884,20 @@ It is up to each individual to familiarize themselves with SemVer principles and
 VS Code (Visual Studio Code) is the recommended code editor for the project, providing powerful debugging tools, built-in Git support, and a wide range of extensions.
 By utilizing VS Code, team members can collaborate more efficiently and ensure consistency and quality in the project's codebase.
 Its versatility and ease of use make it an ideal tool for project development.
+
+### IDEs
+In the development of software you need something to create and modify code files, below will be a select few of some possible ones for the project.
+
+#### Visual studio 2019/2022
+A development environment made by microsoft Visual studio is a powerful IDE specialised in C type language development.
+With extensive support for C, C++ and C# it is the ideal and recommended solution to software development in C type languages.\
+Visual studio also provides tools for developing other languages,
+however they are lacking in as extensive features as the languages described above and other options should be sought out.
+
+#### Pycharm
+Pycharm is a specialised development environment for Python development,
+with many helpful features PyCharm is a comprehensive and feature rich solution to Python programming.
+With a variety of packages and options to customise the coding experience PyCharm allows programmers to explore all aspects to Python programming.
 
 ### Virtual Machine
 The software system is expected to be compatible with Ubuntu 22.04 LTS.\
@@ -884,7 +910,8 @@ The host machine must support and enable virtualization.
 
 ### Discord
 In order for team members to participate in Discord meetings, it is necessary for them to download and install the application on their device.
-Additionally, they will need to have access to a microphone and speakers to be able to communicate effectively during the meeting.
+They also need to have access to a microphone and speakers to be able to communicate, and
+should familiarize themselves with basic Discord features e.g., screen sharing.
 Following these guidelines will ensure that all team members are prepared for successful meetings on Discord.
 
 <div class="page"/><!-- page break -->
