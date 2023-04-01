@@ -1023,6 +1023,7 @@ Categories can be updated to adapt to the project's development, the following a
 
 # Tools and methodologies
 ## Tools
+
 ### Markdown
 This lightweight markup language is easy to learn with plain text formatting syntax that can be converted to other formats like PDF, and
 produces HTML files that can be viewed in any web browser.\
@@ -1042,6 +1043,20 @@ It is up to each individual to familiarize themselves with SemVer principles and
 VS Code (Visual Studio Code) is the recommended code editor for the project, providing powerful debugging tools, built-in Git support, and a wide range of extensions.
 By utilizing VS Code, team members can collaborate more efficiently and ensure consistency and quality in the project's codebase.
 Its versatility and ease of use make it an ideal tool for project development.
+
+### IDEs
+In the development of software you need something to create and modify code files, below will be a select few of some possible ones for the project.
+
+#### Visual studio 2019/2022
+A development environment made by microsoft Visual studio is a powerful IDE specialised in C type language development.
+With extensive support for C, C++ and C# it is the ideal and recommended solution to software development in C type languages.\
+Visual studio also provides tools for developing other languages,
+however they are lacking in as extensive features as the languages described above and other options should be sought out.
+
+#### Pycharm
+Pycharm is a specialised development environment for Python development,
+with many helpful features PyCharm is a comprehensive and feature rich solution to Python programming.
+With a variety of packages and options to customise the coding experience PyCharm allows programmers to explore all aspects to Python programming.
 
 ### Virtual Machine
 The software system is expected to be compatible with Ubuntu 22.04 LTS.\
