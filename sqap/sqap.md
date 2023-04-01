@@ -896,8 +896,13 @@ By utilizing VS Code, team members can collaborate more efficiently and ensure c
 Its versatility and ease of use make it an ideal tool for project development.
 
 ### Virtual Machine
-All development will be done on a virtual machine with a Windows XP 32bit image provided by the client.\
-The recommended Virtual Machine software is VirtualBox version 4.1.8.
+The software system is expected to be compatible with Ubuntu 22.04 LTS.\
+A virtual machine is the recommended development environment for team members who do not use Ubuntu as their primary operating system or dual boot into Ubuntu.
+
+The recommended virtualizer is [VirtualBox 7.0.6](https://www.virtualbox.org/wiki/Downloads)
+(available on both Windows and MacOS) running with the [Ubuntu 22.04 LTS](https://ubuntu.com/download/desktop) disk image.\
+The virtual machine should have a minimum of 8 GB of RAM and 25 GB of storage.\
+The host machine must support and enable virtualization.
 
 ### Discord
 In order for team members to participate in Discord meetings, it is necessary for them to download and install the application on their device.
