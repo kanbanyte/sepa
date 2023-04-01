@@ -1027,8 +1027,8 @@ It provides state-of-the-art development tool as well as supporting client's .NE
 The software system is expected to be compatible with Ubuntu 22.04 LTS.
 A virtual machine is the recommended development environment for team members who do not use Ubuntu as their primary operating system or dual boot into Ubuntu.\
 The recommended virtualizer is [VirtualBox 7.0.6](https://www.virtualbox.org/wiki/Downloads)
-(available on both Windows and MacOS) running with the [Ubuntu 22.04.2 LTS Jammy Jellyfish](https://ubuntu.com/download/desktop) disk image.
-The virtual machine should have a minimum of 8 GB of RAM and 30 GB of storage.
+(available on both Windows and MacOS) running with the [Ubuntu 22.04 LTS](https://ubuntu.com/download/desktop) disk image.
+The virtual machine should have a minimum of 8 GB of RAM and 25 GB of storage.\
 The host machine must support and enable virtualization.
 
 ### Skype
