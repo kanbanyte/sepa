@@ -92,7 +92,7 @@ List of your Names:
 	* [Standards](#standards)
 		* [Coding Standard](#coding-standard)
 		* [Documentation Formatting Standard](#documentation-formatting-standard)
-		* [Filename/Location standards](#filenamelocation-standards)
+		* [Filename/Location Standards](#filenamelocation-standards)
 		* [Software Versioning Strategy: SemVer](#software-versioning-strategy-semver)
 		* [Document Releases](#document-releases)
 	* [Practices](#practices)
@@ -116,18 +116,18 @@ List of your Names:
 		* [Project Milestones](#project-milestones)
 		* [Stage-dependent tasks](#stage-dependent-tasks)
 		* [Cross-Functional Tasks](#cross-functional-tasks)
-		* [Task creation](#task-creation)
+		* [Task Creation](#task-creation)
 		* [Task Assignment](#task-assignment)
 		* [Task Life](#task-life)
 		* [Issue Categories](#issue-categories)
 * [Tools and methodologies](#tools-and-methodologies)
 	* [Tools](#tools)
-		* [LaTeX](#latex)
-		* [Issues tracking](#issues-tracking)
-		* [SVN](#svn)
-		* [Visual Studio](#visual-studio)
+		* [Markdown](#markdown)
+		* [GitHub](#github)
+		* [SemVer](#semver)
+		* [VS Code](#vs-code)
 		* [Virtual Machine](#virtual-machine)
-		* [Skype](#skype)
+		* [Discord](#discord)
 	* [Agile Methodology: Kanban](#agile-methodology-kanban)
 * [Records collection, maintenance and retention](#records-collection-maintenance-and-retention)
 * [Risk Management](#risk-management)
@@ -308,16 +308,18 @@ The will coordinate other managers to be able to meet requirements and deadlines
 
 ## Tasks and Responsibilities
 ### General Team Member Responsibilities
-* If a team member is selected for a task they will complete the task by the allocated time.\
-If unable to complete task in time, member is to raise an issue prior to deadline with the team leader.
-* Meeting Actions are binding unless changed at a later meeting.
-* Team members are responsible for the logging of their own time sheets.
-* Members are to conduct themselves in an appropriate manner facilitating a healthy work environment.
-* Members are required to maintain communication with team.
-* Members are required to follow all processes as described in the SQAP.
-* Members must make their best effort attend all allocated meetings/workshops and are to submit an apology if they are unable to attend.
-* Members are to follow all directives from champions.
-* Members are to actively partake in group discussion and provide input to the product and the process.
+The team members involved have several key responsibilities.
+
+These responsibilities include:
+* Understanding the overall project requirements.
+* Creating:
+	* an architectural design that meets those requirements.
+	* a detailed design that defines the components and interactions of the software.
+* Ensuring that the design is:
+	* of high quality and adheres to the project's coding standards.
+	* testable, and that it meets the project's functional and non-functional requirements.
+* All team members must maintain accountability of tasks they're responsible for and ensuring that others members are also held accountable for their responsibilities.
+* Each team member is responsible for communicating any issues that may hinder their input into the project and are encouraged to ask for help when needed.
 
 ### Champions
 #### Team Leader
@@ -549,48 +551,60 @@ Where possible, all text documents will be written in LaTeX to ensure they are e
 * Presentations should be done using the LaTeX beamer package.\
 The Warsaw theme should also be used to ensure visual consistency.
 
-### Filename/Location standards
-* All file and folder names will be lowercase.\
-With the exception of the code folder where uppercase characters are allowed for the purposes of integrating with MicrosoftVisualStudio's standards.
-* There shall be no whitespace (spaces) in filenames.
-* " " will be used to delimit the file and folder names in the event that the name is multiple words.
-* Management/Administration files will be named as follows "filename yyyymmdd".
-* Coding files shall be organised in folders in this structure \trunk\code\eagle\subproject\, \subproject is the programming unit (Java or .NET projects)
-* Coding file shall be named inform at of subproject abbr namespace `filename.extension`, where namespace represents the subcomponents of a sub project.
-* Management/Administration related files are to kept within the docs folder.
-* Multiple related files with similar content such as the meeting minutes are to be stored within an appropriately named encapsulating folder.
+### Filename/Location Standards
+* Management documents will be contained in their own folder in case more are added or needed.
+* All folder names will be in lowercase.
+* Whitespace will not exist in folder names, using `_` instead.
+* A Markdown document will be kept in the main folder and act as a guide to the software.
+* Files of the same type will get their own folder, for example meeting minutes and progress reports.
+* Code files will be named after the appropriate task or class they provide.
+* For files that require dates they will be presented with a DDMMYYYY format
 
 #### Document Tree
 The following document tree describes the SVN structure.\
 Additional folders may be added at the discretion of team members after consulting with the SVN champion.
-```brainfuck
-repos
-	+---trunk
-		+---docs
-			+---meetings minutes
-				\---agendas
-			+---presentations
-				+---project presentation 1
-				\---figures
-			+---sqap
-				+---figures
-				+---references
-				\---release
-			+---project plan
-				+---figures
-				\---release
-			+---self assessment reports
-			+---srs
-				+---figures
-				+---release
-				\---mockup
-			+---standards
-			\---worklogs
-		+---code
-			+---eagle
-				\---subproject
-	+---tags
-	\---branches
+
+The following describes the Folder structure from the perspective of the **main** branch of the repository.
+Additional folders exist; however, this should give an overview of expected conventions.
+```diff
+main
+|	.gitignore
+|	project24proposal.md
+|	README.md
+|	self-peer_review_template.md
+|	worklog_template.md
+|
++-------.github
+|	|	PULL_REQUEST_TEMPLATE.md
+|	|
+|	\-------ISSUE_TEMPLATE
+|			config.yml
+|
++-------criteria
+|		criteria.md
+|
++-------design_report
+|		design.md
+|
++-------project_plan
+|		plan.md
+|
++-------sadrr
+|		sadrr.md
+|
++-------sqap
+|		sqap.md
+|
++-------srs
+|		srs.md
+|
++-------statement
+|		contribution.md
+|
+\-------styles
+		contribution.css
+		styles.css
+		worklog.css
 ```
 
 <div class="page"/><!-- page break -->
@@ -942,11 +956,15 @@ To ensure successful completion of cross-functional tasks, the team will adopt a
 Finally, the team will use Semantic Versioning (SemVer) for software versioning and
 GitHub for source control to ensure that code changes are properly tracked and managed.
 
-### Task creation
-Minute taker is to convert meeting's actions to task and assign to appropriate developer.\
-Developer is responsible to divide the task logically into smaller tasks if necessary.\
-Team member would also create task as appropriate: for bug reporting or planning.\
-Task creator must check for existing issue prior to creating task.
+### Task Creation
+Task creation involves several steps to ensure proper documentation and tracking throughout the development process.\
+Requirements for pick and place tasks are analysed to identify specific system needs.
+
+The team creates a design specification outlining how system components interact.\
+Tasks are assigned to team members based on priority, and progress is monitored daily.
+
+Issues and bugs are tracked using GitHub and resolved by the appropriate team member.\
+Following these guidelines ensures proper task tracking, documentation, and consistent software quality.
 
 <div class="page"/><!-- page break -->
 
@@ -1005,19 +1023,26 @@ Categories can be updated to adapt to the project's development, the following a
 
 # Tools and methodologies
 ## Tools
-### LaTeX
-To compile the documentation TEX files, pdflatex should be used, on Windows the MiKTeX 2.9 package provides this.\
-The recommended editor for LaTeX files is the Texmaker editor, version3.3.1 has been recommended.
 
-### Issues tracking
-Issue tracking tool is Mantis.\
-The tool can be access by SIMS username and password at:\
-<https://mercury.it.swin.edu.au/hit3158/hit3158_02/mantis/Mantis>\
-provides a simple to use and feature-rich platform to track issues,progress and effort by the team.
+### Markdown
+This lightweight markup language is easy to learn with plain text formatting syntax that can be converted to other formats like PDF, and
+produces HTML files that can be viewed in any web browser.\
+A recommended editor for Markdown files is Visual Studio Code, which provides syntax highlighting and preview functionality.
 
-### SVN
-All commit and updates by team members shall be done through TortoiseSVN or SmartSVN client to avoid potential problems.\
-Both programs have been tested to work, so it is up to the individual to choose which program they prefer.
+### GitHub
+GitHub is used as the issue tracking tool, providing a user-friendly and feature-rich platform to track issues, progress, and perform code reviews.
+By utilizing GitHub for issue tracking,
+team members can easily collaborate and communicate on project tasks, leading to more efficient and effective issue resolution.
+
+### SemVer
+All versioning updates by team members shall follow Semantic Versioning (SemVer) principles to avoid potential issues.\
+By adhering to SemVer, team members can ensure that software versioning is consistent and understandable across the entire team.\
+It is up to each individual to familiarize themselves with SemVer principles and incorporate them into their versioning workflow.
+
+### VS Code
+VS Code (Visual Studio Code) is the recommended code editor for the project, providing powerful debugging tools, built-in Git support, and a wide range of extensions.
+By utilizing VS Code, team members can collaborate more efficiently and ensure consistency and quality in the project's codebase.
+Its versatility and ease of use make it an ideal tool for project development.
 
 ### IDEs
 In the development of software you need something to create and modify code files, below will be a select few of some possible ones for the project.
@@ -1034,11 +1059,19 @@ with many helpful features PyCharm is a comprehensive and feature rich solution 
 With a variety of packages and options to customise the coding experience PyCharm allows programmers to explore all aspects to Python programming.
 
 ### Virtual Machine
-All development will be done on a virtual machine with a Windows XP 32bit image provided by the client.\
-The recommended Virtual Machine software is VirtualBox version 4.1.8.
+The software system is expected to be compatible with Ubuntu 22.04 LTS.\
+A virtual machine is the recommended development environment for team members who do not use Ubuntu as their primary operating system or dual boot into Ubuntu.
 
-### Skype
-If Skype meetings are deemed to be necessary, then all team members will need to download and install Skype and have access to a microphone and speakers.
+The recommended virtualizer is [VirtualBox 7.0.6](https://www.virtualbox.org/wiki/Downloads)
+(available on both Windows and MacOS) running with the [Ubuntu 22.04 LTS](https://ubuntu.com/download/desktop) disk image.\
+The virtual machine should have a minimum of 8 GB of RAM and 25 GB of storage.\
+The host machine must support and enable virtualization.
+
+### Discord
+In order for team members to participate in Discord meetings, it is necessary for them to download and install the application on their device.
+They also need to have access to a microphone and speakers to be able to communicate, and
+should familiarize themselves with basic Discord features e.g., screen sharing.
+Following these guidelines will ensure that all team members are prepared for successful meetings on Discord.
 
 <div class="page"/><!-- page break -->
 
