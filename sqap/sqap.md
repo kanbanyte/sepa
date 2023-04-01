@@ -130,17 +130,22 @@ The plan will outline the development process and testing procedures, including 
 In addition, the plan will describe several tools and methodologies that will be implemented and used to guarantee the solution's reliability,
 maintainability and performance.
 Finally, the plan will identify the team; `team_name`, responsible for the development and testing of the software as well as their roles and responsibilities.
+
 <!-- TOC ignore:true -->
 # Chapter 2
 
 # Reference Documents
-* Institute of Electrical and Electronics Engineers (IEEE) Std 730-1998, IEEE Standard for Software Quality Assurance Plans
-* IEEE Std 830-1998, IEEE Recommended Practice forSoftware Requirements Specifications
-* SPINGRID Software Quality Assurance Plan, Version0.1.3 14 June 2006
-* OMP Quality Assurance Plan, Version1.1 May15, 2006
-* Swinburne Java Coding Standard - SwinBrain
-* Swinburne .NET Coding Standard - SwinBrain
-* SVN Best Practices: <http://svn.apache.org/repos/asf/subversion/trunk/doc/user/svn-best-practices.html>
+* ISO/IEC/IEEE 12207: <https://www.iso.org/standard/63712.html>
+* ISO/IEC/IEEE 15288: <https://www.iso.org/standard/63711.html>
+* ISO/IEC 25010: <https://www.iso.org/standard/35733.html>
+* Google C++ Guidelines: <https://google.github.io/styleguide/cppguide.html>
+* Google Python Guidelines: <https://google.github.io/styleguide/pyguide.html>
+* Software Versioning: <https://en.wikipedia.org/wiki/Software_versioning>
+* Introduction Software Versioning: <https://www.geeksforgeeks.org/introduction-semantic-versioning/>
+* Software Release Life Cycle: <https://en.wikipedia.org/wiki/Software_release_life_cycle>
+* Hungarian Notation: <https://en.wikipedia.org/wiki/Hungarian_notation>
+* Ubuntu 22.04 LTS: <https://ubuntu.com/download/desktop>
+* Kanban Agile Methodology: <https://www.nimblework.com/kanban/what-is-kanban/>
 
 <div class="page"/><!-- page break -->
 
