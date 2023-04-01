@@ -7,7 +7,7 @@
 # Robot Vision System For A Pick And Place Task
 <!--
 	Co-Author: @dau501
-	Editor(s):
+	Editor(s): @Slothman1, @NickMcK14, @finnmcgearey, @Huy-GV, @vkach
 	Year: 2023
 -->
 
@@ -17,44 +17,29 @@
 ## Industry Project 24
 List of your Names:
 
-|Name|Position|Email|Phone|
-|:-|:-|:-|:-|
-|@Slothman1|Team Leader/Client Liaison|id@swin.student.edu.au|04xx xxx xxx|
-|@vkach|Quality Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
-|@dau501|Development Manager/Planning Manager|id@swin.student.edu.au|04xx xxx xxx|
-|@finnmcgearey|Support Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
-|@|-|id@swin.student.edu.au|04xx xxx xxx|
-|@Huy-GV|Quality Manager/Developer|id@swin.student.edu.au|04xx xxx xxx|
+|Name|Position|Email|
+|:-|:-|:-|
+|@Slothman1|Team Leader/Client Liaison|id@swin.student.edu.au|
+|@dau501|Development Manager/Planning Manager|id@swin.student.edu.au|
+|@finnmcgearey|Support Manager/Developer|id@swin.student.edu.au|
+|@vkach|Quality Manager/Developer|id@swin.student.edu.au|
+|@NickMcK14|Support Manager/Developer|id@swin.student.edu.au|
+|@Huy-GV|Quality Manager/Developer|id@swin.student.edu.au|
 
 <!-- SUBJECT CODE, NAME, SEMESTER AND DATE -->
 
 <div class="page"/><!-- page break -->
 
 <!-- TOC ignore:true -->
-## Review history
-|Version|Date|Author|Comments|
-|:-|:-|:-|:-|
-|1.00||All Authors|Created initial draft document.|
-|1.10||All Authors|Updated based on feedback from external reviews.|
-|1.20||S. Smith|Updated based on internal review and Supervisor feedback.|
-|1.30||S. Smith & T. Le|Updated based on internal review and Supervisor feedback.|
-|1.40||All|Final Submission.|
-
-<!-- TOC ignore:true -->
-## Acronyms/Abbreviations
-**ASAP** &emsp; As Soon as Possible\
-**COB** &emsp; Close of Business (5:00 PM)\
-**DMO** &emsp; Defence Materiel Organisation\
-**DMS** &emsp; Data Management System\
-**GUI** &emsp; Graphical User Interface\
-**IEEE** &emsp; Institute of Electrical and Electronics Engineers\
-**JDK** &emsp; Java Development Kit\
-**JRE** &emsp; Java Runtime Environment\
-**Ver.** &emsp; Version\
-**SQAP** &emsp; SoftwareQuality Assurance Plan \
-**SRS** &emsp; SoftwareRequirements Specification \
-**SVN** &emsp; Subversion \
-**SVVP** &emsp; SoftwareVerification and Validation Plan
+## Domain Vocabulary
+* **ASAP**: As Soon as Possible
+* **COB**: Close of Business (5:00 PM)
+* **GUI**: Graphical User Interface
+* **IEEE**: Institute of Electrical and Electronics Engineers
+* **SQAP**: Software Quality Assurance Plan
+* **SRS**: Software Requirements Specification
+* **SemVer**: Semantic Versioning
+* **Project 24**: Robot Vision System For A Pick And Place Task
 
 <div class="page"/><!-- page break -->
 
@@ -63,7 +48,6 @@ List of your Names:
 <!-- TOC -->
 
 * [Introduction](#introduction)
-	* [Author List/Roles](#author-listroles)
 	* [Purpose](#purpose)
 * [Reference Documents](#reference-documents)
 * [Management](#management)
@@ -98,43 +82,38 @@ List of your Names:
 	* [Practices](#practices)
 		* [Communication Practices](#communication-practices)
 		* [Meetings](#meetings)
-		* [Worklogs](#worklogs)
-		* [SVN](#svn)
+		* [Semantic Versioning](#semantic-versioning)
 		* [Coding practices](#coding-practices)
 * [Reviews and Audits](#reviews-and-audits)
 	* [Purpose](#purpose-2)
-	* [Review/Audit list](#reviewaudit-list)
-		* [Reviews](#reviews)
-		* [Audits](#audits)
 * [Testing](#testing)
 	* [Requirement](#requirement)
-	* [Use case generation](#use-case-generation)
+	* [Use Case Generation](#use-case-generation)
 	* [Installation and User Documentation Generation](#installation-and-user-documentation-generation)
 * [Problem Reporting and Corrective Action](#problem-reporting-and-corrective-action)
 	* [Personnel](#personnel)
 	* [Work](#work)
 		* [Project Milestones](#project-milestones)
-		* [Stage-dependent tasks](#stage-dependent-tasks)
 		* [Cross-Functional Tasks](#cross-functional-tasks)
 		* [Task Creation](#task-creation)
 		* [Task Assignment](#task-assignment)
 		* [Task Life](#task-life)
-		* [Issue Categories](#issue-categories)
-* [Tools and methodologies](#tools-and-methodologies)
+* [Tools and Methodologies](#tools-and-methodologies)
 	* [Tools](#tools)
 		* [Markdown](#markdown)
 		* [GitHub](#github)
 		* [SemVer](#semver)
 		* [VS Code](#vs-code)
+		* [IDEs](#ides)
 		* [Virtual Machine](#virtual-machine)
 		* [Discord](#discord)
 	* [Agile Methodology: Kanban](#agile-methodology-kanban)
-* [Records collection, maintenance and retention](#records-collection-maintenance-and-retention)
+* [Records Collection, Maintenance and Retention](#records-collection-maintenance-and-retention)
 * [Risk Management](#risk-management)
 	* [Purpose](#purpose-3)
-	* [Categorization](#categorization)
+	* [Categorisation](#categorisation)
 	* [Risks With Respect To The Work To Be Done](#risks-with-respect-to-the-work-to-be-done)
-	* [Risks with respect to the management](#risks-with-respect-to-the-management)
+	* [Risks With Respect To The Management](#risks-with-respect-to-the-management)
 	* [Risks With Respect To The Client](#risks-with-respect-to-the-client)
 
 <!-- /TOC -->
@@ -145,16 +124,6 @@ List of your Names:
 # Chapter 1
 
 # Introduction
-## Author List/Roles
-|Author|Student ID|Role Semester 1|Role Semester 2|
-|:-|:-|:-|:-|
-|||Team Leader / Supervisor Liaison|Testing/Usability Champion|
-|||SVN / Mantis Champion|Documentation / Quality Champion|
-|||Client Liaison|N.A (No longer part of Team)|
-|||Usability/Quality Champion|SVN / Mantis Champion|
-|||Documentation Champion|Team Leader / Supervisor Liaison|
-|||Coding Champion / Sargent At Arms|Coding Champion / Client Liaison|
-
 ## Purpose
 The robot vision system for a pick and place task will be tackled by group 24 and following this document; the software quality assurance plan (SQAP),
 it will be ensured that the projects requirements and quality standards are met.
@@ -162,17 +131,22 @@ The plan will outline the development process and testing procedures, including 
 In addition, the plan will describe several tools and methodologies that will be implemented and used to guarantee the solution's reliability,
 maintainability and performance.
 Finally, the plan will identify the team; `team_name`, responsible for the development and testing of the software as well as their roles and responsibilities.
+
 <!-- TOC ignore:true -->
 # Chapter 2
 
 # Reference Documents
-* Institute of Electrical and Electronics Engineers (IEEE) Std 730-1998, IEEE Standard for Software Quality Assurance Plans
-* IEEE Std 830-1998, IEEE Recommended Practice forSoftware Requirements Specifications
-* SPINGRID Software Quality Assurance Plan, Version0.1.3 14 June 2006
-* OMP Quality Assurance Plan, Version1.1 May15, 2006
-* Swinburne Java Coding Standard - SwinBrain
-* Swinburne .NET Coding Standard - SwinBrain
-* SVN Best Practices: <http://svn.apache.org/repos/asf/subversion/trunk/doc/user/svn-best-practices.html>
+* ISO/IEC/IEEE 12207: <https://www.iso.org/standard/63712.html>
+* ISO/IEC/IEEE 15288: <https://www.iso.org/standard/63711.html>
+* ISO/IEC 25010: <https://www.iso.org/standard/35733.html>
+* Google C++ Guidelines: <https://google.github.io/styleguide/cppguide.html>
+* Google Python Guidelines: <https://google.github.io/styleguide/pyguide.html>
+* Software Versioning: <https://en.wikipedia.org/wiki/Software_versioning>
+* Introduction Software Versioning: <https://www.geeksforgeeks.org/introduction-semantic-versioning/>
+* Software Release Life Cycle: <https://en.wikipedia.org/wiki/Software_release_life_cycle>
+* Hungarian Notation: <https://en.wikipedia.org/wiki/Hungarian_notation>
+* Ubuntu 22.04 LTS: <https://ubuntu.com/download/desktop>
+* Kanban Agile Methodology: <https://www.nimblework.com/kanban/what-is-kanban/>
 
 <div class="page"/><!-- page break -->
 
@@ -271,8 +245,8 @@ They should also collaborate with subject matter experts to ensure that the syst
 Team members with expertise in these fields are responsible for providing input and review of the software architecture and
 design to ensure that it aligns with the project's objectives.
 
-#### Project Superviser
-The project superviser will be consulted regarding information about the project and will provide feedback on work when necessary.
+#### Project Supervisor
+The project supervisor will be consulted regarding information about the project and will provide feedback on work when necessary.
 They will also communicate with the team leader should they need to contact the team regarding any work or updates on project progress.
 
 #### Client
@@ -287,17 +261,17 @@ up-to-date to facilitate communication with the development team and stakeholder
 #### Quality Manager
 Quality managers ensure quality is maximised throughout the project,
 and therefore will be responsible for communicating quality requirements to the relevant team members.
-They will also provide the project superviser and client with updates regarding the quality of the deliverables currently being worked on.
+They will also provide the project supervisor and client with updates regarding the quality of the deliverables currently being worked on.
 
 #### Support Manager
-The support managers are responsible for providing support to other team members, the project superviser, or the client with regards to the project.
+The support managers are responsible for providing support to other team members, the project supervisor, or the client with regards to the project.
 They will communicate with other team members to help them with work, research, or testing if necessary.
-Should the superviser or client require assistance with understanding the deliverables or software,
+Should the supervisor or client require assistance with understanding the deliverables or software,
 the support managers should relay information to them regarding these aspects.
 
 #### Development Manager
 Development managers coordinate with the software developers to keep progress steady and ensure code functions correctly.
-They will be able to provide the superviser, client, and team leader with updates regarding the development and testing process.
+They will be able to provide the supervisor, client, and team leader with updates regarding the development and testing process.
 
 #### Planning Manager
 The planning manager plans for the future documents, software components, etc.
@@ -334,7 +308,7 @@ These responsibilities include:
 
 #### Documentation
 * Must ensure that documentation is completed by all developers and maintains certain standards.
-* Must be able to provide assistance should any team member requires it.
+* Must be able to provide assistance should any team member require it.
 
 #### Code
 * Must ensure that all code follows standards and practices set out at the beginning of development.
@@ -345,7 +319,6 @@ These responsibilities include:
 * Must ensure that all released versions follow label accordingly following standards and principles.
 * Must ensure that all team members work aligns with the next planned version release.
 * Will be able to provide assistance should any team member require it.
-
 
 #### Testing
 * Must ensure that all testing tasks are delegated appropriately.
@@ -417,7 +390,7 @@ It will include:
 This document will give information about the overall system architecture and design, as well as additional research into the project.
 Contained within this document will be:
 * Overview of the document.
-* Problem analysis which will outline the goals of the software systen and any assumptions and simplifications.
+* Problem analysis which will outline the goals of the software system and any assumptions and simplifications.
 * High-level system architecture and alternatives
 * Additional research
 	* Research into the application domain
@@ -439,10 +412,11 @@ Additionally an evaluation of the design documents should be carried out during 
 
 ### Meeting Minutes
 * Will be collected at every meeting.
-* Must follow the minutes template as outlined on the SVN.
-* Will be collected as either a raw .txt file or LaTeX file and then converted to latex format.
-* Formatted minutes will be released on the SVN no later than the following day's COB.
-* APDF copy of the minute scan also be emailed if requested, however, members are expected to find the minutes on the SVN and complete their actions independently.
+* Must follow the minutes template as outlined in the GitHub repository.
+* Will be collected as either a raw .txt file or Markdown file.
+* Formatted minutes will be released in the repository no later than the following day's COB.
+* A PDF copy of the minutes can also be emailed upon request, however,
+members are expected to find the minutes in the repository and complete their actions independently.
 
 <div class="page"/><!-- page break -->
 
@@ -482,52 +456,25 @@ Further information about coding practices can be found in the [coding practices
 <div class="page"/><!-- page break -->
 
 ### Documentation Formatting Standard
-Where possible, all text documents will be written in LaTeX to ensure they are easily merge-able.
-* No non-standard LaTeX package should be used.
-* The hyper ref package should be used in all documents; so that all links function correctly.
-* The line `\setlength{\parskip}{1}` can be added to the document header to remove paragraph indents, and use vertical space to separate paragraphs instead.
-* All documents should use the `fullpage` package so that the margins are a reasonable and consistent size.
-* No references should be hard-coded but rather use the `\label-\ref` standard.
-* Only the document classes article, report and beamer should be used.
-* No customizing of the fonts; everything should be left at the default.
-* Tabs should be converted to spaces with a width of 4.
-* Indenting of the mark-up should be done to improve readability.
-* Figures:
-	* All figures need to be in directory called "figures" where the TEX file is located.
-	* All figures need to be wrapped in a `\begin{figure}[H]` command and labelled with an appropriate caption under the figure.
-		```latex
-		\begin{figure}[H]
-			\centering
-			\includegraphics{imagefile.png}
-			\caption{This is the caption}
-		\end{figure}
-		```
-* Tables
-	* All tables need to be wrapped in a `\begin{table}[H]`.
-	* All tables should be labelled with an appropriate caption under the table.
-	* All tables should have borders like in the example below
-	* The use of long tables is accepted to allow tables to span multiple pages.
-		```latex
-		\begin{table}[H]
-			\centering
-			\begin{tabular}{l|l|l}
-				\hline
-				col1 & col2 & col3 \\ \hline \hline
-				1 & 2 & 3 \\\hline
-			\end{tabular}
-			\caption{This is the caption}
-		\end{table}
-		```
-* Acronyms should be added to an acronyms table created with the code example below, and used with the `\ac{}` command
-	```latex
-	\section*{Acronyms}
-	\begin{acronym}[TDMA]
-		\acro{COB}{Close of Business}
-		\acro{IEEE}{Institute of Electrical and Electronics Engineers}
-	\end{acronym}
-	```
-* Presentations should be done using the LaTeX beamer package.\
-The Warsaw theme should also be used to ensure visual consistency.
+All project documentation should be formatted according to Markdowns documentation formatting standards to ensure consistency and readability.
+The formatting standard defines rules for all Project 24's documentation to ensure consistency and readability.\
+By adhering to these guidelines, team members can quickly and easily find information and understand the contents of the documents.
+
+These standards include:
+* Use clear and concise writing
+* Organize content using headings and subheadings
+* Use bullet points or numbered lists to structure information
+* Include tables and diagrams when appropriate to clarify information
+* Use a consistent font and font size throughout the document
+* Include a table of contents for multi-page documents
+* Use a consistent file naming convention
+
+In addition to these guidelines, all documentation should be created using Markdown.\
+All team members are responsible for ensuring that their documentation adheres to the formatting standard.\
+In addition, specific document types related to Project 24 may have additional formatting requirements, which will be outlined in their respective templates.
+
+By adhering to the documentation formatting standard and using Markdown,
+we can ensure that all project documentation related to Project 24 is consistent, clear, and easy to understand.
 
 ### Filename/Location Standards
 * Management documents will be contained in their own folder in case more are added or needed.
@@ -638,7 +585,7 @@ The following practices will ensure that quality control is maintained by all pa
 <div class="page"/><!-- page break -->
 
 ## Practices
-This section will cover several practises that will be employed as a basis for quality control wtihin the project.\
+This section will cover several practises that will be employed as a basis for quality control within the project.\
 These practises will be followed closely throughout development, frequent audits will ensure that this is the case.\
 Through rigorous upholding of the outlined practises the quality of the project will be maintained and ensured the deliverables be of high quality.
 
@@ -683,13 +630,10 @@ Regular meetings with all team members present will be held. The following goals
 * A member of the team must be assigned the responsibility of both documents for each week.
 Or different member can be delegated the task each week on agreement of all team members.
 
-### Worklogs
-* Weekly update of Worklogs on the SVN
-* Team Leader to monitor Worklogs.
-* Team Leader to monitor and maintain the project hours summary sheet
-
-### SVN
-* Temporary/intermediate files are not to be committed
+### Semantic Versioning
+The software versioning strategy for this project will follow Semantic Versioning (SemVer).\
+This strategy will ensure that versions are released in a manner that is compatible with the software dependencies and usage.\
+This strategy will provide clarity to the team and stakeholders about the purpose and impact of each software release.
 
 ### Coding practices
 This section includes coding guidelines.
@@ -748,72 +692,6 @@ With regards to validation, it will be checked through internal and external rev
 These reviews and audits will help ensure that deliverables are up to scratch and product quality is maintained.
 The information on these reviews and Audits are found earlier in the document under chapter 5.
 
-## Review/Audit list
-### Reviews
-Reviews are held during all phases of the project's life-cycle.
-
-#### Formal Review Process
-All formal review meetings must use the following process,a formal review is to be declared ona case by case basis:
-1. Are view committee is selected and the specified roles are filled.
-2. The Moderator identifies and/or confirms the review's objectives.
-3. The Moderator ensures that all members of the committee understand the objectives and the review process.
-4. &nbsp;
-	1. Individual: the review committee will prepare to review the work by examining it carefully for potential defects.
-	2. Team: there view committee meets at a planned time to pool the results of their preparation activity and
-	arrive at a consensus regarding the status of the document or standard being reviewed
-5. Author of the work makes the required changes as specified by the review committee.
-6. Moderator verifies that the actions required by the Author have taken place.
-
-<div class="page"/><!-- page break -->
-
-#### Informal Review Processes
-#### Code
-Code quality is to be ensured through regular reviews as listed below.\
-In the event that code is found to be unsatisfactory the results will be communicated to the relevant team member and raised as an Issue.
-1. Peer review: Code commits shall be reviewed by a peer developer, assigned in the team meeting, as recommended by the Code champion, for the following aspects.\
-Weekly inspection will be carried out on all commits by the assigned peer prior to the next meeting.
-	* Coding Standard
-	* Task Completion
-	* Verified against initial specifications, from each stage's detail design.
-	* Agreement upon any changes to specifications
-2. Client review: Every 2 weeks, all working branches are merged and sent to client for testing and review against the following:
-(The method of transfer will not require meeting with the client face to face and is distinctly different from client meetings.)
-	* Deliverable time line
-	* Verified against specifications
-	* Validate task completion
-
-#### Meeting
-Meeting quality will primarily be maintained through audits of the correct process but all meeting related documents will also be reviewed for quality.
-
-Meeting minutes will be reviewed following the first meeting of each secretary against the standards.\
-This is done alongside the formal acceptance of minutes at the conclusion of each meeting.
-
-Agenda will be accepted prior to each meeting and formally reviewed prior to the following meeting.
-
-Any documents found to be unsatisfactory will have results communicated to the secretary and raised as an Issue.
-
-<div class="page"/><!-- page break -->
-
-#### Management Document
-Management documents will be reviewed against document standards prior to being finalised and released.\
-In the event that the document is found to be unsatisfactory, a list of improvements will be generated and raised as an issue.\
-One example of this is the feed back sheets provided by the supervisor.
-
-### Audits
-Audits should be held regularly during all phases of the project's life-cycle to ensure processes put in place are being adhered to.
-
-#### Coding Practices Audit
-Coding practices will be audited by code champion on a case by case basis (normally as a result of consecutive unsatisfactory peer reviews).\
-Failure to meet defined coding processes will result in a list of improvements being generated and communicated to responsible team member(s).
-
-#### Communication Audit
-Communications will be audited on a monthly basis by Team Leader.\
-Failure to meet defined communication processes will result in a list of improvements being generated and communicated to responsible team member(s).
-
-#### SVN Practices Audit
-SVN Practices will be audited as part of the routine maintenance by the SVN champion.\
-Failure to meet the prescribed practices will be communicated to relevant team members with recommendations for improvement.
-
 <div class="page"/><!-- page break -->
 
 <!-- TOC ignore:true -->
@@ -823,7 +701,7 @@ Failure to meet the prescribed practices will be communicated to relevant team m
 For the testing phase of the project, a comprehensive approach will be used to ensure that the Robot Vision System is functioning optimally.
 
 Unit testing will be performed on individual software components to verify their correct functionality.
-This will likely make up most of the intial testing as the team has a lack of experience with computer vision and
+This will likely make up most of the initial testing as the team has a lack of experience with computer vision and
 robotic control so we will need to validate that our solutions are on the right track as we learn new skills.
 This will largely be assisted by feedback from the client and other team members.
 
@@ -835,16 +713,16 @@ The team will also perform some usability/function testing to test edge cases wh
 robot arm are in incorrect positions to test the robustness of the software solution and see what exceptions are thrown.
 These tests will allow the team to design user friendly error messages.
 
-We will work with the client to creatic metrics we can use to measure the success of the solution.
+We will work with the client to create metrics we can use to measure the success of the solution.
 
 <div class="page"/><!-- page break -->
 
 ## Requirement
-Our testing will aim to validate that our solution meets all the requirments outlined in thhe SRS above.\
+Our testing will aim to validate that our solution meets all the requirements outlined in the SRS above.\
 This will require them team to have clear communication with the client to ensure their needs are met by our software.\
-This will allow the team to create effective tests, specifically tailored to the requirments of the client.
+This will allow the team to create effective tests, specifically tailored to the requirements of the client.
 
-## Use case generation
+## Use Case Generation
 For the use case generation, we need to identify the various scenarios in which the robot will operate and the interactions with the system.
 
 The use cases will:
@@ -868,7 +746,6 @@ Metamorphic testing is defined by the following process:
 For this software solution,
 an example of a MR is that the position of a chip placed in the holding bracket is the same regardless of the number of chips placed in adjacent slots.
 Therefore, the theoretical output of the system should be that it can identify a specified chip irrespective of any arrangement of surrounding chips.
-
 
 ## Installation and User Documentation Generation
 Effective Installation and User Documentation is an essential part of software development as it ensures that users can easily install, configure and use the software.
@@ -906,7 +783,7 @@ deployment of the Robot Vision System using Kanban Agile methodology and Semanti
 A realistic and feasible set of project milestones should account for each stage of the project's lifecycle and
 ensure each milestone is achieved within the specified time frame.
 There is one project that being; **developing a perception system for a cobot**.\
-This project will then have milestones to fulfill the Kanban methodology and allow for more focused goals.\
+This project will then have milestones to fulfil the Kanban methodology and allow for more focused goals.\
 Some examples of these milestones are as follows:
 * Mounting the camera and the information from the camera being processed.
 * System is integrated with ROS correctly.
@@ -919,10 +796,6 @@ identifying and resolving issues, and labelling each milestone to indicate the s
 
 Regular reviews and updates of the project milestones are necessary to ensure alignment with the Kanban board and timely achievement of each milestone.
 Any changes to the milestones should be communicated and discussed with the project team using GitHub's discussions to ensure everyone is on the same page.
-
-### Stage-dependent tasks
-Stage-dependent issues and tasks must indicate which sub-project they belong to, as well as which version\
-(e.g., [Module 1-2] v1.0 dsg indicating this issue belong to design phase of Module 1-2 first release).
 
 ### Cross-Functional Tasks
 Cross-functional tasks and issues must indicate the base version they belong to, such as **Project 24 v0.1.0-a**.\
@@ -961,47 +834,13 @@ The task life would also include testing and maintenance stages, in which the ta
 then maintained to ensure its continued operation and improvement over time.
 Finally, the task would be *closed* via a **pull request** after it has been formally *reviewed* by the respective champion and *merged* into the **main** branch.
 
-### Issue Categories
-Categories can be updated to adapt to the project's development, the following are most up to date:
-* Administration
-* Audit - External
-* Audit - Internal
-* Client Liaison
-* Coding - Prototype
-* Documentation - AD
-* Documentation - General
-* Documentation - PP
-* Documentation - SAR
-* Documentation - SD
-* Documentation - SQAP
-* Documentation - SRS
-* Lecture
-* Meeting - Client
-* Meeting - Other
-* Meeting - Weekly
-* Presentation Preparation
-* Research - Coding
-* Research - Documentation
-* Review - External
-* Review - Internal
-* SVN Management
-* Requirements - Module 1
-* Design - Module 1
-* Coding - Module 1
-* Testing - Module 1
-* Requirements - Module 3
-* Design - Module 3
-* Coding - Module 3
-* Testing - Module 3
-
 <div class="page"/><!-- page break -->
 
 <!-- TOC ignore:true -->
 # Chapter 9
 
-# Tools and methodologies
+# Tools and Methodologies
 ## Tools
-
 ### Markdown
 This lightweight markup language is easy to learn with plain text formatting syntax that can be converted to other formats like PDF, and
 produces HTML files that can be viewed in any web browser.\
@@ -1078,7 +917,7 @@ By delivering small, incremental changes and seeking continuous feedback, the te
 <!-- TOC ignore:true -->
 # Chapter 10
 
-# Records collection, maintenance and retention
+# Records Collection, Maintenance and Retention
 Management documents, which encapsulates Minutes, Agendas and Notes, will be added to the teams GitHub repository.\
 Any form of administration in terms of breaches in standards and practices will be documented on the GitHub repository.\
 Documents that are added to the GitHub repository and finalized should not be modified.
@@ -1089,10 +928,10 @@ Documents that are added to the GitHub repository and finalized should not be mo
 # Risk Management
 ## Purpose
 Unforeseen events can and will happen during the course of this project.
-To ensure that a functional and high quality product is delivered on schedule, it is vital that risks are identified, analyzed and accounted for.
+To ensure that a functional and high quality product is delivered on schedule, it is vital that risks are identified, analysed and accounted for.
 This section involves risk categorization and listing corresponding countermeasures.
 
-## Categorization
+## Categorisation
 For this project three major categories of risks have been identified:
 1. Risks with respect to the work to be done.
 2. Risks with respect to the management.
@@ -1155,7 +994,7 @@ Cautious planning, a conservative timeline as well as vigilant monitoring will r
 If the team anticipates that the project will not be finished on time, a meeting is held to re-prioritize tasks based on their progress and importance.
 The client and supervisor will also receive notifications in such case to provide further assistance.
 
-## Risks with respect to the management
+## Risks With Respect To The Management
 |Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy|Contingency|
 |:-:|:-|:-:|:-:|:-|:-|
 |1|Team leader absence.|L|M-H|Co-leader selected in advance.|Emergency vote.|
@@ -1164,27 +1003,27 @@ The client and supervisor will also receive notifications in such case to provid
 |4|Supervisor absence.|L|L|None|Asynchronous updates and catch-up meeting if needed.|
 |5|Conflicts within the team.|M|H|Regular communication.|Irregular meetings to resolve disputes.|
 
-* Temporary absence of team leader.\
+1. Temporary absence of team leader.\
 The team leader can be temporarily absent due to illness or personal matters, and its impact varies depending on when it happens.\
-To ensure smooth operation at all times, the team can preemptively allocate a second leader who automatically assumes control when the primary leader is away.
+To ensure smooth operation at all times, the team can pre-emptively allocate a second leader who automatically assumes control when the primary leader is away.
 If both leaders are absent, an emergency team meeting is held to select another temporary leader.
-* Team member leaves.\
+2. Team member leaves.\
 This is a relatively low risk due to the importance of the capstone project.
 However, its impact is high because the team's total productivity is reduced and prior planning might no longer be appropriate.\
 There is no way to prevent this from occurring, but to minimize its impact,
 all tasks should be broken up and allocated to as many members as possible to avoid dependence on a single person.
-* Inability to hold regular meetings with all members present.\
+3. Inability to hold regular meetings with all members present.\
 This is a moderate-low risk.
 The project requires frequent communication between team members and ideally the team should hold regular meetings to keep all members up to date.
 Since each member has work and academic commitments it is possible that there may not be free time for a meeting where all members can attend.\
 The risk can be mitigated by members communicating their schedules with others.
 In the worst case scenario, members who cannot attend regular meetings need to write separate report and update themselves with the team progress on their own.
-* Temporary absence of Supervisor.\
+4. Temporary absence of Supervisor.\
 The supervisor can be temporarily absent due to illness or scheduling conflict.
 This is a low risk and depending on the stages of the project, will not have a significant impact on the project.\
 When this event occurs, the team will continue as usual and the team leader will draft an email detailing the progress of the project,
 questions for the supervisor and potentially organize a replacement meeting if necessary.
-* Conflicts within the team.\
+5. Conflicts within the team.\
 Conflicts among the team are common in projects of any scale.
 This risk has a significant impact as it directly harms the team's productivity and causes delays to planned work.\
 The keys to keep the problem from happening and to remedy it if it occurs are frequent communication between team members and a democratically-run leadership.
