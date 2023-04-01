@@ -1033,7 +1033,8 @@ The recommended Virtual Machine software is VirtualBox version 4.1.8.
 
 ### Discord
 In order for team members to participate in Discord meetings, it is necessary for them to download and install the application on their device.
-Additionally, they will need to have access to a microphone and speakers to be able to communicate effectively during the meeting.
+They also need to have access to a microphone and speakers to be able to communicate, and
+should familiarize themselves with basic Discord features e.g., screen sharing.
 Following these guidelines will ensure that all team members are prepared for successful meetings on Discord.
 
 <div class="page"/><!-- page break -->
