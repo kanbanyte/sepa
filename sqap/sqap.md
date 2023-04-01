@@ -122,7 +122,7 @@ List of your Names:
 		* [Issue Categories](#issue-categories)
 * [Tools and methodologies](#tools-and-methodologies)
 	* [Tools](#tools)
-		* [LaTeX](#latex)
+		* [Markdown](#markdown)
 		* [GitHub](#github)
 		* [SemVer](#semver)
 		* [VS Code](#vs-code)
@@ -1023,9 +1023,10 @@ Categories can be updated to adapt to the project's development, the following a
 
 # Tools and methodologies
 ## Tools
-### LaTeX
-To compile the documentation TEX files, pdflatex should be used, on Windows the MiKTeX 2.9 package provides this.\
-The recommended editor for LaTeX files is the Texmaker editor, version3.3.1 has been recommended.
+### Markdown
+This lightweight markup language is easy to learn with plain text formatting syntax that can be converted to other formats like PDF, and
+produces HTML files that can be viewed in any web browser.\
+A recommended editor for Markdown files is Visual Studio Code, which provides syntax highlighting and preview functionality.
 
 ### GitHub
 GitHub is used as the issue tracking tool, providing a user-friendly and feature-rich platform to track issues, progress, and perform code reviews.
