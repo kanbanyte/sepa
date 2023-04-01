@@ -106,7 +106,7 @@ List of your Names:
 * [Tools and methodologies](#tools-and-methodologies)
 	* [Tools](#tools)
 		* [Markdown](#markdown)
-		* [Issues tracking](#issues-tracking)
+		* [GitHub](#github)
 		* [SVN](#svn)
 		* [VS Code](#vs-code)
 		* [Virtual Machine](#virtual-machine)
@@ -882,11 +882,10 @@ This lightweight markup language is easy to learn with plain text formatting syn
 produces HTML files that can be viewed in any web browser.\
 A recommended editor for Markdown files is Visual Studio Code, which provides syntax highlighting and preview functionality.
 
-### Issues tracking
-Issue tracking tool is Mantis.\
-The tool can be access by SIMS username and password at:\
-<https://mercury.it.swin.edu.au/hit3158/hit3158_02/mantis/Mantis>\
-provides a simple to use and feature-rich platform to track issues,progress and effort by the team.
+### GitHub
+GitHub can be used as an issue tracking tool, providing a user-friendly and feature-rich platform to track issues, progress, and team effort.
+By utilizing GitHub for issue tracking,
+team members can easily collaborate and communicate on project issues, leading to more efficient and effective issue resolution.
 
 ### SVN
 All commit and updates by team members shall be done through TortoiseSVN or SmartSVN client to avoid potential problems.\
