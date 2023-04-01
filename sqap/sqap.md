@@ -123,7 +123,7 @@ List of your Names:
 * [Tools and methodologies](#tools-and-methodologies)
 	* [Tools](#tools)
 		* [LaTeX](#latex)
-		* [Issues tracking](#issues-tracking)
+		* [GitHub](#github)
 		* [SemVer](#semver)
 		* [Visual Studio](#visual-studio)
 		* [Virtual Machine](#virtual-machine)
@@ -1015,11 +1015,10 @@ Categories can be updated to adapt to the project's development, the following a
 To compile the documentation TEX files, pdflatex should be used, on Windows the MiKTeX 2.9 package provides this.\
 The recommended editor for LaTeX files is the Texmaker editor, version3.3.1 has been recommended.
 
-### Issues tracking
-Issue tracking tool is Mantis.\
-The tool can be access by SIMS username and password at:\
-<https://mercury.it.swin.edu.au/hit3158/hit3158_02/mantis/Mantis>\
-provides a simple to use and feature-rich platform to track issues,progress and effort by the team.
+### GitHub
+GitHub is used as the issue tracking tool, providing a user-friendly and feature-rich platform to track issues, progress, and perform code reviews.
+By utilizing GitHub for issue tracking,
+team members can easily collaborate and communicate on project tasks, leading to more efficient and effective issue resolution.
 
 ### SemVer
 All versioning updates by team members shall follow Semantic Versioning (SemVer) principles to avoid potential issues.\
