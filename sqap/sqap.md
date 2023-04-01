@@ -125,7 +125,7 @@ List of your Names:
 		* [LaTeX](#latex)
 		* [GitHub](#github)
 		* [SemVer](#semver)
-		* [Visual Studio](#visual-studio)
+		* [VS Code](#vs-code)
 		* [Virtual Machine](#virtual-machine)
 		* [Discord](#discord)
 	* [Agile Methodology: Kanban](#agile-methodology-kanban)
@@ -1025,9 +1025,10 @@ All versioning updates by team members shall follow Semantic Versioning (SemVer)
 By adhering to SemVer, team members can ensure that software versioning is consistent and understandable across the entire team.\
 It is up to each individual to familiarize themselves with SemVer principles and incorporate them into their versioning workflow.
 
-### Visual Studio
-VisualStudio2010 (available via MSDNAcademicAlliance in association with Swinburne FICT faculty) is selected as the standard C# development environment.\
-It provides state-of-the-art development tool as well as supporting client's .NET 2.0 standard environment.
+### VS Code
+VS Code (Visual Studio Code) is the recommended code editor for the project, providing powerful debugging tools, built-in Git support, and a wide range of extensions.
+By utilizing VS Code, team members can collaborate more efficiently and ensure consistency and quality in the project's codebase.
+Its versatility and ease of use make it an ideal tool for project development.
 
 ### Virtual Machine
 All development will be done on a virtual machine with a Windows XP 32bit image provided by the client.\
