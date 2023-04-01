@@ -1026,7 +1026,7 @@ In the development of software you need something to create and modify code file
 A development environment made by microsoft Visual studio is a powerful IDE specialised in C type language development.
 With extensive support for C, C++ and C# it is the ideal and recommended solution to software development in C type languages.\
 Visual studio also provides tools for developing other languages,
-however they are lacking in as extensive features as the languages described above and other options should be sought out
+however they are lacking in as extensive features as the languages described above and other options should be sought out.
 
 #### Pycharm
 Pycharm is a specialised development environment for Python development,
