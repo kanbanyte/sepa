@@ -124,7 +124,7 @@ List of your Names:
 	* [Tools](#tools)
 		* [LaTeX](#latex)
 		* [Issues tracking](#issues-tracking)
-		* [SVN](#svn)
+		* [SemVer](#semver)
 		* [Visual Studio](#visual-studio)
 		* [Virtual Machine](#virtual-machine)
 		* [Skype](#skype)
@@ -1021,9 +1021,10 @@ The tool can be access by SIMS username and password at:\
 <https://mercury.it.swin.edu.au/hit3158/hit3158_02/mantis/Mantis>\
 provides a simple to use and feature-rich platform to track issues,progress and effort by the team.
 
-### SVN
-All commit and updates by team members shall be done through TortoiseSVN or SmartSVN client to avoid potential problems.\
-Both programs have been tested to work, so it is up to the individual to choose which program they prefer.
+### SemVer
+All versioning updates by team members shall follow Semantic Versioning (SemVer) principles to avoid potential issues.\
+By adhering to SemVer, team members can ensure that software versioning is consistent and understandable across the entire team.\
+It is up to each individual to familiarize themselves with SemVer principles and incorporate them into their versioning workflow.
 
 ### Visual Studio
 VisualStudio2010 (available via MSDNAcademicAlliance in association with Swinburne FICT faculty) is selected as the standard C# development environment.\
