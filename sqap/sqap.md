@@ -337,7 +337,7 @@ These responsibilities include:
 * Must be able to provide assistance should any team member requires it.
 
 #### Code
-* Must ensure that all code follows standards set out at the beginning of development.
+* Must ensure that all code follows standards and practices set out at the beginning of development.
 * Responsible for delegating coding tasks and workloads.
 * Must ensure that code is being developed at an appropriate pace to ensure targets are met.
 
