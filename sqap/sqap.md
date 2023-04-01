@@ -116,7 +116,7 @@ List of your Names:
 		* [Project Milestones](#project-milestones)
 		* [Stage-dependent tasks](#stage-dependent-tasks)
 		* [Cross-Functional Tasks](#cross-functional-tasks)
-		* [Task creation](#task-creation)
+		* [Task Creation](#task-creation)
 		* [Task Assignment](#task-assignment)
 		* [Task Life](#task-life)
 		* [Issue Categories](#issue-categories)
@@ -942,11 +942,15 @@ To ensure successful completion of cross-functional tasks, the team will adopt a
 Finally, the team will use Semantic Versioning (SemVer) for software versioning and
 GitHub for source control to ensure that code changes are properly tracked and managed.
 
-### Task creation
-Minute taker is to convert meeting's actions to task and assign to appropriate developer.\
-Developer is responsible to divide the task logically into smaller tasks if necessary.\
-Team member would also create task as appropriate: for bug reporting or planning.\
-Task creator must check for existing issue prior to creating task.
+### Task Creation
+Task creation involves several steps to ensure proper documentation and tracking throughout the development process.\
+Requirements for pick and place tasks are analysed to identify specific system needs.
+
+The team creates a design specification outlining how system components interact.\
+Tasks are assigned to team members based on priority, and progress is monitored daily.
+
+Issues and bugs are tracked using GitHub and resolved by the appropriate team member.\
+Following these guidelines ensures proper task tracking, documentation, and consistent software quality.
 
 <div class="page"/><!-- page break -->
 
