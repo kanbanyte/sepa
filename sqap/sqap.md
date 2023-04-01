@@ -93,7 +93,7 @@ List of your Names:
 		* [Coding Standard](#coding-standard)
 		* [Documentation Formatting Standard](#documentation-formatting-standard)
 		* [Filename/Location Standards](#filenamelocation-standards)
-		* [SVN standards](#svn-standards)
+		* [Software Versioning Strategy: SemVer](#software-versioning-strategy-semver)
 		* [Document Releases](#document-releases)
 	* [Practices](#practices)
 		* [Communication Practices](#communication-practices)
@@ -115,27 +115,27 @@ List of your Names:
 	* [Work](#work)
 		* [Project Milestones](#project-milestones)
 		* [Stage-dependent tasks](#stage-dependent-tasks)
-		* [Crossed-states tasks](#crossed-states-tasks)
-		* [Task creation](#task-creation)
-		* [Task assignment](#task-assignment)
+		* [Cross-Functional Tasks](#cross-functional-tasks)
+		* [Task Creation](#task-creation)
+		* [Task Assignment](#task-assignment)
 		* [Task Life](#task-life)
 		* [Issue Categories](#issue-categories)
 * [Tools and methodologies](#tools-and-methodologies)
 	* [Tools](#tools)
 		* [LaTeX](#latex)
-		* [Issues tracking](#issues-tracking)
-		* [SVN](#svn)
-		* [Visual Studio](#visual-studio)
+		* [GitHub](#github)
+		* [SemVer](#semver)
+		* [VS Code](#vs-code)
 		* [Virtual Machine](#virtual-machine)
-		* [Skype](#skype)
+		* [Discord](#discord)
 	* [Agile Methodology: Kanban](#agile-methodology-kanban)
 * [Records collection, maintenance and retention](#records-collection-maintenance-and-retention)
 * [Risk Management](#risk-management)
 	* [Purpose](#purpose-3)
 	* [Categorization](#categorization)
-	* [Risks with respect to the work to be done](#risks-with-respect-to-the-work-to-be-done)
+	* [Risks With Respect To The Work To Be Done](#risks-with-respect-to-the-work-to-be-done)
 	* [Risks with respect to the management](#risks-with-respect-to-the-management)
-	* [Risks with respect to the client](#risks-with-respect-to-the-client)
+	* [Risks With Respect To The Client](#risks-with-respect-to-the-client)
 
 <!-- /TOC -->
 
@@ -308,16 +308,18 @@ The will coordinate other managers to be able to meet requirements and deadlines
 
 ## Tasks and Responsibilities
 ### General Team Member Responsibilities
-* If a team member is selected for a task they will complete the task by the allocated time.\
-If unable to complete task in time, member is to raise an issue prior to deadline with the team leader.
-* Meeting Actions are binding unless changed at a later meeting.
-* Team members are responsible for the logging of their own time sheets.
-* Members are to conduct themselves in an appropriate manner facilitating a healthy work environment.
-* Members are required to maintain communication with team.
-* Members are required to follow all processes as described in the SQAP.
-* Members must make their best effort attend all allocated meetings/workshops and are to submit an apology if they are unable to attend.
-* Members are to follow all directives from champions.
-* Members are to actively partake in group discussion and provide input to the product and the process.
+The team members involved have several key responsibilities.
+
+These responsibilities include:
+* Understanding the overall project requirements.
+* Creating:
+	* an architectural design that meets those requirements.
+	* a detailed design that defines the components and interactions of the software.
+* Ensuring that the design is:
+	* of high quality and adheres to the project's coding standards.
+	* testable, and that it meets the project's functional and non-functional requirements.
+* All team members must maintain accountability of tasks they're responsible for and ensuring that others members are also held accountable for their responsibilities.
+* Each team member is responsible for communicating any issues that may hinder their input into the project and are encouraged to ask for help when needed.
 
 ### Champions
 #### Team Leader
@@ -488,9 +490,16 @@ These standards will ensure that the project is developed in a systematic and co
 To ensure compliance with standards, the project team will identify and adopt additional guidelines relevant to the project's domain and requirements.
 
 ### Coding Standard
-The following language-specific standards are used
-* Swinburne C# and .NET Standard
-* Swinburne Java Standards (Spikes only, N/A for final coding as C# is the chosen language.)
+The software produced should follow coding standards that allow for the code to be more easily maintainable, readable, and errorless.
+Therefore, the standards will describe rules for variable naming, code formatting, commenting, and error handling, which will be enforced through code reviews.\
+Two standards in particular will need to be adhered to:
+* [Google C++ Guidelines](https://google.github.io/styleguide/cppguide.html)
+* [Google Python Guidelines](https://google.github.io/styleguide/pyguide.html)
+
+These standards were chosen because they are very comprehensive and allow for a high-quality production of code, thus making it easier to understand and maintain.
+Any code not adhering to these particular standards will be corrected before deployment to maintain quality standards.
+
+Further information about coding practices can be found in the [coding practices](#coding-practices) section.
 
 <div class="page"/><!-- page break -->
 
@@ -600,37 +609,53 @@ main
 
 <div class="page"/><!-- page break -->
 
-### SVN standards
-* All Commits to the SVN are required to have a corresponding message, which follows the following standard:\
-[Mantis Issue ID] file .ext - Sect ion/Module - List of Changes (brief and concise).
+### Software Versioning Strategy: SemVer
 
-In the event that sections are not relevant the fields are still included but left blank.\
-i.e., [] file.ext\
---committed the new file
-* Ensure files to be committed are not currently open in their respective editors.
+![three-part_version_number](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Semver.jpg/330px-Semver.jpg)
 
-#### Branching Standard
-This SVN will utilise the Branch-When-Needed system.\
-Users commit their day-to-day work on `/trunk`.
-1. `/trunk` must compile and pass regression tests at all times.
-2. A single commit (change-set) must not be so large so as to discourage peer-review.
-3. If rules 1 and 2 come into conflict (i.e., it's impossible to make a series of small commits without disrupting the trunk),
-then the user should create a branch and commit a series of smaller change-sets there.\
-This allows peer-review without disrupting the stability of `/trunk`.
+*<sup>Figure Source: <https://en.wikipedia.org/wiki/Software_versioning></sup>*
 
-Pros: `/trunk` is guaranteed to be stable at all times.\
-The hassle of branching/merging is somewhat rare.
+Versioning is a critical aspect of software development that helps developers and users manage changes to a project.\
+Semantic Versioning, or SemVer for short,
+is a widely-adopted standard for versioning software projects that provides clear guidelines for how to version software releases and manage dependencies between them.
 
-Cons: Adds a bit of burden to users' daily work: they must compile and test before every commit.
+The SemVer standard uses a three-part version number in the format "MAJOR.MINOR.PATCH" to convey information about changes to the software:
+* The MAJOR version number indicates significant changes that may not be backwards-compatible.
+* The MINOR version number indicates an addition of backwards-compatible functionalities.
+* The PATCH version number indicates backwards-compatible bug fixes or minor changes.
+
+![different_components](https://media.geeksforgeeks.org/wp-content/uploads/semver.png)
+
+*<sup>Figure Source: <https://www.geeksforgeeks.org/introduction-semantic-versioning/></sup>*
+
+In order to use SemVer effectively, it's important to follow these guidelines:
+* Increase the MAJOR version when making incompatible changes
+* Increase the MINOR version when adding new functionality in a backwards-compatible manner
+* Increase the PATCH version when making backwards-compatible bug fixes or other minor changes
+* Use pre-release version numbers (such as 1.0.0-alpha) to indicate that a version is not yet stable or complete
+* Use build metadata (such as 1.0.0+build.1) to indicate additional build information without changing the version semantics
+
+Adherence to SemVer ensures that version numbers convey meaningful information about the state of the software and the nature of changes between releases.
+This enables developers and users to make informed decisions about which versions of a project to use and when to upgrade, and
+helps prevent compatibility issues between different versions of the same project.
+
+![release_life_cycle](https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Software_dev2.svg/360px-Software_dev2.svg.png)
+
+*<sup>Figure Source: <https://en.wikipedia.org/wiki/Software_release_life_cycle></sup>*
+
+By following the guidelines provided by the SemVer standard,
+teams can ensure that their software projects are versioned in a consistent and predictable way,
+making it easier to manage dependencies and collaborate with other teams or individuals.
 
 ### Document Releases
-In the event that a document is released to an outside party; be it submission to the university or the client it must be:
-* Converted into a static format such as a pdf
-* Appropriately renamed with a revision number
-* Moved to a release folder within its current folder
-
-Each release will be named as follows: filename rxxx, where xxx is a number.\
-The first release will be 100 and each additional release will be incremented by 10 i.e., filename r100 will be followed by filename r110.
+If the need arises that a document is required for a University submission or by the client,
+a systematic approach will be taken towards the development of documents within the team.
+The following practices will ensure that quality control is maintained by all participants:
+* Document generation and collaborative work will take place primarily on Github.
+* Team members will all work collaboratively to assign themselves and others task and sections of documents to work on.
+* Team members will ensure that fellow members are happy with their work by using Github features such as pull requests and issues to verify.
+* Once all sections have been completed by all participants, the report will be export to .pdf format for submission.
+* The final results is to be validated by all team members before submission to ensure that mistake are minimal and all required information is covered.
 
 <div class="page"/><!-- page break -->
 
@@ -689,42 +714,48 @@ Or different member can be delegated the task each week on agreement of all team
 * Temporary/intermediate files are not to be committed
 
 ### Coding practices
-General guidelines
-* Strictly follow C# and .NET standards as outlined in 5.2.1
-* Keep the code simple, avoid using unnecessary "clever" code.
-* All source files must use the standard header template
-* All methods, fields and properties must have comments that follows the official standard in 5.2.1,
-inherited class only requires comment if behaviors differ greatly from that outlines by its parent classes
-* Public properties are acceptable, however default setters are discouraged, and guards should be used in writing setters.
-* Development must be in-line with architectural design, in order to ensure transparency in code.
-* Once a week meetings (15 minutes) to report progress/difficulties in development, could be con-ducted after weekly team meeting.\
-The aim is to ensure problems are known early and progress are understood by the whole team.
+This section includes coding guidelines.
+Any rule mentioned in this documents will override third-party guidelines.
+
+C++:
+* Follow [the Google C++ Guideline](https://google.github.io/styleguide/cppguide.html).
+* Always use Java-style indentations, regardless of number of lines.
+* For `.cpp` files, place `#include` directives in the following order:
+	1. Header file whose declarations are defined in the current file.
+	2. Standard library header files.
+	3. Third-party library header files.
+	4. Other header files in the project.
+
+Python:
+* Follow [the Google Python guideline](https://google.github.io/styleguide/pyguide.html).
+
+Shared:
+* Public interfaces (functions, variables, constants, class names, etc.) must be fully documented.
+* All classes must belong in separate files unless they are nested.
+* All rules in the [project structure section](#guidelines-on-project-structure) and [namespace section](#guideline-on-naming-and-namespaces).
 
 <div class="page"/><!-- page break -->
 
 #### Guidelines on project structure
-There shall be only one Windows Form Application project for a particular module, it shall be the only User Interface project.
-
-All major components (ReportGenerator,DatabaseIOetc.) are to be implemented byC# libraries.
-
-User interface is to be implemented by native .NET form creator to ease future development, XML-based interface design is discouraged.
-
-There shall be a library project called `EagleStaticCommon` which contains helper or data components that are used by all other components.\
-To avoid breaking the layered architecture, `EagleStaticCommon` shall only contain static functions and properties.\
-However the decision of putting a component in `EagleStaticCommon` must be considered carefully to avoid overcrowding, which lead to confusion.
-
-#### Guideline on components design
-Each component design must be justified by thorough analysis into quality requirements of the component, applied design patterns or tactics.
-
-It is recommended that to the very least, a component design should incorporate and separate the following component into directories in the library:
-* Interface: include all abstract classes and interfaces
-* Enumeration: all enumerations
-* EventArgs: all subclasses of EventArgs if any
-* Structures: all data structures if any
-* Contracts: contract classes if any
+* Source files are placed in `src/`
+* Tests are placed in `tests/`
+* Documentation are placed in `documentation/`
 
 #### Guideline on naming and namespaces
-Appropriate namespaces will be automatically created by Visual Studio if folder structure is set up in the project.
+C++:
+* All code must be placed in a namespace.
+* Use `PascalCase` for templates, namespaces, enum names, enum values and class names.
+* Use `SCREAMING_SNAKE_CASE` for constants.
+* Use `snake_case` for functions, local variables, function parameters and member fields.
+* Prefix private, non-constant member fields with underscore `_` instead of using the `this` pointer unless required.
+* Avoid the [the Hungarian notation](https://en.wikipedia.org/wiki/Hungarian_notation).
+* Prefer `using foo::bar` over `using namespace foo`.
+
+Python:
+* Use `PascalCase` for classes and errors.
+* Use `snake_case` for functions, local variables, function parameters, member fields.
+* Prefix private, non-constant member fields with underscore `_`
+(Python does not support private variables but this should rule should be adhered to where possible for communication purposes).
 
 <div class="page"/><!-- page break -->
 
@@ -862,18 +893,20 @@ Therefore, the theoretical output of the system should be that it can identify a
 
 
 ## Installation and User Documentation Generation
-The releases will be an in the form of an executable and a set of .dll files that will be provided to the client.\
-There is no installation as such,the user simply runs the executable.\
-All input and output files will be located as part of the GUI.
+Effective Installation and User Documentation is an essential part of software development as it ensures that users can easily install, configure and use the software.
 
-The client will also be supplied with a comprehensive user document that details the GUI and should have some examples of how to use it.\
-The client will also be supplied documentation of the code and the design documents.\
-This is to assist with maintainability and use for future projects.
+To achieve this, the project should include comprehensive and easy-to-follow installation instructions and user manuals for the vision or sensing system.
+The documentation should be written in clear and concise language, and include relevant screenshots and diagrams to aid the users.
+Additionally, the installation process should be rigorously tested to ensure that it is error-free and robust, and
+the user documentation should be updated regularly to reflect changes in the software.
 
-Once code has been finalised, and testing is completed, they will be supplied with all of the source code and a final build of the software.
-* Tailored for a particular module, tests will be outlined within the module plans.
-* Modules will be tested against a set of defined use-cases as agreed by client.
-* Testing will consist of both black and white box testing.
+Our software solution doesn't require installation, the executable is run at time of operation.
+All input and output files will be incorporated as part of the GUI.
+
+The client will be given a full user guide that will outline how to interact with the GUI.
+This document will give the client and user examples of how the software solution works and how it is to be used.
+The code and the design documents' documentation will also be sent to the client.
+These documents will allow the client to successfully maintain and implement our software solution in future projects.
 
 <div class="page"/><!-- page break -->
 
@@ -913,20 +946,33 @@ Any changes to the milestones should be communicated and discussed with the proj
 Stage-dependent issues and tasks must indicate which sub-project they belong to, as well as which version\
 (e.g., [Module 1-2] v1.0 dsg indicating this issue belong to design phase of Module 1-2 first release).
 
-### Crossed-states tasks
-Crossed-states tasks and issues must indicate parent's version.\
-For example, documentation tasks may fall under ProjectEagle v1.0.
+### Cross-Functional Tasks
+Cross-functional tasks and issues must indicate the base version they belong to, such as **Project 24 v0.1.0-a**.\
+This information is essential for maintaining software quality and facilitating collaboration among cross-functional teams.\
+For example, tasks may fall under the scope of **Project 24 v0.1.0-a** and
+require collaboration among team members with expertise in different areas such as computer vision, sensors, robotics, and AI.
 
-### Task creation
-Minute taker is to convert meeting's actions to task and assign to appropriate developer.\
-Developer is responsible to divide the task logically into smaller tasks if necessary.\
-Team member would also create task as appropriate: for bug reporting or planning.\
-Task creator must check for existing issue prior to creating task.
+To ensure successful completion of cross-functional tasks, the team will adopt an Agile methodology using Kanban board to manage the development process.
+Finally, the team will use Semantic Versioning (SemVer) for software versioning and
+GitHub for source control to ensure that code changes are properly tracked and managed.
+
+### Task Creation
+Task creation involves several steps to ensure proper documentation and tracking throughout the development process.\
+Requirements for pick and place tasks are analysed to identify specific system needs.
+
+The team creates a design specification outlining how system components interact.\
+Tasks are assigned to team members based on priority, and progress is monitored daily.
+
+Issues and bugs are tracked using GitHub and resolved by the appropriate team member.\
+Following these guidelines ensures proper task tracking, documentation, and consistent software quality.
 
 <div class="page"/><!-- page break -->
 
-### Task assignment
-When a task cannot be assigned upon creation, the respective champion of the task must perform assignment within 24h of task creation.
+### Task Assignment
+Tasks will be assigned to team members based on their respective areas of expertise and availability.\
+The Development Manager will be responsible for initially assigning tasks to team members.\
+If a task cannot be assigned at the time of creation, the Development Manager will ensure that the task is assigned within 24 hours.\
+Team members who are assigned tasks are expected to provide progress updates to the Development Manager on a regular basis.
 
 ### Task Life
 Tasks would be created as **issues** on GitHub, and then moved across the Kanban board's columns as they progress through the workflow.
@@ -981,26 +1027,30 @@ Categories can be updated to adapt to the project's development, the following a
 To compile the documentation TEX files, pdflatex should be used, on Windows the MiKTeX 2.9 package provides this.\
 The recommended editor for LaTeX files is the Texmaker editor, version3.3.1 has been recommended.
 
-### Issues tracking
-Issue tracking tool is Mantis.\
-The tool can be access by SIMS username and password at:\
-<https://mercury.it.swin.edu.au/hit3158/hit3158_02/mantis/Mantis>\
-provides a simple to use and feature-rich platform to track issues,progress and effort by the team.
+### GitHub
+GitHub is used as the issue tracking tool, providing a user-friendly and feature-rich platform to track issues, progress, and perform code reviews.
+By utilizing GitHub for issue tracking,
+team members can easily collaborate and communicate on project tasks, leading to more efficient and effective issue resolution.
 
-### SVN
-All commit and updates by team members shall be done through TortoiseSVN or SmartSVN client to avoid potential problems.\
-Both programs have been tested to work, so it is up to the individual to choose which program they prefer.
+### SemVer
+All versioning updates by team members shall follow Semantic Versioning (SemVer) principles to avoid potential issues.\
+By adhering to SemVer, team members can ensure that software versioning is consistent and understandable across the entire team.\
+It is up to each individual to familiarize themselves with SemVer principles and incorporate them into their versioning workflow.
 
-### Visual Studio
-VisualStudio2010 (available via MSDNAcademicAlliance in association with Swinburne FICT faculty) is selected as the standard C# development environment.\
-It provides state-of-the-art development tool as well as supporting client's .NET 2.0 standard environment.
+### VS Code
+VS Code (Visual Studio Code) is the recommended code editor for the project, providing powerful debugging tools, built-in Git support, and a wide range of extensions.
+By utilizing VS Code, team members can collaborate more efficiently and ensure consistency and quality in the project's codebase.
+Its versatility and ease of use make it an ideal tool for project development.
 
 ### Virtual Machine
 All development will be done on a virtual machine with a Windows XP 32bit image provided by the client.\
 The recommended Virtual Machine software is VirtualBox version 4.1.8.
 
-### Skype
-If Skype meetings are deemed to be necessary, then all team members will need to download and install Skype and have access to a microphone and speakers.
+### Discord
+In order for team members to participate in Discord meetings, it is necessary for them to download and install the application on their device.
+They also need to have access to a microphone and speakers to be able to communicate, and
+should familiarize themselves with basic Discord features e.g., screen sharing.
+Following these guidelines will ensure that all team members are prepared for successful meetings on Discord.
 
 <div class="page"/><!-- page break -->
 
@@ -1008,7 +1058,7 @@ If Skype meetings are deemed to be necessary, then all team members will need to
 
 ![kanban](https://www.nimblework.com/wp-content/uploads/2022/12/Simple-Kanban-Board-5-1024x628.webp)
 
-<sup>Figure Source: <https://www.nimblework.com/kanban/what-is-kanban/></sup>
+*<sup>Figure Source: <https://www.nimblework.com/kanban/what-is-kanban/></sup>*
 
 The Kanban Agile Methodology approach will prioritize collaboration, flexibility, and continuous improvement.
 The Kanban board will be used to visualize the workflow and identify bottlenecks, enabling the team to respond quickly to changes and adapt the design accordingly.
@@ -1050,36 +1100,62 @@ For this project three major categories of risks have been identified:
 2. Risks with respect to the management.
 3. Risks with respect to the client.
 
-In the following sections each of these categories have their major risks identified.\
-For each risk, a description, a probability to occur, its impact and the preventative/(reductive) action associated are given.
+In the following sections each of these categories have their major risks identified.
+For each risk, a description, a probability of occurrence, its level of impact, mitigation strategy and contingency plan are given.
 
-Both the probability of a risk occurring and the impact of a risk if it does occur have been quantified as being low, moderate or high.\
-Actions have been categorized as preventative and reductive;
-preventative actions aim to reduce the likelihood of risks occurring and reductive actions reduce the impact of risks if they do occur.
+Both the probability of a risk occurring and its effect are quantified as being low, moderate or high.
+Risks are managed with a mitigation strategy and a contingency plan.
+The mitigation strategy is designed to reduce the likelihood of risks occurring and the contingency plan is used to minimize the impact of materialized risks.
 
 <div class="page"/><!-- page break -->
 
-## Risks with respect to the work to be done
-* Corruption of repository
-	* Probability: Low.
-	* Impact: High resulting in loss of work.
-	* Reductive Action: Weekly backups plus local checkouts reduce impact significantly.
-* Design Errors
-	* Probability: High.
-	* Impact: High, design errors would potentially increase production time and/or produce a deliverable not valid to client requirements.
-	* Preventative Action: Rigorous design methodology prior to development.
-* Time Shortage
-	* Probability: High.
-	* Impact: High, resulting in a loss of product quality, loss of functionality or delivered past deadline.
-	* Preventative Action: Rigorous design methodology prior to development including work distribution and conservative timelines.
-* Illness or absence of team members
-	* Probability: High.
-	* Impact: Variable impact dependant on time in schedule.
-	* Reductive Action: Shared understanding of work allows load to be distributed.
-* Software non deployable
-	* Probability: Moderate.
-	* Impact: High,will be unable to provide client with the DMS.
-	* Preventative Action: Regular contact with client with minor releases to ensure that they can be deployed on the system.
+## Risks With Respect To The Work To Be Done
+|Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy|Contingency|
+|:-:|:-|:-:|:-:|:-|:-|
+|1|GitHub repository loss.|L|H|Recurrent backups.|Restore using latest backup.|
+|2|Temporary member absence.|L|M|Allocate work to at least 2 members.|Organize work handover to another member.|
+|3|Inappropriate design.|M|M-H|Regular communication and contingency design.|Focus on fixing pain points or use the second design.|
+|4|Un-deployable software.|M|H|Frequent deployment.|Re-prioritize tasks to focus on fixing deployment issues.|
+|5|Lacks of skills/knowledge.|M|H|Start training early.|Re-assign tasks or allocate additional members.|
+|6|Time shortage.|H|H|Careful and conservative planning.|Re-prioritize tasks and contact supervisor/client.|
+
+1. GitHub repository loss.\
+GitHub is a highly reliable product trusted by organizations of different scales, so the probability of a repository being lost,
+either because of data corruption or cybersecurity breaches are low.
+However, as the centralized storage for code and documents, its loss will severely affect the project.\
+The repository should be often copied and retained by several members to reduce this risk.
+In the unlikely event of repository loss, the latest back up is used and the team will perform a general check to find any missing material.
+2. Temporary absence of team member.\
+Team member can be temporarily absent due to illness or personal matters, and may not complete assigned work on time.
+This temporary loss of productivity has a moderate impact on the team's progress.\
+The risk can minimized by spreading work to multiple team members.
+If a team member is absent and is unlikely to finish their task on time, the task will be transferred to a different member immediately.
+The absent team member should alert the team of their condition and time estimates as soon as possible so the team can react accordingly.
+3. Inappropriate design.\
+The design step is crucial because it shapes how the product is created.
+Miscommunication, lack of understanding or lack of perspectives can easily lead to bad design
+and the implementation stage will be severely impacted if an unsuitable design is selected.\
+Regular communication and strict peer reviews will help detect and eliminate problematic design early.
+It may also be helpful to create contingency design in advance.
+If it becomes apparent that the product is built along a bad plan, the team should find and fix pain points, or employ the contingency design.
+4. Un-deployable software.\
+Both the robotic control software and computer vision system are developed locally,
+and there is a moderate risk of failing to deploy them to the respective hardware i.e. the robotic arm and depth camera.
+This results in a loss of product functionality or full capabilities not delivered by the deadline.\
+The preventative action for this risk is frequent deployment incomplete software to guarantee compatibility.
+If a deployment fails, depending on the stage of the project, the team will assign a reasonable number of members to investigate and devise a fix.
+5. Lack of skills or knowledge.\
+Although team members come from a variety of background, they might find themselves unable to complete their task due to a lack of knowledge or experience.
+The result is incomplete or low quality product, and the issue can propagate to other dependent tasks or features.\
+The team can remedy this by familiarizing themselves with relevant concepts and techniques.
+If a member overly struggles with their task, the team can swap their tasks or re-allocate an additional member to provide assistance.
+6. Time shortage
+The project can be incomplete by the deadline due to a variety of reasons: team member absence, project difficulty, management trouble.
+The probability of this risk for a complex project is high, and it leads to a product not delivered as originally outlined,
+or delivered without fulfilling all quality standards.\
+Cautious planning, a conservative timeline as well as vigilant monitoring will reduce the probability of this happening.
+If the team anticipates that the project will not be finished on time, a meeting is held to re-prioritize tasks based on their progress and importance.
+The client and supervisor will also receive notifications in such case to provide further assistance.
 
 ## Risks with respect to the management
 |Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy|Contingency|
@@ -1118,16 +1194,25 @@ To prevent disputes from spiralling out of control, team members should voice th
 
 <div class="page"/><!-- page break -->
 
-## Risks with respect to the client
-* Changing client requirements
-	* Probability: Moderate.
-	* Impact: Moderate, increased workload and timeline issues.
-	* PreventativeAction: Rigorous discussion of requirements plus official SRS document early in project timeline.
-* Client unavailable
-	* Probability: Moderate.
-	* Impact: Low, unavailability for questions and software releases
-	* ReductiveAction: Vital questions for client to be communicated before they become critical.
-* Client abandons project
-	* Probability: Low.
-	* Impact: High, No more work modules for the project to complete.
-	* Reductive Action: Get as many modules and requirements off the client as possible.
+## Risks With Respect To The Client
+|Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy|Contingency|
+|:-:|:-|:-:|:-:|:-|:-|
+|1|Client absence.|M|M-H|Regular discussion.|Avoid making important decisions.|
+|2|Client replaced.|L|H|None|Update project progress to new client.|
+|3|Requirement change.|M|H|None|Re-organize project plan and negotiate with client.|
+
+1. Temporary absence of project client.\
+The project client can be temporarily absent due to illness or other commitments.
+The severity level varies from moderate to high, depending on the stage of the project.\
+The client's absence will not affect the project if the team regularly communicates and keeps the clients up-to-date.
+When the client is away, the team will continue as usual, but will delay making important decisions until the client is consulted.
+2. Client is replaced.\
+The project client may leave and replaced with someone else.
+This is highly unlikely given that the client works in the Factory of the Future, when the project takes place.
+However, this risk, if materialized, will have serious ramifications on the project.\
+There is no measures to prevent this from happening, and when it does, the team can only inform the new client with the project and
+ensure that their vision is aligned with the team's.
+3. Requirement change.\
+Requirements can change as the project evolves, which can be problematic to the ongoing work and future plans.\
+The team have little influence over project requirements, but can lessen the level of impact by maintaining consistent communication with the client and
+in extreme case, negotiate the requirements.
