@@ -130,7 +130,7 @@ it will be ensured that the projects requirements and quality standards are met.
 The plan will outline the development process and testing procedures, including but not limited too reviewing, testing and integration.
 In addition, the plan will describe several tools and methodologies that will be implemented and used to guarantee the solution's reliability,
 maintainability and performance.
-Finally, the plan will identify the team; `team_name`, responsible for the development and testing of the software as well as their roles and responsibilities.
+Finally, the plan will identify the team; `HeeHooVision`, responsible for the development and testing of the software as well as their roles and responsibilities.
 
 <!-- TOC ignore:true -->
 # Chapter 2
@@ -173,8 +173,6 @@ Records any important information and meeting minutes during the meeting for fut
 Ensures meeting remains within time and each member is able to state and discuss their relevant item.
 Keeps track of meeting minutes for the scribe to record.
 Makes sure that only nobody talks over another to keep the discussion understandable and time efficient.
-
-<div class="page"/><!-- page break -->
 
 ### Formal Review Meeting Roles
 Formal review meetings will be conducted to thoroughly check finished work in order to maximise the quality of the software architecture and design.
@@ -225,6 +223,8 @@ Additionally, they will make sure all developers write concise and informative c
 Has expertise in managing GitHub repositories that will allow for better collaboration and efficiency.
 They will be able to answer questions regarding GitHub tools and techniques that will make creating and editing work and software much easier.
 
+<div class="page"/><!-- page break -->
+
 #### Kanban Methodology Champion
 Expertly understands the Kanban methodology which provides the team with an efficient and more individualistic working approach.
 This champion role will help the team meet goals by providing them with a better understand of the Kanban methodology.
@@ -252,6 +252,8 @@ They will also communicate with the team leader should they need to contact the 
 #### Client
 The client will communicate with team members should they require updates on progress.
 Team members, particularly those working with the cobot, can correspond with the client to seek clarification on specific requirements.
+
+<div class="page"/><!-- page break -->
 
 #### Team Leader:
 Responsible for facilitating communication between team members and ensuring that communication is effective and efficient.
@@ -294,6 +296,8 @@ These responsibilities include:
 	* testable, and that it meets the project's functional and non-functional requirements.
 * All team members must maintain accountability of tasks they're responsible for and ensuring that others members are also held accountable for their responsibilities.
 * Each team member is responsible for communicating any issues that may hinder their input into the project and are encouraged to ask for help when needed.
+
+<div class="page"/><!-- page break -->
 
 ### Champions
 #### Team Leader
@@ -362,6 +366,8 @@ This document will contain:
 * Record collection and maintenance.
 * Risk management.
 
+<div class="page"/><!-- page break -->
+
 ### Code Documentation
 Code documentation will contain the following:
 * Description of the various created modules.
@@ -402,6 +408,8 @@ Audits, whether carried out internally or externally, must produce a document.\
 Anything that is found that doesn't follow the processes outlined in the SQAP will result in corrective actions.
 Audit reports should assess the projects scalability, maintainability and suitability.
 Additionally an evaluation of the design documents should be carried out during an audit.
+
+<div class="page"/><!-- page break -->
 
 ## Management Documents
 ### Meeting Agendas
@@ -475,6 +483,8 @@ In addition, specific document types related to Project 24 may have additional f
 
 By adhering to the documentation formatting standard and using Markdown,
 we can ensure that all project documentation related to Project 24 is consistent, clear, and easy to understand.
+
+<div class="page"/><!-- page break -->
 
 ### Filename/Location Standards
 * Management documents will be contained in their own folder in case more are added or needed.
@@ -564,7 +574,9 @@ Adherence to SemVer ensures that version numbers convey meaningful information a
 This enables developers and users to make informed decisions about which versions of a project to use and when to upgrade, and
 helps prevent compatibility issues between different versions of the same project.
 
-![release_life_cycle](https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Software_dev2.svg/360px-Software_dev2.svg.png)
+<!-- ![release_life_cycle](https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Software_dev2.svg/360px-Software_dev2.svg.png) -->
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Software_dev2.svg/360px-Software_dev2.svg.png" style="width: 40%; height: 40%"/>​
 
 *<sup>Figure Source: <https://en.wikipedia.org/wiki/Software_release_life_cycle></sup>*
 
@@ -635,6 +647,8 @@ The software versioning strategy for this project will follow Semantic Versionin
 This strategy will ensure that versions are released in a manner that is compatible with the software dependencies and usage.\
 This strategy will provide clarity to the team and stakeholders about the purpose and impact of each software release.
 
+<div class="page"/><!-- page break -->
+
 ### Coding practices
 This section includes coding guidelines.
 Any rule mentioned in this documents will override third-party guidelines.
@@ -655,8 +669,6 @@ Shared:
 * Public interfaces (functions, variables, constants, class names, etc.) must be fully documented.
 * All classes must belong in separate files unless they are nested.
 * All rules in the [project structure section](#guidelines-on-project-structure) and [namespace section](#guideline-on-naming-and-namespaces).
-
-<div class="page"/><!-- page break -->
 
 #### Guidelines on project structure
 * Source files are placed in `src/`
@@ -691,8 +703,6 @@ to verify team processes in regards to the defined requirements and standards.\
 With regards to validation, it will be checked through internal and external reviews, and verification through audits.
 These reviews and audits will help ensure that deliverables are up to scratch and product quality is maintained.
 The information on these reviews and Audits are found earlier in the document under chapter 5.
-
-<div class="page"/><!-- page break -->
 
 <!-- TOC ignore:true -->
 # Chapter 7
@@ -797,6 +807,8 @@ identifying and resolving issues, and labelling each milestone to indicate the s
 Regular reviews and updates of the project milestones are necessary to ensure alignment with the Kanban board and timely achievement of each milestone.
 Any changes to the milestones should be communicated and discussed with the project team using GitHub's discussions to ensure everyone is on the same page.
 
+<div class="page"/><!-- page break -->
+
 ### Cross-Functional Tasks
 Cross-functional tasks and issues must indicate the base version they belong to, such as **Project 24 v0.1.0-a**.\
 This information is essential for maintaining software quality and facilitating collaboration among cross-functional teams.\
@@ -816,8 +828,6 @@ Tasks are assigned to team members based on priority, and progress is monitored 
 
 Issues and bugs are tracked using GitHub and resolved by the appropriate team member.\
 Following these guidelines ensures proper task tracking, documentation, and consistent software quality.
-
-<div class="page"/><!-- page break -->
 
 ### Task Assignment
 Tasks will be assigned to team members based on their respective areas of expertise and availability.\
@@ -860,6 +870,8 @@ It is up to each individual to familiarize themselves with SemVer principles and
 VS Code (Visual Studio Code) is the recommended code editor for the project, providing powerful debugging tools, built-in Git support, and a wide range of extensions.
 By utilizing VS Code, team members can collaborate more efficiently and ensure consistency and quality in the project's codebase.
 Its versatility and ease of use make it an ideal tool for project development.
+
+<div class="page"/><!-- page break -->
 
 ### IDEs
 In the development of software you need something to create and modify code files, below will be a select few of some possible ones for the project.
@@ -993,6 +1005,8 @@ or delivered without fulfilling all quality standards.\
 Cautious planning, a conservative timeline as well as vigilant monitoring will reduce the probability of this happening.
 If the team anticipates that the project will not be finished on time, a meeting is held to re-prioritize tasks based on their progress and importance.
 The client and supervisor will also receive notifications in such case to provide further assistance.
+
+<div class="page"/><!-- page break -->
 
 ## Risks With Respect To The Management
 |Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy|Contingency|
