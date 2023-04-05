@@ -27,10 +27,9 @@
 |System Requirements Specification (SRS)|Process/Product|15%|<br/>|
 |System Architecture Design and Research Report|Product/Process|15%|<br/>|
 |Detailed System Design and<br/>Implementation Report (partial)|Product|15%|<br/>|
-|Meeting Minutes|Process|5%|<br/>|
-|Version-controlled repository and use of other tools|Process|5%|<br/>|
+|Version-controlled repository and use of other tools|Process|10%|<br/>|
 |Final Presentation|Presentation|10% (fixed)|<br/>|
-|Individual Task Contribution Records<br/>(worklogs, peer reviews, contribution statement)|Process|20% (fixed)|<br/>|
+|Individual Task Contribution Records<br/>(worklogs, peer reviews, contribution statement, meeting minutes)|Process|20% (fixed)|<br/>|
 |**Individual Contribution Adjustments**<br/>(incorporating Peer Review outcomes)|**Process**|**Compulsory,**<br/>**Upto +/- 60%**|<br/>|
 |Total|<br/>|100%|<br/>|
 
