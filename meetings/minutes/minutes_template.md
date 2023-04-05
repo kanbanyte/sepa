@@ -29,5 +29,6 @@
 
 ```gherkin
 @Note:
-Meeting minutes should be distributed to all attendees and stakeholders within [insert time frame] after the meeting.
+Meeting minutes should be distributed to all attendees and
+stakeholders within [insert time frame] after the meeting.
 ```
