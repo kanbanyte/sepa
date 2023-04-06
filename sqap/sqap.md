@@ -141,6 +141,7 @@ Finally, the plan will identify the team; `HeeHooVision`, responsible for the de
 * ISO/IEC 25010: <https://www.iso.org/standard/35733.html>
 * Google C++ Guidelines: <https://google.github.io/styleguide/cppguide.html>
 * Google Python Guidelines: <https://google.github.io/styleguide/pyguide.html>
+* Semantic Versioning: <https://semver.org/>
 * Software Versioning: <https://en.wikipedia.org/wiki/Software_versioning>
 * Introduction Software Versioning: <https://www.geeksforgeeks.org/introduction-semantic-versioning/>
 * Software Release Life Cycle: <https://en.wikipedia.org/wiki/Software_release_life_cycle>
