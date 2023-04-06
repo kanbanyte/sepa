@@ -2,18 +2,18 @@
 
 changelog:
   exclude:
-	labels:
-	  - duplicate
-	authors:
-	  - Danaclocs
+    labels:
+      - duplicate
+    authors:
+      - Danaclocs
   categories:
-	- title: Enhancements
-	  labels:
-		- enhancement
-	- title: Dropped
-	  labels:
-		- invalid
-		- wontfix
-	- title: Other Changes
-	  labels:
-		- "*"
+    - title: Enhancements
+      labels:
+        - enhancement
+    - title: Dropped
+      labels:
+        - invalid
+        - wontfix
+    - title: Other Changes
+      labels:
+        - "*"
