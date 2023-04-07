@@ -1,3 +1,9 @@
+table {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 table thead {
 	background-color: #BED7EF;
 	/* ref: https://www.w3schools.com/css/css_background.asp */
@@ -38,10 +44,6 @@ blockquote ul li::before {
 	width: 1em;
 	/* Also needed for space (tweak if needed) */
 	margin-left: -1em;
-}
-
-table {
-	width: 95%;
 }
 
 mark {
