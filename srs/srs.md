@@ -74,6 +74,27 @@ Delete all the explanatory text in RED, including this box before submission.
 > *Describe the applications/uses of the software/system, including its benefit and objectives.]*
 >
 > ***[Do not list the software/system requirements here, as this should be a high-level summary]***
+The project aims to design, develop and implement a perception system for a robot to perform pick and place tasks at the Factory of the Future.
+The system will enable the robot to detect the position of objects that need to be picked up and placed, even if the objects are not in the predefined position.
+
+The systems primary application is to improve the efficiency of pick and place tasks by the cobot at the Factory of the Future.
+It aims to benefit the company by increasing productivity and working collaboratively with workers.
+The objective is to provide the robot with a perception system that will enable it to perform pick and place tasks accurately, autonomously and efficiently.
+
+The boundaries of the project are as follows:
+
+The system will:
+* Provide a perception system for the robot to perform pick and place tasks.
+* Utilize specializations in Computer Vision, Sensors, Robotics, and AI.
+* Require technical software development skills, specifically in C/C++, Python, OpenCV, PyTorch, and Robot Operating System (ROS2).
+* Explore state-of-the-art technologies to provide the cobot with a vision system to pick and place objects.
+* Allow the cobot to autonomously pick and place objects when they are needed.
+
+The system will not:
+* Perform any tasks other than picking and placing objects.
+* Handle any tasks that do not require perception systems.
+* Replace the entire robot system.
+* Integrate with other systems than the cobot.
 
 ## Definitions, Acronyms and Abbreviations
 > *[Provide the definition of all terms, acronyms, and abbreviations used in the RS.]*
