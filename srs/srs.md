@@ -68,12 +68,6 @@ Delete all the explanatory text in RED, including this box before submission.
 > *[Define the purpose of this SRS and identify its target reader or audience]*
 
 ## Scope
-> *[Define the boundaries of the project.*\
-> *Specify what the project will and will not accomplish.*\
-> *Provide a name for the software/system and then list what the software/system will and will not do.*\
-> *Describe the applications/uses of the software/system, including its benefit and objectives.]*
->
-> ***[Do not list the software/system requirements here, as this should be a high-level summary]***
 The project aims to design, develop and implement a perception system for a robot to perform pick and place tasks at the Factory of the Future.
 The system will enable the robot to detect the position of objects that need to be picked up and placed, even if the objects are not in the predefined position.
 
