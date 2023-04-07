@@ -102,6 +102,18 @@ Delete all the explanatory text in RED, including this box before submission.
 ## Acceptance Criteria
 > *[List and discuss the major acceptance criteria for the system to be developed, at a high level.]*
 
+The section details the operation of the robotic arm, including the depth camera and controlling software, referred to as "the system",
+in normal and irregular conditions:
+1. The system picks up different items from a set of pre-defined locations and transfers them to a tray.
+2. The system recognises available spots in the tray and places items accordingly.
+3. The system recognises absent items, in which case it:
+	- Search for that item in another location if available.
+	- Stops and awaits human intervention.
+4. The system recognises items under various lighting conditions.
+5. The system recognises trays that have been emptied and returns them to the initial position.
+6. The system detects incorrect combinations of items on a tray, in which case it stops and awaits human intervention.
+7. The system detects mal-oriented items, in which case it stops and awaits human intervention.
+
 ## Documentation
 > *[List all the documents that will be delivered along with the software.*\
 > *This may include user manuals, tutorials and technical manuals.]*
