@@ -95,9 +95,17 @@ Delete all the explanatory text in RED, including this box before submission.
 > *[Summarise the significant features of the software at high-level.]*
 
 ## System Requirements
-> *[Discuss the minimum software and hardware requirements needed to **deploy** the software.*\
-> *Be careful not to state requirements beyond what is required.*\
-> *Also note that development and production requirements may be different.]*
+Software requirements:
+- Production requirements:
+	- Ubuntu 22.04 LTS operating system.
+	- ROS 2 software suite.
+- Development requirements:
+	- The C++ and Python programming languages
+	- Computer Vision libraries in Python (potential candidates include PyTorch, OpenCV, etc.)
+
+Hardware requirements:
+- Universal Robots UR5e robotic arm.
+- ZED 2 depth camera mounted from a point that can capture all items of interest.
 
 ## Acceptance Criteria
 > *[List and discuss the major acceptance criteria for the system to be developed, at a high level.]*
