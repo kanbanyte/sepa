@@ -94,7 +94,6 @@ Delete all the explanatory text in RED, including this box before submission.
 ## Product Features
 The system recognises various components from a set of pre-determined locations and
 performs a pick-and-place task to transfer them into a common tray for assembly.
-
 The system responds to irregularities such as the absence of certain items in the least disruptive manner possible and
 if necessary, awaits human intervention.
 
