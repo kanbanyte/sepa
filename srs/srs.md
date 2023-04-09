@@ -95,17 +95,20 @@ Delete all the explanatory text in RED, including this box before submission.
 > *[Summarise the significant features of the software at high-level.]*
 
 ## System Requirements
-Software requirements:
+Software requirements specify the software required to deploy the system onto the robotic arm and the depth camera
+whilst ensuring compatibility with the existing robotic software.
+The development phase involves 2 programming languages and associated libraries needed to construct said system.
 - Production requirements:
 	- Ubuntu 22.04 LTS operating system.
 	- ROS 2 software suite.
 - Development requirements:
-	- The C++ and Python programming languages
-	- Computer Vision libraries in Python (potential candidates include PyTorch, OpenCV, etc.)
+	- The C++ and Python programming languages.
+	- Computer Vision and AI-related libraries in Python.
+	Potential candidates include PyTorch, OpenCV, etc.
 
-Hardware requirements:
-- Universal Robots UR5e robotic arm.
-- ZED 2 depth camera mounted from a point that can capture all items of interest.
+Hardware requirements specify the hardware required to perform the pick-and-place task based on varying visual inputs.
+- Universal Robots UR5e robotic arm (provided by Factory of the Future).
+- ZED 2 depth camera mounted in a manner that captures all relevant items.
 
 ## Acceptance Criteria
 > *[List and discuss the major acceptance criteria for the system to be developed, at a high level.]*
