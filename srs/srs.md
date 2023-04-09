@@ -61,8 +61,11 @@ Delete all the explanatory text in RED, including this box before submission.
 <div class="page"/><!-- page break -->
 
 # Introduction
-> *[Discuss briefly the software/system that will be developed.*\
-> *Keep in mind that this document describes what the software must do, so that programmers can ultimately build it.]*
+This project tackles the development and implementation of a perception system for a cobot to perform pick and place tasks.\
+Located within the Factory of the Future the cobot will be used to demonstrate the capabilities robotics have,
+in this case with moving electronics autonomously to assist workers.\
+The robot currently works off predefined positions,
+and the system implementation will upgrade this to use computer vision and AI to find the locations of available items and autonomously use them.
 
 ## Purpose
 > *[Define the purpose of this SRS and identify its target reader or audience]*
