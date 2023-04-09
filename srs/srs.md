@@ -102,17 +102,23 @@ Delete all the explanatory text in RED, including this box before submission.
 ## Acceptance Criteria
 > *[List and discuss the major acceptance criteria for the system to be developed, at a high level.]*
 
-The section details the operation of the robotic arm, including the depth camera and controlling software, referred to as "the system",
-in normal and irregular conditions:
-1. The system picks up different items from a set of pre-defined locations and transfers them to a tray.
-2. The system recognises available spots in the tray and places items accordingly.
-3. The system recognises absent items, in which case it:
-	- Search for that item in another location if available.
+This section outlines the operation of the robotic arm, as well as the associated depth camera and control software,
+which will henceforth be referred to as "the system," under both normal and irregular conditions.
+Under normal conditions, it is assumed that all items to be manipulated by the robotic arm are located and oriented according to
+pre-determined parameters.
+The acceptance criteria for such conditions are listed below:
+- The system picks up different items from a set of pre-defined locations and transfers them to a designated tray.
+- The system recognises available spaces on the tray and positions items accordingly.
+- The system recognises items under various lighting conditions.
+- The system recognises trays that have been emptied and returns them to the original position.
+
+The following list specify acceptance criteria for conditions considered to be irregular.
+"Irregular" in this context refer to items that are absent, misaligned or incorrectly placed on the tray due to human error or system error.
+- The system recognises absent items, in which case it:
+	- Search for that item in another location, if available; or
 	- Stops and awaits human intervention.
-4. The system recognises items under various lighting conditions.
-5. The system recognises trays that have been emptied and returns them to the initial position.
-6. The system detects incorrect combinations of items on a tray, in which case it stops and awaits human intervention.
-7. The system detects mal-oriented items, in which case it stops and awaits human intervention.
+- The system detects incorrect combinations of items on a tray, in which case it stops and awaits human intervention.
+- The system detects mal-oriented items, in which case it stops and awaits human intervention.
 
 ## Documentation
 > *[List all the documents that will be delivered along with the software.*\
