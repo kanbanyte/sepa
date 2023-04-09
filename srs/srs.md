@@ -103,17 +103,17 @@ Delete all the explanatory text in RED, including this box before submission.
 > *[List and discuss the major acceptance criteria for the system to be developed, at a high level.]*
 
 This section outlines the operation of the robotic arm, as well as the associated depth camera and control software,
-which will henceforth be referred to as "the system," under both normal and irregular conditions.
-Under normal conditions, it is assumed that all items to be manipulated by the robotic arm are located and oriented according to
-pre-determined parameters.
+which will henceforth be referred to as "the system," under both normal and abnormal conditions.
+Under normal conditions, it is assumed that all items to be manipulated by the robotic arm are located and
+oriented according to pre-defined parameters.
 The acceptance criteria for such conditions are listed below:
 - The system picks up different items from a set of pre-defined locations and transfers them to a designated tray.
 - The system recognises available spaces on the tray and positions items accordingly.
-- The system recognises items under various lighting conditions.
+- The system recognises items and trays under various lighting conditions.
 - The system recognises trays that have been emptied and returns them to the original position.
 
-The following list specify acceptance criteria for conditions considered to be irregular.
-"Irregular" in this context refer to items that are absent, misaligned or incorrectly placed on the tray due to human error or system error.
+The following list specify acceptance criteria for conditions considered to be abnormal.
+"Abnormal" in this context refers to items that are absent, misaligned or incorrectly placed on the tray due to external interference.
 - The system recognises absent items, in which case it:
 	- Search for that item in another location, if available; or
 	- Stops and awaits human intervention.
