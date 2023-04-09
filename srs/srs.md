@@ -100,8 +100,6 @@ Delete all the explanatory text in RED, including this box before submission.
 > *Also note that development and production requirements may be different.]*
 
 ## Acceptance Criteria
-> *[List and discuss the major acceptance criteria for the system to be developed, at a high level.]*
-
 This section outlines the operation of the robotic arm, as well as the associated depth camera and control software,
 which will henceforth be referred to as "the system," under both normal and abnormal conditions.
 Under normal conditions, it is assumed that all items to be manipulated by the robotic arm are located and
