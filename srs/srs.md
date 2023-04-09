@@ -92,7 +92,10 @@ Delete all the explanatory text in RED, including this box before submission.
 > *This overall section prepares the reader, while the following sections present the details.*
 
 ## Product Features
-> *[Summarise the significant features of the software at high-level.]*
+The system recognises various components from a set of pre-determined locations and
+performs a pick-and-place task to transfer them into a common tray for assembly.
+The system responds to irregularities such as the absence of certain items in the least disruptive manner possible and
+if necessary, stops completely and awaits human intervention.
 
 ## System Requirements
 > *[Discuss the minimum software and hardware requirements needed to **deploy** the software.*\
