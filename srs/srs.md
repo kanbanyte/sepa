@@ -106,8 +106,16 @@ if necessary, stops completely and awaits human intervention.
 > *[List and discuss the major acceptance criteria for the system to be developed, at a high level.]*
 
 ## Documentation
-> *[List all the documents that will be delivered along with the software.*\
-> *This may include user manuals, tutorials and technical manuals.]*
+The software is delivered along with a variety of documents, each designed to serve specific purposes and provide a seamless, user-friendly experience.
+These documents vary in scope and details, ranging from high-level tutorials to technical notes.
+
+The following documents are provided with the software package:
+- User Manual: provides guidance on how to use offered features, including available best practices.
+It also include guidance on how to troubleshoot errors and perform quick fixes.
+- Installation Manual: provides instructions for installing, updating, and uninstalling of the software on supported machines.
+- Release Notes: highlights the changes and improvements made in each release of the software.
+- Development Notes: provides details about technical information of the software, including its architecture, design, algorithms, training data, etc.
+Additionally, the document outlines test plans for the software, including unit tests and integration tests that outline test parameters and desired results.
 
 <div class="page"/><!-- page break -->
 
