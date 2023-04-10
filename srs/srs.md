@@ -109,7 +109,7 @@ The acceptance criteria for such conditions are listed below:
 * The system recognises items and trays under various lighting conditions.
 * The system recognises trays that have been emptied and returns them to the original position.
 
-The following list specify acceptance criteria for conditions considered to be abnormal.
+The following list specify acceptance criteria for conditions considered to be abnormal.\
 "Abnormal" in this context refers to items that are absent, misaligned or incorrectly placed on the tray due to external interference.
 * The system recognises absent items, in which case it:
 	* Search for that item in another location, if available; or
