@@ -105,9 +105,10 @@ which will henceforth be referred to as "the system," under both normal and abno
 Under normal conditions, it is assumed that all items to be manipulated by the robotic arm are located and oriented according to pre-defined parameters.
 The acceptance criteria for such conditions are listed below:
 * The system picks up different items from a set of pre-defined locations and transfers them to a designated tray.
-* The system recognises available spaces on the tray and positions items accordingly.
-* The system recognises items and trays under various lighting conditions.
-* The system recognises trays that have been emptied and returns them to the original position.
+* The system recognises;
+	* available spaces on the tray and positions items accordingly.
+	* items and trays under various lighting conditions.
+	* trays that have been emptied and returns them to the original position.
 
 The following list specify acceptance criteria for conditions considered to be abnormal.\
 "Abnormal" in this context refers to items that are absent, misaligned or incorrectly placed on the tray due to external interference.
