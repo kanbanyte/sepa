@@ -9,18 +9,18 @@ changelog:
   categories:
     - title: Team Leader and Client Liaison
       labels:
-        - @Slothman1
+        - Slothman1
     - title: Development Manager and Planning Manager
       labels:
-        - @dau501
+        - dau501
     - title: Support Manager and Developer
       labels:
-        - @finnmcgearey
-        - @NickMcK14
+        - finnmcgearey
+        - NickMcK14
     - title: Quality Manager and Developer
       labels:
-        - @vkach
-        - @Huy-GV
+        - vkach
+        - Huy-GV
     - title: Dropped
       labels:
         - invalid
