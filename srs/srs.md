@@ -61,11 +61,11 @@ Delete all the explanatory text in RED, including this box before submission.
 <div class="page"/><!-- page break -->
 
 # Introduction
-This project tackles the development and implementation of a perception system for a cobot to perform pick and place tasks.\
-Located within the Factory of the Future the cobot will be used to demonstrate the capabilities robotics have,
-in this case with moving electronics autonomously to assist workers.\
-The robot currently works off predefined positions,
-and the system implementation will upgrade this to use computer vision and AI to find the locations of available items and autonomously use them.
+This project addresses the development and implementation of a perception system for a cobot to perform pick and place tasks.\
+Located within the Factory of the Future the cobot will be used to demonstrate robotics capabilities,
+in this case with moving electronics autonomously to assist human workers.\
+The robot currently operates on predefined positions, and the system implementation will enable it to leverage computer vision and
+artificial intelligence to find the locations of available items and autonomously manipulate them.
 
 ## Purpose
 > *[Define the purpose of this SRS and identify its target reader or audience]*
