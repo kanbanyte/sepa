@@ -71,6 +71,7 @@ Additionally, the document serves as a point of reference for the team throughou
 enabling them to maintain alignment with established standards and requirements.
 The client and other stakeholders may use this document as a communication tool that informs them of high-level design details and
 verifies that shared objectives are well understood.
+
 ## Scope
 > *[Define the boundaries of the project.*\
 > *Specify what the project will and will not accomplish.*\
