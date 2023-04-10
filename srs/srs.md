@@ -107,8 +107,8 @@ The development phase involves 2 programming languages and associated libraries 
 	Potential candidates include PyTorch, OpenCV, etc.
 
 Hardware requirements specify the hardware required to perform the pick-and-place task based on varying visual inputs.
-- Universal Robots UR5e robotic arm (provided by Factory of the Future).
-- ZED 2 depth camera mounted in a manner that captures all relevant items.
+* Universal Robots UR5e robotic arm.
+* ZED 2 depth camera mounted in a manner that captures all relevant items.
 
 ## Acceptance Criteria
 > *[List and discuss the major acceptance criteria for the system to be developed, at a high level.]*
