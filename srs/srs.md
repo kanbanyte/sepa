@@ -123,7 +123,24 @@ if necessary, stops completely and awaits human intervention.
 > *Also note that development and production requirements may be different.]*
 
 ## Acceptance Criteria
-> *[List and discuss the major acceptance criteria for the system to be developed, at a high level.]*
+This section outlines the operation of the robotic arm, as well as the associated depth camera and control software,
+which will henceforth be referred to as "the system", under both normal and abnormal conditions.\
+Under normal conditions, it is assumed that all items to be manipulated by the robotic arm are located and oriented according to pre-defined parameters.
+The acceptance criteria for such conditions are listed below:
+* The system picks up different items from a set of pre-defined locations and transfers them to a designated tray.
+* The system recognises:
+	* available spaces on the tray and positions items accordingly.
+	* items and trays under various lighting conditions.
+	* trays that have been emptied and returns them to the original position.
+
+The following list specifies the acceptance criteria for conditions considered to be abnormal.\
+"Abnormal" in this context refers to items that are absent, misaligned or incorrectly placed on the tray due to external interference.
+* The system recognises absent items, in which case it:
+	* searches for that item in another location, if available; or
+	* stops and awaits human intervention.
+* The system detects:
+	* incorrect combinations of items on a tray, in which case it stops and awaits human intervention.
+	* mal-oriented items, in which case it stops and awaits human intervention.
 
 ## Documentation
 The software is delivered along with a variety of documents, each designed to serve specific purposes and provide a seamless, user-friendly experience.
