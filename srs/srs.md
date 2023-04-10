@@ -97,13 +97,13 @@ Delete all the explanatory text in RED, including this box before submission.
 ## System Requirements
 Software requirements specify the software required to deploy the system onto the robotic arm and
 the depth camera whilst ensuring compatibility with the existing robotic software.\
-The development phase involves 2 programming languages and associated libraries needed to construct said system.
-- Production requirements:
-	- Ubuntu 22.04 LTS operating system.
-	- ROS 2 software suite.
-- Development requirements:
-	- The C++ and Python programming languages.
-	- Computer Vision and AI-related libraries in Python.
+The development phase involves two programming languages and associated libraries needed to construct said system.
+* Production requirements:
+	* Ubuntu 22.04 LTS OS.
+	* ROS 2 software suite.
+* Development requirements:
+	* C++ and Python programming languages.
+	* Computer Vision and AI-related libraries in Python.\
 	Potential candidates include PyTorch, OpenCV, etc.
 
 Hardware requirements specify the hardware required to perform the pick-and-place task based on varying visual inputs.
