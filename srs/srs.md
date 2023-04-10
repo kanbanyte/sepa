@@ -133,7 +133,7 @@ provides instructions for installing, updating, and uninstalling of the software
 * **Release Notes:**
 highlights the changes and improvements made in each release of the software.
 * **Development Notes:**
-provides details about technical information of the software, including its architecture, design, algorithms, training data, etc.\
+provides details about technical information of the software, including its architecture, design, algorithms, training data, etc.
 Additionally, the document outlines test plans for the software, including unit tests and integration tests that outline test parameters and desired results.
 
 <div class="page"/><!-- page break -->
