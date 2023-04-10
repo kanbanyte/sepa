@@ -7,9 +7,20 @@ changelog:
     authors:
       - Danaclocs
   categories:
-    - title: Enhancements
+    - title: Team Leader and Client Liaison
       labels:
-        - enhancement
+        - @Slothman1
+    - title: Development Manager and Planning Manager
+      labels:
+        - @dau501
+    - title: Support Manager and Developer
+      labels:
+        - @finnmcgearey
+        - @NickMcK14
+    - title: Quality Manager and Developer
+      labels:
+        - @vkach
+        - @Huy-GV
     - title: Dropped
       labels:
         - invalid
