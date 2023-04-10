@@ -95,8 +95,8 @@ Delete all the explanatory text in RED, including this box before submission.
 > *[Summarise the significant features of the software at high-level.]*
 
 ## System Requirements
-Software requirements specify the software required to deploy the system onto the robotic arm and the depth camera
-whilst ensuring compatibility with the existing robotic software.
+Software requirements specify the software required to deploy the system onto the robotic arm and
+the depth camera whilst ensuring compatibility with the existing robotic software.\
 The development phase involves 2 programming languages and associated libraries needed to construct said system.
 - Production requirements:
 	- Ubuntu 22.04 LTS operating system.
