@@ -110,13 +110,14 @@ The acceptance criteria for such conditions are listed below:
 	* items and trays under various lighting conditions.
 	* trays that have been emptied and returns them to the original position.
 
-The following list specify acceptance criteria for conditions considered to be abnormal.\
+The following list specifies the acceptance criteria for conditions considered to be abnormal.\
 "Abnormal" in this context refers to items that are absent, misaligned or incorrectly placed on the tray due to external interference.
 * The system recognises absent items, in which case it:
-	* Search for that item in another location, if available; or
-	* Stops and awaits human intervention.
-* The system detects incorrect combinations of items on a tray, in which case it stops and awaits human intervention.
-* The system detects mal-oriented items, in which case it stops and awaits human intervention.
+	* searches for that item in another location, if available; or
+	* stops and awaits human intervention.
+* The system detects;
+	* incorrect combinations of items on a tray, in which case it stops and awaits human intervention.
+	* mal-oriented items, in which case it stops and awaits human intervention.
 
 ## Documentation
 > *[List all the documents that will be delivered along with the software.*\
