@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="styles/worklog.css" type="text/css">
+<link rel="stylesheet" href="../styles/worklog.css" type="text/css">
 
 # SELF/PEER ASSESSMENT FORM
 <!--

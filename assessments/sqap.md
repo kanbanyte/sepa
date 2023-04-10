@@ -507,40 +507,41 @@ main
 |	.gitignore
 |	project24proposal.md
 |	README.md
-|	self-peer_review_template.md
-|	worklog_template.md
 |
 +-------.github
 |	|	PULL_REQUEST_TEMPLATE.md
+|	|	release.yml
 |	|
 |	\-------ISSUE_TEMPLATE
 |			config.yml
 |
-+-------criteria
++-------assessments
+|		contribution.md
 |		criteria.md
-|
-+-------design_report
 |		design.md
-|
-+-------project_plan
 |		plan.md
-|
-+-------sadrr
 |		sadrr.md
-|
-+-------sqap
+|		self-peer_review_template.md
 |		sqap.md
-|
-+-------srs
 |		srs.md
 |
-+-------statement
-|		contribution.md
++-------meetings
+|	+-------agendas
+|	|		agendas_template.md
+|	|
+|	\-------minutes
+|			minutes_template.md
 |
-\-------styles
-		contribution.css
-		styles.css
-		worklog.css
++-------ros2_tutorials
+|		.gitkeep
+|
++-------styles
+|		contribution.css
+|		styles.css
+|		worklog.css
+|
+\-------worklogs
+		worklog_template.md
 ```
 
 <div class="page"/><!-- page break -->
