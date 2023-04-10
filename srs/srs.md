@@ -67,7 +67,7 @@ Delete all the explanatory text in RED, including this box before submission.
 ## Purpose
 The Software Requirement Specification document is designed to serve as a roadmap for this project.
 It comprehensively outlines the boundaries and requirements of the project to ensure the end product meets the needs of the client.
-Additionally, the document serves as a point of reference for the development team throughout the project cycles,
+Additionally, the document serves as a point of reference for the team throughout development cycles,
 enabling them to maintain alignment with established standards and requirements.
 The client and other stakeholders may use this document as a communication tool that informs them of high-level design details and
 verifies that shared objectives are well understood.
