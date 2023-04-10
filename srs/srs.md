@@ -118,9 +118,20 @@ The system responds to irregularities such as the absence of certain items in th
 if necessary, stops completely and awaits human intervention.
 
 ## System Requirements
-> *[Discuss the minimum software and hardware requirements needed to **deploy** the software.*\
-> *Be careful not to state requirements beyond what is required.*\
-> *Also note that development and production requirements may be different.]*
+Software requirements specify the software required to deploy the system onto the robotic arm and
+the depth camera whilst ensuring compatibility with the existing robotic software.\
+The development phase involves two programming languages and associated libraries needed to construct said system.
+* Production requirements:
+	* Ubuntu 22.04 LTS OS.
+	* ROS 2 software suite.
+* Development requirements:
+	* C++ and Python programming languages.
+	* Computer Vision and AI-related libraries in Python.\
+	Potential candidates include PyTorch, OpenCV, etc.
+
+Hardware requirements specify the hardware required to perform the pick-and-place task based on varying visual inputs.
+* Universal Robots UR5e robotic arm.
+* ZED 2 depth camera mounted in a manner that captures all relevant items.
 
 ## Acceptance Criteria
 This section outlines the operation of the robotic arm, as well as the associated depth camera and control software,
