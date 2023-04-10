@@ -102,8 +102,7 @@ Delete all the explanatory text in RED, including this box before submission.
 ## Acceptance Criteria
 This section outlines the operation of the robotic arm, as well as the associated depth camera and control software,
 which will henceforth be referred to as "the system," under both normal and abnormal conditions.
-Under normal conditions, it is assumed that all items to be manipulated by the robotic arm are located and
-oriented according to pre-defined parameters.
+Under normal conditions, it is assumed that all items to be manipulated by the robotic arm are located and oriented according to pre-defined parameters.
 The acceptance criteria for such conditions are listed below:
 - The system picks up different items from a set of pre-defined locations and transfers them to a designated tray.
 - The system recognises available spaces on the tray and positions items accordingly.
