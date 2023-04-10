@@ -37,12 +37,12 @@ Delete all the explanatory text in RED, including this box before submission.
 # DOCUMENT SIGN OFF
 |Name|Position|Signature|Date|
 |:-|:-|:-|:-|
-|@Slothman1|Team Leader/Client Liaison|||
-|@dau501|Development Manager/Planning Manager|||
-|@finnmcgearey|Support Manager/Developer|||
-|@vkach|Quality Manager/Developer|||
-|@NickMcK14|Support Manager/Developer|||
-|@Huy-GV|Quality Manager/Developer|||
+|@Slothman1|Team Leader/Client Liaison|student_signature(&emsp;)|DD/MM/2023|
+|@dau501|Development Manager/Planning Manager|student_signature(&emsp;)|DD/MM/2023|
+|@finnmcgearey|Support Manager/Developer|student_signature(&emsp;)|DD/MM/2023|
+|@vkach|Quality Manager/Developer|student_signature(&emsp;)|DD/MM/2023|
+|@NickMcK14|Support Manager/Developer|student_signature(&emsp;)|DD/MM/2023|
+|@Huy-GV|Quality Manager/Developer|student_signature(&emsp;)|DD/MM/2023|
 
 > *[When document is finalised for submission, all team members must affix their signature in the Document Sign Off table]*\
 > ***[No-one should sign unless they have read the report and agree with it.]***
@@ -50,11 +50,11 @@ Delete all the explanatory text in RED, including this box before submission.
 # CLIENT SIGN OFF
 |Name|Position|Signature|Date|
 |:-|:-|:-|:-|
-|<br/>|<br/>|<br/>|<br/>|
+|@FelipMarti|Research Fellow|<br/>|&emsp;/&emsp;/2023|
 
 |Organisation|
 |:-|
-|<br/><br/><br/><br/>|
+|Swinburne's Factory of the Future<br/><br/><br/><br/>|
 
 > *[Client to sign off on the Project Plan to signify they agree with the plan]*
 
@@ -139,14 +139,13 @@ Prem P.J: The Director of the Factory of the Future.
 Prof. J is responsible for leading and overseeing the projects within the Factory of the Future.
 
 ### PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS
-@Slothman1: Team leader and client liaison\
-@dau501: Development manager and planning manager\
-@finnmcgearey: Support manager and developer\
-@vkach: Quality manager and developer\
-@NickMcK14: Support manager and developer\
-@Huy-GV: Quality manager and developer
-
-D.R: Project supervisor
+@Danaclocs: Project Supervisor\
+@Slothman1: Team Leader and Client Liaison\
+@dau501: Development Manager and Planning Manager\
+@finnmcgearey: Support Manager and Developer\
+@vkach: Quality Manager and Developer\
+@NickMcK14: Support Manager and Developer\
+@Huy-GV: Quality Manager and Developer
 
 <div class="page"/><!-- page break -->
 

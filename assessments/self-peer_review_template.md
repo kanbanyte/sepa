@@ -37,7 +37,7 @@ Using the **Self and Peer Assessment Form** below
 
 <div class="page"/><!-- page break -->
 
-## Detailed Comments:
+## Detailed Comments
 |No.|Team Member Names|Comments|
 |:-:|:-|:-|
 |1|@Slothman1|<br/>|
