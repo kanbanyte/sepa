@@ -26,26 +26,26 @@ Using the **Self and Peer Assessment Form** below
 *University of Wisconsin-Stout Modified by Pheroza Daruwalla and Ian Knowd, 1994.)*
 ```
 
-|No.|Team Member Names (including yourself)|A|B|C|D|E|F|G|H|I|J|Total|
-|:-:|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|1|@Slothman1|5|5|5|5|5|5|5|5|5|5|50|
-|2|@dau501|5|5|5|5|5|5|5|5|5|5|50|
-|3|@finnmcgearey|5|5|5|5|5|5|5|5|5|5|50|
-|4|@vkach|5|5|5|5|5|5|5|5|5|5|50|
-|5|@NickMcK14|5|5|5|5|5|5|5|5|5|5|50|
-|6|@Huy-GV|5|5|5|5|5|5|5|5|5|5|50|
+|Team Member Names (including yourself)|A|B|C|D|E|F|G|H|I|J|Total|
+|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|@Slothman1|5|5|5|5|5|5|5|5|5|5|50|
+|@dau501|5|5|5|5|5|5|5|5|5|5|50|
+|@finnmcgearey|5|5|5|5|5|5|5|5|5|5|50|
+|@vkach|5|5|5|5|5|5|5|5|5|5|50|
+|@NickMcK14|5|5|5|5|5|5|5|5|5|5|50|
+|@Huy-GV|5|5|5|5|5|5|5|5|5|5|50|
 
 <div class="page"/><!-- page break -->
 
 ## Detailed Comments
-|No.|Team Member Names|Comments|
-|:-:|:-|:-|
-|1|@Slothman1|<br/>|
-|2|@dau501|<br/>|
-|3|@finnmcgearey|<br/>|
-|4|@vkach|<br/>|
-|5|@NickMcK14|<br/>|
-|6|@Huy-GV|<br/>|
+|Name|Student No.|Comments|
+|:-|:-:|:-|
+|@Slothman1|id|Team Leader and Client Liaison for HeeHooVision.|
+|@dau501|id|Development Manager and Planning Manager for HeeHooVision.|
+|@finnmcgearey|id|Support Manager and Developer for HeeHooVision.|
+|@vkach|id|Quality Manager and Developer for HeeHooVision.|
+|@NickMcK14|id|Support Manager and Developer for HeeHooVision.|
+|@Huy-GV|id|Quality Manager and Developer for HeeHooVision.|
 
 <div class="page"/><!-- page break -->
 
