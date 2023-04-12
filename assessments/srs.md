@@ -195,6 +195,9 @@ Additionally, the document outlines test plans for the software, including unit 
 ## User Interfaces
 > *[Describe how the user will interact with the software/system.*\
 > *This may be sample GUI or a console user screen.]*
+Currently the system already has a GUI and this interface is used to manually override the robots commands.
+With an autonomous system the Robot shouldn't have a GUI, or an advanced one, and in most cases the user shouldn't be modifying this.\
+Overall this Project Already has an implemented GUI and we don't nee dto make/implement one
 
 ## Hardware Interfaces
 > *[Discuss the hardware that the software will interface to.*\
