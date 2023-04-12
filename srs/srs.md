@@ -110,14 +110,14 @@ Delete all the explanatory text in RED, including this box before submission.
 
 # Functional Requirements
 The system to be developed is a Robot Vision System for a Pick and Place Task.\
-The system is designed to enable a robot to detect and identify the location of objects that need to be picked up and placed.\
+The system is designed to enable a robot to identify the objects that need to be picked up and placed.\
 To achieve this, the system should have the following functionality:
 * **Real-time Object Detection, Processing, and Analysis:**\
-The system should be able to process real-time object detection, processing, and analysis for accuracy and speed.
+The system should be able to handle real-time object detection, processing, and analysis to ensure accuracy and speed.
 * **Object Location Data Communication:**\
-The system should be able to communicate the object location data to the robot in a format that the robot can understand.
+The system should be able to communicate the object location data to the robot arm.
 * **Continuous Learning and Adaptation:**\
-The system should have the ability to continuously learn and adapt to new objects and locations.
+The system should have the ability to continuously learn and adapt to novel objects and locations.
 
 # Non-Functional (Quality) Requirements
 > *[Discuss the non-functional (quality) requirements for the system to be developed.*\
