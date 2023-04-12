@@ -193,9 +193,9 @@ Additionally, the document outlines test plans for the software, including unit 
 > *A high-level diagram with accompanying descriptions is usually a good way to present this.]*
 
 ## User Interfaces
-Currently the system already has a GUI and this interface is used to manually override the robots commands.
+Currently the system already has a GUI and this interface is used to manually override the robots commands.\
 With an autonomous system the Robot should not have a GUI, or an advanced one, and in most cases the user shouldn't be modifying this.\
-Overall this Project Already has an implemented GUI and we don't nee dto make/implement one
+Overall, this Project already has an implemented GUI and we don't need to make/implement one.
 
 ## Hardware Interfaces
 > *[Discuss the hardware that the software will interface to.*\
