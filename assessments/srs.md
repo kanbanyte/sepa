@@ -197,9 +197,6 @@ Additionally, the document outlines test plans for the software, including unit 
 > *This may be sample GUI or a console user screen.]*
 
 ## Hardware Interfaces
-> *[Discuss the hardware that the software will interface to.*\
-> *Describe how the software communicates, and/or controls the hardware.*\
-> *This may include the communication protocol used and interface requirement such as communication port.]*
 The software being developed is that of a perception system for a cobot, so the software will integrate with:
 * The cobot.
 * The sensors (ZED camera)
