@@ -206,6 +206,9 @@ Additionally, the document outlines test plans for the software, including unit 
 > *Other software applications may be database systems, and web servers.*\
 > *Complete information of the other software applications must be provided, such as name, version and source.*\
 > *Describe how the software interacts and/or communications with these other software.]*
+The software system will interact with ROS2 and ubuntu systems.
+Being a cobot, ROS2 will be the primary software integration, the system will integrate with ROS by providing the robot instructions on how to move.
+ROS2 runs best within ubuntu systems, as a result the 22.04 LTS version will be used to run ROS and be the primary integration with provided hardware in this project.
 
 ## Communication Interfaces
 > *[Discuss the communication interfaces that the software uses.*\
