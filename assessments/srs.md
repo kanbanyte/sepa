@@ -209,9 +209,7 @@ Overall, this Project already has an implemented GUI and we don't need to make/i
 > *Describe how the software interacts and/or communications with these other software.]*
 
 ## Communication Interfaces
-> *[Discuss the communication interfaces that the software uses.*\
-> *These may be local area network communication, internet communication via HTTP/HTTPS or FTP/SFTP.*\
-> *If the communication is through another software application do not include it here.]*
+For both security and practicality reasons the system will not be connected to a network.
 
 <div class="page"/><!-- page break -->
 
