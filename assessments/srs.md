@@ -207,10 +207,9 @@ The computer running the software will be almost constantly running, the other r
 From here the sensors will identify the location of available components then communicating that information to the cobot to retrieve and place the components.
 
 ## Software Interfaces
-> *[Discuss the other software applications that the software will interface to.*\
-> *Other software applications may be database systems, and web servers.*\
-> *Complete information of the other software applications must be provided, such as name, version and source.*\
-> *Describe how the software interacts and/or communications with these other software.]*
+The software system will interact with ROS2 and Ubuntu systems.
+Being a cobot, ROS2 will be the primary software used to integrate with the system, allowing the system to provide the cobot with movement instructions.
+ROS2 runs best within Ubuntu systems, as a result the 22.04 LTS version will be used to run ROS2 and be the primary integration with provided hardware in this project.
 
 ## Communication Interfaces
 For both security and practicality reasons the system will not be connected to a network.
