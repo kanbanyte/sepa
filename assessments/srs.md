@@ -197,10 +197,10 @@ Additionally, the document outlines test plans for the software, including unit 
 > *This may be sample GUI or a console user screen.]*
 
 ## Hardware Interfaces
-The software being developed is that of a perception system for a cobot, so the software will integrate with:
-* The cobot.
-* The sensors (ZED camera)
-* The other robotics systems
+The software being developed is that of a perception system for a cobot, so the software will integrate with the:
+* cobot
+* sensors (ZED 2 camera)
+* other robotics systems
 * A computer running the software.
 Briefly overviewing how the system interacts is as follows.\
 The computer running the software will be almost constantly running, the other robotics systems will send a signal to the software to ove the cobot.
