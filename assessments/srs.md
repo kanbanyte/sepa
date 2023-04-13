@@ -202,9 +202,9 @@ Additionally, the document outlines test plans for the software, including unit 
 > *This may include the communication protocol used and interface requirement such as communication port.]*
 
 ## Software Interfaces
-The software system will interact with ROS2 and ubuntu systems.
-Being a cobot, ROS2 will be the primary software integration, the system will integrate with ROS by providing the robot instructions on how to move.
-ROS2 runs best within ubuntu systems, as a result the 22.04 LTS version will be used to run ROS and be the primary integration with provided hardware in this project.
+The software system will interact with ROS2 and Ubuntu systems.
+Being a cobot, ROS2 will be the primary software integration, the system will integrate with ROS2 by providing the robot instructions on how to move.
+ROS2 runs best within Ubuntu systems, as a result the 22.04 LTS version will be used to run ROS2 and be the primary integration with provided hardware in this project.
 
 ## Communication Interfaces
 > *[Discuss the communication interfaces that the software uses.*\
