@@ -215,7 +215,7 @@ Communication of the system with external networks should be restricted, traced 
 * **Performance**:\
 The time spent processing visual inputs by the system should not cause long pauses to the assembly line unless there is external interference.
 The system should compute the most efficient sequence of moves to finish a pick-and-place cycle without impacting the human operator and other equipment.\
-The requirement should be verifiable by measuring the average system processing time per assembly cycle in all situations
+The requirement should be verifiable by measuring the average system processing time per assembly cycle in all situations,
 except those caused by external interference that require human intervention.
 
 <div class="page"/><!-- page break -->
