@@ -195,8 +195,8 @@ Here are the non-functional quality requirements for the software architecture a
 * **Reliability:**\
 The system should be able to operate without failure for extended periods of time to ensure that the robot can complete pick and place tasks with minimal pauses.
 A failure in this context refers to any instance where the robot stops and awaits human intervention.\
-The reliability requirement should be verifiable by testing the system's performance over a period of time
-that is, at a minimum, equivalent to number of hours assembly workers spend in a single day.
+The reliability requirement should be verifiable by testing the system's performance over a period of time that is,
+at a minimum, equivalent to number of hours assembly workers spend in a single day.
 The system should also have the ability to handle unexpected conditions and avoid faulting.
 * **Modularity:**\
 The system should be designed with a modular architecture that facilitates the integration of different computer vision, sensor, robotics, and AI technologies,
