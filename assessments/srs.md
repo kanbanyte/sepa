@@ -198,9 +198,13 @@ With an autonomous system the Robot should not have a GUI, or an advanced one, a
 Overall, this Project already has an implemented GUI and we don't need to make/implement one.
 
 ## Hardware Interfaces
-> *[Discuss the hardware that the software will interface to.*\
-> *Describe how the software communicates, and/or controls the hardware.*\
-> *This may include the communication protocol used and interface requirement such as communication port.]*
+The software being developed is that of a perception system for a cobot, so the software will integrate with the:
+* cobot
+* sensors (ZED 2 camera)
+* other robotics systems
+* computer running the software; briefly overviewing how the system interacts is as follows:\
+The computer running the software will be almost constantly running, the other robotics systems will send a signal to the software for the cobot.
+From here the sensors will identify the location of available components then communicating that information to the cobot to retrieve and place the components.
 
 ## Software Interfaces
 > *[Discuss the other software applications that the software will interface to.*\
