@@ -88,7 +88,7 @@ This project will enable the robot to perform these tasks by providing it with a
 
 The project requires specialization in Computer Vision, Sensors, Robotics, and AI and software programming skills in C/C++, Python, OpenCV, PyTorch, and ROS2.
 It will require research into state-of-the-art technologies to provide the robot with a vision system to pick and place objects.
-The project is managed using Kanban + GitHub for implementation and source control.\
+The project is managed using Kanban and GitHub for implementation and source control.\
 The project will also follow SemVer for version control, and the documentation will be in Markdown format.
 
 Project 24 is a component of a larger system that involves the integration of Computer Vision, Sensors, Robotics, and AI technologies.
