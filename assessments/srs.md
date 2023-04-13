@@ -187,8 +187,44 @@ The system should have the ability to continuously learn and adapt to novel obje
 The system should perform tasks independently without human interaction.
 
 # Non-Functional (Quality) Requirements
-> *[Discuss the non-functional (quality) requirements for the system to be developed.*\
-> *Note that the quality requirements need to be verifiable, ie, can be shown having been achieved in the testing stage.]*
+Non-functional (quality) requirements are critical to ensure the success of Project 24.
+These requirements specify the system's characteristics and behaviors that are not related to its functionality but contribute to its overall performance and usability.
+
+Here are the non-functional quality requirements for the software architecture and design of the Robot Vision System:
+* **Scalability:**\
+The system should be designed to handle a large number of objects and locations and should be able to support potential future expansions of the pick and place tasks.
+The system should be able to handle an increasing number of objects and locations without a significant decrease in performance.\
+The scalability requirement should be verifiable by testing the system's performance as the number of objects and locations increases.
+* **Reliability:**\
+The system should be able to operate without failure for extended periods of time to ensure that the robot can complete pick and place tasks without interruption.
+The system should be reliable in terms of its hardware, software, and network components.\
+The reliability requirement should be verifiable by testing the system's performance over an extended period of time.
+* **Modularity:**\
+The system should be designed with a modular architecture that allows for the integration of different computer vision, sensor, robotics, and AI technologies, as well as future upgrades and maintenance.
+The system should be composed of interchangeable and independent modules, which can be updated, replaced, or expanded without affecting the other modules' functionality.\
+The modularity requirement should be verifiable by testing the system's ability to replace or add modules without causing any impact on the other modules.
+* **Security:**\
+The system should be designed with security features to prevent unauthorized access, data breaches, and system failures.
+The Robot Vision System is responsible for the operation of the robot in the FOF environment, and any security vulnerabilities may cause significant damage to the system and its surroundings.
+The security requirement should be verifiable by testing the system's ability to prevent unauthorized access and data breaches.\
+The software architecture and design should adhere to the principles of software engineering, utilizing design patterns, best practices, and suitable tools and frameworks for the specified environment and programming languages.
+The development process should be iterative, with regular reviews and testing to ensure the non-functional quality requirements are met.\
+The verifiability of quality requirements is crucial in ensuring the successful development and operation of the Robot Vision System.
+* **Flexibility**:\
+The system should handle unexpected conditions in a safe and efficient manner.\
+It will attempt to keep the assembly process running and minimize interruptions or pauses.
+Should it fail to determine an efficient course of action, it should not behave in a way that can harm human operators or other equipment.\
+This requirement can be verified by operating the system under a variety of unexpected conditions:
+misaligned items, absent items, uneven lighting, etc.
+* **Performance**:\
+The time spent processing visual inputs by the system should not cause long pauses to the assembly line unless there is external interference.
+The system should compute the most efficient movement sequence to finish a pick-and-place cycle
+without impacting the human operator or other equipment.\
+The requirement should be verifiable by measuring the average system response time in all situations,
+except those caused by external interference that require human intervention.
+* **Reliability**:\
+The system should exhibit the ability to stay operational for long hours whilst maintaining accuracy and performance.\
+The requirement should be verifiable by operating the system under long hours and measuring if any performance or flexibility impacts occur.
 
 <div class="page"/><!-- page break -->
 
