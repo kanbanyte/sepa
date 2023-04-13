@@ -201,8 +201,7 @@ The system should also have the ability to handle unexpected conditions and avoi
 * **Modularity:**\
 The system should be designed with a modular architecture that facilitates the integration of different computer vision, sensor, robotics, and AI technologies,
 as well as future upgrades and maintenance.
-The system should be composed of interchangeable and independent modules, which can be modified or replaced
-without affecting the functionality of other modules.\
+The system should be composed of interchangeable and independent modules, which can be modified or replaced without affecting the functionality of other modules.\
 The modularity requirement should be verifiable by testing the system's ability to replace or add modules without causing any impact on the other modules.
 This can be implemented by performing unit tests on individual components using stubs and mocks.
 * **Security:**\
