@@ -188,8 +188,8 @@ The system should perform tasks independently without human interaction.
 
 # Non-Functional (Quality) Requirements
 Non-functional (quality) requirements are critical to ensure the success of Project 24.
-These requirements specify the system's characteristics and behaviors that are not related to its functionality but
-contribute to its overall performance and usability.
+These requirements specify the system's characteristics and
+behaviors that are not related to its functionality but contribute to its overall performance and usability.
 
 Here are the non-functional quality requirements for the software architecture and design of the Robot Vision System:
 * **Reliability:**\
