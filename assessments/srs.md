@@ -201,23 +201,21 @@ The system should also have the ability to handle unexpected conditions and avoi
 * **Modularity:**\
 The system should be designed with a modular architecture that facilitates the integration of different computer vision, sensor, robotics, and AI technologies,
 as well as future upgrades and maintenance.
-The system should be composed of interchangeable and independent modules, which can be updated, replaced, or
-expanded without affecting the other modules' functionality.\
+The system should be composed of interchangeable and independent modules, which can be modified or replaced
+without affecting the functionality of other modules.\
 The modularity requirement should be verifiable by testing the system's ability to replace or add modules without causing any impact on the other modules.
-This can be implemented by performing unit tests on individual components using stubs and mocks.e
+This can be implemented by performing unit tests on individual components using stubs and mocks.
 * **Security:**\
 The system should be designed with security features to prevent unauthorized access, data breaches, and system failures.
 The Robot Vision System is responsible for the operation of the robot in the FOF environment,
 and any security vulnerabilities may cause significant damage to the system and its surroundings.
 The development process should be iterative, with regular reviews and testing to ensure the non-functional quality requirements are met.\
 The security requirement should be verifiable by testing the system's ability to prevent unauthorized access and data breaches.
-Communication of the system with external network should be restricted, traced and closely monitored.
+Communication of the system with external networks should be restricted, traced and closely monitored.
 * **Performance**:\
-The time spent processing visual inputs by the system should not cause long pauses to the assembly line
-unless there is external interference.
-The system should compute the most efficient movement sequence to finish a pick-and-place cycle
-without impacting the human operator or other equipment.\
-The requirement should be verifiable by measuring the average system response time in all situations,
+The time spent processing visual inputs by the system should not cause long pauses to the assembly line unless there is external interference.
+The system should compute the most efficient sequence of moves to finish a pick-and-place cycle without impacting the human operator and other equipment.\
+The requirement should be verifiable by measuring the average system processing time per assembly cycle in all situations
 except those caused by external interference that require human intervention.
 
 <div class="page"/><!-- page break -->
