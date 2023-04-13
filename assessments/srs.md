@@ -201,9 +201,8 @@ The software being developed is that of a perception system for a cobot, so the 
 * cobot
 * sensors (ZED 2 camera)
 * other robotics systems
-* A computer running the software.
-Briefly overviewing how the system interacts is as follows.\
-The computer running the software will be almost constantly running, the other robotics systems will send a signal to the software to ove the cobot.
+* computer running the software; briefly overviewing how the system interacts is as follows:\
+The computer running the software will be almost constantly running, the other robotics systems will send a signal to the software for the cobot.
 From here the sensors will identify the location of available components then communicating that information to the cobot to retrieve and place the components.
 
 ## Software Interfaces
