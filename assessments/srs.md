@@ -174,8 +174,17 @@ Additionally, the document outlines test plans for the software, including unit 
 <div class="page"/><!-- page break -->
 
 # Functional Requirements
-> *[Discuss what the system to be developed is to do, in detail.*\
-> *Ideally, follow an established approach, such as use case analysis or task and support.]*
+The system to be developed is a Robot Vision System for a Pick and Place Task.\
+The system is designed to enable a robot to identify the objects that need to be picked up and placed.\
+To achieve this, the system should have the following functionality:
+* **Real-time Object Detection, Processing, and Analysis:**\
+The system should be able to handle real-time object detection, processing, and analysis to ensure accuracy and speed.
+* **Object Location Data Communication:**\
+The system should be able to communicate the object location data to the robot arm.
+* **Continuous Learning and Adaptation:**\
+The system should have the ability to continuously learn and adapt to novel objects and locations.
+* **Autonomous Systems:**\
+The system should perform tasks independently without human interaction.
 
 # Non-Functional (Quality) Requirements
 > *[Discuss the non-functional (quality) requirements for the system to be developed.*\
