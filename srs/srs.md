@@ -118,6 +118,8 @@ The system should be able to handle real-time object detection, processing, and 
 The system should be able to communicate the object location data to the robot arm.
 * **Continuous Learning and Adaptation:**\
 The system should have the ability to continuously learn and adapt to novel objects and locations.
+* **Autonomous Systems:**\
+The system should perform tasks independently without human interaction.
 
 # Non-Functional (Quality) Requirements
 > *[Discuss the non-functional (quality) requirements for the system to be developed.*\
