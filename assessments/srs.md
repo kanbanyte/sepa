@@ -206,8 +206,8 @@ The modularity requirement should be verifiable by testing the system's ability 
 This can be implemented by performing unit tests on individual components using stubs and mocks.
 * **Security:**\
 The system should be designed with security features to prevent unauthorized access, data breaches, and system failures.
-The Robot Vision System is responsible for the operation of the robot in the FOF environment,
-and any security vulnerabilities may cause significant damage to the system and its surroundings.
+The Robot Vision System is responsible for the operation of the robot in the FOF environment, and
+any security vulnerabilities may cause significant damage to the system and its surroundings.
 The development process should be iterative, with regular reviews and testing to ensure the non-functional quality requirements are met.\
 The security requirement should be verifiable by testing the system's ability to prevent unauthorized access and data breaches.
 Communication of the system with external networks should be restricted, traced and closely monitored.
