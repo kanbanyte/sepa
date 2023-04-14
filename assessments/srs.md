@@ -220,9 +220,10 @@ except those caused by external interference that require human intervention.
 <div class="page"/><!-- page break -->
 
 # Interface Requirements
-> *[Describe how the software communicates with other entities when it is executing.*\
-> *These may include any sub-sections below.*\
-> *If any sub-sections below do not apply, the sub-section should state "The software has no &lt;sub-section heading> interface requirements".]*
+The software system does not operate independently but in conjunction with multiple actors.
+On the hardware front, it processes input from the depth camera and produces command for the robot arm.
+In terms of software, it interacts with the existing robot arm control system and associated toolkit.
+Communication with the human operator is conducted via a graphical interface.
 
 ## System in Context
 > *[Describe how the system to be developed is related to the users and other systems/platforms.*\
