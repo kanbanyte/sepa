@@ -99,14 +99,19 @@ the ROS2 will allow for easy integration of the various system components.
 stateDiagram-v2
 	direction TB
 	state "Perception System" as Perception
-	state "Software System" as Software
 	state "Computer Vision Technology" as Vision
-	state "Robot Movement" as Movement
+	state "Robotic Arm" as Robot
+	state "Components To Be Assembled" as Components
 
-	Perception --> Software: Visual Inputs
-	Software --> Vision: Data
-	Vision --> Software: Feedback
-	Software --> Movement: Commands
+	state "Software System" as Software {
+		[*] --> Vision : Data
+		Vision --> [*] : Feedback
+	}
+
+	Perception --> Software : Visual Data
+	Software --> Robot : Commands
+	Robot --> Components : Movement
+	Components --> Perception : Visual Input
 ```
 
 ## Product Features
