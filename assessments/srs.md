@@ -269,15 +269,15 @@ stateDiagram-v2
 	}
 ```
 
-The cobot system operates within a larger system that includes components such as the Hardware Interface,
-Other Robotics Systems, Ubuntu, Robotic Arm, and Software Interface.
-The system integrates with ROS2 through the Software Interface to send commands/signals to the Hardware Interface for controlling the hardware components.
+The cobot system operates within a larger system that includes components such as the hardware interface,
+other robotics systems, Ubuntu, robotic arm, and software interface.
+The system integrates with ROS2 through the software interface to send commands/signals to the hardware interface for controlling the hardware components.
 
-The Hardware Interface communicates with the Other Robotics Systems to receive signals and with the cobot to send commands for actions.
-The cobot, consisting of Sensors for detecting component positions and a Robotic Arm for executing commands,
+The hardware interface communicates with the other robotics systems to receive signals and with the cobot to send commands for actions.
+The cobot, consisting of sensors for detecting component positions and a robotic arm for executing commands,
 can be in a standby state or perform actions based on received signals.
 
-The Human Operator interacts with the system for assembling components.
+The human operator interacts with the system for assembling components.
 The system operates on the Ubuntu, providing the necessary environment for executing commands and integrating with other components.
 
 ## User Interfaces
