@@ -248,9 +248,61 @@ On the hardware front, it processes input from the depth camera and produces com
 In terms of software, it interacts with the existing robot arm control system and associated toolkit.\
 Communication with the human operator is conducted via a graphical interface.
 
-## System in Context
-> *[Describe how the system to be developed is related to the users and other systems/platforms.*\
-> *A high-level diagram with accompanying descriptions is usually a good way to present this.]*
+## System In Context
+```mermaid
+stateDiagram-v2
+	direction TB
+	state if_state <<choice>>
+	state fork <<fork>>
+	state join <<join>>
+	state "User Interface" as User
+	state "Hardware Interface" as Hardware
+	state "Other Robotics Systems" as OtherSystems
+	state "Waiting" as Wait
+	state "Human Operator" as Operator
+	state "Ubuntu Linux" as Ubuntu
+	state "Robotic Arm" as Robot
+
+	state "Software Interface" as Software {
+		[*] --> ROS2 : Integration
+		--
+		[*] --> Ubuntu : Operating System
+	}
+
+	state "Collaborative Robot" as Cobot {
+		[*] --> Sensors : Component Position
+		--
+		[*] --> Robot : Commands
+	}
+
+	state "Perception System" as Perception {
+		[*] --> User
+		User --> Software : Input/Output
+		Software --> Hardware : Commands/Signals
+
+		Hardware --> if_state
+		if_state --> OtherSystems : Send Signal
+		if_state --> Cobot : Actions
+
+		Cobot --> fork : Standby
+		fork --> Wait
+		fork --> Operator
+		Operator --> join : Assembled Components
+		Wait --> join
+		join --> [*]
+	}
+```
+
+The cobot system operates within a larger system that includes components such as the hardware interface,
+other robotics systems, Ubuntu, robotic arm, and software interface.
+The system integrates with ROS2 through the software interface to send commands/signals to the hardware interface for controlling the hardware components.
+
+The hardware interface communicates with the other robotics systems to receive signals and with the cobot to send commands for actions.
+The cobot, consisting of sensors for detecting component positions and a robotic arm for executing commands,
+can be in a standby state or perform actions based on received signals.
+
+The human operator interacts with the system for assembling components.
+The system operates on the Ubuntu, providing the necessary environment for executing commands and integrating with other components.
 
 ## User Interfaces
 Currently the system already has a GUI and this interface is used to manually override the robots commands.\
