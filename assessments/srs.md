@@ -4,7 +4,7 @@
 # Robot Vision System For A Pick And Place Task
 <!--
 	Co-Author: @dau501
-	Editor(s):
+	Editor(s): @Huy-GV, @Slothman1
 	Year: 2023
 -->
 
@@ -358,27 +358,3 @@ ROS2 runs best within Ubuntu systems, as a result the 22.04 LTS version will be 
 
 ## Communication Interfaces
 For both security and practicality reasons the system will not be connected to a network.
-
-<div class="page"/><!-- page break -->
-
-# References (if any)
-> *[If you have used information from published sources, show where it came from here (and cite them in the relevant places of this report).*\
-> *Use the Harvard system of citation (or another system, but be consistent).*\
-> *For instance, they may be books, journal articles, or websites.]*
-
-> ***[Your reference list entry must be in the form of***\
-> &emsp; **Author, Initial(s) Year, *Title of Document/Webpage/Website*, Organisation/Host, viewed Day Month Year, &lt;URL>.**
->
-> &emsp; example
->
-> &emsp; Yates, J 2009, Tax expenditures and housing, Australian Housing and Urban Research Institute, viewed 12 November 2013,\
-> &emsp; <http://www.ahuri.edu.au/publications/download/ahuri_judith_yates_research_paper>.]
->
-> ***[Your in-text may be in the form of***
-> * **Direct quote**\
-> "Most official estimates ..." (Yates 2009).
-> * **Paraphrase**\
-> Yates (2009) looked at the equity implications of tax ...]
->
-> ***[For more information on the Harvard style guide, refer to***\
-> &emsp; <http://www.swinburne.edu.au/lib/studyhelp/harvard_style.html>]
