@@ -93,6 +93,12 @@ An open-source machine learning library based on the Torch library.
 Robot Operating System 2, a framework for building robot software applications.
 * **SemVer:**
 Semantic Versioning, Version Control/Software Versioning Strategy.
+* **ML:**
+Machine learning, A type of AI where the computer learns.
+* **OS:**
+Operating System.
+* **SRS:**
+Software Requirement Specification.
 * **Project 24:**
 The shorter alternative name of this project.\
 The full name is *Robot Vision System For A Pick And Place Task*.
