@@ -94,9 +94,10 @@ Robot Operating System 2, a framework for building robot software applications.
 * **SemVer:**
 Semantic Versioning
 * **Project 24:**
-Robot Vision System For A Pick And Place Task
+The shorter alternative name of this project.\
+The full name is *Robot Vision System For A Pick And Place Task*.
 * **FOF:**
-Factory of the Future
+Factory of the Future, a Swinburne facility where the cobot is situated.
 * **HeeHooVision:**
 The name for the Capstone Team working on Project 24
 * **ASAP:**
