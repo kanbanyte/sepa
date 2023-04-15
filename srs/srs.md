@@ -79,7 +79,7 @@ Delete all the explanatory text in RED, including this box before submission.
 The following definitions will be used consistently throughout the SRS document to ensure clarity and understanding:
 * **The Robot/The Arm:**
 The mechanical device (UR5e manufactured by Universal Robots) used to perform pick and place tasks.
-* **Computer Vision:**
+* **Computer Vision/Perception System:**
 The technology used to provide the robot with visual feedback of the environment.
 * **Sensors/Depth Camera:**
 The device (ZED 2 Camera developed by Stereolabs) used to detect the presence of objects and provide feedback to the robot.
