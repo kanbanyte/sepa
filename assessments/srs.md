@@ -103,15 +103,38 @@ The system will not:
 <div class="page"/><!-- page break -->
 
 # Overall Description
-> *[Discuss the context of the software/system being developed.*\
-> *For example,*
-> * *is it an upgrade or a replacement of an existing product?*
-> * *Is it a new and complete system?*\
-> *Is it a prototype?*
-> * *Is it a component of a larger system or a library?*\
-> *A simple diagram showing how the software relates to other components will be helpful.]*
->
-> *This overall section prepares the reader, while the following sections present the details.*
+Project 24 is a new and complete system that aims to provide a robot with a vision or sensing system to perform pick and place tasks.
+Currently, the robot at the FOF is performing pick and place tasks without any sensing or vision-guided system.\
+If the object to pick and place is not in the predefined position, the robot cannot perform the task.\
+This project will enable the robot to perform these tasks by providing it with a vision or sensing system.
+
+The project requires specialization in Computer Vision, Sensors, Robotics, and AI and software programming skills in C/C++, Python, OpenCV, PyTorch, and ROS2.
+It will require research into state-of-the-art technologies to provide the robot with a vision system to pick and place objects.
+The project is managed using Kanban and GitHub for implementation and source control.\
+The project will also follow SemVer for version control, and the documentation will be in Markdown format.
+
+Project 24 is a component of a larger system that involves the integration of Computer Vision, Sensors, Robotics, and AI technologies.
+The vision or sensing system will enable the robot to detect and analyze objects in real-time, and
+the ROS2 will allow for easy integration of the various system components.
+
+```mermaid
+stateDiagram-v2
+	direction TB
+	state "Perception System" as Perception
+	state "Computer Vision Technology" as Vision
+	state "Robotic Arm" as Robot
+	state "Components To Be Assembled" as Components
+
+	state "Software System" as Software {
+		[*] --> Vision : Data
+		Vision --> [*] : Feedback
+	}
+
+	Perception --> Software : Visual Data
+	Software --> Robot : Commands
+	Robot --> Components : Movement
+	Components --> Perception : Visual Input
+```
 
 ## Product Features
 The system recognises various components from a set of pre-determined locations and
