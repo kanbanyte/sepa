@@ -7,6 +7,21 @@ changelog:
     authors:
       - Danaclocs
   categories:
+    - title: Project Plan
+      labels:
+        - project-plan
+    - title: Software Quality Assurance Plan
+      labels:
+        - sqap
+    - title: Software Requirements Specification
+      labels:
+        - srs
+    - title: System Architecture Design and Research Report
+      labels:
+        - sadrr
+    - title: Detailed Design and Implementation Report
+      labels:
+        - design
     - title: Team Leader and Client Liaison
       labels:
         - Slothman1
