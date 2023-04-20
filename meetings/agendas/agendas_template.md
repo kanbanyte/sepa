@@ -1,6 +1,6 @@
 ## Meeting Agenda
 ### Meeting Information
-* **Date:** xx/xx/2023
+* **Date:** DD/MM/2023
 
 ### Agenda Items
 1. **Introductions:** Introduce all attendees and provide a brief overview of the purpose of the meeting.

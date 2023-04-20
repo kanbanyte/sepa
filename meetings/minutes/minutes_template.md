@@ -1,6 +1,6 @@
 ## Meeting Minutes
 ### Meeting Information
-* **Date:** xx/xx/2023
+* **Date:** DD/MM/2023
 * **Time:** 13:00 (24hr)
 * **Location:** MS Teams
 * **Attendees:** @Danaclocs, @...
@@ -15,12 +15,12 @@
 ### Action Items
 |Action Item|Assigned To|Due Date|
 |:-|:-|:-|
-|[Insert Action Item 1]|[Insert Name of Person Assigned]|xx/xx/2023|
-|[Insert Action Item 2]|[Insert Name of Person Assigned]|xx/xx/2023|
-|[Insert Action Item 3]|[Insert Name of Person Assigned]|xx/xx/2023|
+|[Insert Action Item 1]|[Insert Name of Person Assigned]|DD/MM/2023|
+|[Insert Action Item 2]|[Insert Name of Person Assigned]|DD/MM/2023|
+|[Insert Action Item 3]|[Insert Name of Person Assigned]|DD/MM/2023|
 
 ### Next Meeting Information
-* **Date:** xx/xx/2023
+* **Date:** DD/MM/2023
 * **Time:** 13:00 (24hr)
 * **Location:** MS Teams
 
