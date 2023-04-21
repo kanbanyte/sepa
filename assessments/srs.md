@@ -109,6 +109,8 @@ The system will:
 * The system should be able to detect and handle abnormal scenarios, such as object slippage and collision detection, to ensure safety and reliability.
 * The minimum expectations of the client are that the system is capable of picking and placing objects autonomously in a controlled environment.
 * Further exploration is desired in enhancing the system to handle complex and dynamic environments while increasing pick-and-place accuracy and speed.
+* Provide a fail-safe mechanism for detecting and handling abnormal scenarios, such as object slippage and collision detection, to ensure safety and reliability.
+If the system detects any such abnormal scenarios, it will stop and await human intervention.
 
 The system will not:
 * Perform any tasks other than picking and placing objects.
@@ -221,8 +223,8 @@ Under normal conditions, it is assumed that all items to be manipulated by the r
 The acceptance criteria for such conditions are listed below:
 * The system picks up different items from a set of pre-defined locations and transfers them to a designated tray.
 * The system recognises:
-	* available spaces on the tray and positions items accordingly.
 	* items and trays under various lighting conditions.
+	* available spaces on the tray and positions items accordingly.
 	* trays that have been emptied and returns them to the original position.
 
 The following list specifies the acceptance criteria for conditions considered to be abnormal.\
