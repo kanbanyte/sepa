@@ -101,7 +101,7 @@ The boundaries of the project are as follows:
 
 The system will:
 * Develop a real-time perception system for the cobot to perform pick and place tasks autonomously.
-* Utilize specialized technologies in Computer Vision, Sensors, Robotics, and AI.
+* Utilize specialized technologies in CV, Sensors, Robotics, and AI.
 * The system will require technical software development skills, specifically in C/C++, Python, OpenCV, PyTorch, and Robot Operating System (ROS2).
 * The system should be able to handle various lighting conditions and occlusions to ensure robustness.
 * Implement a state-of-the-art vision system that can pick and place objects autonomously when they are needed.
@@ -165,7 +165,7 @@ This project is significant because it will enable the cobot to perform pick and
 which relies on predefined positions.
 By providing the cobot with a vision or sensing system, it will be able to detect and locate objects in real-time, which will increase its flexibility and autonomy.
 
-The project requires specialization in Computer Vision, Sensors, Robotics, and AI and software programming skills in C/C++, Python, OpenCV, PyTorch, and ROS2.
+The project requires specialization in CV, Sensors, Robotics, and AI and software programming skills in C/C++, Python, OpenCV, PyTorch, and ROS2.
 It will require research into state-of-the-art technologies to provide the cobot with a vision system to pick and place objects.
 The project is managed using Kanban and GitHub for implementation and source control.\
 The project will also follow SemVer for version control, and the documentation will be in Markdown format.
@@ -209,12 +209,12 @@ The development phase involves two programming languages and associated librarie
 	* ROS 2 software suite.
 * Development requirements:
 	* C++ and Python programming languages.
-	* Computer Vision and AI-related libraries in Python.\
+	* CV and AI-related libraries in Python.\
 	Potential candidates include PyTorch, OpenCV, etc.
 
 Hardware requirements specify the hardware required to perform the pick-and-place task based on varying visual inputs.
 * Universal Robots UR5e robotic arm.
-* ZED 2 depth camera mounted in a manner that captures all relevant items.
+* Depth camera mounted in a manner that captures all relevant items.
 
 ## Acceptance Criteria
 This section outlines the operation of the robotic arm, as well as the associated depth camera and control software,
@@ -255,12 +255,11 @@ Additionally, the document outlines test plans for the software, including unit 
 <div class="page"/><!-- page break -->
 
 # Functional Requirements
-The system to be developed is a Robot Vision System for a Pick and Place Task.\
 The system is designed to enable a cobot to identify the objects that need to be picked up and placed.\
 To achieve this, the system should have the following functionality:
 * **Real-time Object Detection, Processing, and Analysis:**\
 The system should be able to handle real-time object detection, processing, and analysis to ensure accuracy and speed.
-This involves the use of advanced computer vision algorithms, such as deep learning networks, to detect and recognize objects in the cobot's environment.
+This involves the use of advanced CV algorithms, such as deep learning networks, to detect and recognize objects in the cobot's environment.
 The system should be able to process the detected objects quickly and accurately to enable the cobot to perform its pick and place tasks efficiently.
 * **Object Location Data Communication:**\
 The system should be able to communicate the object location data to the cobot.
@@ -281,7 +280,7 @@ Non-functional (quality) requirements are critical to ensure the success of Proj
 These requirements specify the system's characteristics and
 behaviors that are not related to its functionality but contribute to its overall performance and usability.
 
-Here are the non-functional quality requirements for the software architecture and design of the Robot Vision System:
+Here are the non-functional quality requirements for the software architecture and design of Project 24:
 * **Reliability:**\
 The system should be able to operate without failure for extended periods of time to ensure that the cobot can complete pick and place tasks with minimal pauses.
 A failure in this context refers to any instance where the cobot stops and awaits human intervention.\
@@ -289,14 +288,14 @@ The reliability requirement should be verifiable by testing the system's perform
 at a minimum, equivalent to number of hours assembly workers spend in a single day.
 The system should also have the ability to handle unexpected conditions and avoid faulting.
 * **Modularity:**\
-The system should be designed with a modular architecture that facilitates the integration of different computer vision, sensor, robotics, and AI technologies,
+The system should be designed with a modular architecture that facilitates the integration of different CV, sensor, robotics, and AI technologies,
 as well as future upgrades and maintenance.
 The system should be composed of interchangeable and independent modules, which can be modified or replaced without affecting the functionality of other modules.\
 The modularity requirement should be verifiable by testing the system's ability to replace or add modules without causing any impact on the other modules.
 This can be implemented by performing unit tests on individual components using stubs and mocks.
 * **Security:**\
 The system should be designed with security features to prevent unauthorized access, data breaches, and system failures.
-The Robot Vision System is responsible for the operation of the cobot in the FOF environment, and
+Project 24 is responsible for the operation of the cobot in the FOF environment, and
 any security vulnerabilities may cause significant damage to the system and its surroundings.
 The development process should be iterative, with regular reviews and testing to ensure the non-functional quality requirements are met.\
 The security requirement should be verifiable by testing the system's ability to prevent unauthorized access and data breaches.
@@ -310,10 +309,18 @@ except those caused by external interference that require human intervention.
 <div class="page"/><!-- page break -->
 
 # Interface Requirements
-The software system does not operate independently but in conjunction with multiple actors.\
-On the hardware front, it processes input from the depth camera and produces command for the cobot.\
-In terms of software, it interacts with the existing cobot control system and associated toolkit.\
-Communication with the human operator is conducted via a graphical interface.
+Project 24 is designed to be a highly integrated system that works in conjunction with multiple actors.\
+At a hardware level, the system is responsible for processing the input from the depth camera and producing commands for the cobot.\
+The system's software is responsible for interacting with the existing cobot control system and associated toolkit.
+
+The communication between the CV and the cobot should be seamless, with the system able to send commands to the cobot without any need for human intervention.
+This level of automation is achieved through the use of advanced artificial intelligence algorithms, such as ML,
+that enable the system to learn from its environment and adapt to changing conditions.
+
+The CV should be highly intuitive and easy to use.\
+It should have a simple and user-friendly interface that allows users to quickly configure the system and monitor its operation.\
+This interface should be designed to be accessible to users with varying levels of technical expertise,
+with clear and concise instructions provided throughout the system.
 
 ## System In Context
 ```mermaid
