@@ -117,7 +117,7 @@ The system will not:
 * Handle any tasks that do not require perception systems.
 * The perception system will not be a complete replacement for the cobot's existing capabilities and functionalities,
 but will instead supplement its capabilities specifically for the task of picking and placing objects.
-* Integrate with other systems than the cobot.
+* Send signals to systems other than the cobot.
 
 ## Definitions, Acronyms and Abbreviations
 The following definitions will be used consistently throughout the SRS document to ensure clarity and understanding:
@@ -387,7 +387,7 @@ Overall, this Project already has an implemented GUI and we don't need to make/i
 The software being developed is that of a perception system for a cobot, so the software will integrate with the:
 * cobot
 * sensors
-* other robotics systems
+* other robotics systems, particularly the conveyor belt system, where it should only receive signals
 * computer running the software; briefly overviewing how the system interacts is as follows:\
 The computer running the software will be almost constantly running, the other robotics systems will send a signal to the software for the cobot.
 From here the sensors will identify the location of available components then communicating that information to the cobot to retrieve and place the components.
