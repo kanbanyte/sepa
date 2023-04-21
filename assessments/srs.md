@@ -159,16 +159,19 @@ Close of Business (5:00 PM)
 Project 24 is a new and complete system that aims to provide a cobot with a vision or sensing system to perform pick and place tasks.
 Currently, the cobot at the FOF is performing pick and place tasks without any sensing or vision-guided system.\
 If the object to pick and place is not in the predefined position, the cobot cannot perform the task.\
-This project will enable the cobot to perform these tasks by providing it with a vision or sensing system.
+This project is significant because it will enable the cobot to perform pick and place tasks more efficiently and accurately than its current method,
+which relies on predefined positions.
+By providing the cobot with a vision or sensing system, it will be able to detect and locate objects in real-time, which will increase its flexibility and autonomy.
 
 The project requires specialization in Computer Vision, Sensors, Robotics, and AI and software programming skills in C/C++, Python, OpenCV, PyTorch, and ROS2.
 It will require research into state-of-the-art technologies to provide the cobot with a vision system to pick and place objects.
 The project is managed using Kanban and GitHub for implementation and source control.\
 The project will also follow SemVer for version control, and the documentation will be in Markdown format.
 
-Project 24 is a component of a larger system that involves the integration of Computer Vision, Sensors, Robotics, and AI technologies.
-The vision or sensing system will enable the cobot to detect and analyze objects in real-time, and
-the ROS2 will allow for easy integration of the various system components.
+Project 24 is part of a larger system that revolutionizes the cobot's ability to perform pick and place tasks by integrating cutting-edge technologies.
+With a state-of-the-art vision or sensing system, the cobot can detect and analyze objects in real-time.\
+This means that it can pick up and place objects more accurately and efficiently than ever before.\
+The integration of ROS2 makes the integration of various system components a breeze, making Project 24 a vital step towards the future of robotics.
 
 ```mermaid
 stateDiagram-v2
