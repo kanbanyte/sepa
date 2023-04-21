@@ -61,10 +61,25 @@ Delete all the explanatory text in RED, including this box before submission.
 <div class="page"/><!-- page break -->
 
 # Introduction
-This project addresses the development and implementation of a perception system for a cobot to perform pick and place tasks.\
-Located within the FOF the cobot will be used to demonstrate robotics capabilities, in this case with moving electronics autonomously to assist human workers.\
-The robot currently operates on predefined positions, and the system implementation will enable the cobot to leverage computer vision and
-artificial intelligence to find the locations of available items and autonomously manipulate them.
+This project aims to develop and implement a perception system for a collaborative robot (cobot) to perform pick and place tasks.
+The cobot is a robotic arm designed to work alongside human workers in the Factory of the Future (FOF).
+Its purpose is to assist workers in moving electronics components to different locations autonomously,
+thus reducing the workload on human operators and increasing the efficiency of the production line.
+
+Currently, the cobot operates on predefined positions, meaning that it can only perform tasks in specific locations.
+This project will enable the cobot to leverage computer vision and artificial intelligence to identify and locate available components,
+enabling it to manipulate them autonomously.
+
+The significance of this project lies in its potential to transform the way the manufacturing industry operates.
+With the increasing demand for electronic components and the shortage of skilled workers in the field, robotics can help fill the gap by performing repetitive tasks,
+allowing human operators to focus on more complex tasks that require decision-making and problem-solving skills.
+Additionally, by automating pick and place tasks, the cobot can help reduce human error, increase productivity, and
+improve the overall quality of the production line.
+
+In summary, this project aims to develop and implement a perception system that will enable the cobot to identify and locate electronic components, pick them up, and
+place them in the desired locations autonomously.
+By doing so, it will improve the efficiency of the production line, reduce the workload on human operators, and
+help fill the shortage of skilled workers in the manufacturing industry
 
 ## Purpose
 This SRS document is designed to serve as a roadmap for this project.
