@@ -132,7 +132,7 @@ they can easily register new components to the perception system and retrieve vi
 
 ## Alternatives
 
-## Messaging queue
+### Messaging queue
 
 An alternative architecture considered for this project is the messaging queue system.
 In this system, data is pushed into a message queue and clients can asynchronously retrieve and process that data.
@@ -140,8 +140,13 @@ In this system, data is pushed into a message queue and clients can asynchronous
 Similar to the pub-sub model, the message queue decouples consumers from producers and facilitates asynchronous data processing.
 However a single queue is limited to only one consumer hence multiple queues are needed, adding overhead that can negatively affect performance.
 
+### Multiple layers
 
+As the name suggests, the system is divided into multiple layers, each with a well-defined responsibility.
+The software system in this particular project may be divided into 3 layers: the Perception layer which process inputs,
+the Movement layer which computes the desired robot movement and the Command layer which translates these movements into commands.
 
+A significant drawback of this model is the lack of flexibility as newly added components must either be fitted into an existing layer or the system will need to be redesigned to accommodate that component
 
 ## System Architecture
 > *[Present the system architecture in this section.*\
