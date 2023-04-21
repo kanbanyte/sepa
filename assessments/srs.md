@@ -84,16 +84,16 @@ help fill the shortage of skilled workers in the manufacturing industry
 ## Purpose
 This SRS document is designed to serve as a roadmap for this project.
 It comprehensively outlines the boundaries and requirements of the project to ensure the end product meets the needs of the client.\
-Additionally, the document serves as a point of reference for the team throughout development cycles,
+Additionally, the document serves as a point of reference for HeeHooVision throughout development cycles,
 enabling them to maintain alignment with established standards and requirements.
 The client and other stakeholders may use this document as a communication tool that informs them of high-level design details and
 verifies that shared objectives are well understood.
 
 ## Scope
-The project aims to design, develop and implement a perception system for a cobot to perform pick and place tasks at the Factory of the Future.
+The project aims to design, develop and implement a perception system for a cobot to perform pick and place tasks at the FOF.
 The system will enable the cobot to detect the position of objects that need to be picked up and placed, even if the objects are not in the predefined position.
 
-The systems primary application is to improve the efficiency of pick and place tasks by the cobot at the Factory of the Future.
+The systems primary application is to improve the efficiency of pick and place tasks by the cobot at the FOF.
 It aims to benefit the company by increasing productivity and working collaboratively with workers.
 The objective is to provide the cobot with a perception system that will enable it to perform pick and place tasks accurately, autonomously and efficiently.
 
@@ -119,10 +119,10 @@ but will instead supplement its capabilities specifically for the task of pickin
 
 ## Definitions, Acronyms and Abbreviations
 The following definitions will be used consistently throughout the SRS document to ensure clarity and understanding:
-* **Robot/Robotic Arm/cobot:**
+* **cobot:**
 The mechanical device (UR5e manufactured by Universal Robots) used to perform pick and place tasks.
-* **Computer Vision/Perception System:**
-The technology used to provide the robot with visual feedback of the environment.
+* **CV/Perception System:**
+Computer Vision (CV) is the technology used to provide the robot with visual feedback of the environment.
 * **Sensors/Depth Camera:**
 The device (ZED 2 Camera developed by Stereolabs) used to detect the presence of objects and provide feedback to the robot.
 * **AI:**
@@ -156,18 +156,18 @@ Close of Business (5:00 PM)
 <div class="page"/><!-- page break -->
 
 # Overall Description
-Project 24 is a new and complete system that aims to provide a robot with a vision or sensing system to perform pick and place tasks.
-Currently, the robot at the FOF is performing pick and place tasks without any sensing or vision-guided system.\
-If the object to pick and place is not in the predefined position, the robot cannot perform the task.\
-This project will enable the robot to perform these tasks by providing it with a vision or sensing system.
+Project 24 is a new and complete system that aims to provide a cobot with a vision or sensing system to perform pick and place tasks.
+Currently, the cobot at the FOF is performing pick and place tasks without any sensing or vision-guided system.\
+If the object to pick and place is not in the predefined position, the cobot cannot perform the task.\
+This project will enable the cobot to perform these tasks by providing it with a vision or sensing system.
 
 The project requires specialization in Computer Vision, Sensors, Robotics, and AI and software programming skills in C/C++, Python, OpenCV, PyTorch, and ROS2.
-It will require research into state-of-the-art technologies to provide the robot with a vision system to pick and place objects.
+It will require research into state-of-the-art technologies to provide the cobot with a vision system to pick and place objects.
 The project is managed using Kanban and GitHub for implementation and source control.\
 The project will also follow SemVer for version control, and the documentation will be in Markdown format.
 
 Project 24 is a component of a larger system that involves the integration of Computer Vision, Sensors, Robotics, and AI technologies.
-The vision or sensing system will enable the robot to detect and analyze objects in real-time, and
+The vision or sensing system will enable the cobot to detect and analyze objects in real-time, and
 the ROS2 will allow for easy integration of the various system components.
 
 ```mermaid
@@ -251,12 +251,12 @@ Additionally, the document outlines test plans for the software, including unit 
 
 # Functional Requirements
 The system to be developed is a Robot Vision System for a Pick and Place Task.\
-The system is designed to enable a robot to identify the objects that need to be picked up and placed.\
+The system is designed to enable a cobot to identify the objects that need to be picked up and placed.\
 To achieve this, the system should have the following functionality:
 * **Real-time Object Detection, Processing, and Analysis:**\
 The system should be able to handle real-time object detection, processing, and analysis to ensure accuracy and speed.
 * **Object Location Data Communication:**\
-The system should be able to communicate the object location data to the robot arm.
+The system should be able to communicate the object location data to the cobot.
 * **Continuous Learning and Adaptation:**\
 The system should have the ability to continuously learn and adapt to novel objects and locations.
 * **Autonomous Systems:**\
@@ -269,8 +269,8 @@ behaviors that are not related to its functionality but contribute to its overal
 
 Here are the non-functional quality requirements for the software architecture and design of the Robot Vision System:
 * **Reliability:**\
-The system should be able to operate without failure for extended periods of time to ensure that the robot can complete pick and place tasks with minimal pauses.
-A failure in this context refers to any instance where the robot stops and awaits human intervention.\
+The system should be able to operate without failure for extended periods of time to ensure that the cobot can complete pick and place tasks with minimal pauses.
+A failure in this context refers to any instance where the cobot stops and awaits human intervention.\
 The reliability requirement should be verifiable by testing the system's performance over a period of time that is,
 at a minimum, equivalent to number of hours assembly workers spend in a single day.
 The system should also have the ability to handle unexpected conditions and avoid faulting.
@@ -282,7 +282,7 @@ The modularity requirement should be verifiable by testing the system's ability 
 This can be implemented by performing unit tests on individual components using stubs and mocks.
 * **Security:**\
 The system should be designed with security features to prevent unauthorized access, data breaches, and system failures.
-The Robot Vision System is responsible for the operation of the robot in the FOF environment, and
+The Robot Vision System is responsible for the operation of the cobot in the FOF environment, and
 any security vulnerabilities may cause significant damage to the system and its surroundings.
 The development process should be iterative, with regular reviews and testing to ensure the non-functional quality requirements are met.\
 The security requirement should be verifiable by testing the system's ability to prevent unauthorized access and data breaches.
@@ -297,8 +297,8 @@ except those caused by external interference that require human intervention.
 
 # Interface Requirements
 The software system does not operate independently but in conjunction with multiple actors.\
-On the hardware front, it processes input from the depth camera and produces command for the robot arm.\
-In terms of software, it interacts with the existing robot arm control system and associated toolkit.\
+On the hardware front, it processes input from the depth camera and produces command for the cobot.\
+In terms of software, it interacts with the existing cobot control system and associated toolkit.\
 Communication with the human operator is conducted via a graphical interface.
 
 ## System In Context
@@ -365,7 +365,7 @@ Overall, this Project already has an implemented GUI and we don't need to make/i
 ## Hardware Interfaces
 The software being developed is that of a perception system for a cobot, so the software will integrate with the:
 * cobot
-* sensors (ZED 2 camera)
+* sensors
 * other robotics systems
 * computer running the software; briefly overviewing how the system interacts is as follows:\
 The computer running the software will be almost constantly running, the other robotics systems will send a signal to the software for the cobot.
