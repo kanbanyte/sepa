@@ -260,12 +260,21 @@ The system is designed to enable a cobot to identify the objects that need to be
 To achieve this, the system should have the following functionality:
 * **Real-time Object Detection, Processing, and Analysis:**\
 The system should be able to handle real-time object detection, processing, and analysis to ensure accuracy and speed.
+This involves the use of advanced computer vision algorithms, such as deep learning networks, to detect and recognize objects in the cobot's environment.
+The system should be able to process the detected objects quickly and accurately to enable the cobot to perform its pick and place tasks efficiently.
 * **Object Location Data Communication:**\
 The system should be able to communicate the object location data to the cobot.
+This involves the development of a communication protocol that enables the cobot to receive the location data of the objects that it needs to pick up and place.
+The system should be able to communicate this data to the cobot in a format that the cobot can understand and act upon.
 * **Continuous Learning and Adaptation:**\
 The system should have the ability to continuously learn and adapt to novel objects and locations.
+This involves the development of machine learning algorithms that enable the system to learn from its experiences and improve its performance over time.
+The system should be able to adapt to new objects and locations by updating its object recognition and location detection algorithms.
 * **Autonomous Systems:**\
 The system should perform tasks independently without human interaction.
+This involves the development of a software architecture that enables the system to operate autonomously, without the need for human intervention.
+The system should be able to detect and handle abnormal scenarios, such as object slippage and collision detection.
+Alongside this, it should function as an end-to-end system ensuring that human involvement is minimal.
 
 # Non-Functional (Quality) Requirements
 Non-functional (quality) requirements are critical to ensure the success of Project 24.
@@ -292,7 +301,7 @@ any security vulnerabilities may cause significant damage to the system and its 
 The development process should be iterative, with regular reviews and testing to ensure the non-functional quality requirements are met.\
 The security requirement should be verifiable by testing the system's ability to prevent unauthorized access and data breaches.
 Communication of the system with external networks should be restricted, traced and closely monitored.
-* **Performance**:\
+* **Performance:**\
 The time spent processing visual inputs by the system should not cause long pauses to the assembly line unless there is external interference.
 The system should compute the most efficient sequence of moves to finish a pick-and-place cycle without impacting the human operator and other equipment.\
 The requirement should be verifiable by measuring the average system processing time per assembly cycle in all situations,
