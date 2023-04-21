@@ -90,26 +90,31 @@ The client and other stakeholders may use this document as a communication tool 
 verifies that shared objectives are well understood.
 
 ## Scope
-The project aims to design, develop and implement a perception system for a robot to perform pick and place tasks at the Factory of the Future.
-The system will enable the robot to detect the position of objects that need to be picked up and placed, even if the objects are not in the predefined position.
+The project aims to design, develop and implement a perception system for a cobot to perform pick and place tasks at the Factory of the Future.
+The system will enable the cobot to detect the position of objects that need to be picked up and placed, even if the objects are not in the predefined position.
 
 The systems primary application is to improve the efficiency of pick and place tasks by the cobot at the Factory of the Future.
 It aims to benefit the company by increasing productivity and working collaboratively with workers.
-The objective is to provide the robot with a perception system that will enable it to perform pick and place tasks accurately, autonomously and efficiently.
+The objective is to provide the cobot with a perception system that will enable it to perform pick and place tasks accurately, autonomously and efficiently.
 
 The boundaries of the project are as follows:
 
 The system will:
-* Provide a perception system for the robot to perform pick and place tasks.
-* Utilize specializations in Computer Vision, Sensors, Robotics, and AI.
-* Require technical software development skills, specifically in C/C++, Python, OpenCV, PyTorch, and Robot Operating System (ROS2).
-* Explore state-of-the-art technologies to provide the cobot with a vision system to pick and place objects.
-* Allow the cobot to autonomously pick and place objects when they are needed.
+* Develop a real-time perception system for the cobot to perform pick and place tasks autonomously.
+* Utilize specialized technologies in Computer Vision, Sensors, Robotics, and AI.
+* The system will require technical software development skills, specifically in C/C++, Python, OpenCV, PyTorch, and Robot Operating System (ROS2).
+* The system should be able to handle various lighting conditions and occlusions to ensure robustness.
+* Implement a state-of-the-art vision system that can pick and place objects autonomously when they are needed.
+* Provide an end-to-end system for pick and place tasks with the capability to run separately if needed.
+* The system should be able to detect and handle abnormal scenarios, such as object slippage and collision detection, to ensure safety and reliability.
+* The minimum expectations of the client are that the system is capable of picking and placing objects autonomously in a controlled environment.
+* Further exploration is desired in enhancing the system to handle complex and dynamic environments while increasing pick-and-place accuracy and speed.
 
 The system will not:
 * Perform any tasks other than picking and placing objects.
 * Handle any tasks that do not require perception systems.
-* Replace the entire robot system.
+* The perception system will not be a complete replacement for the cobot's existing capabilities and functionalities,
+but will instead supplement its capabilities specifically for the task of picking and placing objects.
 * Integrate with other systems than the cobot.
 
 ## Definitions, Acronyms and Abbreviations
