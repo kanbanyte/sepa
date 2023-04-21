@@ -96,17 +96,11 @@ Delete all the explanatory text in RED, including this box before submission.
 
 Among the software requirements of the project is the integration with the existing robot control system which uses ROS2.
 Said system uses a publisher-subscriber model and divides components into individual "nodes", each of which can subscribe to or broadcast to another node in the network.\
-The addition of the perception system is envisioned to be encapsulated in one software module and used a by a single node.
+
+## Preferred architecture
+
+The addition of the perception system is envisioned to be encapsulated in one software module and used a by a single node in a publisher-subscriber (pub-sub) architecture.
 The diagram below captures the high level view of the system.
-
-<!-- TODO:
-
-	make a component named depth camera which publishes image periodically
-
-	CV system analyzes image and output current state of items to node
-
-	node publishes it to a topic
- -->
 
 ```mermaid
 stateDiagram-v2
@@ -124,9 +118,30 @@ stateDiagram-v2
 	PerceptionNode --> Subscriber1: broadcasts
 	PerceptionNode --> Subscriber2: broadcasts
 	PerceptionNode --> OtherSubscribers: broadcasts
-
-
 ```
+
+This design ensures modularity by encapsulating the entire computer vision system into its own module,
+enabling independent development of other components, such as the robot arm control system.
+
+The publisher-subscriber architecture promotes loose coupling between the perception system and other components.
+By using an asynchronous messaging model, the pub-sub architecture also facilitates real-time communication between multiple components which
+demand that the sender is not blocked waiting for the response.
+
+If the client wishes to extend the capabilities of the robot arm beyond the scope defined in this project,
+they can easily register new components to the perception system and retrieve visual data without any modification.
+
+## Alternatives
+
+## Messaging queue
+
+An alternative architecture considered for this project is the messaging queue system.
+In this system, data is pushed into a message queue and clients can asynchronously retrieve and process that data.
+
+Similar to the pub-sub model, the message queue decouples consumers from producers and facilitates asynchronous data processing.
+However a single queue is limited to only one consumer hence multiple queues are needed, adding overhead that can negatively affect performance.
+
+
+
 
 ## System Architecture
 > *[Present the system architecture in this section.*\
