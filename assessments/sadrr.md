@@ -94,6 +94,40 @@ Delete all the explanatory text in RED, including this box before submission.
 >
 > *Note that this section is about the high-level architecture design (rather than a lower-level detailed design in the next section).*
 
+Among the software requirements of the project is the integration with the existing robot control system which uses ROS2.
+Said system uses a publisher-subscriber model and divides components into individual "nodes", each of which can subscribe to or broadcast to another node in the network.\
+The addition of the perception system is envisioned to be encapsulated in one software module and used a by a single node.
+The diagram below captures the high level view of the system.
+
+<!-- TODO:
+
+	make a component named depth camera which publishes image periodically
+
+	CV system analyzes image and output current state of items to node
+
+	node publishes it to a topic
+ -->
+
+```mermaid
+stateDiagram-v2
+	direction TB
+	state "Depth camera" as Camera
+	state "Perception node" as PerceptionNode
+	state "Subscriber Node 1" as Subscriber1
+	state "Subscriber Node 2" as Subscriber2
+	state " . .  ." as OtherSubscribers
+
+
+	PerceptionNode --> Camera: periodical query
+	Camera --> PerceptionNode: image data
+
+	PerceptionNode --> Subscriber1: broadcasts
+	PerceptionNode --> Subscriber2: broadcasts
+	PerceptionNode --> OtherSubscribers: broadcasts
+
+
+```
+
 ## System Architecture
 > *[Present the system architecture in this section.*\
 > *A Component-and-Connector view and a Deployment Allocation view (or some alternatives of similar nature) with the necessary descriptions and*
