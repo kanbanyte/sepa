@@ -88,14 +88,8 @@ Delete all the explanatory text in RED, including this box before submission.
 <div class="page"/><!-- page break -->
 
 # High-Level System Architecture and Alternatives
-> *[Describe, using appropriate models and notations, the chosen **high-level** architecture of the software system that will be developed.*\
-> *Also discuss two additional architecture alternatives that have been explored but not chosen.*\
-> *This is a refinement of the high-level architecture discussed in the SRS.]*
->
-> *Note that this section is about the high-level architecture design (rather than a lower-level detailed design in the next section).*
-
 Among the software requirements of the project is the integration with the existing robot control system which uses ROS2.
-Said system uses a publisher-subscriber model and divides components into individual "nodes", each of which can subscribe to or broadcast to another node in the network.\
+Said system uses a publisher-subscriber model and divides components into individual "nodes", each of which can subscribe to or broadcast to another node in the network.
 
 ## Preferred architecture
 
@@ -115,9 +109,9 @@ stateDiagram-v2
 	PerceptionNode --> Camera: periodical query
 	Camera --> PerceptionNode: image data
 
-	PerceptionNode --> Subscriber1: broadcasts
-	PerceptionNode --> Subscriber2: broadcasts
-	PerceptionNode --> OtherSubscribers: broadcasts
+	PerceptionNode --> Subscriber1: publishes
+	PerceptionNode --> Subscriber2: publishes
+	PerceptionNode --> OtherSubscribers: publishes
 ```
 
 This design ensures modularity by encapsulating the entire computer vision system into its own module,
@@ -125,10 +119,10 @@ enabling independent development of other components, such as the robot arm cont
 
 The publisher-subscriber architecture promotes loose coupling between the perception system and other components.
 By using an asynchronous messaging model, the pub-sub architecture also facilitates real-time communication between multiple components which
-demand that the sender is not blocked waiting for the response.
+demand that the sender is not blocked waiting for the response or blocked for a very short amount of time.
 
 If the client wishes to extend the capabilities of the robot arm beyond the scope defined in this project,
-they can easily register new components to the perception system and retrieve visual data without any modification.
+they can easily register new components to the perception node and retrieve visual data without any modification or impacts to the rest of the system.
 
 ## Alternatives
 
