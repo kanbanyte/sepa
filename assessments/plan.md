@@ -296,7 +296,7 @@ Online tutorials will be helpful references and sources for honing programming c
 ## RESOURCES
 ### Hardware resources:
 This includes the necessary hardware components for the vision system implementation, such as cameras or existing computer systems in the assembly line.
-The depth camera and its mounting tool are provided by the client, but the mount is designed by the team.
+The depth camera and its mounting tool are provided by the client, with the mount design theorised by the team.
 
 ### Software resources:
 This includes software tools and libraries required for vision system development and integration, such as OpenCV and PyTorch.
