@@ -78,7 +78,7 @@ is:pr is:closed sort:created-asc milestone:"Project Plan" reviewed-by:Huy-GV -as
 -->
 
 ## Tasks To Come
-Please see [Kanban Board][board] and [Milestones][assessments] on GitHub in the [Repository][repo].
+Please see [Kanban Board][board] and [Milestones][assessments] in the [Repository][repo] on GitHub.
 
 <!-- Other URLs -->
 [board]: <https://github.com/orgs/kanbanyte/projects/7?fullscreen=true>
