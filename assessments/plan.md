@@ -300,7 +300,8 @@ This includes the necessary hardware components for the implementation of the vi
 * UR5e robot arm.
 * Robot arm control tablet.
 * The assembly line delivering items to the robot arm.
-The robot arm and assembly line are already situated in the Factory of the Future.
+
+The robot arm and assembly line are already situated in the Factory of the Future.\
 The depth camera and its mounting tool will be provided by the client, with the team proposing designs for the mounting tool.
 
 ### Software resources:
