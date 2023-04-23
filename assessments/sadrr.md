@@ -92,7 +92,7 @@ Among the software requirements of the project is the integration with the exist
 Said system uses a publisher-subscriber model and divides components into individual "nodes",
 each of which can subscribe to or publish messages to another node in the network.
 
-## Preferred architecture
+## Preferred Architecture
 The addition of the perception system is envisioned to be encapsulated in one software module and
 used a by a single node in a publisher-subscriber (pub-sub) architecture.
 The diagram below captures the high level view of the system.
@@ -104,7 +104,7 @@ stateDiagram-v2
 	state "Perception node" as PerceptionNode
 	state "Subscriber Node 1" as Subscriber1
 	state "Subscriber Node 2" as Subscriber2
-	state " . .  ." as OtherSubscribers
+	state "Subscriber Node n" as OtherSubscribers
 
 
 	PerceptionNode --> Camera: periodical query
@@ -119,21 +119,21 @@ This design ensures modularity by encapsulating the entire computer vision syste
 enabling independent development of other components, such as the robot arm control system.
 
 The publisher-subscriber architecture promotes a loosely-coupled relationship between the perception system and other related components.
-By using an asynchronous messaging model, the pub-sub architecture facilitates real-time communication between multiple components which
-demand that the sender is not blocked waiting for the response or blocked only for a very limited duration.
+By using an asynchronous messaging model, the pub-sub architecture facilitates real-time communication between multiple components,
+which demand that the sender is not blocked waiting for the response or blocked only for a very limited duration.
 
 If the client wishes to extend the capabilities of the robot arm beyond the scope defined in this project,
 they can easily register new components to the perception node and retrieve visual data without changes to the rest of the system.
 
 ## Alternatives
-### Messaging queue
+### Messaging Queue
 An alternative architecture considered for this project is the messaging queue system.
 In this system, visual data is pushed into a message queue and clients can asynchronously retrieve and process that data.
 
 Similar to the pub-sub model, the message queue decouples consumers from producers and facilitates asynchronous data transfers.
-However a single queue is limited to only one consumer hence multiple queues are needed, adding overhead that can harm performance.
+However, a single queue is limited to only one consumer hence multiple queues are needed, adding overhead that can harm performance.
 
-### Multiple layers
+### Multiple Layers
 As the name suggests, the system is divided into multiple layers, each with a well-defined responsibility.
 The software system in this particular project may be divided into 3 layers: the Perception layer which process inputs,
 the Movement layer which computes the desired robot movement and the Command layer which translates these movements into commands.
