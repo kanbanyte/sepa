@@ -240,8 +240,8 @@ the team will be required to have expertise in the following areas:
 	* Development of machine learning models.
 	* Manipulation of model parameters to achieve desired outputs.
 * ZED 2 depth camera
-	* calibration of the camera.
-	* processing and formatting image outputs
+	* Calibration of the camera.
+	* Processing and formatting image outputs
 * Robotics
 	* development with the ROS2 toolkit
 	* deployment of the software system into the robot arm.
