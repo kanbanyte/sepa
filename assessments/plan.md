@@ -165,12 +165,17 @@ To achieve this, the following must be achieved:
 ## SCOPE
 The scope of this project includes the development of a vision system that is compatible with the robot's hardware and software.
 
-The vision system should be able to detect objects:
-* in a variety of lighting conditions and at various distances from the robot.
-* that are partially occluded or have complex shapes.
+The following list outlines the capabilities that are in scope of the project, in addition to existing pick-and-place operations of the cobot.
+Note that "objects" or "items" strictly refer to the components to be assembled:
+* detection of objects under varying lighting conditions and at different distances that are within reach of the cobot.
+* detection of partially occluded objects.
+* detection of absent objects and ability to shift to an alternative position.
 
-Future work may arise depending on the schedule and progress of the scoped out project.
-One example of this, is ensuring the robot is able to pick up a fallen over/out of place object.
+The following capabilities, including those that may emerge in later stages of the project,
+are considered to be out of scope:
+* detection of transparent objects.
+* detection or pick up of fallen or mal-oriented objects (such objects are considered to be absent).
+* detection or pick up of objects that differ from originally established shapes.
 
 <div class="page"/><!-- page break -->
 
