@@ -246,7 +246,7 @@ the team will be required to have expertise in the following areas:
 	* Development with the ROS2 toolkit
 	* Deployment of the software system into the robot arm.
 * Software Engineering
-	* usage of the Python programming language language and associated libraries in the areas of machine learning and computer vision (OpenCV and PyTorch).
+	* Usage of the Python programming language language and associated libraries in the areas of machine learning and computer vision (OpenCV and PyTorch).
 	* usage of the C/C++ programming languages
 	* development within the Ubuntu operation system.
 
