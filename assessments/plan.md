@@ -237,8 +237,8 @@ The project will require knowledge in multiple fields of study to successful del
 the team will be required to have expertise in the following areas:
 * Computer Vision
 	* Collection and labeling of training data.
-	* development of machine learning models.
-	* manipulation of model parameters to achieve desired outputs.
+	* Development of machine learning models.
+	* Manipulation of model parameters to achieve desired outputs.
 * ZED 2 depth camera
 	* calibration of the camera.
 	* processing and formatting image outputs
