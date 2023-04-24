@@ -243,8 +243,8 @@ the team will be required to have expertise in the following areas:
 	* Calibration of the camera.
 	* Processing and formatting image outputs
 * Robotics
-	* development with the ROS2 toolkit
-	* deployment of the software system into the robot arm.
+	* Development with the ROS2 toolkit
+	* Deployment of the software system into the robot arm.
 * Software Engineering
 	* usage of the Python programming language language and associated libraries in the areas of machine learning and computer vision (OpenCV and PyTorch).
 	* usage of the C/C++ programming languages
