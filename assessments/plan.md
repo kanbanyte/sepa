@@ -247,8 +247,8 @@ the team will be required to have expertise in the following areas:
 	* Deployment of the software system into the robot arm.
 * Software Engineering
 	* Usage of the Python programming language language and associated libraries in the areas of machine learning and computer vision (OpenCV and PyTorch).
-	* usage of the C/C++ programming languages
-	* development within the Ubuntu operation system.
+	* Utilisation of the C/C++ programming languages
+	* Development within the Ubuntu operation system.
 
 The team members will be encouraged to attend relevant training sessions and conferences to develop their skills in these areas.
 Online tutorials will be helpful references and sources for honing programming capabilities.
