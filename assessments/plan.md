@@ -174,8 +174,8 @@ Note that "objects" or "items" strictly refer to the components to be assembled:
 The following capabilities, including those that may emerge in later stages of the project,
 are considered to be out of scope:
 * detection of transparent objects.
-* detection or pick up of fallen or mal-oriented objects (such objects are considered to be absent).
-* detection or pick up of objects that differ from originally established shapes.
+* detection or manipulation of fallen or mal-oriented objects (such objects are considered to be absent).
+* detection or manipulation of objects that differ from originally established shapes.
 
 <div class="page"/><!-- page break -->
 
