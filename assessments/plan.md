@@ -236,7 +236,7 @@ The following tools and technologies will be utilised throughout the project:
 The project will require knowledge in multiple fields of study to successful deliver the final product;
 the team will be required to have expertise in the following areas:
 * Computer Vision
-	* collection and annotation of training data.
+	* Collection and labeling of training data.
 	* development of machine learning models.
 	* manipulation of model parameters to achieve desired outputs.
 * ZED 2 depth camera
