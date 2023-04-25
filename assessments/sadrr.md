@@ -74,7 +74,13 @@ Delete all the explanatory text in RED, including this box before submission.
 > *[Provide the definition of all terms, acronyms, and abbreviations used in this document.]*
 
 # Problem Analysis
-> *[This section provides a high-level analysis of the SRS of the target software system from the viewpoint of developing a design solution for it.]*
+The FOF cobot lacks a perception system, which limits its capabilities to pre-programmed situations for pick and place tasks.\
+This project aims to develop a perception system for the cobot using state-of-the-art technologies related to computer vision, robotics, and AI,
+such as OpenCV and PyTorch.
+The software system will integrate with the cobot and Depth Camera, run on Ubuntu 22.04 LTS OS, and
+use the ROS2 software suite for providing movement instructions to the cobot.\
+The design solution aims to improve the cobot's capabilities, allowing for error margins to exist.\
+Additionally, the solution must be a standalone program to replace the current PLC system.
 
 ## System Goals and Objectives
 > *[Summarise the high-level system goals and objectives, and refer to the SRS document.]*
