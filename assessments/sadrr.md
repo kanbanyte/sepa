@@ -72,6 +72,42 @@ Delete all the explanatory text in RED, including this box before submission.
 
 ## Definitions, Acronyms and Abbreviations
 > *[Provide the definition of all terms, acronyms, and abbreviations used in this document.]*
+The following definitions will be used consistently throughout the SRS document to ensure clarity and understanding:
+* **Robot/Robotic Arm/cobot:**
+The mechanical device (UR5e manufactured by Universal Robots) used to perform pick and place tasks.
+* **Computer Vision/Perception System:**
+The technology used to provide the robot with visual feedback of the environment.
+* **Sensors/Depth Camera:**
+The device (ZED 2 Camera developed by Stereolabs) used to detect the presence of objects and provide feedback to the robot.
+* **UR:**
+Universal Robots
+* **AI:**
+Artificial intelligence, the technology used to provide the robot with the ability to learn and improve its performance.
+* **OpenCV:**
+Open Source Computer Vision Library, a library of programming functions mainly aimed at real-time computer vision.
+* **PyTorch:**
+An open-source machine learning library based on the Torch library.
+* **ROS2:**
+Robot Operating System 2, a framework for building robot software applications.
+* **SemVer:**
+Semantic Versioning, Version Control/Software Versioning Strategy.
+* **ML:**
+Machine learning, A type of AI where the computer learns.
+* **OS:**
+Operating System.
+* **SADRR:**
+System Architecture Design and Research Report.
+* **Project 24:**
+The shorter alternative name of this project.\
+The full name is *Robot Vision System For A Pick And Place Task*.
+* **FOF:**
+Factory of the Future, a Swinburne facility where the cobot is situated.
+* **HeeHooVision:**
+The name for the Capstone Team working on Project 24
+* **ASAP:**
+As Soon as Possible
+* **COB:**
+Close of Business (5:00 PM)
 
 # Problem Analysis
 > *[This section provides a high-level analysis of the SRS of the target software system from the viewpoint of developing a design solution for it.]*
