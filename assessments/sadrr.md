@@ -106,9 +106,39 @@ Delete all the explanatory text in RED, including this box before submission.
 <div class="page"/><!-- page break -->
 
 # Research and Investigations
-> *[In this part of the report, outline and detail the research that has been undertaken during the requirements analysis and system design stage.*\
-> *Theses research efforts may be related to **understanding** the system's business/application domain, system design*
-> *(eg, similar existing systems, architecture styles and patterns, etc), technological platforms and programming languages, and so on.]*
+During the requirements analysis and system design stage, HeeHooVision conducted several research efforts to ensure the success of the project.
+These research efforts were classified into three categories:
+1. Understanding The System's Business/Application Domain.
+2. Exploring Similar Existing Systems.
+3. Researching Technological Platforms and Programming Languages.
+
+### Understanding The System's Business/Application Domain
+HeeHooVision conducted research on the pick and place task, the FOF, and the robotics industry.\
+This research aimed to provide insights into the problem at hand and the requirements for the solution.
+HeeHooVision also looked into the client's needs and expectations to ensure the solution aligned with their goals.
+
+### Exploring Similar Existing Systems
+HeeHooVision conducted a thorough review of the current state-of-the-art technologies related to providing robots with vision systems to pick and place objects.\
+This research aimed to identify potential solutions and best practices that could be adopted or adapted for this project.
+HeeHooVision also explored existing robotic vision systems and analysed their architecture and implementation to inform the design of the proposed system.
+
+### Researching Technological Platforms and Programming Languages
+HeeHooVision explored various software development methodologies and frameworks to find the best fit for the project.\
+This research aimed to ensure that the system would be compatible with the required platforms and
+that HeeHooVision had the necessary skills and resources to implement the system successfully.
+HeeHooVision also researched the required hardware and software tools,
+such as the Universal Robots UR5e robotic arm, ZED 2 Depth Camera, ROS2, C/C++, Python, OpenCV, and PyTorch.
+
+### Additional Investigations and Research Efforts
+HeeHooVision further covered many topics to assist with achieving the project, the topics involve other conducted research on:
+* OpenCV to understand its capabilities and how it could be used for image processing in the project.
+* Data collection, tagging, and organization to ensure that the collected data was usable and accurate.
+* ROS2 to understand its capabilities and how it could be used for robot programming.
+* Python and C++ coding principles and best practices to ensure that the code was clean, efficient, and maintainable.
+* Potential mounting options for the sensors to ensure that they were positioned correctly for accurate data collection.
+
+HeeHooVision also conducted research into GitHub to ensure that the project was well-organized and easily accessible to team members.\
+They explored different organizational strategies and established guidelines for version control and collaboration to ensure that the project ran smoothly.
 
 ## Research into Application Domain
 > *[Research into the application domain goes here.]*
