@@ -71,7 +71,6 @@ Delete all the explanatory text in RED, including this box before submission.
 > *[Provide an overview (or executive summary) of this document]*
 
 ## Definitions, Acronyms and Abbreviations
-> *[Provide the definition of all terms, acronyms, and abbreviations used in this document.]*
 The following definitions will be used consistently throughout the SRS document to ensure clarity and understanding:
 * **Robot/Robotic Arm/cobot:**
 The mechanical device (UR5e manufactured by Universal Robots) used to perform pick and place tasks.
