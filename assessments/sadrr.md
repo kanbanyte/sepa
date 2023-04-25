@@ -132,13 +132,13 @@ such as the Universal Robots UR5e robotic arm, ZED 2 Depth Camera, ROS2, C/C++, 
 ### Additional Investigations and Research Efforts
 HeeHooVision further covered many topics to assist with achieving the project, the topics involve other conducted research on:
 * OpenCV to understand its capabilities and how it could be used for image processing in the project.
-* Data collection, tagging, and organization to ensure that the collected data was usable and accurate.
+* Data collection, tagging, and organisation to ensure that the collected data was usable and accurate.
 * ROS2 to understand its capabilities and how it could be used for robot programming.
 * Python and C++ coding principles and best practices to ensure that the code was clean, efficient, and maintainable.
 * Potential mounting options for the sensors to ensure that they were positioned correctly for accurate data collection.
 
-HeeHooVision also conducted research into GitHub to ensure that the project was well-organized and easily accessible to team members.\
-They explored different organizational strategies and established guidelines for version control and collaboration to ensure that the project ran smoothly.
+HeeHooVision also conducted research into GitHub to ensure that the project was well-organised and easily accessible to team members.\
+They explored different organisational strategies and established guidelines for version control and collaboration to ensure that the project ran smoothly.
 
 ## Research into Application Domain
 > *[Research into the application domain goes here.]*
