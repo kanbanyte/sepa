@@ -106,7 +106,7 @@ Delete all the explanatory text in RED, including this box before submission.
 <div class="page"/><!-- page break -->
 
 # Research and Investigations
-During the requirements analysis and system design stage, HeeHooVision conducted several research efforts to ensure the success of the project.
+HeeHooVision conducted several research efforts to ensure the success of the project.\
 These research efforts were classified into three categories:
 1. Understanding The System's Business/Application Domain.
 2. Exploring Similar Existing Systems.
@@ -118,7 +118,7 @@ This research aimed to provide insights into the problem at hand and the require
 HeeHooVision also looked into the client's needs and expectations to ensure the solution aligned with their goals.
 
 ### Exploring Similar Existing Systems
-HeeHooVision conducted a thorough review of the current state-of-the-art technologies related to providing robots with vision systems to pick and place objects.\
+HeeHooVision conducted a thorough review of current technologies related to providing robots with vision systems to pick and place tasks.\
 This research aimed to identify potential solutions and best practices that could be adopted or adapted for this project.
 HeeHooVision also explored existing robotic vision systems and analysed their architecture and implementation to inform the design of the proposed system.
 
