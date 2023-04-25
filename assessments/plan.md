@@ -236,19 +236,19 @@ The following tools and technologies will be utilised throughout the project:
 The project will require knowledge in multiple fields of study to successful deliver the final product;
 the team will be required to have expertise in the following areas:
 * Computer Vision
-	* collection and annotation of training data.
-	* development of machine learning models.
-	* manipulation of model parameters to achieve desired outputs.
+	* Collection and labeling of training data.
+	* Development of machine learning models.
+	* Manipulation of model parameters to achieve desired outputs.
 * ZED 2 depth camera
-	* calibration of the camera.
-	* processing and formatting image outputs
+	* Calibration of the camera.
+	* Processing and formatting image outputs
 * Robotics
-	* development with the ROS2 toolkit
-	* deployment of the software system into the robot arm.
+	* Development with the ROS2 toolkit
+	* Deployment of the software system into the robot arm.
 * Software Engineering
-	* usage of the Python programming language language and associated libraries in the areas of machine learning and computer vision (OpenCV and PyTorch).
-	* usage of the C/C++ programming languages
-	* development within the Ubuntu operation system.
+	* Usage of the Python programming language language and associated libraries in the areas of machine learning and computer vision (OpenCV and PyTorch).
+	* Utilisation of the C/C++ programming languages
+	* Development within the Ubuntu operation system.
 
 The team members will be encouraged to attend relevant training sessions and conferences to develop their skills in these areas.
 Online tutorials will be helpful references and sources for honing programming capabilities.
