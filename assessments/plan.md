@@ -77,10 +77,10 @@ Delete all the explanatory text in RED, including this box before submission.
 	* [SCOPE](#scope)
 	* [CRITICAL SUCCESS FACTORS](#critical-success-factors)
 	* [ACCEPTANCE CRITERIA](#acceptance-criteria)
-* [ESTABLISHMENT](#establishment)
+* [Establishment](#establishment)
 	* [PROCESSES, PROCEDURES AND STANDARDS](#processes-procedures-and-standards)
 	* [PROJECT ENVIRONMENT](#project-environment)
-	* [PROJECT TEAM SKILL DEVELOPMENT REQUIREMENTS](#project-team-skill-development-requirements)
+	* [Project Team Skill Development Requirements](#project-team-skill-development-requirements)
 * [DELIVERABLES, ACTIVITIES AND CAPITAL RESOURCES](#deliverables-activities-and-capital-resources)
 	* [DELIVERABLES](#deliverables)
 		* [Software systems](#software-systems)
@@ -196,7 +196,7 @@ The acceptance criteria for this project include:
 
 <div class="page"/><!-- page break -->
 
-# ESTABLISHMENT
+# Establishment
 ## PROCESSES, PROCEDURES AND STANDARDS
 The project team will follow the Kanban methodology for this project as it is a system that easily allows us to monitor our current tasks and
 allows for a more independent work style, thus increasing overall productivity.
@@ -232,7 +232,7 @@ The following tools and technologies will be utilised throughout the project:
 
 <div class="page"/><!-- page break -->
 
-## PROJECT TEAM SKILL DEVELOPMENT REQUIREMENTS
+## Project Team Skill Development Requirements
 The project will require knowledge in multiple fields of study to successful deliver the final product;
 the team will be required to have expertise in the following areas:
 * Computer Vision
