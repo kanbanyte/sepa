@@ -114,7 +114,6 @@ flowchart TD
 	Perception -->|item state| Sub1
 	Perception -->|item state| Sub2
 	Perception -->|item state| SubN
-
 ```
 
 This design ensures modularity by encapsulating the entire computer vision system into its own module,
