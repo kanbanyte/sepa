@@ -91,10 +91,10 @@ Delete all the explanatory text in RED, including this box before submission.
 Among the software requirements of Project 24, is the integration with the existing robot control system which uses ROS2.
 Said system uses a publisher-subscriber (pub-sub) model and divides components into individual "nodes",
 each of which can subscribe to or publish messages to another node in the network.
-The architecture for the additional perception software system must be compatible with the existing ROS2 design
-whilst maintaining modularity and loose-coupling between individual components.
-Although the project has established that the ZED2 camera is the main tool that retrieves image inputs, the new perception system
-should ideally encapsulate this detail and communicates visual data via an abstracted format.
+The architecture for the additional perception software system must be compatible with the existing ROS2 design whilst maintaining modularity and
+loose-coupling between individual components.
+Although the project has established that the Depth Camera is the main tool that retrieves image inputs,
+the new perception system should ideally encapsulate this detail and communicates visual data via an abstracted format.
 
 ## Preferred Architecture
 The addition of the perception system is envisioned to be encapsulated in one software module and
