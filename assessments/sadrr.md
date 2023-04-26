@@ -91,6 +91,10 @@ Delete all the explanatory text in RED, including this box before submission.
 Among the software requirements of the project is the integration with the existing robot control system which uses ROS2.
 Said system uses a publisher-subscriber model and divides components into individual "nodes",
 each of which can subscribe to or publish messages to another node in the network.
+The architecture for the additional perception software system must be compatible with the existing ROS2 design
+whilst maintaining modularity and loose-coupling between individual components.
+Although the project has established that the ZED2 camera is the main tool that retrieves image inputs, the new perception system
+should ideally encapsulate this detail and communicates visual data via an abstracted format.
 
 ## Preferred Architecture
 The addition of the perception system is envisioned to be encapsulated in one software module and
@@ -98,21 +102,19 @@ used a by a single node in a publisher-subscriber (pub-sub) architecture.
 The diagram below captures the high level view of the system.
 
 ```mermaid
-stateDiagram-v2
-	direction TB
-	state "Depth camera" as Camera
-	state "Perception node" as PerceptionNode
-	state "Subscriber Node 1" as Subscriber1
-	state "Subscriber Node 2" as Subscriber2
-	state "Subscriber Node n" as OtherSubscribers
+flowchart TD
+	Camera[/Depth Camera/]
+	Perception{Perception Node}
+	Sub1{{Subscriber Node 1}}
+	Sub2{{Subscriber Node 2}}
+	SubN{{Subscriber Node n}}
 
+	Camera -->|image data| Perception
+	Perception -->|periodical query| Camera
+	Perception -->|item state| Sub1
+	Perception -->|item state| Sub2
+	Perception -->|item state| SubN
 
-	PerceptionNode --> Camera: periodical query
-	Camera --> PerceptionNode: image data
-
-	PerceptionNode --> Subscriber1: publishes
-	PerceptionNode --> Subscriber2: publishes
-	PerceptionNode --> OtherSubscribers: publishes
 ```
 
 This design ensures modularity by encapsulating the entire computer vision system into its own module,
@@ -121,6 +123,7 @@ enabling independent development of other components, such as the robot arm cont
 The publisher-subscriber architecture promotes a loosely-coupled relationship between the perception system and other related components.
 By using an asynchronous messaging model, the pub-sub architecture facilitates real-time communication between multiple components,
 which demand that the sender is not blocked waiting for the response or blocked only for a very limited duration.
+This design is also consistent with the primary architecture used by ROS2, and will be further explored in the System Architecture section.
 
 If the client wishes to extend the capabilities of the robot arm beyond the scope defined in this project,
 they can easily register new components to the perception node and retrieve visual data without changes to the rest of the system.
