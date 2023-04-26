@@ -98,6 +98,24 @@ Delete all the explanatory text in RED, including this box before submission.
 > *[Present the system architecture in this section.*\
 > *A Component-and-Connector view and a Deployment Allocation view (or some alternatives of similar nature) with the necessary descriptions and*
 > *justifications are expected as the minimum.]*
+This section explores the chosen architectural design (pub-sub) in greater detail by representing it in a component-and-connector (c&c) view.
+C&C focuses on illustrating the relationship between elements within the system at runtime.
+Elements with behavior are known as components while those representing interactions between such components are known as connectors.
+
+The established components in the perception system are the Depth Camera, the Perception Node and its subscribers.
+A core component that was omitted from the introduction section is the message broker,
+which allows subscribers to selectively receive published data.
+There are two main types of message brokers:
+* Content-based: subscribers declare the properties of the type of messages they are interested in,
+which is then used by the broker to filter matching messages from the publisher.
+* Topic-based: subscribers communicates their intentions by subscribing themselves to "topics", which represent isolated logical channels.
+This is chosen as the broker mechanism for the new perception system because it is supported by ROS2 and
+is intended to work with sensory data flow i.e. the visual input stream from the Depth Camera.
+
+<!-- TODO: discuss the Depth Camera node here: data type (image/ video), data format, query period, , -->
+
+
+<!-- TODO: draw the expanded C&C graph -->
 
 ## Other Alternative Architectures Explored
 > *[Present and discuss two additional architecture alternatives that have been explored and*
