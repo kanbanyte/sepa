@@ -120,7 +120,7 @@ flowchart TD
 This design ensures modularity by encapsulating the entire computer vision system into its own module,
 enabling independent development of other components, such as the robot arm control system.
 
-The publisher-subscriber architecture promotes a loosely-coupled relationship between the perception system and other related components.
+The pub-sub architecture promotes a loosely-coupled relationship between the perception system and other related components.
 By using an asynchronous messaging model, the pub-sub architecture facilitates real-time communication between multiple components,
 which demand that the sender is not blocked waiting for the response or blocked only for a very limited duration.
 This design is also consistent with the primary architecture used by ROS2, and will be further explored in the [System Architecture](#system-architecture) section.
