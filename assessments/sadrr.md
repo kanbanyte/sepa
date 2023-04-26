@@ -72,10 +72,10 @@ Delete all the explanatory text in RED, including this box before submission.
 
 ## Definitions, Acronyms and Abbreviations
 The following definitions will be used consistently throughout the SRS document to ensure clarity and understanding:
-* **Robot/Robotic Arm/cobot:**
+* **cobot:**
 The mechanical device (UR5e manufactured by Universal Robots) used to perform pick and place tasks.
-* **Computer Vision/Perception System:**
-The technology used to provide the robot with visual feedback of the environment.
+* **CV/Perception System:**
+Computer Vision (CV) is the technology used to provide the robot with visual feedback of the environment.
 * **Sensors/Depth Camera:**
 The device (ZED 2 Camera developed by Stereolabs) used to detect the presence of objects and provide feedback to the robot.
 * **UR:**
