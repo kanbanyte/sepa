@@ -123,7 +123,7 @@ enabling independent development of other components, such as the robot arm cont
 The publisher-subscriber architecture promotes a loosely-coupled relationship between the perception system and other related components.
 By using an asynchronous messaging model, the pub-sub architecture facilitates real-time communication between multiple components,
 which demand that the sender is not blocked waiting for the response or blocked only for a very limited duration.
-This design is also consistent with the primary architecture used by ROS2, and will be further explored in the System Architecture section.
+This design is also consistent with the primary architecture used by ROS2, and will be further explored in the [System Architecture](#system-architecture) section.
 
 If the client wishes to extend the capabilities of the robot arm beyond the scope defined in this project,
 they can easily register new components to the perception node and retrieve visual data without changes to the rest of the system.
