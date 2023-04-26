@@ -127,9 +127,8 @@ continuous learning will have to be thoroughly research as well.
 
 HeeHooVision needs to research and generate relevant measures to ensure that metrics such as reliability, modularity, security and performance are met and
 maintained throughout the project.
-In addition to this, mounting for the the ZED 2 camera need to be researched and developed.
-However preliminary considerations are that the camera will preferably be mounted to a V-slot rail system,
-meaning CAD designs and 3D printing may be required.
+In addition to this, mounting for the Depth Camera needs to be researched and developed.
+However, preliminary considerations are that the Depth Camera will preferably be mounted to a V-slot rail system, meaning CAD designs and 3D printing may be required.
 
 <div class="page"/><!-- page break -->
 
