@@ -97,9 +97,8 @@ Although the project has established that the Depth Camera is the main tool that
 the new perception system should ideally encapsulate this detail and communicates visual data via an abstracted format.
 
 ## Preferred Architecture
-The addition of the perception system is envisioned to be encapsulated in one software module and
-used a by a single node in a publisher-subscriber (pub-sub) architecture.
-The diagram below captures the high level view of the system.
+The addition of the perception system is envisioned to be encapsulated in one software module and used a by a single node in a pub-sub architecture.
+The diagram below captures the high-level view of the system.
 
 ```mermaid
 flowchart TD
