@@ -138,8 +138,10 @@ However, a single queue is limited to only one consumer hence multiple queues ar
 
 ### Multiple Layers
 As the name suggests, the system is divided into multiple layers, each with a well-defined responsibility.
-The software system in this particular project may be divided into 3 layers: the Perception layer which process inputs,
-the Movement layer which computes the desired robot movement and the Command layer which translates these movements into commands.
+The software system in this particular project may be divided into 3 layers:
+* Perception Layer, which process inputs.
+* Movement Layer, which computes the desired robot movement.
+* Command Layer, which translates these movements into commands.
 
 A significant drawback of this model is the lack of flexibility as newly added components must either be fitted into an existing layer or
 the system will need modifications to accommodate said components.
