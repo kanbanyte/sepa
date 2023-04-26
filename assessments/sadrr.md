@@ -79,7 +79,7 @@ While this document will cover many of the fields that will require researching 
 it is important to note that it will not delve into low-level designs such as class diagrams and pseudocode.
 Instead, it will focus on providing a high-level overview of the system's design, leaving the detailed implementation to be addressed in subsequent documents.
 
-Finally, it is important to recognize that this document will not include the research being conducted on specific hardware components or implementation details.
+Finally, it is important to recognise that this document will not include the research being conducted on specific hardware components or implementation details.
 Rather, it will provide a broad overview of the system's design and functionality, leaving the specifics to be addressed in future research and implementation efforts.
 
 ## Definitions, Acronyms and Abbreviations
