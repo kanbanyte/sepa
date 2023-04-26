@@ -88,8 +88,8 @@ Delete all the explanatory text in RED, including this box before submission.
 <div class="page"/><!-- page break -->
 
 # High-Level System Architecture and Alternatives
-Among the software requirements of the project is the integration with the existing robot control system which uses ROS2.
-Said system uses a publisher-subscriber model and divides components into individual "nodes",
+Among the software requirements of Project 24, is the integration with the existing robot control system which uses ROS2.
+Said system uses a publisher-subscriber (pub-sub) model and divides components into individual "nodes",
 each of which can subscribe to or publish messages to another node in the network.
 The architecture for the additional perception software system must be compatible with the existing ROS2 design
 whilst maintaining modularity and loose-coupling between individual components.
