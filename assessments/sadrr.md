@@ -71,9 +71,9 @@ Delete all the explanatory text in RED, including this box before submission.
 The purpose of this document is to provide a comprehensive overview of the system, outlining its key components and functionalities.
 By presenting the system in a high-level way, this document aims to give a clear understanding of how the system is intended to operate and what it is capable of.
 
-To achieve this goal, the document will utilize a range of visual aids, including diagrams and designs, to help illustrate the system's architecture and functionality.
-Through these discussions, readers will be able to gain a thorough understanding of the system's capabilities, including its use of cv,
-Robot Operating System 2 (ROS2), and ML for object recognition.
+To achieve this goal, the document will utilise a range of visual aids, including diagrams and designs, to help illustrate the system's architecture and functionality.
+Through these discussions, readers will be able to gain a thorough understanding of the system's capabilities,
+including its use of CV, Robot Operating System 2 (ROS2), and ML for object recognition.
 
 While this document will cover many of the fields that will require researching by the team,
 it is important to note that it will not delve into low-level designs such as class diagrams and pseudocode.
