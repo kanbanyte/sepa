@@ -120,7 +120,14 @@ Delete all the explanatory text in RED, including this box before submission.
 > *[Research into the technical platforms, programming languages and tools goes here.]*
 
 ## Other Research
-> *[Research into other aspects  of the project/system goes here.]*
+In addition to the research that has been mentioned earlier, further research will have to be conducted by the team
+into the specific methods that AI tools such as PyTorch and OpenCV may use to analyse the data that is received.
+Machine learning techniques that can be used to enhance and improve the performance of real-time object detection, processing and
+continuous learning will have to be thoroughly research as well.
+
+The team will also have to research and generate relevant measures to ensure that metrics such as reliability, modularity, security and performance are met and
+maintained throughout the development process of the project. In addition to this, mounting for the the ZED 2 camera need to be researched and developed.
+However preliminary considerations are that the camera will preferably be mounted to a V-slot rail system, meaning CAD designs and 3D printing may be required.
 
 <div class="page"/><!-- page break -->
 
