@@ -74,7 +74,7 @@ Delete all the explanatory text in RED, including this box before submission.
 > *[Provide the definition of all terms, acronyms, and abbreviations used in this document.]*
 
 # Problem Analysis
-The FOF cobot lacks a perception system, which limits its capabilities to pre-programmed situations for pick and place tasks.\
+The FOF cobot lacks a perception system, which limits its capabilities to certain pre-programmed situations for pick and place tasks.\
 This project aims to develop a perception system for the cobot using state-of-the-art technologies related to computer vision, robotics, and AI,
 such as OpenCV and PyTorch.
 The software system will integrate with the cobot and Depth Camera, run on Ubuntu 22.04 LTS OS, and
