@@ -94,8 +94,16 @@ Rather, it will provide a broad overview of the system's design and functionalit
 ## Assumptions
 > *[List and discuss the assumptions you have made in developing the system design (as presented in this document).]*
 
-## Simplifications (if any)
-> *[List and discuss the simplifications that have been made in developing the system design.]*
+## Simplifications
+To ensure that the the system that is being developed is feasible and able to be completed in the alloted time,
+some aspects of the problem space have been designed to simplify the developmental process.
+
+These aspects are as follows:
+* The locations of parts that that the cobot will have to pick and place are predetermined. Therefore, the Depth Camera does not need to 'search' for parts,
+rather just check if a part is in a predetermined location.
+* The cobot will only be allowed to perform a pick and place task if a part is in one of the predetermined locations.
+* The individual parts that the cobot will have to pick and place will be color coded,
+ensuring that the Depth Camera will be able to effectively differentiate between the required parts and the surrounding environment.
 
 <div class="page"/><!-- page break -->
 
