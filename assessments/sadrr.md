@@ -123,7 +123,7 @@ Delete all the explanatory text in RED, including this box before submission.
 In addition to the research that has been mentioned earlier,
 further research will have to be conducted by HeeHooVision into the specific methods that AI tools such as PyTorch and OpenCV may use to analyse the data received.
 ML techniques that can be used to enhance and improve the performance of real-time object detection, processing and
-continuous learning will have to be thoroughly research as well.
+continuous learning will have to be thoroughly researched as well.
 
 HeeHooVision needs to research and generate relevant measures to ensure that metrics such as reliability, modularity, security, and performance are met and
 maintained throughout the project.
