@@ -92,7 +92,13 @@ Rather, it will provide a broad overview of the system's design and functionalit
 > *[Summarise the high-level system goals and objectives, and refer to the SRS document.]*
 
 ## Assumptions
-> *[List and discuss the assumptions you have made in developing the system design (as presented in this document).]*
+When developing the system design for this project, the following assumptions were made to further narrow down the scope of the project and ensure that it was feasible:
+* The system will not have to account for misplaced parts that are not in their assigned locations.\
+However, the system will have to halt when an object is detected and found to obstruct the cobot in completing its task.
+* The fine motor controls for the cobot is already completed and accurate.\
+As such, no development will need to be made to derive and implement transfer functions.
+* The locations of where the cobot will have to place objects is not subject to change.
+* Objects that are almost identical, such as the PCB parts, will have labels to distinguish between different types, such as the PCB for a barometer vs. a thermometer.
 
 ## Simplifications (if any)
 > *[List and discuss the simplifications that have been made in developing the system design.]*
