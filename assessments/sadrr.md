@@ -95,7 +95,7 @@ Rather, it will provide a broad overview of the system's design and functionalit
 > *[List and discuss the assumptions you have made in developing the system design (as presented in this document).]*
 
 ## Simplifications
-To ensure that the the system that is being developed is feasible and able to be completed in the alloted time,
+To ensure that the system that is being developed is feasible and able to be completed in the allotted time,
 some aspects of the problem space have been designed to simplify the developmental process.
 
 These aspects are as follows:
