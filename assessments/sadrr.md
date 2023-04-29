@@ -95,10 +95,6 @@ Delete all the explanatory text in RED, including this box before submission.
 > *Note that this section is about the high-level architecture design (rather than a lower-level detailed design in the next section).*
 
 ## System Architecture
-> *[Present the system architecture in this section.*\
-> *A Component-and-Connector view and a Deployment Allocation view (or some alternatives of similar nature) with the necessary descriptions and*
-> *justifications are expected as the minimum.]*
-
 This section explores the chosen architectural design (pub-sub) in greater detail by representing it in a component-and-connector (C&C) view.
 C&C focuses on illustrating the relationship between elements within the system at runtime.
 Elements with behavior are known as _components_ while those representing interactions between such components are known as _connectors_.
@@ -114,23 +110,77 @@ This is chosen as the broker mechanism for the new perception system because it 
 is intended to work with sensory data flow i.e. the visual input stream from the Depth Camera.
 
 <!-- fancy diagram here -->
+The below diagrams provides a detailed view of the components within the system:
+```mermaid
+flowchart TD
+	Img1{Image Topic 1}
+	Img2{Image Topic 2}
+	ImgN{Image Topic n}
+	VisDat{Visual Data Topic}
+	ItemPos{Item Position Topic}
+
+	VisDatAgg[Visual Data Aggregator]
+	ConDec[Container Detector]
+	VisDatLog[Visual Data Logger]
+	Zed2[ZED 2 Depth Camera]
+	JointCtrl[Some Robot Joint Controller]
+	AxisCtrl[Some Robot Axis Controller]
+	IVal[Input Data Validator]
+	CVnet[Computer Vision Network]
+	CVDatLog[Perception Data Logger]
+	PosDatFmt[Position Data Formatter]
+
+	subgraph Camera[Depth Camera]
+		Zed2 --> Img1
+		Zed2 --> Img2
+		Zed2 --> ImgN
+
+		Img1 --> VisDatAgg
+		Img2 --> VisDatAgg
+		ImgN --> VisDatAgg
+
+		VisDatAgg --> ConDec
+
+		ConDec --> VisDatLog
+		VisDatAgg --> VisDatLog
+		ConDec --> VisDat
+	end
+
+	subgraph PercSys[Perception System]
+		VisDat --> IVal
+		IVal --> CVnet
+		CVnet --> PosDatFmt
+
+		IVal --> CVDatLog
+		CVnet --> CVDatLog
+
+		PosDatFmt --> ItemPos
+	end
+
+	subgraph MotCtrl[Motion Controller]
+		ItemPos --> AxisCtrl
+		ItemPos --> JointCtrl
+	end
+
+```
 
 ### Depth Camera
 The Depth Camera provides the rest of the system with visual data and consists of the following components described below:
-* __Item Container Mapper__\
-Items to be assembled by the robot arm are positioned on different types of containers.
-These include the battery holder, the chip holder, the assembly tray and the assembly line which delivers a tray.
-This component is responsible for identifying the locations of these container, and return image data for each location,
-narrowing the scope of data that the computer vision system needs to process.
-* __Data Logger__\
+* __Visual Data Logger__\
 The Data Logger component logs captured data to a specified location, be it a file or the console.
 Logging data enables developers to diagnose runtime errors, identify abnormal behaviors and keep track of the system activity.
 It is important that this component is started early and remain fault-tolerant during the operations of the robot
 so it can provide as much insights into any occurring errors as possible.
-* __Image Capturer__\
+* __Visual Data Aggregator__\
 As the name suggests, this components directly interact with the APIs supported by the camera and return captured data.
 The ZED 2 Depth Camera supports a wrapper for ROS2 that publishes various types of captured data to several topics.
-However, it would be impractical for the computer vision system to subscribe to multiple topics so they will receive aggregated data from this component instead.
+However, it would be impractical for other components to subscribe to multiple topics so they will receive aggregated data from this component instead.
+* __Container Detector__\
+Items to be assembled by the robot arm are positioned on different types of containers.
+These include the battery holder, the PCB chip holder, the assembly tray and the assembly line which delivers the shell.
+This component is responsible for identifying the locations of these container, and return isolated image data for each location,
+narrowing the scope of data that the computer vision system needs to process.
+It takes the aggregated visual data from the __Visual Data Aggregator__ and separates them into multiple frames, each showing only one type of container.
 
 ### Perception System
 The role of the Perception system is to determines the presence of items-to-be-assembled at their pre-defined positions.
@@ -138,23 +188,27 @@ This system subscribes to visual data provided by the Depth Camera and outputs a
 This information is then published to a ROS2 topic and nodes pertaining to the movements of the robot arm can leverage them to control its motion.
 
 This system is composed of the following items:
-* __Input Validator__\
+* __Input Data Validator__\
 The visual data published by the Depth Camera is likely to be complex and potentially unprocessable.
 To maintain high accuracy, data must be passed to this component to determine whether they are formatted correctly.
-* __Data Logger__\
+* __Perception Data Logger__\
 The perception system needs to retains information about the data it retrieved, its outputs, confidence level and other metadata.
 Aside from telemetry and debugging purposes, the record of its data can be used to train the machine learning model and improve its accuracy.
-* __Data Formatter__\
+* __Position Data Formatter__\
 The format of the output of computer vision network should not be public to other components and may not be useful to them anyway.
 The results of the data prediction model should only include boolean data representing the presence/absence of an item.
+* __Computer Vision Network__\
+This is the core component of the Perception System, which detects the presence of items to be assembled based on validated input data.
 
 ### Motion Controller
 This component represents the system that controls the movement of the robot arm.
 At the present stage, the robot is already capable of performing pick-and-place tasks accurately.
 With the addition of the computer vision system, the Motion Controller should make decisions to act based on the received data.
-
-<!-- TODO: draw the expanded C&C graph -->
-
+Since the control system already exists, it will simply be represented by 2 components:
+* __Some Robot Axe Controller__
+This hypothetical component controls motion of the axes of the robot arm.
+* __Some Robot Joint Controller__
+This hypothetical component controls motion of the joints of the robot arm.
 
 ## Other Alternative Architectures Explored
 > *[Present and discuss two additional architecture alternatives that have been explored and*
