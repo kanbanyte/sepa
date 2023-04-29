@@ -120,10 +120,7 @@ Delete all the explanatory text in RED, including this box before submission.
 A variety of technical platforms, languages, and tools will be required to successfully complete the project.
 This sections will discuss these aspects in further depth, explaining their use with respect to the project.
 
-### Technical Platforms
-
-
-#### Ubuntu 22.04 LTS
+### Ubuntu 22.04 LTS
 The client has specified that the software should run on Ubuntu 22.04 LTS, and therefore the programs will be developed on this operating system.
 Additionally, because development will also be undertaken remotely, a virtual machine may also be required to be installed to use Ubuntu.
 VirtualBox will be used in this case because it is easy to set up, but development at the FoF will be conducted with the provided computer.
@@ -138,40 +135,39 @@ Some basic commands that will be necessary are as follows:
 * `sudo apt install [package]` - `sudo` runs a command with root privileges, `apt` manages packages, and `install` installs a package
 * `sudo apt update` & `sudo apt upgrade` - Updates package cache and installs the update, respectively
 
-#### ROS2
+### ROS2
+ROS2 is a collection of packages that will be used for developing the software for the robot system.
+It includes various terminal commands, programming packages for C++ and Python, and data analysis tools that make development for robotics more efficient.
+
+In order to access ROS2 commands in the terminal, the following command needs to be run each time a new terminal is started:
+
+`source /opt/ros/humble/setup.bash`
+
+To have ROS2 commands included in any terminal at startup, this command can be used:
+
+`echo "source "source /opt/ros/humble/setup.bash" >> ~/.bashrc`
+
+ROS2 commands are accessed by using the `ros2` command.
+Some important commands include:
+* `run [package] [executable]` - Runs an executable file in a package, can be used to start nodes or other ROS2 structures
+* `[type] list` - Lists all of the specified type which can be: `node`, `topic`, `action`, etc.
+* `[type] info` - Returns a list of subscribers, publisher, services, and actions associated with that node
+* `rqt_graph` - Starts an applications that displays the ROS2 graph, containing all nodes, topics, actions, services, etc.
+* `pkg create --build-type [type] [package_name]` - Creates a ROS2 package with the specified type (either `ament_cmake` or `ament_python` for C++ or Python) 
+
+### UR5e Collaborative Robot Arm
 
 
-#### UR5e Collaborative Robot Arm
+### ZED 2 AI Stereo Camera
 
 
-#### ZED 2 AI Stereo Camera
+### GitHub
 
 
-#### GitHub
+### OpenCV
 
 
-### Languages
-
-
-#### C++
-
-
-#### Python
-
-
-#### Markdown
-
-
-### Tools
-
-
-#### OpenCV
-
-
-#### PyTorch
-
-
-#### Sematic Versioning
+### PyTorch
 
 
 ## Other Research
