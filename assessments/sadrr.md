@@ -136,6 +136,7 @@ HeeHooVision further covered many topics to assist with achieving the project, t
 * ROS2 to understand its capabilities and how it could be used for robot programming.
 * Python and C++ coding principles and best practices to ensure that the code was clean, efficient, and maintainable.
 * Potential mounting options for the sensors to ensure that they were positioned correctly for accurate data collection.
+* ML algorithms and techniques to explore their potential applications in the project.
 
 HeeHooVision also conducted research into GitHub to ensure that the project was well-organised and easily accessible to team members.\
 They explored different organisational strategies and established guidelines for version control and collaboration to ensure that the project ran smoothly.
