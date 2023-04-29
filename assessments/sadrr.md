@@ -124,7 +124,19 @@ This sections will discuss these aspects in further depth, explaining their use 
 
 
 #### Ubuntu 22.04 LTS
+The client has specified that the software should run on Ubuntu 22.04 LTS, and therefore the programs will be developed on this operating system.
+Additionally, because development will also be undertaken remotely, a virtual machine may also be required to be installed to use Ubuntu.
+VirtualBox will be used in this case because it is easy to set up, but development at the FoF will be conducted with the provided computer.
 
+Ubuntu makes frequent use of the terminal to perform commands and to aid with development; a good understanding of the terminal will be required.
+Some basic commands that will be necessary are as follows:
+* `ls` - Lists the folders and files in the current directory
+* `cd [directory]` - Changes the directory to the specified directory
+* `touch [file_name]` - Creates a new file
+* `mkdir [directory_name]` - Makes a new directory
+* `clear` - Clears the terminal screen
+* `sudo apt install [package]` - `sudo` runs a command with root privileges, `apt` manages packages, and `install` installs a package
+* `sudo apt update` & `sudo apt upgrade` - Updates package cache and installs the update, respectively
 
 #### ROS2
 
