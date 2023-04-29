@@ -98,24 +98,63 @@ Delete all the explanatory text in RED, including this box before submission.
 > *[Present the system architecture in this section.*\
 > *A Component-and-Connector view and a Deployment Allocation view (or some alternatives of similar nature) with the necessary descriptions and*
 > *justifications are expected as the minimum.]*
-This section explores the chosen architectural design (pub-sub) in greater detail by representing it in a component-and-connector (c&c) view.
-C&C focuses on illustrating the relationship between elements within the system at runtime.
-Elements with behavior are known as components while those representing interactions between such components are known as connectors.
 
-The established components in the perception system are the Depth Camera, the Perception Node and its subscribers.
+This section explores the chosen architectural design (pub-sub) in greater detail by representing it in a component-and-connector (C&C) view.
+C&C focuses on illustrating the relationship between elements within the system at runtime.
+Elements with behavior are known as _components_ while those representing interactions between such components are known as _connectors_.
+
+The established components in the perception system are the Depth Camera, the Perception System and its subscribers, which are collectively known as the Motion Controller.
 A core component that was omitted from the introduction section is the message broker,
 which allows subscribers to selectively receive published data.
 There are two main types of message brokers:
 * Content-based: subscribers declare the properties of the type of messages they are interested in,
 which is then used by the broker to filter matching messages from the publisher.
-* Topic-based: subscribers communicates their intentions by subscribing themselves to "topics", which represent isolated logical channels.
-This is chosen as the broker mechanism for the new perception system because it is supported by ROS2 and
+* Topic-based (__preferred__): subscribers communicates their intentions by subscribing themselves to _topics_, which represent isolated logical channels.
+This is chosen as the broker mechanism for the new perception system because it is supported by ROS2, the Depth Camera, and
 is intended to work with sensory data flow i.e. the visual input stream from the Depth Camera.
 
-<!-- TODO: discuss the Depth Camera node here: data type (image/ video), data format, query period, , -->
+<!-- fancy diagram here -->
 
+### Depth Camera
+The Depth Camera provides the rest of the system with visual data and consists of the following components described below:
+* __Item Container Mapper__\
+Items to be assembled by the robot arm are positioned on different types of containers.
+These include the battery holder, the chip holder, the assembly tray and the assembly line which delivers a tray.
+This component is responsible for identifying the locations of these container, and return image data for each location,
+narrowing the scope of data that the computer vision system needs to process.
+* __Data Logger__\
+The Data Logger component logs captured data to a specified location, be it a file or the console.
+Logging data enables developers to diagnose runtime errors, identify abnormal behaviors and keep track of the system activity.
+It is important that this component is started early and remain fault-tolerant during the operations of the robot
+so it can provide as much insights into any occurring errors as possible.
+* __Image Capturer__\
+As the name suggests, this components directly interact with the APIs supported by the camera and return captured data.
+The ZED 2 Depth Camera supports a wrapper for ROS2 that publishes various types of captured data to several topics.
+However, it would be impractical for the computer vision system to subscribe to multiple topics so they will receive aggregated data from this component instead.
+
+### Perception System
+The role of the Perception system is to determines the presence of items-to-be-assembled at their pre-defined positions.
+This system subscribes to visual data provided by the Depth Camera and outputs a data structure that specifies which items are available.
+This information is then published to a ROS2 topic and nodes pertaining to the movements of the robot arm can leverage them to control its motion.
+
+This system is composed of the following items:
+* __Input Validator__\
+The visual data published by the Depth Camera is likely to be complex and potentially unprocessable.
+To maintain high accuracy, data must be passed to this component to determine whether they are formatted correctly.
+* __Data Logger__\
+The perception system needs to retains information about the data it retrieved, its outputs, confidence level and other metadata.
+Aside from telemetry and debugging purposes, the record of its data can be used to train the machine learning model and improve its accuracy.
+* __Data Formatter__\
+The format of the output of computer vision network should not be public to other components and may not be useful to them anyway.
+The results of the data prediction model should only include boolean data representing the presence/absence of an item.
+
+### Motion Controller
+This component represents the system that controls the movement of the robot arm.
+At the present stage, the robot is already capable of performing pick-and-place tasks accurately.
+With the addition of the computer vision system, the Motion Controller should make decisions to act based on the received data.
 
 <!-- TODO: draw the expanded C&C graph -->
+
 
 ## Other Alternative Architectures Explored
 > *[Present and discuss two additional architecture alternatives that have been explored and*
