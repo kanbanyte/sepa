@@ -117,7 +117,50 @@ Delete all the explanatory text in RED, including this box before submission.
 > *[Research into the system design goes here.]*
 
 ## Research into Technical Platforms, Languages and Tools
-> *[Research into the technical platforms, programming languages and tools goes here.]*
+A variety of technical platforms, languages, and tools will be required to successfully complete the project.
+This sections will discuss these aspects in further depth, explaining their use with respect to the project.
+
+### Technical Platforms
+
+
+#### Ubuntu 22.04 LTS
+
+
+#### ROS2
+
+
+#### UR5e Collaborative Robot Arm
+
+
+#### ZED 2 AI Stereo Camera
+
+
+#### GitHub
+
+
+### Languages
+
+
+#### C++
+
+
+#### Python
+
+
+#### Markdown
+
+
+### Tools
+
+
+#### OpenCV
+
+
+#### PyTorch
+
+
+#### Sematic Versioning
+
 
 ## Other Research
 > *[Research into other aspects  of the project/system goes here.]*
