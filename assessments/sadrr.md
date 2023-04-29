@@ -100,11 +100,61 @@ Rather, it will provide a broad overview of the system's design and functionalit
 <div class="page"/><!-- page break -->
 
 # High-Level System Architecture and Alternatives
-> *[Describe, using appropriate models and notations, the chosen **high-level** architecture of the software system that will be developed.*\
-> *Also discuss two additional architecture alternatives that have been explored but not chosen.*\
-> *This is a refinement of the high-level architecture discussed in the SRS.]*
->
-> *Note that this section is about the high-level architecture design (rather than a lower-level detailed design in the next section).*
+Among the software requirements of Project 24, is the integration with the existing robot control system which uses ROS2.
+Said system uses a publisher-subscriber (pub-sub) model and divides components into individual "nodes",
+each of which can subscribe to or publish messages to another node in the network.
+The architecture for the additional perception software system must be compatible with the existing ROS2 design whilst maintaining modularity and
+loose-coupling between individual components.
+Although the project has established that the Depth Camera is the main tool that retrieves image inputs,
+the new perception system should ideally encapsulate this detail and communicates visual data via an abstracted format.
+
+## Preferred Architecture
+The addition of the perception system is envisioned to be encapsulated in one software module and used a by a single node in a pub-sub architecture.
+The diagram below captures the high-level view of the system.
+
+```mermaid
+flowchart TD
+	Camera[/Depth Camera/]
+	Perception{Perception Node}
+	Sub1{{Subscriber Node 1}}
+	Sub2{{Subscriber Node 2}}
+	SubN{{Subscriber Node n}}
+
+	Camera -->|image data| Perception
+	Perception -->|periodical query| Camera
+	Perception -->|item state| Sub1
+	Perception -->|item state| Sub2
+	Perception -->|item state| SubN
+```
+
+This design ensures modularity by encapsulating the entire computer vision system into its own module,
+enabling independent development of other components, such as the robot arm control system.
+
+The pub-sub architecture promotes a loosely-coupled relationship between the perception system and other related components.
+By using an asynchronous messaging model, the pub-sub architecture facilitates real-time communication between multiple components,
+which demand that the sender is not blocked waiting for the response or blocked only for a very limited duration.
+This design is also consistent with the primary architecture used by ROS2, and will be further explored in the [System Architecture](#system-architecture) section.
+
+If the client wishes to extend the capabilities of the robot arm beyond the scope defined in this project,
+they can easily register new components to the perception node and retrieve visual data without changes to the rest of the system.
+
+## Alternatives
+### Messaging Queue
+An alternative architecture considered for this project is the messaging queue system.
+In this system, visual data is pushed into a message queue and clients can asynchronously retrieve and process that data.
+
+Similar to the pub-sub model, the message queue decouples consumers from producers and facilitates asynchronous data transfers.
+However, a single queue is limited to only one consumer hence multiple queues are needed, adding overhead that can harm performance.
+
+### Multiple Layers
+As the name suggests, the system is divided into multiple layers, each with a well-defined responsibility.
+The software system in this particular project may be divided into 3 layers:
+* Perception Layer, which process inputs.
+* Movement Layer, which computes the desired robot movement.
+* Command Layer, which translates these movements into commands.
+
+A significant drawback of this model is the lack of flexibility as newly added components must either be fitted into an existing layer or
+the system will need modifications to accommodate said components.
 
 ## System Architecture
 > *[Present the system architecture in this section.*\
