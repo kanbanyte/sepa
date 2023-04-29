@@ -74,19 +74,18 @@ Delete all the explanatory text in RED, including this box before submission.
 > *[Provide the definition of all terms, acronyms, and abbreviations used in this document.]*
 
 # Problem Analysis
-The FOF cobot lacks a perception system,
-which limits its capabilities to moving objects that are located through pre-programmed coordinates,
-therefore reducing the efficiency for pick and place tasks.\
-The proposed perception system will be built with cutting edge and state-of-the-art technologies, 
+The FOF cobot lacks a perception system, which limits its capabilities to moving objects that are located through pre-programmed coordinates,
+therefore reducing the efficiency for pick and place tasks.
+The proposed perception system will be built with cutting edge and state-of-the-art technologies,
 primarily CV through the use of OpenCV and deep ML algorithms built with PyTorch.
-Working in tandem these systems will both improve the efficiency of pick and place tasks and accomodate for disruptions in required materials.
+
+Working in tandem these systems will both improve the efficiency of pick and place tasks and accommodate for disruptions in required materials.
 The depth camera will integrate with the cobot through a software system, this system will be primarily running of the Ubuntu 22.04 LTS OS.
-Within this system ROS2 will be running and be in control of moving the robot,
-however without instructions this movement wont be improved from the current iteration.
-The depth camera will utilise technologies mentioned above; 
-Primarily OpenCV to analyse the data and a Pytorch algorithm to use the visual data.\
-The enhanced design will allow for the cobot to have error margins and autonomously accomodate them and work around them, 
-this definitively improving the cobots current capabilities.\
+Within this system ROS2 will be running and be in control of moving the robot; however, without instructions this movement wont be improved from the current iteration.
+
+The depth camera will utilise technologies mentioned above; primarily OpenCV to analyse the data and a PyTorch algorithm to use the visual data.
+The enhanced design will allow for the cobot to have error margins and autonomously accommodate them and work around them,
+this definitively improving the cobots current capabilities.
 Additionally, the solution must be a standalone program to replace the current Programmable Logic Controller (PLC) system.
 
 ## System Goals and Objectives
