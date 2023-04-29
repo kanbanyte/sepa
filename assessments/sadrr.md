@@ -63,9 +63,16 @@ Delete all the explanatory text in RED, including this box before submission.
 <div class="page"/><!-- page break -->
 
 # Introduction
-> *[In this opening, briefly*
-> * *Discuss the **software/system** that will be developed;*
-> * *Define the purpose of this **Software Design and Research Report** and identify its target reader or audience.]*
+Project 24 aims to enhance cobot's capabilities by providing it with a perception system to perform pick and place tasks.
+The robot currently performs these tasks without any form of perception system, and the position of the object to pick and place is predefined.
+
+Project 24 will utilise state-of-the-art technologies in computer vision (CV), sensors, robotics, and
+artificial intelligence (AI) to develop a real-time object detection, processing, and
+analysis system that will provide the robot with the ability to continuously learn and adapt to it's environment.
+
+This document will outline the system's general design, research requirements, and project management approach for successful completion of the project.\
+Finally, this document will provide sufficient information on the design of the system such that those less involved can easily understand the project,
+particularly clients and project leads.
 
 ## Overview
 The purpose of this document is to provide a comprehensive overview of the system, outlining its key components and functionalities.
