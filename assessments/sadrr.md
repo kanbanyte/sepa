@@ -232,7 +232,15 @@ They explored different organisational strategies and established guidelines for
 > *[Research into the technical platforms, programming languages and tools goes here.]*
 
 ## Other Research
-> *[Research into other aspects  of the project/system goes here.]*
+In addition to the research indicated so far, research will have to be conducted by HeeHooVision into the specific methods that AI tools, such as PyTorch and OpenCV,
+may use to analyse the data received.
+ML techniques that can be used to enhance and improve the performance of real-time object detection, processing and
+continuous learning will have to be thoroughly researched as well.
+
+HeeHooVision needs to research and generate relevant measures to ensure that metrics such as reliability, modularity, security, and performance are met and
+maintained throughout the project.
+In addition to this, mounting for the Depth Camera needs to be researched and developed.
+However, preliminary considerations are that the Depth Camera will preferably be mounted to a V-slot rail system, meaning CAD designs and 3D printing may be required.
 
 <div class="page"/><!-- page break -->
 
