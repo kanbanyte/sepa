@@ -97,7 +97,7 @@ Delete all the explanatory text in RED, including this box before submission.
 ## System Architecture
 This section explores the chosen architectural design (pub-sub) in greater detail by representing it in a component-and-connector (C&C) view.
 C&C focuses on illustrating the relationship between elements within the system at runtime.
-Elements with behavior are known as _components_ while those representing interactions between such components are known as _connectors_.
+Elements with behaviour are known as *components* while those representing interactions between such components are known as *connectors*.
 
 The established components in the perception system are the Depth Camera, the Perception System and its subscribers, which are collectively known as the Motion Controller.
 A core component that was omitted from the introduction section is the message broker,
