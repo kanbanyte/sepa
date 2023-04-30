@@ -105,9 +105,9 @@ A core component that was omitted from the introduction section is the message b
 There are two main types of message brokers:
 * Content-based: subscribers declare the properties of the type of messages they are interested in,
 which is then used by the broker to filter matching messages from the publisher.
-* Topic-based (__preferred__): subscribers communicates their intentions by subscribing themselves to _topics_, which represent isolated logical channels.
+* Topic-based (**preferred**): subscribers communicates their intentions by subscribing themselves to *topics*, which represent isolated logical channels.
 This is chosen as the broker mechanism for the new perception system because it is supported by ROS2, the Depth Camera, and
-is intended to work with sensory data flow i.e. the visual input stream from the Depth Camera.
+is intended to work with sensory data flow i.e., the visual input stream from the Depth Camera.
 Topics are the connectors for the main three components.
 
 The below diagrams provides a detailed view of the components within the system:
