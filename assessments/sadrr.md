@@ -99,9 +99,9 @@ This section explores the chosen architectural design (pub-sub) in greater detai
 C&C focuses on illustrating the relationship between elements within the system at runtime.
 Elements with behaviour are known as *components* while those representing interactions between such components are known as *connectors*.
 
-The established components in the perception system are the Depth Camera, the Perception System and its subscribers, which are collectively known as the Motion Controller.
-A core component that was omitted from the introduction section is the message broker,
-which allows subscribers to selectively receive published data.
+The established components in the perception system are the Depth Camera, the Perception System and its subscribers,
+which are collectively known as the Motion Controller.
+A core component that was omitted from the introduction section is the message broker, which allows subscribers to selectively receive published data.
 There are two main types of message brokers:
 * Content-based: subscribers declare the properties of the type of messages they are interested in,
 which is then used by the broker to filter matching messages from the publisher.
