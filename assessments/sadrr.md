@@ -175,7 +175,7 @@ The Depth Camera provides the rest of the system with visual data and consists o
 * **Visual Data Logger**\
 The Data Logger component logs captured data to a specified location, be it a file or the console.
 Logging data enables developers to diagnose runtime errors, identify abnormal behaviors and keep track of the system activity.
-It is important that this component is started early and remains fault-tolerant during the operations of the robot
+It is important that this component is started early and remains fault-tolerant during the operations of the robot,
 so it can provide comprehensive insights into any occurring error.
 * **Visual Data Aggregator**\
 As the name suggests, this components directly interact with the APIs supported by the camera and return captured data.
@@ -211,7 +211,7 @@ This data is then published to the **Item Position Topic**, subscribed to by nod
 This component represents the system that controls the movement of the robot arm.
 At the present stage, the robot is already capable of performing pick-and-place tasks accurately.
 With the addition of the computer vision system, the Motion Controller should make decisions based on visual data received through the **Item Position Topic**.
-Since the control system already exists, it will simply be represented by 2 components:
+Since the control system already exists, it will simply be represented by 2 hypothetical components:
 * **Some Robot Axe Controller**\
 This hypothetical component controls motion of the axes of the robot arm.
 * **Some Robot Joint Controller**\
