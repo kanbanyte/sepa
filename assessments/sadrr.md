@@ -210,11 +210,11 @@ This data is then published to the __Item Position Topic__, subscribed to by nod
 ### Motion Controller
 This component represents the system that controls the movement of the robot arm.
 At the present stage, the robot is already capable of performing pick-and-place tasks accurately.
-With the addition of the computer vision system, the Motion Controller should make decisions based on visual data received through the __Item Position Topic__.
+With the addition of the computer vision system, the Motion Controller should make decisions based on visual data received through the **Item Position Topic**.
 Since the control system already exists, it will simply be represented by 2 components:
-* __Some Robot Axe Controller__\
+* **Some Robot Axe Controller**\
 This hypothetical component controls motion of the axes of the robot arm.
-* __Some Robot Joint Controller__\
+* **Some Robot Joint Controller**\
 This hypothetical component controls motion of the joints of the robot arm.
 
 ## Other Alternative Architectures Explored
