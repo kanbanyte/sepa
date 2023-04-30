@@ -189,7 +189,7 @@ narrowing the scope of data that the computer vision system needs to process.
 It takes the aggregated visual data from the __Visual Data Aggregator__ and separates them into multiple frames, each depicting only one type of container.
 
 ### Perception System
-The role of the Perception system is to determines the presence of items-to-be-assembled at their designated positions.
+The role of the Perception system is to determine the presence of items-to-be-assembled at their designated positions.
 This system subscribes to the __Visual Data Topic__ published by the Depth Camera and outputs a data structure that specifies which items are present.
 This information is then published to __Item Position Topic__.
 
