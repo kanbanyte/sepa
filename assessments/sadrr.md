@@ -211,8 +211,11 @@ The types of jobs our system can perform are limited by the specifications of th
 It has a reach of 850mm and can deliver a maximum payload of 5kg (Universal Robots).
 With these constraints the application domain for the system is limited to pick and
 place tasks involving relatively small components in a relatively small environment.
+As the software solution is only concerned with sending control commands to the UR5e robotic arm,
+it is not necessarlirly limited to the same application domain.
 The software solution could be applied to a larger or smaller robotic arm,
-if its controls are similar to the UR5e in order to complete tasks outside of the current application domain.
+if its controls are similar to the UR5e in order to complete tasks outside of
+the UR53 robtotic arm's application domain.
 
 Overall, the program's objective is to boost productivity and
 efficiency while lowering the demand for human intervention in industrial operations.
