@@ -77,7 +77,17 @@ Delete all the explanatory text in RED, including this box before submission.
 > *[This section provides a high-level analysis of the SRS of the target software system from the viewpoint of developing a design solution for it.]*
 
 ## System Goals and Objectives
-> *[Summarise the high-level system goals and objectives, and refer to the SRS document.]*
+The overall goal of this project is to implement an object perception system to allow the cobot to perform its required pick and place task.
+This will require the creation of a program to detect the various objects it has to manipulate, a machine learning system for it to improve its precision, and
+a system to control the cobot's movement utilising the data collected from the perception system.
+
+The system should allow the robot to complete its tasks without user input; it should exclusively use the camera to perceive objects and move them around the environment.
+The object detection and machine learning software should integrate with the robotic control system, implemented with ROS2 in Ubuntu 22.04 LTS,
+to provide it with object position data, allowing the cobot to move to the correct position, pick up the object, and place it in the correct position.
+The required movements and object manipulations will be performed by implementing nodes, topics, services, and actions in ROS2,
+which will allow for a modular software design.
+
+Additionally, the ZED 2 camera should be mounted in a centralised location, giving it full field of view of the task environment with all objects in frame.
 
 ## Assumptions
 > *[List and discuss the assumptions you have made in developing the system design (as presented in this document).]*
