@@ -82,7 +82,7 @@ This will require the creation of a program to detect the various objects it has
 a system to control the cobot's movement utilising the data collected from the perception system.
 
 The system should allow the robot to complete its tasks without user input;
-it should exclusively use the camera to perceive objects and move them around the environment.
+it should exclusively use the Depth Camera to perceive objects and move them around the environment.
 The object detection and ML software should integrate with the robotic control system, implemented with ROS2 in Ubuntu 22.04 LTS,
 to provide it with object position data, allowing the cobot to move to the correct position, pick up the object, and place it in the correct position.
 The required movements and object manipulations will be performed by implementing nodes, topics, services, and actions in ROS2,
