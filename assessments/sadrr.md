@@ -183,10 +183,13 @@ The ZED 2 supports multiple video resolutions and frame rates including 2.2K at 
 Higher resolutions would allow for better object detection whereas higher frame rates would allow for better position tracking.
 
 ### OpenCV
+OpenCV is a software library used for developing computer vision software.
+The perception system will use OpenCV in Python to utilise the video from the ZED 2 camera to detect objects in its field of view.
 
 
 ### PyTorch
-
+PyTorch is a machine learning framework that allows for development in Python.
+This will be used in the perception system to improve the accuracy of the object detection by recording perception data and training the system with this data.
 
 ## Other Research
 > *[Research into other aspects  of the project/system goes here.]*
