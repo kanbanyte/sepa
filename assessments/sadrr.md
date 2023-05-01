@@ -139,6 +139,7 @@ Some basic commands that will be necessary are as follows:
 ROS2 is a collection of packages that will be used for developing the software for the robot system.
 It includes various terminal commands, programming packages for C++ and Python, and data analysis tools that make development for robotics more efficient.
 
+#### Terminal Commands
 In order to access ROS2 commands in the terminal, the following command needs to be run each time a new terminal is started:
 
 `source /opt/ros/humble/setup.bash`
@@ -155,8 +156,23 @@ Some important commands include:
 * `rqt_graph` - Starts an applications that displays the ROS2 graph, containing all nodes, topics, actions, services, etc.
 * `pkg create --build-type [type] [package_name]` - Creates a ROS2 package with the specified type (either `ament_cmake` or `ament_python` for C++ or Python) 
 
-### UR5e Collaborative Robot Arm
+#### C++ and Python Libraries
+ROS2 has two client libraries for C++ and Python that will be used, `rclcpp` and `rclpy` respectively.
+The client libraries share many of the same method and class names to make switching development between the two languages easier.
+Nodes, including publishers, subscribers, service clients, and
+service servers are created by deriving a created class from the `Node` class defined in the client library.
 
+Rather than creating a publisher, subscriber, client, or server by creating a separate class and linking it to a node, the methods `create_publisher()`,
+`create_subscriber()`, `create_client()`, or `create_server()` can be called within the Node class.
+
+Nodes are instantiated by using the `spin()` method in the `main()` method after `init()` is called and before `shutdown()` is called.
+
+### UR5e Collaborative Robot Arm
+The UR5e Collaborative Robot Arm (cobot) is a versatile robotic arm with a payload of 5 kg, reach of 850 mm, and 6 degrees of freedom.
+The payload limit is not necessary to consider because the mass of the objects it will be picking up in this project will be far below 5 kg.
+
+However, the reach may be something to consider to define the boundaries of the cobot so as to not move an object out of bounds, damage the cobot, or injure somebody.
+The 6 degrees of freedom allows it to translate and rotate objects in 3 directions and about 3 axes, enabling it to fully manipulate objects. 
 
 ### ZED 2 AI Stereo Camera
 
