@@ -78,7 +78,7 @@ Delete all the explanatory text in RED, including this box before submission.
 
 ## System Goals and Objectives
 The overall goal of this project is to implement an object perception system to allow the cobot to perform its required pick and place task.
-This will require the creation of a program to detect the various objects it has to manipulate, a machine learning system for it to improve its precision, and
+This will require the creation of a program to detect the various objects it has to manipulate, a machine learning algorithm for it to improve its precision, and
 a system to control the cobot's movement utilising the data collected from the perception system.
 
 The system should allow the robot to complete its tasks without user input; it should exclusively use the camera to perceive objects and move them around the environment.
