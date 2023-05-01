@@ -168,17 +168,19 @@ Rather than creating a publisher, subscriber, client, or server by creating a se
 Nodes are instantiated by using the `spin()` method in the `main()` method after `init()` is called and before `shutdown()` is called.
 
 ### UR5e Collaborative Robot Arm
-The UR5e Collaborative Robot Arm (cobot) is a versatile robotic arm with a payload of 5 kg, reach of 850 mm, and 6 degrees of freedom.
+The UR5e collaborative robot arm (cobot) is a versatile robotic arm with a payload of 5 kg, reach of 850 mm, and 6 degrees of freedom.
 The payload limit is not necessary to consider because the mass of the objects it will be picking up in this project will be far below 5 kg.
 
 However, the reach may be something to consider to define the boundaries of the cobot so as to not move an object out of bounds, damage the cobot, or injure somebody.
 The 6 degrees of freedom allows it to translate and rotate objects in 3 directions and about 3 axes, enabling it to fully manipulate objects. 
 
 ### ZED 2 AI Stereo Camera
+The ZED 2 camera utilises binocular vision to sense depth much like a human would, which will allow the perception system to detect objects and
+their positions to a much higher precision.
+It has a depth range between 0.2 m and 20 m and a 120 degree field of view giving it a wider detection area and allows for better tracking of object positions.
 
-
-### GitHub
-
+The ZED 2 supports multiple video resolutions and frame rates including 2.2K at 15 fps, 1080p at 30 fps or 15 fps, and 720p at 60 fps, 30 fps, or 15 fps.
+Higher resolutions would allow for better object detection whereas higher frame rates would allow for better position tracking.
 
 ### OpenCV
 
