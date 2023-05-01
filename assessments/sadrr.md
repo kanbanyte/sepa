@@ -237,7 +237,78 @@ They explored different organisational strategies and established guidelines for
 > *[Research into the system design goes here.]*
 
 ## Research into Technical Platforms, Languages and Tools
-> *[Research into the technical platforms, programming languages and tools goes here.]*
+A variety of technical platforms, languages, and tools will be required to successfully complete the project.
+This sections will discuss these aspects in further depth, explaining their use with respect to the project.
+
+### Ubuntu 22.04 LTS
+The client has specified that the software should run on Ubuntu 22.04 LTS, and therefore the programs will be developed on this operating system.
+Additionally, because development will also be undertaken remotely, a virtual machine may also be required to be installed to use Ubuntu.
+VirtualBox will be used in this case because it is easy to set up, but development at the FoF will be conducted with the provided computer.
+
+Ubuntu makes frequent use of the terminal to perform commands and to aid with development; a good understanding of the terminal will be required.
+Some basic commands that will be necessary are as follows:
+* `ls` - Lists the folders and files in the current directory
+* `cd [directory]` - Changes the directory to the specified directory
+* `touch [file_name]` - Creates a new file
+* `mkdir [directory_name]` - Makes a new directory
+* `clear` - Clears the terminal screen
+* `sudo apt install [package]` - `sudo` runs a command with root privileges, `apt` manages packages, and `install` installs a package
+* `sudo apt update` & `sudo apt upgrade` - Updates package cache and installs the update, respectively
+
+### ROS2
+ROS2 is a collection of packages that will be used for developing the software for the robot system.
+It includes various terminal commands, programming packages for C++ and Python, and data analysis tools that make development for robotics more efficient.
+
+#### Terminal Commands
+In order to access ROS2 commands in the terminal, the following command needs to be run each time a new terminal is started:
+
+`source /opt/ros/humble/setup.bash`
+
+To have ROS2 commands included in any terminal at startup, this command can be used:
+
+`echo "source "source /opt/ros/humble/setup.bash" >> ~/.bashrc`
+
+ROS2 commands are accessed by using the `ros2` command.
+Some important commands include:
+* `run [package] [executable]` - Runs an executable file in a package, can be used to start nodes or other ROS2 structures
+* `[type] list` - Lists all of the specified type which can be: `node`, `topic`, `action`, etc.
+* `[type] info` - Returns a list of subscribers, publisher, services, and actions associated with that node
+* `rqt_graph` - Starts an applications that displays the ROS2 graph, containing all nodes, topics, actions, services, etc.
+* `pkg create --build-type [type] [package_name]` - Creates a ROS2 package with the specified type (either `ament_cmake` or `ament_python` for C++ or Python) 
+
+#### C++ and Python Libraries
+ROS2 has two client libraries for C++ and Python that will be used, `rclcpp` and `rclpy` respectively.
+The client libraries share many of the same method and class names to make switching development between the two languages easier.
+Nodes, including publishers, subscribers, service clients, and
+service servers are created by deriving a created class from the `Node` class defined in the client library.
+
+Rather than creating a publisher, subscriber, client, or server by creating a separate class and linking it to a node, the methods `create_publisher()`,
+`create_subscriber()`, `create_client()`, or `create_server()` can be called within the Node class.
+
+Nodes are instantiated by using the `spin()` method in the `main()` method after `init()` is called and before `shutdown()` is called.
+
+### UR5e Collaborative Robot Arm
+The UR5e collaborative robot arm (cobot) is a versatile robotic arm with a payload of 5 kg, reach of 850 mm, and 6 degrees of freedom.
+The payload limit is not necessary to consider because the mass of the objects it will be picking up in this project will be far below 5 kg.
+
+However, the reach may be something to consider to define the boundaries of the cobot so as to not move an object out of bounds, damage the cobot, or injure somebody.
+The 6 degrees of freedom allows it to translate and rotate objects in 3 directions and about 3 axes, enabling it to fully manipulate objects. 
+
+### ZED 2 AI Stereo Camera
+The ZED 2 camera utilises binocular vision to sense depth much like a human would, which will allow the perception system to detect objects and
+their positions to a much higher precision.
+It has a depth range between 0.2 m and 20 m and a 120 degree field of view giving it a wider detection area and allows for better tracking of object positions.
+
+The ZED 2 supports multiple video resolutions and frame rates including 2.2K at 15 fps, 1080p at 30 fps or 15 fps, and 720p at 60 fps, 30 fps, or 15 fps.
+Higher resolutions would allow for better object detection whereas higher frame rates would allow for better position tracking.
+
+### OpenCV
+OpenCV is a software library used for developing computer vision software.
+The perception system will use OpenCV in Python to utilise the video from the ZED 2 camera to detect objects in its field of view.
+
+### PyTorch
+PyTorch is a machine learning framework that allows for development in Python.
+This will be used in the perception system to improve the accuracy of the object detection by recording perception data and training the system with this data.
 
 ## Other Research
 In addition to the research indicated so far, research will have to be conducted by HeeHooVision into the specific methods that AI tools, such as PyTorch and OpenCV,
