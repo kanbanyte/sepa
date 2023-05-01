@@ -226,7 +226,8 @@ returns a stream of feedback and a result.
 This will create a feedback loop allowing the perception system and
 the robotic system to be in constant communication.
 The data sent out between nodes can be recorded and replayed using bags.
-This is useful for troubleshooting issues such as actions not being performed correctly and will help identify exactly what the issue it.
+This is useful for troubleshooting issues such as actions not being performed correctly and
+will help identify exactly what the issue it.
 
 The system will also prioritize non-functional requirements such as reliability, modularity, security, and performance.
 
