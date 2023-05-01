@@ -97,6 +97,9 @@ When developing the system design for this project, the following assumptions we
 However, the system will have to halt when an object is detected and found to obstruct the cobot in completing its task.
 * The fine motor controls for the cobot is already completed and accurate.\
 As such, no development will need to be made to derive and implement transfer functions.
+* The tools and softwares used in the project (i.e. ZED2 Depth Camera, UR5e Robot arm and ROS2) are not subject to change.
+* The types of objects the cobot will interact with are not subject to change.
+* The locations of where the cobot will have to pick up objects is not subject to change.
 * The locations of where the cobot will have to place objects is not subject to change.
 * Objects that are almost identical, such as the PCB parts, will have labels to distinguish between different types, such as the PCB for a barometer vs. a thermometer.
 
