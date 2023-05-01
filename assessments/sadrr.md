@@ -95,12 +95,12 @@ Delete all the explanatory text in RED, including this box before submission.
 > *Note that this section is about the high-level architecture design (rather than a lower-level detailed design in the next section).*
 
 ## System Architecture
-This section explores the chosen architectural design, pub-sub, in greater detail by representing it in a component-and-connector (C&C) view.
-C&C focuses on illustrating the relationship between elements within the system at runtime.
-Elements with behaviour are known as *components* while those representing interactions between such components are known as *connectors*.
+This section explores the chosen architectural design, pub-sub, in greater detail by representing components, their sub-components and
+explains their responsibilities and relationships with each other.
+The section also discusses how the pub-sub mechanism is achieved at a high level in the  established development environment (ROS2 running on Ubuntu).
+The established components in the perception system are the **Depth Camera**, the **Perception System** and its subscribers,
+which are collectively known as the **Motion Controller**.
 
-The established components in the perception system are the Depth Camera, the Perception System and its subscribers,
-which are collectively known as the Motion Controller.
 A core component that was omitted earlier is the message broker, which allows subscribers to selectively receive published data.
 There are two main types of message brokers:
 * Content-based: subscribers declare the properties of the type of messages they are interested in,
