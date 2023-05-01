@@ -205,10 +205,14 @@ The perception system will use the images recorded by the ZED 2 camera and
 AI-related libraries in Python such as PyTorch and
 OpenCV to perform real-time object detection, processing, and
 analysis to find the position of the chips.
+
 Training the AI will require a collection of images called a dataset (Towards Data Science, 2018).
-The dataset will contain hundreds to thousands of sample images of environment we want the artificial intelligence model to recognize.
-The AI will be designed for continuous learning and adaptation to new object types. 
-The perception system will pass location data to the robotic control system automatically when the systems require location data, needing no human intervention.
+The dataset will contain hundreds to thousands of sample images of the environment we want the artificial intelligence model to recognize.
+The AI will be designed for continuous learning and adaptation to new object types.
+Every photo taken after the system's implementation will be stored in the data set and
+will be used to further train the AI.
+The perception system will pass location data to the robotic control system automatically when the systems require location data,
+needing no human intervention.
 
 The software system will interact with the ROS2 and Ubuntu systems,
 with ROS2 providing movement instructions for the cobot and
