@@ -112,62 +112,73 @@ Topics are the connectors for the main three components.
 
 The below diagrams provides a detailed view of the components within the system:
 ```mermaid
-flowchart TD
+stateDiagram-v2
+	direction TB
+	state fork1 <<fork>>
+	state fork2 <<fork>>
+
 	%% Topics
-	Img1{Image Topic 1}
-	Img2{Image Topic 2}
-	ImgN{Image Topic n}
-	VisDat{Visual Data Topic}
-	ItemPos{Item Position Topic}
+	state "Image Topic 1" as Img1
+	state "Image Topic 2" as Img2
+	state "Image Topic n" as ImgN
+	state "Visual Data Topic" as VisualData
+	state "Item Position Topic" as Item
 
 	%% Sub-components in the Depth Camera
-	VisDatAgg[Visual Data Aggregator]
-	ConDec[Container Detector]
-	VisDatLog[Visual Data Logger]
-	Zed2[ZED 2 Depth Camera]
+	state "Visual Data Aggregator" as Aggregator
+	state "Container Detector" as Detector
+	state "Visual Data Logger" as CameraLog
 
 	%% Sub-components in the Perception System
-	IVal[Input Data Validator]
-	CVnet[Computer Vision Network]
-	CVDatLog[Perception Data Logger]
-	PosDatFmt[Position Data Formatter]
+	state "Input Data Validator" as Validator
+	state "Computer Vision Network" as Network
+	state "Perception Data Logger" as SystemLog
+	state "Position Data Formatter" as Formatter
 
 	%% Sub-components in the Motion Controller
-	JointCtrl[Some Robot Joint Controller]
-	AxisCtrl[Some Robot Axis Controller]
+	state "Some Robot Axis Controller" as AxisCtrl
+	state "Some Robot Joint Controller" as JointCtrl
 
 	%% Components and relationships within them
-	subgraph Camera[Depth Camera]
-		Zed2 --> Img1
-		Zed2 --> Img2
-		Zed2 --> ImgN
+	state "Depth Camera" as Camera {
+		[*] --> Images
+		Images --> Aggregator
+		Aggregator --> Detector
+		Detector --> [*]
+	}
 
-		Img1 --> VisDatAgg
-		Img2 --> VisDatAgg
-		ImgN --> VisDatAgg
+	state "Perception System" as Perception {
+		[*] --> Validator
+		Validator --> fork1
+		fork1 --> Network
+		fork1 --> SystemLog
+		Network --> Formatter
+		Formatter --> [*]
+	}
 
-		VisDatAgg --> ConDec
+	state "Motion Controller" as Controller {
+		AxisCtrl
+		--
+		JointCtrl
+	}
 
-		ConDec --> VisDatLog
-		VisDatAgg --> VisDatLog
-		ConDec --> VisDat
-	end
+	%% Further Implemented Concurrency
+	state Images {
+		Img1
+		--
+		Img2
+		--
+		ImgN
+	}
 
-	subgraph PercSys[Perception System]
-		VisDat --> IVal
-		IVal --> CVnet
-		CVnet --> PosDatFmt
-
-		IVal --> CVDatLog
-		CVnet --> CVDatLog
-
-		PosDatFmt --> ItemPos
-	end
-
-	subgraph MotCtrl[Motion Controller]
-		ItemPos --> AxisCtrl
-		ItemPos --> JointCtrl
-	end
+	[*] --> Camera
+	Camera --> fork2
+	fork2 --> VisualData
+	fork2 --> CameraLog
+	VisualData --> Perception
+	Perception --> Item
+	Item --> Controller
+	Controller --> [*]
 ```
 
 ### Depth Camera
