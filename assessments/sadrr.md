@@ -221,7 +221,7 @@ Within the ROS2 framework, all programs are considered nodes and serve a single 
 The ROS2 nodes and the vision system nodes will communicate by actions. 
 In ROS2 actions allow you to execute long running tasks, provide regular feedback, and are cancellable.
 They consist of three parts: a goal, feedback, and a result.
-An “action client” node sends a goal to an “action server” node that acknowledges the goal and
+An *action client* node sends a goal to an *action server* node that acknowledges the goal and
 returns a stream of feedback and a result.
 This will create a feedback loop allowing the perception system and
 the robotic system to be in constant communication.
