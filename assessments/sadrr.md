@@ -194,40 +194,31 @@ the system will need modifications to accommodate said components.
 ## Research into Application Domain
 > *[Research into the application domain goes here.]*
 
-## Research into System Design
+## System Design
 The system will consist of a perception system, and a robotic control program.
 
-The vision system uses a ZED 2 depth camera. 
-The camera uses an 8-element lens with optically corrected distortion and
-a wider ƒ/1.8 aperture, the ZED 2's field of view extends to 120° (Stereo Labs, 2023) and
-is capable of recording in, 720p, 1080p and 2.2K resolutions.
-The perception system will use the images recorded by the ZED 2 camera and
-AI-related libraries in Python such as PyTorch and
-OpenCV to perform real-time object detection, processing, and
-analysis to find the position of the chips.
+The vision system uses a ZED 2 Depth Camera.
+The Depth Camera uses an 8-element lens with optically corrected distortion and
+a wider f/1.8 aperture, the Depth Camera's field of view extends to 120&deg; (Stereo Labs, 2023) and is capable of recording in, 720p, 1080p and 2.2K resolutions.
+The perception system will use the images recorded by the Depth Camera and AI-related libraries in Python such as PyTorch and
+OpenCV to perform real-time object detection, processing, and analysis to find the position of the chips.
 
 Training the AI will require a collection of images called a dataset (Towards Data Science, 2018).
 The dataset will contain hundreds to thousands of sample images of the environment we want the artificial intelligence model to recognize.
 The AI will be designed for continuous learning and adaptation to new object types.
-Every photo taken after the system's implementation will be stored in the data set and
-will be used to further train the AI.
-The perception system will pass location data to the robotic control system automatically when the systems require location data,
-needing no human intervention.
+Every photo taken after the system's implementation will be stored in the data set and will be used to further train the AI.
+The perception system will pass location data to the robotic control system automatically when the systems require location data, needing no human intervention.
 
 The software system will interact with the ROS2 and Ubuntu systems,
-with ROS2 providing movement instructions for the cobot and
-Ubuntu being used to run ROS2 and integrate with the provided hardware.
+with ROS2 providing movement instructions for the cobot and Ubuntu being used to run ROS2 and integrate with the provided hardware.
 Within the ROS2 framework, all programs are considered nodes and serve a single modular purpose. 
 The ROS2 nodes and the vision system nodes will communicate by actions. 
 In ROS2 actions allow you to execute long running tasks, provide regular feedback, and are cancellable.
 They consist of three parts: a goal, feedback, and a result.
-An *action client* node sends a goal to an *action server* node that acknowledges the goal and
-returns a stream of feedback and a result.
-This will create a feedback loop allowing the perception system and
-the robotic system to be in constant communication.
+An *action client* node sends a goal to an *action server* node that acknowledges the goal and returns a stream of feedback and a result.
+This will create a feedback loop allowing the perception system and the robotic system to be in constant communication.
 The data sent out between nodes can be recorded and replayed using bags.
-This is useful for troubleshooting issues such as actions not being performed correctly and
-will help identify exactly what the issue it.
+This is useful for troubleshooting issues such as actions not being performed correctly and will help identify exactly what the issue it.
 
 The system will also prioritize non-functional requirements such as reliability, modularity, security, and performance.
 
