@@ -107,7 +107,7 @@ There are two main types of message brokers:
 which is then used by the broker to filter matching messages from the publisher.
 * Topic-based (**preferred**): subscribers communicates their intentions by subscribing themselves to *topics*, which represent isolated logical channels.
 Each topic concentrates on a distinct type of information, enabling publishers to categorize shared data without knowing which subscribers are listening to that topic.\
-This is chosen as the broker mechanism for the system because of its support in ROS2 and suitability with the sensory data stream from the ZED 2 camera.
+This is chosen as the broker mechanism for the system because of its support in ROS2 and suitability with the sensory data stream from the Depth Camera.
 In this system, topics are the main medium through which the three primary components communicate, enabling asynchronous messaging and keeping components decoupled.
 
 The below diagrams provides a detailed view of the components within the system.
