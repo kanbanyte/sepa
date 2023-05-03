@@ -191,7 +191,7 @@ the system will need modifications to accommodate said components.
 > *Theses research efforts may be related to **understanding** the system's business/application domain, system design*
 > *(eg, similar existing systems, architecture styles and patterns, etc), technological platforms and programming languages, and so on.]*
 
-## Research into Application Domain
+## Application Domain
 The application domain for the system is in the field of robotics and AI, specifically computer vision, depth sensors, and automation.
 
 Similar programs are utilised in the field of industrial automation,
