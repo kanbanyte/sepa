@@ -94,6 +94,10 @@ Semantic Versioning, Version Control/Software Versioning Strategy.
 Machine learning, A type of AI where the computer learns.
 * **OS:**
 Operating System.
+* **PLC:**
+Programmable Logic Controller
+* **Pub-sub:**
+publisher-subscriber
 * **SADRR:**
 System Architecture Design and Research Report.
 * **Project 24:**
