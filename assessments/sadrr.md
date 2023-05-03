@@ -226,7 +226,7 @@ This component represents the system that controls the movement of the robot arm
 At the present stage, the robot is already capable of performing pick-and-place tasks accurately.
 With the addition of the computer vision system, the Motion Controller should make decisions based on visual data received through the **Item Position Topic**.
 Since the control system already exists, it will simply be represented by 2 hypothetical components:
-* **Some Robot Axe Controller**\
+* **Some Robot Axis Controller**\
 This hypothetical component controls motion of the axes of the robot arm.
 * **Some Robot Joint Controller**\
 This hypothetical component controls motion of the joints of the robot arm.
