@@ -98,7 +98,7 @@ Delete all the explanatory text in RED, including this box before submission.
 This section explores the chosen architectural design, pub-sub, in greater detail by representing components, their sub-components and
 explains their responsibilities and relationships with each other.
 The section also discusses how the pub-sub mechanism is achieved at a high level in the  established development environment (ROS2 running on Ubuntu).
-The established components in the perception system are the **Depth Camera**, the **Perception System** and its subscribers,
+At a high level, the major components in the perception system are the **Depth Camera**, the **Image Processing System** and its subscribers,
 which are collectively known as the **Motion Controller**.
 
 A core component that was omitted earlier is the message broker, which allows subscribers to selectively receive published data.
@@ -106,11 +106,13 @@ There are two main types of message brokers:
 * Content-based: subscribers declare the properties of the type of messages they are interested in,
 which is then used by the broker to filter matching messages from the publisher.
 * Topic-based (**preferred**): subscribers communicates their intentions by subscribing themselves to *topics*, which represent isolated logical channels.
-This is chosen as the broker mechanism for the new perception system because it is supported by ROS2, the Depth Camera, and
-is intended to work with sensory data flow i.e., the visual input stream from the Depth Camera.
-Topics are the connectors for the main three components.
+Each topic concentrates on a distinct type of information, enabling publishers to categorize shared data without knowing which subscribers are listening to that topic.\
+This is chosen as the broker mechanism for the system because of its support in ROS2 and suitability with the sensory data stream from the ZED 2 camera.
+In this system, topics are the main medium through which the three primary components communicate, enabling asynchronous messaging and keeping components decoupled.
 
-The below diagrams provides a detailed view of the components within the system:
+The below diagrams provides a detailed view of the components within the system.
+The flow of the diagram represents the body of the main control loop, starting with the depth camera and ending with the robot movement.
+
 ```mermaid
 stateDiagram-v2
 	direction TB
@@ -129,7 +131,7 @@ stateDiagram-v2
 	state "Container Detector" as Detector
 	state "Visual Data Logger" as CameraLog
 
-	%% Sub-components in the Perception System
+	%% Sub-components in the Image Processing System
 	state "Input Data Validator" as Validator
 	state "Computer Vision Network" as Network
 	state "Perception Data Logger" as SystemLog
@@ -147,7 +149,7 @@ stateDiagram-v2
 		Detector --> [*]
 	}
 
-	state "Perception System" as Perception {
+	state "Image Processing System" as ImgProcessor {
 		[*] --> Validator
 		Validator --> fork1
 		fork1 --> Network
@@ -175,8 +177,8 @@ stateDiagram-v2
 	Camera --> fork2
 	fork2 --> VisualData
 	fork2 --> CameraLog
-	VisualData --> Perception
-	Perception --> Item
+	VisualData --> ImgProcessor
+	ImgProcessor --> Item
 	Item --> Controller
 	Controller --> [*]
 ```
@@ -199,7 +201,7 @@ This component is responsible for identifying the locations of these container, 
 narrowing the scope of data that the computer vision system needs to process.
 It takes the aggregated visual data from the **Visual Data Aggregator** and separates them into multiple frames, each depicting only one type of container.
 
-### Perception System
+### Image Processing System
 The role of the Perception system is to determine the presence of items-to-be-assembled at their designated positions.
 This system subscribes to the **Visual Data Topic** published by the Depth Camera and outputs a data structure that specifies which items are present.
 This information is then published to **Item Position Topic**.
@@ -212,7 +214,8 @@ To maintain high accuracy, data must be passed to this sub-component to determin
 The perception system needs to retains information about the data it retrieved, its outputs, confidence level and other metadata.
 This data is useful for telemetry, debugging and computer vision model training.
 * **Computer Vision Network**\
-This is the core component of the Perception System, which detects the presence of items to be assembled based on validated input data.
+This is the core of the **Image Processing System**, which detects the presence of items to be assembled based on validated input data.
+This sub-component represents the machine-learning network trained to detect the presence of objects at their designated position.
 * **Position Data Formatter**\
 The raw output of **Computer Vision Network** is not public to other components since it is most likely not useful to them.
 The results of the data prediction model should only include boolean data representing the presence/absence of an item.
