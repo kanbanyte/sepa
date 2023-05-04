@@ -199,7 +199,7 @@ The system will consist of a perception system, and a robotic control program.
 
 The vision system uses a ZED 2 Depth Camera.
 The Depth Camera uses an 8-element lens with optically corrected distortion and
-a wider f/1.8 aperture, the Depth Camera's field of view extends to 120&deg; (Stereo Labs, 2023) and is capable of recording in, 720p, 1080p and 2.2K resolutions.
+a wider f/1.8 aperture, the Depth Camera's field of view extends to 120&deg; and is capable of recording in, 720p, 1080p and 2.2K resolutions.
 The perception system will use the images recorded by the Depth Camera and AI-related libraries in Python such as PyTorch and
 OpenCV to perform real-time object detection, processing, and analysis to find the position of the chips.
 
