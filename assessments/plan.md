@@ -166,16 +166,14 @@ To achieve this, the following must be achieved:
 The scope of this project includes the development of a vision system that is compatible with the robot's hardware and software.
 
 The following list outlines the capabilities that are in scope of the project, in addition to existing pick-and-place operations of the cobot.
-Note that "objects" or "items" strictly refer to the components to be assembled:
-* detection of objects under varying lighting conditions and at different distances that are within reach of the cobot.
-* detection of partially occluded objects.
-* detection of absent objects and ability to shift to an alternative position.
+* Detection of components under varying lighting conditions and at different distances that are within reach of the cobot.
+* Detection of partially occluded components.
+* Detection of absent components and ability to shift to an alternative position.
 
-The following capabilities, including those that may emerge in later stages of the project,
-are considered to be out of scope:
-* detection of transparent objects.
-* detection or manipulation of fallen or mal-oriented objects (such objects are considered to be absent).
-* detection or manipulation of objects that differ from originally established shapes.
+The following capabilities, including those that may emerge in later stages of the project, are considered to be out of scope.
+* Detection of transparent components.
+* Detection or manipulation of fallen or mal-oriented components (such components are considered to be absent).
+* Detection or manipulation of components that differ from originally established shapes.
 
 <div class="page"/><!-- page break -->
 
