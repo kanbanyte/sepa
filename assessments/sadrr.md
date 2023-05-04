@@ -222,7 +222,6 @@ This is useful for troubleshooting issues such as actions not being performed co
 
 The system will also prioritize non-functional requirements such as reliability, modularity, security, and performance.
 
-
 ## Research into Technical Platforms, Languages and Tools
 > *[Research into the technical platforms, programming languages and tools goes here.]*
 
