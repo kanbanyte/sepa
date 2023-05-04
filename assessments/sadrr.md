@@ -344,12 +344,22 @@ This hypothetical component controls motion of the joints of the robot arm.
 ### Messaging Queue
 A message is data of any type thate needs to be transmitted and a queue in a line of messages.
 A good example of a messaging queue is and email inbox, data can be published to the inbox then the publisher can complete other actions, without needing an imediate response.
+The messages sent to the queue are held there until a client is ready to read them.
+This is shown in the diagram below:
+```mermaid
+flowchart TD
+    A(Publisher) -->|Message 1| B(Queue)
+    A -->|Message 2| B
+    A -->|Message 3| B
+    B -->|Data n|C(Client)
+   
+```
 The client can read the published data at any time and can send a response at any time.
-This is also known as decoupling where two or more systems work together without being directly connected.
+This is known as decoupling where two or more systems work together without being directly connected.
 This means that changes can be made to one program without effecting the workings of other programs.
-However, the project's software requires multiple programs to send requests and replys to other promgrams.
-This would required many queues as to implement request and reply functionality between 2 programs requires a seprate queue for both the request and the reply.
-The large number of queues would reduce the speed and effciency of the project's software hence why this architecture was not chosen.
+However, the project requires multiple programs to send requests and replys to other promgrams.
+This would require many queues as to implement request and reply functionality between 2 programs requires a seprate queue for both the request and the reply.
+The large number of queues would reduce the speed and effciency of the project hence why this architecture was not chosen.
 
 ### Multiple Layers
 As the name suggests, the system is divided into multiple layers, each with a well-defined responsibility.
@@ -360,6 +370,23 @@ The software system in this particular project may be divided into 3 layers:
 
 A significant drawback of this model is the lack of flexibility as newly added components must either be fitted into an existing layer or
 the system will need modifications to accommodate said components.
+
+The layered architecture is defined by multiple layers that are stacked on top of each other, with each layer responsible for a different operation.
+Only layers that are adjacent may communicate to one another and only the lower layers never call an upper layer.
+The upper layers call the lower layers and the lower layers can only reply to upper layer.
+This is described in the figure below:
+```mermaid
+flowchart TD
+    A(Layer 1) -->|Request| B(Layer 2)
+    B-->|Reply|A
+    B -->|Request| C(Layer 3)
+    C-->|Reply|B
+    C -->|Request| D(Layer 4)
+    D-->|Reply|C
+```
+As requests must flow through multiple layers without being able to skip over a layer, the time taken to execute tasks is greater when using this architecture.
+The project requires multiple programs to interact with multiple other programs so it requires that layers can be skipped.
+For this reason this architecture was not chosen.
 
 <div class="page"/><!-- page break -->
 
