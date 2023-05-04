@@ -341,8 +341,25 @@ This hypothetical component controls motion of the axes of the robot arm.
 This hypothetical component controls motion of the joints of the robot arm.
 
 ## Other Alternative Architectures Explored
-> *[Present and discuss two additional architecture alternatives that have been explored and*
-> *provide the rationale as to why they are considered inferior to the chosen architecture.]*
+### Messaging Queue
+A message is data of any type thate needs to be transmitted and a queue in a line of messages.
+A good example of a messaging queue is and email inbox, data can be published to the inbox then the publisher can complete other actions, without needing an imediate response.
+The client can read the published data at any time and can send a response at any time.
+This is also known as decoupling where two or more systems work together without being directly connected.
+This means that changes can be made to one program without effecting the workings of other programs.
+However, the project's software requires multiple programs to send requests and replys to other promgrams.
+This would required many queues as to implement request and reply functionality between 2 programs requires a seprate queue for both the request and the reply.
+The large number of queues would reduce the speed and effciency of the project's software hence why this architecture was not chosen.
+
+### Multiple Layers
+As the name suggests, the system is divided into multiple layers, each with a well-defined responsibility.
+The software system in this particular project may be divided into 3 layers:
+* Perception Layer, which process inputs.
+* Movement Layer, which computes the desired robot movement.
+* Command Layer, which translates these movements into commands.
+
+A significant drawback of this model is the lack of flexibility as newly added components must either be fitted into an existing layer or
+the system will need modifications to accommodate said components.
 
 <div class="page"/><!-- page break -->
 
