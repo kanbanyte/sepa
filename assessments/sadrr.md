@@ -203,7 +203,7 @@ a wider f/1.8 aperture, the Depth Camera's field of view extends to 120&deg; and
 The perception system will use the images recorded by the Depth Camera and AI-related libraries in Python such as PyTorch and
 OpenCV to perform real-time object detection, processing, and analysis to find the position of the chips.
 
-Training the AI will require a collection of images called a dataset (Towards Data Science, 2018).
+Training the AI will require a collection of images called a dataset.
 The dataset will contain hundreds to thousands of sample images of the environment we want the artificial intelligence model to recognize.
 The AI will be designed for continuous learning and adaptation to new object types.
 Every photo taken after the system's implementation will be stored in the data set and will be used to further train the AI.
