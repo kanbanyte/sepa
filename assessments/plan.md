@@ -74,7 +74,7 @@ Delete all the explanatory text in RED, including this box before submission.
 		* [PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS](#project-supervisor-team-leader-and-key-project-members)
 * [TERMS OF REFERENCE](#terms-of-reference)
 	* [OBJECTIVES](#objectives)
-	* [SCOPE](#scope)
+	* [Scope](#scope)
 	* [CRITICAL SUCCESS FACTORS](#critical-success-factors)
 	* [ACCEPTANCE CRITERIA](#acceptance-criteria)
 * [ESTABLISHMENT](#establishment)
@@ -162,7 +162,7 @@ To achieve this, the following must be achieved:
 * The vision system should also be able to detect if objects are missing/out of place and pause until given a command that it is safe to continue.
 * The vision system will provide the robot with ample information to perform and subsequently execute its task.
 
-## SCOPE
+## Scope
 The scope of this project includes the development of a vision system that is compatible with the robot's hardware and software.
 
 The following list outlines the capabilities that are in scope of the project, in addition to existing pick-and-place operations of the cobot.
