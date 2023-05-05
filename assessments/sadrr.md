@@ -421,8 +421,26 @@ HeeHooVision further covered many topics to assist with achieving the project, t
 HeeHooVision also conducted research into GitHub to ensure that the project was well-organised and easily accessible to team members.\
 They explored different organisational strategies and established guidelines for version control and collaboration to ensure that the project ran smoothly.
 
-## Research into Application Domain
-> *[Research into the application domain goes here.]*
+## Application Domain
+The application domain for the system is in the field of robotics and AI, specifically computer vision, depth sensors, and automation.
+
+Similar programs are utilised in the field of industrial automation,
+where they are used to automate product assembly on a factory floor or carry out other repetitive operations that call for accuracy and precision.
+For this reason, the software solution should be useable by those without knowledge of robotics so factory floor workers can operate the system.
+This can be achieved with a user-friendly interface and informative troubleshooting messages.
+The perception system allows the robotic arm to see and understand its surroundings,
+enabling it to carry out more difficult jobs that call for a higher level of situational awareness, allowing for more dynamic and
+complex tasks to be completed whilst reducing the need for physical labour and human interaction.
+
+The types of jobs our system can perform are limited by the specifications of the UR5e robotic arm.
+It has a reach of 850mm and can deliver a maximum payload of 5kg (Universal Robots).
+With these constraints the application domain for the system is limited to pick and place tasks involving relatively small components in a relatively small environment.
+As the software solution is only concerned with sending control commands to the UR5e robotic arm, it is not necessarily limited to the same application domain.
+The software solution could be applied to a larger or smaller robotic arm,
+if its controls are similar to the UR5e in order to complete tasks outside of the UR5e robotic arm's application domain.
+
+Overall, the program's objective is to boost productivity and efficiency while lowering the demand for human intervention in industrial operations.
+The system falls under the application domain of industrial automation and robotics with a focus on computer vision and AI.
 
 ## Research into System Design
 > *[Research into the system design goes here.]*
