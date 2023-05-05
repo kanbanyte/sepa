@@ -348,17 +348,19 @@ data can be published to the inbox then the publisher can complete other actions
 The messages sent to the queue are held there until a client is ready to read them.\
 This is shown in the diagram below:
 ```mermaid
-flowchart TB
+stateDiagram
 	%% nodes
-	P(Publisher)
-	Q(Queue)
-	C(Client)
-
+	state "Publisher" as P
+	state "Queue" as Q
+	state "Clientr" as C
+	state fork <<fork>>
+	
 	%% transitions
-	P -->|Message 1| Q
-	P -->|Message 2| Q
-	P -->|Message 3| Q
-	Q -->|Data n| C
+	P --> fork
+	fork --> Q : Message 1
+	fork --> Q : Message 2
+	fork --> Q : Message 3
+	Q --> C : Data n
 ```
 
 The client can read the published data at any time and can send a response at any time.\
