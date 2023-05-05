@@ -442,8 +442,33 @@ if its controls are similar to the UR5e in order to complete tasks outside of th
 Overall, the program's objective is to boost productivity and efficiency while lowering the demand for human intervention in industrial operations.
 The system falls under the application domain of industrial automation and robotics with a focus on computer vision and AI.
 
-## Research into System Design
-> *[Research into the system design goes here.]*
+## System Design
+The system will consist of a perception system, and a robotic control program.
+
+The vision system uses a ZED 2 Depth Camera.
+The Depth Camera uses an 8-element lens with optically corrected distortion and
+a wider f/1.8 aperture, the Depth Camera's field of view extends to 120&deg; and is capable of recording in, 720p, 1080p and 2.2K resolutions.
+The perception system will use the images recorded by the Depth Camera and AI-related libraries in Python such as PyTorch and
+OpenCV to perform real-time object detection, processing, and analysis to find the position of the chips.
+
+Training the AI will require a collection of images called a dataset.
+The dataset will contain hundreds to thousands of sample images of the environment we want the artificial intelligence model to recognize.
+The AI will be designed for continuous learning and adaptation to new object types.
+Every photo taken after the system's implementation will be stored in the data set and will be used to further train the AI.
+The perception system will pass location data to the robotic control system automatically when the systems require location data, needing no human intervention.
+
+The software system will interact with the ROS2 and Ubuntu systems,
+with ROS2 providing movement instructions for the cobot and Ubuntu being used to run ROS2 and integrate with the provided hardware.
+Within the ROS2 framework, all programs are considered nodes and serve a single modular purpose. 
+The ROS2 nodes and the vision system nodes will communicate by actions. 
+In ROS2 actions allow you to execute long running tasks, provide regular feedback, and are cancellable.
+They consist of three parts: a goal, feedback, and a result.
+An *action client* node sends a goal to an *action server* node that acknowledges the goal and returns a stream of feedback and a result.
+This will create a feedback loop allowing the perception system and the robotic system to be in constant communication.
+The data sent out between nodes can be recorded and replayed using bags.
+This is useful for troubleshooting issues such as actions not being performed correctly and will help identify exactly what the issue it.
+
+The system will also prioritize non-functional requirements such as reliability, modularity, security, and performance.
 
 ## Research into Technical Platforms, Languages and Tools
 A variety of technical platforms, languages, and tools will be required to successfully complete the project.
