@@ -342,8 +342,8 @@ This hypothetical component controls motion of the joints of the robot arm.
 
 ## Other Alternative Architectures Explored
 ### Messaging Queue
-A message is data of any type thate needs to be transmitted and a queue in a line of messages.
-A good example of a messaging queue is and email inbox, data can be published to the inbox then the publisher can complete other actions, without needing an imediate response.
+A message is data of any type that needs to be transmitted and a queue in a line of messages.
+A good example of a messaging queue is and email inbox, data can be published to the inbox then the publisher can complete other actions,without needing an immediate response.
 The messages sent to the queue are held there until a client is ready to read them.
 This is shown in the diagram below:
 ```mermaid
@@ -357,20 +357,11 @@ flowchart TD
 The client can read the published data at any time and can send a response at any time.
 This is known as decoupling where two or more systems work together without being directly connected.
 This means that changes can be made to one program without effecting the workings of other programs.
-However, the project requires multiple programs to send requests and replys to other promgrams.
-This would require many queues as to implement request and reply functionality between 2 programs requires a seprate queue for both the request and the reply.
-The large number of queues would reduce the speed and effciency of the project hence why this architecture was not chosen.
+However, the project requires multiple programs to send requests and replies to other programs.
+This would require many queues as to implement request and reply functionality between 2 programs requires a separate queue for both the request and the reply.
+The large number of queues would reduce the speed and efficiency of the project hence why this architecture was not chosen.
 
 ### Multiple Layers
-As the name suggests, the system is divided into multiple layers, each with a well-defined responsibility.
-The software system in this particular project may be divided into 3 layers:
-* Perception Layer, which process inputs.
-* Movement Layer, which computes the desired robot movement.
-* Command Layer, which translates these movements into commands.
-
-A significant drawback of this model is the lack of flexibility as newly added components must either be fitted into an existing layer or
-the system will need modifications to accommodate said components.
-
 The layered architecture is defined by multiple layers that are stacked on top of each other, with each layer responsible for a different operation.
 Only layers that are adjacent may communicate to one another and only the lower layers never call an upper layer.
 The upper layers call the lower layers and the lower layers can only reply to upper layer.
