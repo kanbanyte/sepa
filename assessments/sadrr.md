@@ -352,7 +352,7 @@ stateDiagram
 	%% nodes
 	state "Publisher" as P
 	state "Queue" as Q
-	state "Clientr" as C
+	state "Client" as C
 	state fork <<fork>>
 	
 	%% transitions
