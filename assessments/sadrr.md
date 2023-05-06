@@ -368,7 +368,8 @@ This is known as decoupling where two or more systems work together without bein
 This means that changes can be made to one program without effecting the workings of other programs.\
 However, the project requires multiple programs to send requests and replies to other programs.\
 This would require many queues as to implement request and reply functionality between 2 programs requires a separate queue for both the request and the reply.
-The large number of queues would reduce the speed and efficiency of the project, hence why this architecture was not chosen.
+The large number of queues would reduce the speed and efficiency of the project, hence why this architecture was not chosen.\
+Message queues are also a one-one model and have no mechanism to subscribe to a particular topic or type of message, whereas the chosen pub-sub architecture has a message broker system (either content-based or topic-based) and can support multiple subscribers for every publisher.
 
 ### Multiple Layers
 The layered architecture is defined by multiple layers that are stacked on top of each other, with each layer responsible for a different operation.
