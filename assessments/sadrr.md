@@ -396,7 +396,9 @@ flowchart TB
 
 As requests must flow through multiple layers without being able to skip over a layer, the time taken to execute tasks is greater when using this architecture.
 The project requires multiple programs to interact with multiple other programs so it requires that layers can be skipped.\
-The layered architecture is also not very flexible and scalable. The architecture requires a rigid structure on the flow of the program whicch is not desired for the dynamic requirements of the project. Fault-tolerance is also incredibly low in the multiple layer architecture since layers are stuck together, if something in a layer fails, it will propagate to the other layers as well.\
+The layered architecture is also not very flexible and scalable. 
+The architecture requires a rigid structure on the flow of the program which is not desired for the dynamic requirements of the project.
+ Fault-tolerance is also incredibly low in the multiple layer architecture since layers are stuck together, if something in a layer fails, it will propagate to the other layers as well.\
 For these reasons this architecture was not chosen.
 
 <div class="page"/><!-- page break -->
