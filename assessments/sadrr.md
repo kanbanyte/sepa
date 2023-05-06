@@ -354,7 +354,7 @@ stateDiagram
 	state "Queue" as Q
 	state "Client" as C
 	state fork <<fork>>
-	
+
 	%% transitions
 	P --> fork
 	fork --> Q : Message 1
@@ -368,8 +368,9 @@ This is known as decoupling where two or more systems work together without bein
 This means that changes can be made to one program without effecting the workings of other programs.\
 However, the project requires multiple programs to send requests and replies to other programs.\
 This would require many queues as to implement request and reply functionality between 2 programs requires a separate queue for both the request and the reply.
-The large number of queues would reduce the speed and efficiency of the project, hence why this architecture was not chosen.\
-Message queues are also a one-one model and have no mechanism to subscribe to a particular topic or type of message, whereas the chosen pub-sub architecture has a message broker system (either content-based or topic-based) and can support multiple subscribers for every publisher.\
+The large number of queues would reduce the speed and efficiency of the project, hence why this architecture was not chosen.
+Message queues are also a one-one model and have no mechanism to subscribe to a particular topic or type of message,
+whereas the chosen pub-sub architecture has a message broker system (either content-based or topic-based) and can support multiple subscribers for every publisher.
 These drawbacks are the reason the message queue architecture was disregarded.
 
 ### Multiple Layers
@@ -396,9 +397,10 @@ flowchart TB
 
 As requests must flow through multiple layers without being able to skip over a layer, the time taken to execute tasks is greater when using this architecture.
 The project requires multiple programs to interact with multiple other programs so it requires that layers can be skipped.\
-The layered architecture is also not very flexible and scalable. 
+The layered architecture is also not very flexible and scalable.
 The architecture requires a rigid structure on the flow of the program which is not desired for the dynamic requirements of the project.
- Fault-tolerance is also incredibly low in the multiple layer architecture since layers are stuck together, if something in a layer fails, it will propagate to the other layers as well.\
+Fault-tolerance is also incredibly low in the multiple layer architecture since layers are stuck together,
+if something in a layer fails, it will propagate to the other layers as well.\
 For these reasons this architecture was not chosen.
 
 <div class="page"/><!-- page break -->
@@ -483,7 +485,7 @@ Some important commands include:
 * `[type] list` - Lists all of the specified type which can be: `node`, `topic`, `action`, etc.
 * `[type] info` - Returns a list of subscribers, publisher, services, and actions associated with that node
 * `rqt_graph` - Starts an applications that displays the ROS2 graph, containing all nodes, topics, actions, services, etc.
-* `pkg create --build-type [type] [package_name]` - Creates a ROS2 package with the specified type (either `ament_cmake` or `ament_python` for C++ or Python) 
+* `pkg create --build-type [type] [package_name]` - Creates a ROS2 package with the specified type (either `ament_cmake` or `ament_python` for C++ or Python)
 
 #### C++ and Python Libraries
 ROS2 has two client libraries for C++ and Python that will be used, `rclcpp` and `rclpy` respectively.
@@ -501,7 +503,7 @@ The UR5e collaborative robot arm (cobot) is a versatile robotic arm with a paylo
 The payload limit is not necessary to consider because the mass of the objects it will be picking up in this project will be far below 5 kg.
 
 However, the reach may be something to consider to define the boundaries of the cobot so as to not move an object out of bounds, damage the cobot, or injure somebody.
-The 6 degrees of freedom allows it to translate and rotate objects in 3 directions and about 3 axes, enabling it to fully manipulate objects. 
+The 6 degrees of freedom allows it to translate and rotate objects in 3 directions and about 3 axes, enabling it to fully manipulate objects.
 
 ### ZED 2 AI Stereo Camera
 The ZED 2 camera utilises binocular vision to sense depth much like a human would, which will allow the perception system to detect objects and
