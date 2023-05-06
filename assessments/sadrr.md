@@ -369,7 +369,8 @@ This means that changes can be made to one program without effecting the working
 However, the project requires multiple programs to send requests and replies to other programs.\
 This would require many queues as to implement request and reply functionality between 2 programs requires a separate queue for both the request and the reply.
 The large number of queues would reduce the speed and efficiency of the project, hence why this architecture was not chosen.\
-Message queues are also a one-one model and have no mechanism to subscribe to a particular topic or type of message, whereas the chosen pub-sub architecture has a message broker system (either content-based or topic-based) and can support multiple subscribers for every publisher.
+Message queues are also a one-one model and have no mechanism to subscribe to a particular topic or type of message, whereas the chosen pub-sub architecture has a message broker system (either content-based or topic-based) and can support multiple subscribers for every publisher.\
+These drawbacks are the reason the message queue architecture was disregarded.
 
 ### Multiple Layers
 The layered architecture is defined by multiple layers that are stacked on top of each other, with each layer responsible for a different operation.
@@ -395,7 +396,8 @@ flowchart TB
 
 As requests must flow through multiple layers without being able to skip over a layer, the time taken to execute tasks is greater when using this architecture.
 The project requires multiple programs to interact with multiple other programs so it requires that layers can be skipped.\
-For this reason this architecture was not chosen.
+The layered architecture is also not very flexible and scalable. The architecture requires a rigid structure on the flow of the program whicch is not desired for the dynamic requirements of the project. Fault-tolerance is also incredibly low in the multiple layer architecture since layers are stuck together, if something in a layer fails, it will propagate to the other layers as well.\
+For these reasons this architecture was not chosen.
 
 <div class="page"/><!-- page break -->
 
