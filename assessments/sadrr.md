@@ -6,7 +6,7 @@
 # Robot Vision System For A Pick And Place Task
 <!--
 	Co-Author: @dau501
-	Editor(s):
+	Editor(s): @Slothman1, @Huy-GV, @vkach, @finnmcgearey, @NickMcK14
 	Year: 2023
 -->
 
