@@ -6,7 +6,7 @@
 # Robot Vision System For A Pick And Place Task
 <!--
 	Co-Author: @dau501
-	Editor(s):
+	Editor(s): @Slothman1, @Huy-GV, @vkach, @finnmcgearey, @NickMcK14
 	Year: 2023
 -->
 
@@ -194,7 +194,7 @@ loose-coupling between individual components.
 Although the project has established that the Depth Camera is the main tool that retrieves image inputs,
 the new perception system should ideally encapsulate this detail and communicates visual data via an abstracted format.
 
-## Preferred Architecture
+### Preferred Architecture
 The addition of the perception system is envisioned to be encapsulated in one software module and used a by a single node in a pub-sub architecture.
 The diagram below captures the high-level view of the system.
 
@@ -224,15 +224,15 @@ This design is also consistent with the primary architecture used by ROS2, and w
 If the client wishes to extend the capabilities of the robot arm beyond the scope defined in this project,
 they can easily register new components to the perception node and retrieve visual data without changes to the rest of the system.
 
-## Alternatives
-### Messaging Queue
+### Alternatives
+#### Messaging Queue
 An alternative architecture considered for this project is the messaging queue system.
 In this system, visual data is pushed into a message queue and clients can asynchronously retrieve and process that data.
 
 Similar to the pub-sub model, the message queue decouples consumers from producers and facilitates asynchronous data transfers.
 However, a single queue is limited to only one consumer hence multiple queues are needed, adding overhead that can harm performance.
 
-### Multiple Layers
+#### Multiple Layers
 As the name suggests, the system is divided into multiple layers, each with a well-defined responsibility.
 The software system in this particular project may be divided into 3 layers:
 * Perception Layer, which process inputs.
@@ -245,7 +245,7 @@ the system will need modifications to accommodate said components.
 ## System Architecture
 This section explores the chosen architectural design, pub-sub, in greater detail by representing components, their sub-components and
 explains their responsibilities and relationships with each other.
-The section also discusses how the pub-sub mechanism is achieved at a high level in the  established development environment (ROS2 running on Ubuntu).
+The section also discusses how the pub-sub mechanism is achieved at a high level in the established development environment (ROS2 running on Ubuntu).
 At a high level, the major components in the perception system are the **Depth Camera**, the **Image Processing System** and its subscribers,
 which are collectively known as the **Motion Controller**.
 
@@ -518,8 +518,8 @@ The perception system will pass location data to the robotic control system auto
 
 The software system will interact with the ROS2 and Ubuntu systems,
 with ROS2 providing movement instructions for the cobot and Ubuntu being used to run ROS2 and integrate with the provided hardware.
-Within the ROS2 framework, all programs are considered nodes and serve a single modular purpose. 
-The ROS2 nodes and the vision system nodes will communicate by actions. 
+Within the ROS2 framework, all programs are considered nodes and serve a single modular purpose.
+The ROS2 nodes and the vision system nodes will communicate by actions.
 In ROS2 actions allow you to execute long running tasks, provide regular feedback, and are cancellable.
 They consist of three parts: a goal, feedback, and a result.
 An *action client* node sends a goal to an *action server* node that acknowledges the goal and returns a stream of feedback and a result.
@@ -529,7 +529,7 @@ This is useful for troubleshooting issues such as actions not being performed co
 
 The system will also prioritize non-functional requirements such as reliability, modularity, security, and performance.
 
-## Research into Technical Platforms, Languages and Tools
+## Technical Platforms, Languages and Tools
 A variety of technical platforms, languages, and tools will be required to successfully complete the project.
 This sections will discuss these aspects in further depth, explaining their use with respect to the project.
 
@@ -617,23 +617,66 @@ However, preliminary considerations are that the Depth Camera will preferably be
 <div class="page"/><!-- page break -->
 
 # References
-> *[If you have used information from published sources, show where it came from here (and cite them in the relevant places of this report).*\
-> *Use the Harvard system of citation (or another system, but be consistent).*\
-> *For instance, they may be books, journal articles, or websites.]*
-
-> ***[Your reference list entry must be in the form of***\
-> &emsp; **Author, Initial(s) Year, *Title of Document/Webpage/Website*, Organisation/Host, viewed Day Month Year, &lt;URL>.**
->
-> &emsp; example
->
-> &emsp; Yates, J 2009, Tax expenditures and housing, Australian Housing and Urban Research Institute, viewed 12 November 2013,\
-> &emsp; <http://www.ahuri.edu.au/publications/download/ahuri_judith_yates_research_paper>.]
->
-> ***[Your in-text may be in the form of***
-> * **Direct quote**\
-> "Most official estimates ..." (Yates 2009).
-> * **Paraphrase**\
-> Yates (2009) looked at the equity implications of tax ...]
->
-> ***[For more information on the Harvard style guide, refer to***\
-> &emsp; <http://www.swinburne.edu.au/lib/studyhelp/harvard_style.html>]
+* Ubuntu (2023).
+Download Ubuntu desktop.
+Available at: <https://ubuntu.com/download/desktop> (Accessed: 21 April 2023).
+* OpenCV (2023).
+OpenCV.
+Available at: <https://opencv.org/> (Accessed: 21 April 2023).
+* PyTorch (2023).
+PyTorch.
+Available at: <https://pytorch.org/> (Accessed: 21 April 2023).
+* ROS 2 (2023).
+ROS 2 Documentation.
+Available at: <https://docs.ros.org/en/humble/index.html> (Accessed: 21 April 2023).
+* Universal Robots (2023).
+THE UR5e.
+Available at: <https://www.universal-robots.com/products/ur5-robot/> (Accessed: 21 April 2023).
+* Stereolabs (2023).
+Stereolabs Documentation.
+Available at: <https://www.stereolabs.com/docs/> (Accessed: 23 April 2023).
+* ROS Client Library API (2022).
+rclcpp: ROS Client Library for C++.
+Available at: <https://docs.ros2.org/latest/api/rclcpp/> (Accessed: 24 April 2023).
+* ROS Client Library API (2019).
+rclpy: ROS Client Library for Python.
+Available at: <https://docs.ros2.org/latest/api/rclpy/> (Accessed: 24 April 2023).
+* It's FOSS (2022).
+31 Linux Commands Every Ubuntu User Should Know.
+Available at: <https://itsfoss.com/essential-ubuntu-commands/> (Accessed: 29 April 2023).
+* Towards Data Science (2018).
+Train Image Recognition AI with 5 lines of code.
+Available at: <https://towardsdatascience.com/train-image-recognition-ai-with-5-lines-of-code-8ed0bdd8d9ba> (Accessed: 30 April 2023).
+* Universal Robots (2018).
+UR5e Technical Details.
+Available at: <https://www.universal-robots.com/media/1802778/ur5e-32528_ur_technical_details_.pdf> (Accessed: 30 April 2023).
+* Stereolabs (2023).
+ZED 2 camera.
+Available at: <https://www.stereolabs.com/zed-2/> (Accessed: 30 April 2023).
+* YouTube (2021).
+Module 05: Architecture, Part 05: Layered Architecture.
+Available at: <https://www.youtube.com/watch?v=WiXp2p4obe4> (Accessed: 3 May 2023).
+* YouTube (2022).
+What is a Message Queue?.
+Available at: <https://www.youtube.com/watch?v=xErwDaOc-Gs&t=649s> (Accessed: 3 May 2023).
+* ROS 2 (2023).
+Understanding Topics.
+Available at: <https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html> (Accessed: 3 May 2023).
+* Stereolabs (2023).
+ROS 2 - ZED Node.
+Available at: <https://www.stereolabs.com/docs/ros2/zed-node/#published-topics> (Accessed: 3 May 2023).
+* Mermaid (2023).
+Flowchart.
+Available at: <https://mermaid.js.org/syntax/flowchart.html> (Accessed: 5 May 2023).
+* Wikipedia (2023).
+Flowchart.
+Available at: <https://en.wikipedia.org/wiki/Flowchart> (Accessed: 5 May 2023).
+* Mermaid (2023).
+State Diagram.
+Available at: <https://mermaid.js.org/syntax/stateDiagram.html> (Accessed: 5 May 2023).
+* The Unified Modelling Language (2023).
+UML Association.
+Available at: <https://www.uml-diagrams.org/association.html#navigability> (Accessed: 5 May 2023).
+* University of Waterloo (2017).
+Layered Architecture Design Activity.
+Available at: <https://cs.uwaterloo.ca/~m2nagapp/courses/CS446/1171/Arch_Design_Activity/Layered.pdf> (Accessed: 6 May 2023).
