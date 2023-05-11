@@ -39,12 +39,12 @@ Delete all the explanatory text in RED, including this box before submission.
 # DOCUMENT SIGN OFF
 |Name|Position|Signature|Date|
 |:-|:-|:-|:-|
-|@Slothman1|Team Leader/Client Liaison|student_signature(&emsp;)|DD/MM/2023|
-|@dau501|Development Manager/Planning Manager|student_signature(&emsp;)|DD/MM/2023|
-|@finnmcgearey|Support Manager/Developer|student_signature(&emsp;)|DD/MM/2023|
-|@vkach|Quality Manager/Developer|student_signature(&emsp;)|DD/MM/2023|
-|@NickMcK14|Support Manager/Developer|student_signature(&emsp;)|DD/MM/2023|
-|@Huy-GV|Quality Manager/Developer|student_signature(&emsp;)|DD/MM/2023|
+|@Slothman1|Team Leader/Client Liaison|student\_signature(&emsp;)|DD/MM/2023|
+|@dau501|Development Manager/Planning Manager|student\_signature(&emsp;)|DD/MM/2023|
+|@finnmcgearey|Support Manager/Developer|student\_signature(&emsp;)|DD/MM/2023|
+|@vkach|Quality Manager/Developer|student\_signature(&emsp;)|DD/MM/2023|
+|@NickMcK14|Support Manager/Developer|student\_signature(&emsp;)|DD/MM/2023|
+|@Huy-GV|Quality Manager/Developer|student\_signature(&emsp;)|DD/MM/2023|
 
 > *[When document is finalised for submission, all team members must affix their signature in the Document Sign Off table]*\
 > ***[No-one should sign unless they have read the report and agree with it.]***
@@ -89,6 +89,8 @@ Instead, it will focus on providing a high-level overview of the system's design
 Finally, it is important to recognise that this document will not include the research being conducted on specific hardware components or implementation details.
 Rather, it will provide a broad overview of the system's design and functionality, leaving the specifics to be addressed in future research and implementation efforts.
 
+<div class="page"/><!-- page break -->
+
 ## Definitions, Acronyms and Abbreviations
 The following definitions will be used consistently throughout the SRS document to ensure clarity and understanding:
 * **cobot:**
@@ -131,6 +133,8 @@ As Soon as Possible
 * **COB:**
 Close of Business (5:00 PM)
 
+<div class="page"/><!-- page break -->
+
 # Problem Analysis
 The FOF cobot lacks a perception system, which limits its capabilities to moving objects that are located through pre-programmed coordinates,
 therefore reducing the efficiency for pick and place tasks.
@@ -159,6 +163,8 @@ The required movements and object manipulations will be performed by implementin
 which will allow for a modular software design.
 
 Additionally, the Depth Camera should be mounted in a centralised location, giving it full field of view of the task environment with all objects in frame.
+
+<div class="page"/><!-- page break -->
 
 ## Assumptions
 When developing the system design for this project, the following assumptions were made to further narrow down the scope of the project and ensure that it was feasible:
@@ -197,7 +203,6 @@ the new perception system should ideally encapsulate this detail and communicate
 ### Preferred Architecture
 The addition of the perception system is envisioned to be encapsulated in one software module and used a by a single node in a pub-sub architecture.
 The diagram below captures the high-level view of the system.
-
 ```mermaid
 flowchart TD
 	Camera[/Depth Camera/]
@@ -213,6 +218,8 @@ flowchart TD
 	Perception -->|item state| SubN
 ```
 
+<!-- ![hlv](https://cdn.discordapp.com/attachments/1094987833174925416/1104591857163456522/image.png) -->
+
 This design ensures modularity by encapsulating the entire computer vision system into its own module,
 enabling independent development of other components, such as the robot arm control system.
 
@@ -223,6 +230,8 @@ This design is also consistent with the primary architecture used by ROS2, and w
 
 If the client wishes to extend the capabilities of the robot arm beyond the scope defined in this project,
 they can easily register new components to the perception node and retrieve visual data without changes to the rest of the system.
+
+<div class="page"/><!-- page break -->
 
 ### Alternatives
 #### Messaging Queue
@@ -258,9 +267,10 @@ Each topic concentrates on a distinct type of information, enabling publishers t
 This is chosen as the broker mechanism for the system because of its support in ROS2 and suitability with the sensory data stream from the Depth Camera.
 In this system, topics are the main medium through which the three primary components communicate, enabling asynchronous messaging and keeping components decoupled.
 
+<div class="page"/><!-- page break -->
+
 The below diagrams provides a detailed view of the components within the system.
 The flow of the diagram represents the body of the main control loop, starting with the depth camera and ending with the robot movement.
-
 ```mermaid
 stateDiagram-v2
 	direction TB
@@ -331,6 +341,10 @@ stateDiagram-v2
 	Controller --> [*]
 ```
 
+<!-- <img src="https://cdn.discordapp.com/attachments/1094987833174925416/1104593566778544168/image.png" style="width: 85%; height: 85%"/>​ -->
+
+<div class="page"/><!-- page break -->
+
 ### Depth Camera
 The Depth Camera provides the rest of the system with visual data and consists of sub-components described below:
 * **Visual Data Logger**\
@@ -369,6 +383,8 @@ The raw output of **Computer Vision Network** is not public to other components 
 The results of the data prediction model should only include boolean data representing the presence/absence of an item.
 This data is then published to the **Item Position Topic**, subscribed to by nodes pertaining to the motion control of the robot.
 
+<div class="page"/><!-- page break -->
+
 ### Motion Controller
 This component represents the system that controls the movement of the robot arm.
 At the present stage, the robot is already capable of performing pick-and-place tasks accurately.
@@ -402,6 +418,8 @@ stateDiagram
 	Q --> C : Data n
 ```
 
+<!-- ![queue](https://cdn.discordapp.com/attachments/1094987833174925416/1104591857696120872/image.png) -->
+
 The client can read the published data at any time and can send a response at any time.\
 This is known as decoupling where two or more systems work together without being directly connected.\
 This means that changes can be made to one program without effecting the workings of other programs.\
@@ -411,6 +429,8 @@ The large number of queues would reduce the speed and efficiency of the project,
 Message queues are also a one-one model and have no mechanism to subscribe to a particular topic or type of message,
 whereas the chosen pub-sub architecture has a message broker system (either content-based or topic-based) and can support multiple subscribers for every publisher.
 These drawbacks are the reason the message queue architecture was disregarded.
+
+<div class="page"/><!-- page break -->
 
 ### Multiple Layers
 The layered architecture is defined by multiple layers that are stacked on top of each other, with each layer responsible for a different operation.
@@ -433,6 +453,8 @@ flowchart TB
 	L3 --x|Reply| L2
 	L2 --x|Reply| L1
 ```
+
+<!-- ![stack](https://cdn.discordapp.com/attachments/1094987833174925416/1104591857989730336/image.png) -->
 
 As requests must flow through multiple layers without being able to skip over a layer, the time taken to execute tasks is greater when using this architecture.
 The project requires multiple programs to interact with multiple other programs so it requires that layers can be skipped.\
@@ -479,6 +501,8 @@ HeeHooVision further covered many topics to assist with achieving the project, t
 
 HeeHooVision also conducted research into GitHub to ensure that the project was well-organised and easily accessible to team members.\
 They explored different organisational strategies and established guidelines for version control and collaboration to ensure that the project ran smoothly.
+
+<div class="page"/><!-- page break -->
 
 ## Application Domain
 The application domain for the system is in the field of robotics and AI, specifically computer vision, depth sensors, and automation.
@@ -529,6 +553,8 @@ This is useful for troubleshooting issues such as actions not being performed co
 
 The system will also prioritize non-functional requirements such as reliability, modularity, security, and performance.
 
+<div class="page"/><!-- page break -->
+
 ## Technical Platforms, Languages and Tools
 A variety of technical platforms, languages, and tools will be required to successfully complete the project.
 This sections will discuss these aspects in further depth, explaining their use with respect to the project.
@@ -552,14 +578,18 @@ Some basic commands that will be necessary are as follows:
 ROS2 is a collection of packages that will be used for developing the software for the robot system.
 It includes various terminal commands, programming packages for C++ and Python, and data analysis tools that make development for robotics more efficient.
 
+<div class="page"/><!-- page break -->
+
 #### Terminal Commands
 In order to access ROS2 commands in the terminal, the following command needs to be run each time a new terminal is started:
-
-`source /opt/ros/humble/setup.bash`
+```shell
+source /opt/ros/humble/setup.bash
+```
 
 To have ROS2 commands included in any terminal at startup, this command can be used:
-
-`echo "source "source /opt/ros/humble/setup.bash" >> ~/.bashrc`
+```shell
+echo "source "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+```
 
 ROS2 commands are accessed by using the `ros2` command.
 Some important commands include:
@@ -579,6 +609,8 @@ Rather than creating a publisher, subscriber, client, or server by creating a se
 `create_subscriber()`, `create_client()`, or `create_server()` can be called within the Node class.
 
 Nodes are instantiated by using the `spin()` method in the `main()` method after `init()` is called and before `shutdown()` is called.
+
+<div class="page"/><!-- page break -->
 
 ### UR5e Collaborative Robot Arm
 The UR5e collaborative robot arm (cobot) is a versatile robotic arm with a payload of 5 kg, reach of 850 mm, and 6 degrees of freedom.
