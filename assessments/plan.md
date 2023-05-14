@@ -77,7 +77,7 @@ Delete all the explanatory text in RED, including this box before submission.
 	* [SCOPE](#scope)
 	* [CRITICAL SUCCESS FACTORS](#critical-success-factors)
 	* [ACCEPTANCE CRITERIA](#acceptance-criteria)
-* [Establishment](#establishment)
+* [ESTABLISHMENT](#establishment)
 	* [PROCESSES, PROCEDURES AND STANDARDS](#processes-procedures-and-standards)
 	* [PROJECT ENVIRONMENT](#project-environment)
 	* [Project Team Skill Development Requirements](#project-team-skill-development-requirements)
@@ -196,7 +196,7 @@ The acceptance criteria for this project include:
 
 <div class="page"/><!-- page break -->
 
-# Establishment
+# ESTABLISHMENT
 ## PROCESSES, PROCEDURES AND STANDARDS
 The project team will follow the Kanban methodology for this project as it is a system that easily allows us to monitor our current tasks and
 allows for a more independent work style, thus increasing overall productivity.
@@ -237,18 +237,18 @@ The project will require knowledge in multiple fields of study to successful del
 the team will be required to have expertise in the following areas:
 * Computer Vision
 	* Collection and labeling of training data.
-	* Development of machine learning models.
+	* Development of ML models.
 	* Manipulation of model parameters to achieve desired outputs.
-* ZED 2 depth camera
+* Depth Camera
 	* Calibration of the camera.
 	* Processing and formatting image outputs
 * Robotics
 	* Development with the ROS2 toolkit
-	* Deployment of the software system into the robot arm.
+	* Deployment of the software system into the cobot.
 * Software Engineering
-	* Usage of the Python programming language language and associated libraries in the areas of machine learning and computer vision (OpenCV and PyTorch).
-	* Utilisation of the C/C++ programming languages
-	* Development within the Ubuntu operation system.
+	* Usage of Python and associated libraries in the areas of ML and CV.
+	* Utilisation of C++.
+	* Development within Ubuntu.
 
 The team members will be encouraged to attend relevant training sessions and conferences to develop their skills in these areas.
 Online tutorials will be helpful references and sources for honing programming capabilities.
