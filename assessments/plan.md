@@ -74,7 +74,7 @@ Delete all the explanatory text in RED, including this box before submission.
 		* [PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS](#project-supervisor-team-leader-and-key-project-members)
 * [TERMS OF REFERENCE](#terms-of-reference)
 	* [OBJECTIVES](#objectives)
-	* [SCOPE](#scope)
+	* [Scope](#scope)
 	* [CRITICAL SUCCESS FACTORS](#critical-success-factors)
 	* [ACCEPTANCE CRITERIA](#acceptance-criteria)
 * [ESTABLISHMENT](#establishment)
@@ -162,15 +162,18 @@ To achieve this, the following must be achieved:
 * The vision system should also be able to detect if objects are missing/out of place and pause until given a command that it is safe to continue.
 * The vision system will provide the robot with ample information to perform and subsequently execute its task.
 
-## SCOPE
+## Scope
 The scope of this project includes the development of a vision system that is compatible with the robot's hardware and software.
 
-The vision system should be able to detect objects:
-* in a variety of lighting conditions and at various distances from the robot.
-* that are partially occluded or have complex shapes.
+The following list outlines the capabilities that are in scope of the project, in addition to existing pick-and-place operations of the cobot.
+* Detection of components under varying lighting conditions and at different distances that are within reach of the cobot.
+* Detection of partially occluded components.
+* Detection of absent components and ability to shift to an alternative position.
 
-Future work may arise depending on the schedule and progress of the scoped out project.
-One example of this, is ensuring the robot is able to pick up a fallen over/out of place object.
+The following capabilities, including those that may emerge in later stages of the project, are considered to be out of scope.
+* Detection of transparent components.
+* Detection or manipulation of fallen or mal-oriented components (such components are considered to be absent).
+* Detection or manipulation of components that differ from originally established shapes.
 
 <div class="page"/><!-- page break -->
 
