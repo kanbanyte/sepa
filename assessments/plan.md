@@ -294,15 +294,15 @@ Online tutorials will be helpful references and sources for honing programming c
 <div class="page"/><!-- page break -->
 
 ## RESOURCES
-### Hardware resources:
+### Hardware Resources:
 This includes the necessary hardware components for the implementation of the vision system:
-* ZED 2 depth camera and its mounting tool.
+* ZED 2 Depth Camera and its mounting tool.
 * UR5e robot arm.
-* Robot arm control tablet.
-* The assembly line delivering items to the robot arm.
+* Control tablet for the cobot.
+* The assembly line delivering items to the cobot.
 
-The robot arm and assembly line are already situated in the Factory of the Future.\
-The depth camera and its mounting tool will be provided by the client, with the team proposing designs for the mounting tool.
+The cobot and assembly line are already situated in the FOF.\
+The Depth Camera and its mounting tool will be provided by the client, with the team proposing designs for the mounting tool.
 
 ### Software resources:
 This includes software tools and libraries required for vision system development and integration, such as OpenCV and PyTorch.
