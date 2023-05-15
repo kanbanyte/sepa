@@ -265,8 +265,10 @@ Online tutorials will be helpful references and sources for honing programming c
 	* Include integration tests and results.
 
 ### Hardware modifications
-* V-Slot mount for the depth camera that will allow it to observe all items of interest clearly.
-	* The robotic lab environment has numerous V-Slot rails that can be used for mounting objects
+The workspace contains numerous V-Slot rails that can be used to mount objects for use with the cobot and its environment.
+A mounting device compatible with V-Slots will need to be bought or made for the depth camera.
+This device will allow the depth camera to be securely mounted to an ideal position in the workspace and capture objects of interest effectively.
+	
 
 ## ACTIVITIES
 ### Research:
