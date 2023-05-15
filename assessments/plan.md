@@ -219,7 +219,12 @@ Clear, concise comments will also be included to help with readability and compr
 
 ## PROJECT ENVIRONMENT
 The project will require the use of various programming languages, frameworks, modules, and development environments to be successfully completed.
+The cobot has its own dedicated area in the FoF where development can be performed.
+Local data storage will be used rather than any cloud-based storage for security reasons and because of its ease of use.
 The following tools and technologies will be utilised throughout the project:
+* Robotics lab at the FoF
+	* UR5e Collaborative Robot Arm
+	* Desktop computer for development, testing, and data storage
 * C/C++
 * Python
 * OpenCV
