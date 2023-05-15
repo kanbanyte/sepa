@@ -93,7 +93,7 @@ Delete all the explanatory text in RED, including this box before submission.
 		* [Testing:](#testing)
 		* [System Documentation:](#system-documentation)
 	* [RESOURCES](#resources)
-		* [Hardware resources:](#hardware-resources)
+		* [Hardware Resources:](#hardware-resources)
 		* [Software resources:](#software-resources)
 		* [Human resources:](#human-resources)
 		* [Budget:](#budget)
