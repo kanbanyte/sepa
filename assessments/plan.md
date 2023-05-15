@@ -265,7 +265,8 @@ Online tutorials will be helpful references and sources for honing programming c
 	* Include integration tests and results.
 
 ### Hardware modifications
-* Tool that mounts the depth camera such that all items of interest are within clear view.
+* V-Slot mount for the depth camera that will allow it to observe all items of interest clearly.
+	* The robotic lab environment has numerous V-Slot rails that can be used for mounting objects
 
 ## ACTIVITIES
 ### Research:
