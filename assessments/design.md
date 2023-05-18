@@ -70,7 +70,11 @@ Delete all the explanatory text in RED, including this box before submission.
 > * *Define the purpose of this **Detailed Design and Implementation Report** and identify its target reader or audience.]*
 
 ## Overview
-> *[Provide an overview (or executive summary) of this document]*
+This document records the technical details, considerations and design strategies employed to build the system.
+It aims to provide guidance and serve as a valuable reference for developers involved in the implementation,
+while also offering insightful information to relevant stakeholders.
+In particular, it covers deeper details of the system architecture described in the Software Architecture and Design Report and discusses
+the design verifications as well as implementation progress.
 
 ## Definitions, Acronyms and Abbreviations
 > *[Provide the definition of all terms, acronyms, and abbreviations used in this document.]*
