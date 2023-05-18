@@ -80,7 +80,7 @@ Delete all the explanatory text in RED, including this box before submission.
 * [ESTABLISHMENT](#establishment)
 	* [PROCESSES, PROCEDURES AND STANDARDS](#processes-procedures-and-standards)
 	* [PROJECT ENVIRONMENT](#project-environment)
-	* [PROJECT TEAM SKILL DEVELOPMENT REQUIREMENTS](#project-team-skill-development-requirements)
+	* [Project Team Skill Development Requirements](#project-team-skill-development-requirements)
 * [DELIVERABLES, ACTIVITIES AND CAPITAL RESOURCES](#deliverables-activities-and-capital-resources)
 	* [DELIVERABLES](#deliverables)
 		* [Software systems](#software-systems)
@@ -235,17 +235,23 @@ The following tools and technologies will be utilised throughout the project:
 
 <div class="page"/><!-- page break -->
 
-## PROJECT TEAM SKILL DEVELOPMENT REQUIREMENTS
+## Project Team Skill Development Requirements
 The project will require knowledge in multiple fields of study to successful deliver the final product;
 the team will be required to have expertise in the following areas:
 * Computer Vision
-* Sensors (ZED camera)
+	* Collection and labeling of training data.
+	* Development of ML models.
+	* Manipulation of model parameters to achieve desired outputs.
+* Depth Camera
+	* Calibration of the camera.
+	* Processing and formatting image outputs
 * Robotics
-	* Completed the tutorials for ROS
-* AI
-* Software Programming
-	* Python (Particularly OpenCV & PyTorch)
-	* C/C++
+	* Development with the ROS2 toolkit
+	* Deployment of the software system into the cobot.
+* Software Engineering
+	* Usage of Python and associated libraries in the areas of ML and CV.
+	* Utilisation of C++.
+	* Development within Ubuntu.
 
 The team members will be encouraged to attend relevant training sessions and conferences to develop their skills in these areas.
 Online tutorials will be helpful references and sources for honing programming capabilities.
