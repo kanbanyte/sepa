@@ -93,7 +93,7 @@ Delete all the explanatory text in RED, including this box before submission.
 		* [Testing:](#testing)
 		* [System Documentation:](#system-documentation)
 	* [RESOURCES](#resources)
-		* [Hardware resources:](#hardware-resources)
+		* [Hardware Resources:](#hardware-resources)
 		* [Software resources:](#software-resources)
 		* [Human resources:](#human-resources)
 		* [Budget:](#budget)
@@ -297,8 +297,15 @@ Online tutorials will be helpful references and sources for honing programming c
 <div class="page"/><!-- page break -->
 
 ## RESOURCES
-### Hardware resources:
-This includes the necessary hardware components for the vision system implementation, such as cameras, sensors, and computer systems.
+### Hardware Resources:
+This includes the necessary hardware components for the implementation of the vision system:
+* ZED 2 Depth Camera and its mounting tool.
+* UR5e robot arm.
+* Control tablet for the cobot.
+* The assembly line delivering items to the cobot.
+
+The cobot and assembly line are already situated in the FOF.\
+The Depth Camera and its mounting tool will be provided by the client, with the team proposing designs for the mounting tool.
 
 ### Software resources:
 This includes software tools and libraries required for vision system development and integration, such as OpenCV and PyTorch.
