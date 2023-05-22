@@ -79,7 +79,7 @@ Delete all the explanatory text in RED, including this box before submission.
 	* [ACCEPTANCE CRITERIA](#acceptance-criteria)
 * [ESTABLISHMENT](#establishment)
 	* [PROCESSES, PROCEDURES AND STANDARDS](#processes-procedures-and-standards)
-	* [PROJECT ENVIRONMENT](#project-environment)
+	* [Project Environment:](#project-environment)
 	* [PROJECT TEAM SKILL DEVELOPMENT REQUIREMENTS](#project-team-skill-development-requirements)
 * [DELIVERABLES, ACTIVITIES AND CAPITAL RESOURCES](#deliverables-activities-and-capital-resources)
 	* [DELIVERABLES](#deliverables)
@@ -217,7 +217,7 @@ All code produced must follow good programming practice, in particular code must
 (for example camelCase or snake_case).
 Clear, concise comments will also be included to help with readability and comprehensibility.
 
-## PROJECT ENVIRONMENT
+## Project Environment
 The project will require the use of various programming languages, frameworks, modules, and development environments to be successfully completed.
 The cobot has its own dedicated area in the FoF where development can be performed.
 Local data storage will be used rather than any cloud-based storage for security reasons and because of its ease of use.
