@@ -101,31 +101,31 @@ Delete all the explanatory text in RED, including this box before submission.
 > *An alternative approach can also be adopted, In any case, the design decisions need to be justified.]*
 
 ## Design Verification
-The following sequence diagram offers a visual representation of how the proposed system complies with the project requirements by showing the interactions between components and the continuous flow of operations.
+The following sequence diagram offers a visual representation of how the proposed system complies with the project requirements.
+It shows the interactions between components and the continuous flow of operations.
 It depicts the real-time object detection and communication of object positions which enables autonomous operation and ongoing learning and adaptation.
-
-``` mermaid
+```mermaid
 sequenceDiagram
-    participant G as GUI
-    participant D as DepthCamera
-    participant N as NeuralNetwork
-    participant R as RobotOperatingSoftware
-    participant A as RoboticArm
+	participant Interface as GUI
+	participant Camera as Depth Camera
+	participant Network as Neural Network
+	participant ROS as Robot Operating Software
+	participant Arm as Robotic Arm
 
-    G->>D: Capture image
-
-    loop Continuous Operation
-        D->>N: Image data
-        alt Object Detection Successful
-            N->>N: Process image data
-            N-->>R: Detected object positions
-            R->>A: Move arm to object positions
-            A->>R: Component retrieval status
-            R->>G: Update Status
-        else Object Detection Failed
-            N-->>G: No object positions
-        end
-    end
+	Interface->>Camera: Capture image
+	loop Continuous Operation
+		Camera->>+Network: Image data
+		alt Object Detection Failed
+			Network-->>Interface: No object positions
+		else Object Detection Successful
+			Network->>Network: Process image data
+			Network-->>+ROS: Detected object positions
+			ROS->>+Arm: Move arm to object positions
+			Arm-->>-ROS: Component retrieval status
+			ROS-->>-Network: Update Status
+			Network-->>-Interface: Task Complete
+		end
+	end
 ```
 
 ### Real-time Object Detection, Processing, and Analysis
@@ -139,14 +139,15 @@ The robot operating software then uses this data to control the robotic arm's mo
 This verifies that the system successfully communicates the object location data to the robot operating software, facilitating the pick and place task.
 
 ### Continuous Learning and Adaptation
-It is not explicitly depicted in the sequence diagram but, the neural network module is designed to continuously learn and adapt to new configurations of the chips in their stands once implemented.
+It is not explicitly depicted in the sequence diagram but,
+the neural network module is designed to continuously learn and adapt to new configurations of the chips in their stands once implemented.
 Through training and updating the neural network with new data, it can improve its object recognition and location detection capabilities over time.
 This verifies that the system has the potential to continuously learn and adapt to different chip layouts, without the need for user input.
 
 ### Autonomous Systems
 The sequence diagram shows the continuous operation of the system without the need for human intervention.
 The robotic arm moves to the detected object positions automatically based on the commands from the robot operating software.
-The system operates independently, minimizing human involvement and fulfilling the requirement of an autonomous system.
+The system operates independently, minimising human involvement and fulfilling the requirement of an autonomous system.
 
 <div class="page"/><!-- page break -->
 
