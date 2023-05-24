@@ -108,8 +108,14 @@ Delete all the explanatory text in RED, including this box before submission.
 <div class="page"/><!-- page break -->
 
 # Implementation
-> *[In this part of the report, provide an overview of the state of the system implementation (relative to the SRS, architecture design and detailed design), and*
-> *document the key implementation decisions.]*
+Due to the project requiring the group to learn an entirely new set of skills, the start of the project has exclusively involved completeing background research in  the relevant fields.
+This includes research into ROS2, Machine Learning, and Computer Vision.
+
+## ROS2
+
+## Machine Learning
+
+## Computer Vision
 
 # References
 > *[If you have used information from published sources, show where it came from here (and cite them in the relevant places of this report).*\
