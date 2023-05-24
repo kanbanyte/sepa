@@ -119,7 +119,7 @@ sequenceDiagram
 			Network-->>UI: No object positions
 		else Object Detection Successful
 			Network->>Network: Process image data
-			Network-->>+ROS: Detected object positions
+			Network->>+ROS: Detected object positions
 			ROS->>+Arm: Move arm to object positions
 			Arm-->>-ROS: Component retrieval status
 			ROS-->>-Network: Update Status
