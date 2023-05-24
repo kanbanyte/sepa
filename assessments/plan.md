@@ -268,7 +268,6 @@ Online tutorials will be helpful references and sources for honing programming c
 The workspace contains numerous V-Slot rails that can be used to mount objects for use with the cobot and its environment.
 A mounting device compatible with V-Slots will need to be bought or made for the depth camera.
 This device will allow the depth camera to be securely mounted to an ideal position in the workspace and capture objects of interest effectively.
-	
 
 ## ACTIVITIES
 ### Research:
