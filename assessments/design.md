@@ -119,8 +119,6 @@ stateDiagram-v2
 	state "User Interface" as User
 	state "Hardware Interface" as Hardware
 	state "Other Robotics Systems" as OtherSystems
-	state "Waiting" as Wait
-	state "Human Operator" as Operator
 	state "Ubuntu Linux" as Ubuntu
 	state "Robotic Arm" as Robot
 
@@ -145,12 +143,7 @@ stateDiagram-v2
 		if_state --> OtherSystems : Send Signal
 		if_state --> Cobot : Actions
 
-		Cobot --> fork : Standby
-		fork --> Wait
-		fork --> Operator
-		Operator --> join : Assembled Components
-		Wait --> join
-		join --> [*]
+		Cobot --> [*]
 	}
 ```
 
