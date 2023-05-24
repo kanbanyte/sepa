@@ -89,7 +89,7 @@ The system design will follow the diagram shown below, which displays a modular 
 ROS2 graph components including nodes, topics, actions, and bags will be used to maintain modularity and a clear data flow.
 
 Visual data from the depth camera will pass to image topics which will then be aggregated in the `Visual Data Aggregator` node.
-After passing through the `Container Detector` node, the data is then placed in the `Visual Data Logger` bag which will be used to perform test and for debugging.
+After passing through the `Container Detector` node, the data is then placed in the `Visual Data Logger` bag which will be used to perform testing and for debugging.
 
 The image processing system then validates the input data and places the data in the `Perception Data Logger` and
 passes the data into the `Computer Vision Network` node which will perform the object detection.
