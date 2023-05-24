@@ -113,8 +113,6 @@ therefore to perform actions.
 stateDiagram-v2
 	direction TB
 	state if_state <<choice>>
-	state fork <<fork>>
-	state join <<join>>
 	state "User Interface" as User
 	state "Hardware Interface" as Hardware
 	state "Other Robotics Systems" as OtherSystems
