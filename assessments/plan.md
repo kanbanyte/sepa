@@ -232,7 +232,7 @@ The following tools and technologies will be utilised throughout the project:
 * Robot Operating System (ROS2)
 * Markdown and CSS
 * Ubuntu OS
-* Potential IDEs/ text editors:
+* Potential IDEs/text editors:
 	* Visual Studio
 	* Visual Studio Code
 	* VIM
