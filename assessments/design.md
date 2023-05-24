@@ -65,9 +65,16 @@ Delete all the explanatory text in RED, including this box before submission.
 <div class="page"/><!-- page break -->
 
 # Introduction
-> *[In this opening, briefly*
-> * *Discuss the **software/system** that will be developed;*
-> * *Define the purpose of this **Detailed Design and Implementation Report** and identify its target reader or audience.]*
+Project 24, aims to enhance a collaborative robot (cobot) by developing and implementing a perception system for pick-and-place tasks in the Factory of the Future (FOF).
+Currently, the cobot operates on predefined positions, limiting its capabilities.
+The goal is to enable the cobot to autonomously identify and locate electronic components using computer vision and artificial intelligence.
+
+Utilising state-of-the-art technologies in computer vision, sensors, robotics, and artificial intelligence,
+the project will develop a real-time object detection, processing, and analysis system.
+This system will continuously learn and adapt to its environment, enhancing the cobot's capabilities.
+
+This document serves as a comprehensive design of the project and overall implementation planned.
+It aims to provide sufficient information for clients and project leads, ensuring easy understanding of the system's design and implementation of Project 24.
 
 ## Overview
 > *[Provide an overview (or executive summary) of this document]*
