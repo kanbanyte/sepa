@@ -83,7 +83,28 @@ It aims to provide sufficient information for clients and project leads, ensurin
 > *[Provide the definition of all terms, acronyms, and abbreviations used in this document.]*
 
 ## Assumptions and Simplifications
-> *[List and discuss the assumptions and simplifications you have made in developing the detailed system design (as presented in this document).]*
+When developing the system design for this project,
+the following assumptions were made to further narrow down the scope of the project and ensure that it was feasible:
+* The system will not have to account for parts that are not in their assigned locations.\
+However, the system will have to halt when an object is detected and found to obstruct the cobot in completing its task.
+* The fine motor controls for the cobot is already completed and accurate.\
+As such, no development will need to be made to derive and implement transfer functions.
+* The tools and software used in the project (i.e., Depth Camera, cobot, and ROS2) are not subject to change.
+* The types of objects the cobot will interact with are not subject to change.
+* The locations of where the cobot will have to pick up objects is not subject to change.
+* The locations of where the cobot will have to place objects is not subject to change.
+* Objects that are almost identical, such as the PCB parts, will have labels to distinguish between different types,
+such as the PCB for a barometer vs. a thermometer.
+
+To ensure that the system that is being developed is feasible and able to be completed in the allotted time,
+some aspects of the problem space have been designed to simplify the developmental process.
+
+These aspects are as follows:
+* The locations of parts that that the cobot will have to pick and place are predetermined.\
+Therefore, the Depth Camera does not need to 'search' for parts, rather just check if a part is in a predetermined location.
+* The cobot will only be allowed to perform a pick and place task if a part is in one of the predetermined locations.
+* The individual parts that the cobot will have to pick and place will be color coded,
+ensuring that the Depth Camera will be able to effectively differentiate between the required parts and the surrounding environment.
 
 <div class="page"/><!-- page break -->
 
