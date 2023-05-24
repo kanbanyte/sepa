@@ -84,7 +84,7 @@ Delete all the explanatory text in RED, including this box before submission.
 > *[Provide a high-level overview of the system architecture as defined in the System Architecture Design and Research Report.*\
 > *This is to provide a context for the discussions in the remainder of this document.]*
 
-# Detailed System Design: Using OO or Alternative
+# Detailed System Design
 The system design will follow the diagram shown below, which displays a modular design to allow for effective development and implementation.
 ROS2 graph components including nodes, topics, actions, and bags will be used to maintain modularity and a clear data flow.
 
