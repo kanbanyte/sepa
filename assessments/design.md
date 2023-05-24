@@ -81,15 +81,10 @@ Delete all the explanatory text in RED, including this box before submission.
 <div class="page"/><!-- page break -->
 
 # System Architecture Overview
-Multiple pieces of software are required for the cobot to successfully complete the pick and place task.
-These components consist of the perception system to perceive the environment and provide visual data, and
-the software system that utilises computer vision and machine learning to detect the objects.
-Once the cobot has performed a movement, the environment will have changed,
-which provides new visual data to be passed into the perception system to continue the cycle.
 ```mermaid
 stateDiagram-v2
 	direction TB
-	state "Perception System" as Perception
+	state "Depth Camera" as Camera
 	state "Computer Vision Technology" as Vision
 	state "Robotic Arm" as Robot
 	state "Components To Be Assembled" as Components
@@ -99,13 +94,18 @@ stateDiagram-v2
 		Vision --> [*] : Feedback
 	}
 
-	Perception --> Software : Visual Data
+	Camera --> Software : Visual Data
 	Software --> Robot : Commands
 	Robot --> Components : Movement
-	Components --> Perception : Visual Input
+	Components --> Camera : Visual Input
 ```
 
-The perception system is shown in more detail in the diagram below.
+Multiple pieces of software are required for the cobot to successfully complete the pick and place task.
+These components consist of the perception system to perceive the environment and provide visual data, and
+the software system that utilises computer vision and machine learning to detect the objects.
+Once the cobot has performed a movement, the environment will have changed,
+which provides new visual data to be passed into the perception system to continue the cycle.
+
 The flow of data is shown to pass through multiple interfaces, from the user interface to the software interface to the hardware interface.
 ROS2 is utilised to allow for the visual data to be passed into ROS2 interfaces which allows for the data to be easily used within ROS2 programs and
 therefore to perform actions.
@@ -135,11 +135,9 @@ stateDiagram-v2
 		[*] --> User
 		User --> Software : Input/Output
 		Software --> Hardware : Commands/Signals
-
 		Hardware --> if_state
 		if_state --> OtherSystems : Send Signal
 		if_state --> Cobot : Actions
-
 		Cobot --> [*]
 	}
 ```
