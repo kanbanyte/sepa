@@ -65,12 +65,11 @@ Delete all the explanatory text in RED, including this box before submission.
 <div class="page"/><!-- page break -->
 
 # Introduction
-This project, known as Project 24, aims to enhance a collaborative robot (cobot) by developing and
-implementing a perception system for pick-and-place tasks in the Factory of the Future (FOF).
+Project 24, aims to enhance a collaborative robot (cobot) by developing and implementing a perception system for pick-and-place tasks in the Factory of the Future (FOF).
 Currently, the cobot operates on predefined positions, limiting its capabilities.
 The goal is to enable the cobot to autonomously identify and locate electronic components using computer vision and artificial intelligence.
 
-Utilizing state-of-the-art technologies in computer vision, sensors, robotics, and artificial intelligence,
+Utilising state-of-the-art technologies in computer vision, sensors, robotics, and artificial intelligence,
 the project will develop a real-time object detection, processing, and analysis system.
 This system will continuously learn and adapt to its environment, enhancing the cobot's capabilities.
 
