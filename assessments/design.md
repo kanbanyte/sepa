@@ -84,8 +84,8 @@ Delete all the explanatory text in RED, including this box before submission.
 Multiple pieces of software are required for the cobot to successfully complete the pick and place task.
 These components consist of the perception system to perceive the environment and provide visual data, and
 the software system that utilises computer vision and machine learning to detect the objects.
-Once the cobot has performed a movement, the environment will have changed, which provides new visual data to be passed into the perception system to continue the cycle.
-
+Once the cobot has performed a movement, the environment will have changed,
+which provides new visual data to be passed into the perception system to continue the cycle.
 ```mermaid
 stateDiagram-v2
 	direction TB
@@ -109,7 +109,6 @@ The perception system is shown in more detail in the diagram below.
 The flow of data is shown to pass through multiple interfaces, from the user interface to the software interface to the hardware interface.
 ROS2 is utilised to allow for the visual data to be passed into ROS2 interfaces which allows for the data to be easily used within ROS2 programs and
 therefore to perform actions.
-
 ```mermaid
 stateDiagram-v2
 	direction TB
