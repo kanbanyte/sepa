@@ -127,6 +127,7 @@ sequenceDiagram
         end
     end
 ```
+
 ### Real-time Object Detection, Processing, and Analysis
 The depth camera continuously captures images, and the neural network processes the image data in real-time.
 The object positions detected by the neural network are sent to the robot operating software promptly.
@@ -146,7 +147,6 @@ This verifies that the system has the potential to continuously learn and adapt 
 The sequence diagram shows the continuous operation of the system without the need for human intervention.
 The robotic arm moves to the detected object positions automatically based on the commands from the robot operating software.
 The system operates independently, minimizing human involvement and fulfilling the requirement of an autonomous system.
-
 
 <div class="page"/><!-- page break -->
 
