@@ -66,7 +66,7 @@ Delete all the explanatory text in RED, including this box before submission.
 Project 24 aims to enhance cobot's capabilities by providing it with a perception system to perform pick and place tasks.
 The robot currently performs these tasks without any form of perception system, and the position of the object to pick and place is predefined.
 
-leveraging various sensors, Project 24 will utilise state-of-the-art technologies in computer vision (CV), sensors, robotics, and
+Leveraging various sensors; Project 24 will utilise state-of-the-art technologies in computer vision (CV), sensors, robotics, and
 artificial intelligence (AI) to develop a real-time object detection, processing, and
 analysis system that will provide the robot with the ability to continuously learn and adapt to it's environment.
 
@@ -136,7 +136,9 @@ Close of Business (5:00 PM)
 <div class="page"/><!-- page break -->
 
 # Problem Analysis
-![img of robot](https://cdn.discordapp.com/attachments/760514738139955211/1110898823640911882/image.png)
+
+![robot](https://cdn.discordapp.com/attachments/1068339402289455172/1087317608962998302/image.png)
+
 The FOF cobot lacks a perception system, which limits its capabilities to moving objects that are located through pre-programmed coordinates,
 therefore reducing the efficiency for pick and place tasks.
 The proposed perception system will be built with cutting edge and state-of-the-art technologies,
@@ -468,7 +470,8 @@ For these reasons this architecture was not chosen.
 <div class="page"/><!-- page break -->
 
 # Research and Investigations
-![robo in action](https://cdn.discordapp.com/attachments/760514738139955211/1110900068107690004/robo_bitch.jpg)
+
+![ui](https://cdn.discordapp.com/attachments/1094987833174925416/1106108495226490971/GetAttachmentThumbnail.png)
 
 HeeHooVision conducted several research efforts to ensure the success of the project.\
 These research efforts were classified into three categories:
