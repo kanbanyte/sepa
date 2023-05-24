@@ -84,15 +84,85 @@ Delete all the explanatory text in RED, including this box before submission.
 > *[Provide a high-level overview of the system architecture as defined in the System Architecture Design and Research Report.*\
 > *This is to provide a context for the discussions in the remainder of this document.]*
 
-# Detailed System Design: Using OO or Alternative
-> *[Develop and present a detailed design, following a specific approach (e.g., responsibility-driven object-oriented design).*
->
-> *Note that an alternative design approach to OO can also be used (instead),*
-> *but a justification needs to be provided as to why the chosen approach is more suitable to the target system.*\
-> *In any case, the design, its justification and verification need to be presented.*
->
-> *Also note that depending on the SDLC chosen (eg, agile development), this part of the detailed design may be developed in a number of stages of the project;*
-> *but, they need to be considered before the implementation of the relevant part of the system.]*
+# Detailed System Design
+The system design will follow the diagram shown below, which displays a modular design to allow for effective development and implementation.
+ROS2 graph components including nodes, topics, actions, and bags will be used to maintain modularity and a clear data flow.
+
+Visual data from the depth camera will pass to image topics which will then be aggregated in the `Visual Data Aggregator` node.
+After passing through the `Container Detector` node, the data is then placed in the `Visual Data Logger` bag which will be used to perform testing and for debugging.
+
+The image processing system then validates the input data and places the data in the `Perception Data Logger` and
+passes the data into the `Computer Vision Network` node which will perform the object detection.
+This will return the object position which can then be used by the motion controller to perform movement actions, thus completing the pick and place task.
+```mermaid
+stateDiagram-v2
+	direction TB
+	state fork1 <<fork>>
+	state fork2 <<fork>>
+
+	%% Topics
+	state "Image Topic 1" as Img1
+	state "Image Topic 2" as Img2
+	state "Image Topic n" as ImgN
+	state "Visual Data Topic" as VisualData
+	state "Item Position Topic" as Item
+
+	%% Sub-components in the Depth Camera
+	state "Visual Data Aggregator" as Aggregator
+	state "Container Detector" as Detector
+	state "Visual Data Logger" as CameraLog
+
+	%% Sub-components in the Image Processing System
+	state "Input Data Validator" as Validator
+	state "Computer Vision Network" as Network
+	state "Perception Data Logger" as SystemLog
+	state "Position Data Formatter" as Formatter
+
+	%% Sub-components in the Motion Controller
+	state "Some Robot Axis Controller" as AxisCtrl
+	state "Some Robot Joint Controller" as JointCtrl
+
+	%% Components and relationships within them
+	state "Depth Camera" as Camera {
+		[*] --> Images
+		Images --> Aggregator
+		Aggregator --> Detector
+		Detector --> [*]
+	}
+
+	state "Image Processor" as ImgProcessor {
+		[*] --> Validator
+		Validator --> fork1
+		fork1 --> Network
+		fork1 --> SystemLog
+		Network --> Formatter
+		Formatter --> [*]
+	}
+
+	state "Motion Controller" as Controller {
+		AxisCtrl
+		--
+		JointCtrl
+	}
+
+	%% Further Implemented Concurrency
+	state Images {
+		Img1
+		--
+		Img2
+		--
+		ImgN
+	}
+
+	[*] --> Camera
+	Camera --> fork2
+	fork2 --> VisualData
+	fork2 --> CameraLog
+	VisualData --> ImgProcessor
+	ImgProcessor --> Item
+	Item --> Controller
+	Controller --> [*]
+```
 
 ## The Detailed Design and Justification
 > *[For example, if using OO design, the design should include one or more class diagrams and possibly other UML diagrams,*
