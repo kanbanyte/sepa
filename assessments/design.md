@@ -88,8 +88,66 @@ It aims to provide sufficient information for clients and project leads, ensurin
 <div class="page"/><!-- page break -->
 
 # System Architecture Overview
-> *[Provide a high-level overview of the system architecture as defined in the System Architecture Design and Research Report.*\
-> *This is to provide a context for the discussions in the remainder of this document.]*
+```mermaid
+stateDiagram-v2
+	direction TB
+	state "Depth Camera" as Camera
+	state "Computer Vision Technology" as Vision
+	state "Robotic Arm" as Robot
+	state "Components To Be Assembled" as Components
+
+	state "Software System" as Software {
+		[*] --> Vision : Data
+		Vision --> [*] : Feedback
+	}
+
+	Camera --> Software : Visual Data
+	Software --> Robot : Commands
+	Robot --> Components : Movement
+	Components --> Camera : Visual Input
+```
+
+Multiple pieces of software are required for the cobot to successfully complete the pick and place task.
+These components consist of the perception system to perceive the environment and provide visual data, and
+the software system that utilises computer vision and machine learning to detect the objects.
+Once the cobot has performed a movement, the environment will have changed,
+which provides new visual data to be passed into the perception system to continue the cycle.
+
+The flow of data is shown to pass through multiple interfaces, from the user interface to the software interface to the hardware interface.
+ROS2 is utilised to allow for the visual data to be passed into ROS2 interfaces which allows for the data to be easily used within ROS2 programs and
+therefore to perform actions.
+```mermaid
+stateDiagram-v2
+	direction TB
+	state if_state <<choice>>
+	state "User Interface" as User
+	state "Hardware Interface" as Hardware
+	state "Other Robotics Systems" as OtherSystems
+	state "Ubuntu Linux" as Ubuntu
+	state "Robotic Arm" as Robot
+
+	state "Software Interface" as Software {
+		[*] --> ROS2 : Integration
+		--
+		[*] --> Ubuntu : Operating System
+	}
+
+	state "Collaborative Robot" as Cobot {
+		[*] --> Sensors : Component Position
+		--
+		[*] --> Robot : Commands
+	}
+
+	state "Perception System" as Perception {
+		[*] --> User
+		User --> Software : Input/Output
+		Software --> Hardware : Commands/Signals
+		Hardware --> if_state
+		if_state --> OtherSystems : Send Signal
+		if_state --> Cobot : Actions
+		Cobot --> [*]
+	}
+```
 
 # Detailed System Design
 The system design will follow the diagram shown below, which displays a modular design to allow for effective development and implementation.
