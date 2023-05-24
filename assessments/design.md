@@ -101,9 +101,29 @@ Delete all the explanatory text in RED, including this box before submission.
 > *An alternative approach can also be adopted, In any case, the design decisions need to be justified.]*
 
 ## Design Verification
-> *[Present and discuss the verification of your design in this section.*\
-> *A usual approach for design verification is to demonstrate that the use scenarios (from the SRS) can be supported by your design.*\
-> *Well accepted alternative approaches can also be used instead.]*
+``` mermaid
+sequenceDiagram
+    participant G as GUI
+    participant D as DepthCamera
+    participant N as NeuralNetwork
+    participant R as RobotOperatingSoftware
+    participant A as RoboticArm
+
+    G->>D: Capture image
+
+    loop Continuous Operation
+        D->>N: Image data
+        alt Object Detection Successful
+            N->>N: Process image data
+            N-->>R: Detected object positions
+            R->>A: Move arm to object positions
+            A->>R: Component retrieval status
+            R->>G: Update Status
+        else Object Detection Failed
+            N-->>G: No object positions
+        end
+    end
+```
 
 <div class="page"/><!-- page break -->
 
