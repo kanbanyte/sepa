@@ -66,7 +66,7 @@ Delete all the explanatory text in RED, including this box before submission.
 Project 24 aims to enhance cobot's capabilities by providing it with a perception system to perform pick and place tasks.
 The robot currently performs these tasks without any form of perception system, and the position of the object to pick and place is predefined.
 
-Project 24 will utilise state-of-the-art technologies in computer vision (CV), sensors, robotics, and
+leveraging various sensors, Project 24 will utilise state-of-the-art technologies in computer vision (CV), sensors, robotics, and
 artificial intelligence (AI) to develop a real-time object detection, processing, and
 analysis system that will provide the robot with the ability to continuously learn and adapt to it's environment.
 
@@ -136,6 +136,7 @@ Close of Business (5:00 PM)
 <div class="page"/><!-- page break -->
 
 # Problem Analysis
+![img of robot](https://cdn.discordapp.com/attachments/760514738139955211/1110898823640911882/image.png)
 The FOF cobot lacks a perception system, which limits its capabilities to moving objects that are located through pre-programmed coordinates,
 therefore reducing the efficiency for pick and place tasks.
 The proposed perception system will be built with cutting edge and state-of-the-art technologies,
@@ -307,7 +308,7 @@ stateDiagram-v2
 		Detector --> [*]
 	}
 
-	state "Image Processing System" as ImgProcessor {
+	state "Image Processor" as ImgProcessor {
 		[*] --> Validator
 		Validator --> fork1
 		fork1 --> Network
@@ -363,7 +364,7 @@ This component is responsible for identifying the locations of these container, 
 narrowing the scope of data that the computer vision system needs to process.
 It takes the aggregated visual data from the **Visual Data Aggregator** and separates them into multiple frames, each depicting only one type of container.
 
-### Image Processing System
+### Image Processor
 The role of the Perception system is to determine the presence of items-to-be-assembled at their designated positions.
 This system subscribes to the **Visual Data Topic** published by the Depth Camera and outputs a data structure that specifies which items are present.
 This information is then published to **Item Position Topic**.
@@ -467,6 +468,8 @@ For these reasons this architecture was not chosen.
 <div class="page"/><!-- page break -->
 
 # Research and Investigations
+![robo in action](https://cdn.discordapp.com/attachments/760514738139955211/1110900068107690004/robo_bitch.jpg)
+
 HeeHooVision conducted several research efforts to ensure the success of the project.\
 These research efforts were classified into three categories:
 1. Understanding The System's Business/Application Domain.
