@@ -79,7 +79,7 @@ Delete all the explanatory text in RED, including this box before submission.
 	* [ACCEPTANCE CRITERIA](#acceptance-criteria)
 * [ESTABLISHMENT](#establishment)
 	* [PROCESSES, PROCEDURES AND STANDARDS](#processes-procedures-and-standards)
-	* [Project Environment:](#project-environment)
+	* [Project Environment](#project-environment)
 	* [PROJECT TEAM SKILL DEVELOPMENT REQUIREMENTS](#project-team-skill-development-requirements)
 * [DELIVERABLES, ACTIVITIES AND CAPITAL RESOURCES](#deliverables-activities-and-capital-resources)
 	* [DELIVERABLES](#deliverables)
