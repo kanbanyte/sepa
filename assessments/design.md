@@ -101,6 +101,9 @@ Delete all the explanatory text in RED, including this box before submission.
 > *An alternative approach can also be adopted, In any case, the design decisions need to be justified.]*
 
 ## Design Verification
+The following sequence diagram offers a visual representation of how the proposed system complies with the project requirements by showing the interactions between components and the continuous flow of operations.
+It depicts the real-time object detection and communication of object positions which enables autonomous operation and ongoing learning and adaptation.
+
 ``` mermaid
 sequenceDiagram
     participant G as GUI
@@ -124,6 +127,26 @@ sequenceDiagram
         end
     end
 ```
+### Real-time Object Detection, Processing, and Analysis
+The depth camera continuously captures images, and the neural network processes the image data in real-time.
+The object positions detected by the neural network are sent to the robot operating software promptly.
+This verifies that the system enables real-time object detection, processing, and analysis, ensuring accuracy and speed.
+
+### Object Location Data Communication
+The object positions detected by the neural network are communicated from the depth camera to the robot operating software.
+The robot operating software then uses this data to control the robotic arm's movements.
+This verifies that the system successfully communicates the object location data to the robot operating software, facilitating the pick and place task.
+
+### Continuous Learning and Adaptation
+It is not explicitly depicted in the sequence diagram but, the neural network module is designed to continuously learn and adapt to new configurations of the chips in their stands once implemented.
+Through training and updating the neural network with new data, it can improve its object recognition and location detection capabilities over time.
+This verifies that the system has the potential to continuously learn and adapt to different chip layouts, without the need for user input.
+
+### Autonomous Systems
+The sequence diagram shows the continuous operation of the system without the need for human intervention.
+The robotic arm moves to the detected object positions automatically based on the commands from the robot operating software.
+The system operates independently, minimizing human involvement and fulfilling the requirement of an autonomous system.
+
 
 <div class="page"/><!-- page break -->
 
