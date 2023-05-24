@@ -106,24 +106,24 @@ It shows the interactions between components and the continuous flow of operatio
 It depicts the real-time object detection and communication of object positions which enables autonomous operation and ongoing learning and adaptation.
 ```mermaid
 sequenceDiagram
-	participant Interface as GUI
+	participant UI as Interface
 	participant Camera as Depth Camera
 	participant Network as Neural Network
 	participant ROS as Robot Operating Software
 	participant Arm as Robotic Arm
 
-	Interface->>Camera: Capture image
+	UI->>Camera: Capture image
 	loop Continuous Operation
 		Camera->>+Network: Image data
 		alt Object Detection Failed
-			Network-->>Interface: No object positions
+			Network-->>UI: No object positions
 		else Object Detection Successful
 			Network->>Network: Process image data
 			Network-->>+ROS: Detected object positions
 			ROS->>+Arm: Move arm to object positions
 			Arm-->>-ROS: Component retrieval status
 			ROS-->>-Network: Update Status
-			Network-->>-Interface: Task Complete
+			Network-->>-UI: Task Complete
 		end
 	end
 ```
