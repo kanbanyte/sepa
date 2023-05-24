@@ -114,6 +114,39 @@ This includes research into ROS2, Machine Learning, and Computer Vision.
 ## ROS2
 
 ## Machine Learning
+### Data
+When tackling machine learning (ML), a key pillar is the training of models, which of course requires data.
+
+#### Structured and unstructured data
+##### structured data
+* typically quantitative data
+* highly organised and easily decipherable
+* SQL can and usually is used to manage structured data
+
+Examples:
+dates, names, addresses, CC numbers
+
+##### unstructured data
+* typically qualitative data
+* needs special tools to be processed and analysed
+* best stored in non-relational databases
+
+##### Semi-structured data
+* a bridge between the two
+* has metadata to have better organisation
+
+The project will use either semi-structured or unstructured as they support images.
+
+#### Making use of the data
+* output to human reading (testing)
+* output to robot instructions (into ROS)
+* output to real world application (Still to ROS then to cobot)
+
+### ML methods
+* supervised
+* unsupervised
+* semi-supervised
+
 
 ## Computer Vision
 
