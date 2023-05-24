@@ -94,7 +94,6 @@ After passing through the `Container Detector` node, the data is then placed in 
 The image processing system then validates the input data and places the data in the `Perception Data Logger` and
 passes the data into the `Computer Vision Network` node which will perform the object detection.
 This will return the object position which can then be used by the motion controller to perform movement actions, thus completing the pick and place task.
-
 ```mermaid
 stateDiagram-v2
 	direction TB
@@ -131,7 +130,7 @@ stateDiagram-v2
 		Detector --> [*]
 	}
 
-	state "Image Processing System" as ImgProcessor {
+	state "Image Processor" as ImgProcessor {
 		[*] --> Validator
 		Validator --> fork1
 		fork1 --> Network
