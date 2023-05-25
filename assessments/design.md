@@ -259,7 +259,7 @@ stateDiagram-v2
 The design of this system leverages multiple technologies like CV, Depth Cameras, and robotics.\
 As a result much of the structure of this project will be breaking the larger task down into these technologies for both efficiency and effectiveness.
 
-The Depth Camera acts as an encapsulation of the depth camera as a physical object as well as the data logging it does.
+The Depth Camera acts as an encapsulation of the ZED 2 Camera as well as the data logging it does.
 The depth camera outputs visual data to the system which, as seen, is placed into topics.
 Topics in this instance are like classifications that sort the data for use later on.
 
