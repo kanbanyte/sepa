@@ -73,7 +73,7 @@ Delete all the explanatory text in RED, including this box before submission.
 > *[Provide an overview (or executive summary) of this document]*
 
 ## Definitions, Acronyms and Abbreviations
-he following definitions will be used consistently throughout the SRS document to ensure clarity and understanding:
+The following definitions will be used consistently throughout the SRS document to ensure clarity and understanding:
 * **cobot:**
 The mechanical device (UR5e manufactured by Universal Robots) used to perform pick and place tasks.
 * **CV/Perception System:**
