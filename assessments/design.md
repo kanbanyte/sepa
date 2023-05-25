@@ -260,7 +260,7 @@ The design of this system leverages multiple technologies like CV, Depth Cameras
 As a result much of the structure of this project will be breaking the larger task down into these technologies for both efficiency and effectiveness.
 
 The Depth Camera acts as an encapsulation of the ZED 2 Camera as well as the data logging it does.
-The depth camera outputs visual data to the system which, as seen, is placed into topics.
+It then outputs visual data to the system which, as seen, is placed into topics.
 Topics in this instance are like classifications that sort the data for use later on.
 
 Throughout the system exist Loggers, these are like checkpoints for testing.\
