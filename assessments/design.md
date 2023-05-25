@@ -73,8 +73,9 @@ Delete all the explanatory text in RED, including this box before submission.
 This document records the technical details, considerations and design strategies employed to build the system.
 It aims to provide guidance and serve as a valuable reference for developers involved in the implementation,
 while also offering insightful information to relevant stakeholders.
-In particular, it covers deeper details of the system architecture described in the SADRR and discusses
-the design verifications as well as implementation progress.
+It also covers deeper details of the system architecture described in the SADRR by providing a comprehensive UML class diagram which
+encapsulates the hierarchial relationships and interdependencies between various classes and components.
+The document also discusses the verifications for said design and systematically examines how established requirements and common use cases are achieved.
 
 ## Definitions, Acronyms and Abbreviations
 > *[Provide the definition of all terms, acronyms, and abbreviations used in this document.]*
