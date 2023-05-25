@@ -186,16 +186,23 @@ The critical success factors for this project include:
 	* can detect objects that are partially occluded or have complex shapes.
 * Developing necessary code so that the robot can perform the required task from vision system inputs.
 
-## ACCEPTANCE CRITERIA
+## Acceptance Criteria
 The acceptance criteria for this project include:
-* Successful implementation and testing of the vision system.
-* The vision system should be integrated with the robot's control system and enable the robot to perform pick and place tasks with increased efficiency and accuracy.
-* The system should be able to detect:
-	* objects accurately and efficiently.
-	* objects in a variety of lighting conditions and at various distances from the robot.
-	* objects that are partially occluded or have complex shapes.
-	* if objects are out of place or missing and halt the task until told to continue.
-* The robot should move and perform its programmed task.
+1. Successful Implementation and Testing of the Vision System.
+	* The vision system should be developed and
+	integrated into the robot's control system to enable effective performance of pick and place tasks with increased efficiency and accuracy.
+2. Accurate and Efficient Object Detection.
+	* The vision system should be capable of accurately and
+	efficiently detecting objects in a variety of lighting conditions and at various distances from the robot.
+3. Handling of Partially Occluded or Complex-Shaped Objects.
+	* The system should be able to detect and handle objects that are partially occluded or possess complex shapes,
+	ensuring reliable object recognition and manipulation.
+4. Detection of Misplaced or Missing Objects.
+	* The vision system should have the capability to identify if objects are out of place or missing during the pick and place tasks.
+	In such cases, the system should halt the task until instructed to continue.
+
+Additionally, it is important to note that for Semester 1, the client's expectation is focused on research and exploration related to the project,
+while the actual implementation of the vision system will take place in Semester 2.
 
 <div class="page"/><!-- page break -->
 
