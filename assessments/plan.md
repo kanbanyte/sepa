@@ -112,9 +112,10 @@ Delete all the explanatory text in RED, including this box before submission.
 <div class="page"/><!-- page break -->
 
 # INTRODUCTION
-This document is designed to serve as a guide to use in relation to the proposed plans and ideas for the project.
-This document is deigned to be easily accessible to the client to see the intentions with the project.
-This document will assist in defining future documents as this outlines expectations, proposed ideas and a rough plan for the project.
+The project plan outlined in this document serves as a crucial tool for successful project management.
+It provides a clear roadmap, aligns expectations, and fosters effective communication among stakeholders.
+By defining objectives, identifying potential risks, and outlining roles and responsibilities, the project plan establishes a solid foundation for project execution.
+It also serves as a reference point for tracking progress and evaluating project success, while facilitating future documentation and planning.
 
 ## BACKGROUND
 The Factory of the Future focuses on developing technologies,
