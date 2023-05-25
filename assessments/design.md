@@ -108,10 +108,63 @@ Delete all the explanatory text in RED, including this box before submission.
 <div class="page"/><!-- page break -->
 
 # Implementation
-Due to the project requiring the group to learn an entirely new set of skills, the start of the project has exclusively involved completeing background research in  the relevant fields.
+Due to the project requiring the group to learn an entirely new set of skills, the start of the project has exclusively involved completing background research in  the relevant fields.
 This includes research into ROS2, Machine Learning, and Computer Vision.
 
 ## ROS2
+ROS 2 consists of multiple software libraries for developing robotics software.
+It allows for structuring the different components of the robot system into a graph containing nodes, topics, services, and actions.
+Commands can be used within a terminal to control different aspects of ROS and it supports programming in C++ and Python
+
+### Nodes and Topics
+Nodes represent a single, modular purpose
+For example; publishing information from a camera, moving grasping claw, moving arm motors, rotating claw, etc.
+Nodes have parameters that can be set or changed via CLI or in code.
+
+Topics are used to connect nodes. Nodes can subscribe to topics and receive data or publish to them by sending data.
+For example a vision camera publishes object positions to a topic, relevant nodes subscribe to receive the position data
+and then use it to move the arm to that position
+
+### Services
+Services are another way to connect nodes.
+A client node can send a request message containing some data to a server node.
+The server node then sends a response message containing some data back to the client node.
+Services can be used to confirm data is correct or for other nodes to modify data for the client node to use.
+
+### Actions
+Actions are a way to connect nodes to allow for the robot to perform an action.
+Actions can be cancelled unlike topics and services and they consist of three parts:
+
+Goal service:
+* Client sends the goal required
+* Server sends acknowledgment
+
+Result service:
+* Client sends request for result
+* Server sends feedback until goal is reached
+* Server sends result
+
+Feedback topic:
+* Server sends gradually changing data
+* Feedback stops once goal is reached
+
+### Bags
+Bags are used for recording and playing back data published to topics.
+Once data is recorded in a bag, it can be used to perform actions again in the exact same way which is useful for debugging and troubleshooting
+
+### Proposed Implementation
+Each distinct part of the robot system that moves will need to be represented as a node.
+This includes but is not limited to the grasping claw, robot arm motors, vision camera and nodes for performing actions or invoking services.
+Any movements or tasks will be performed via an action, this will include; closing grasping claw, picking up distinct objects,
+placing objects, resetting position, etc.
+Simulations will be used to test tasks before running them on the physical robot and to allow for better development remotely.
+
+### Integration
+All code written to control the robot will use ROS 2 libraries
+Code created in C++ and Pyhton will use the rclcpp and rclpy libraries respectively.
+The modularity of ROS allows for much easier integration with the object detection software that will be created.
+Nodes related to the vision camera can utilise the object detection program to allow the robot to move to the correct positions and
+perform actions efficiently and accurately.
 
 ## Machine Learning
 ### Data
