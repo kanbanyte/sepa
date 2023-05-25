@@ -76,7 +76,7 @@ Delete all the explanatory text in RED, including this box before submission.
 	* [OBJECTIVES](#objectives)
 	* [Scope](#scope)
 	* [CRITICAL SUCCESS FACTORS](#critical-success-factors)
-	* [ACCEPTANCE CRITERIA](#acceptance-criteria)
+	* [Acceptance Criteria](#acceptance-criteria)
 * [ESTABLISHMENT](#establishment)
 	* [PROCESSES, PROCEDURES AND STANDARDS](#processes-procedures-and-standards)
 	* [Project Environment](#project-environment)
