@@ -123,17 +123,16 @@ For example; publishing information from a camera, moving grasping claw, moving 
 Nodes have parameters that can be set or changed via CLI or in code.
 
 Topics are used to connect nodes. Nodes can subscribe to topics and receive data or publish to them by sending data.
-For example a vision camera publishes object positions to a topic, relevant nodes subscribe to receive the position data and
-then use it to move the arm to that position
+For example; a vision camera publishes object positions to a topic, relevant nodes subscribe to receive the position data and
+then use it to move the arm to that position.
 
-### Services
+### Services and Actions
 Services are another way to connect nodes.
 A client node can send a request message containing some data to a server node.
 The server node then sends a response message containing some data back to the client node.
 Services can be used to confirm data is correct or for other nodes to modify data for the client node to use.
 
-### Actions
-Actions are a way to connect nodes to allow for the robot to perform an action.
+Actions are a way to connect nodes to allow for the robot to perform an action.\
 Actions can be cancelled unlike topics and services and they consist of three parts:
 1. Goal service
 	* Client sends the goal required
@@ -165,15 +164,10 @@ Nodes related to the vision camera can utilise the object detection program to a
 perform actions efficiently and accurately.
 
 ## Machine Learning
-When tackling ML, a key pillar is the training of models, which of course requires data.
-
 ### Structured Data
 * Typically quantitative data.
 * Highly organised and easily decipherable.
 * SQL can and usually is used to manage structured data.
-
-Examples:\
-Dates, names, addresses, credit card numbers.
 
 ### Unstructured Data
 * Typically qualitative data.
@@ -183,8 +177,6 @@ Dates, names, addresses, credit card numbers.
 ### Semi-Structured Data
 * A bridge between the two.
 * Has metadata to have better organisation.
-
-The project will use either semi-structured or unstructured as they support images.
 
 ### ML Methods
 * Supervised
