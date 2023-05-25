@@ -358,7 +358,8 @@ Nodes represent a single, modular purpose.
 For example; publishing information from a camera, moving grasping claw, moving arm motors, rotating claw, etc.
 Nodes have parameters that can be set or changed via CLI or in code.
 
-Topics are used to connect nodes. Nodes can subscribe to topics and receive data or publish to them by sending data.
+Topics are used to connect nodes.
+Nodes can subscribe to topics and receive data or publish to them by sending data.
 For example; a vision camera publishes object positions to a topic, relevant nodes subscribe to receive the position data and
 then use it to move the arm to that position.
 
@@ -448,23 +449,84 @@ Only boolean data indicating an item's presence or absence should be included in
 The robot's motion control is then updated with the position data.
 
 # References
-> *[If you have used information from published sources, show where it came from here (and cite them in the relevant places of this report).*\
-> *Use the Harvard system of citation (or another system, but be consistent).*\
-> *For instance, they may be books, journal articles, or websites.]*
-
-> ***[Your reference list entry must be in the form of***\
-> &emsp; **Author, Initial(s) Year, *Title of Document/Webpage/Website*, Organisation/Host, viewed Day Month Year, &lt;URL>.**
->
-> &emsp; example
->
-> &emsp; Yates, J 2009, Tax expenditures and housing, Australian Housing and Urban Research Institute, viewed 12 November 2013,\
-> &emsp; <http://www.ahuri.edu.au/publications/download/ahuri_judith_yates_research_paper>.]
->
-> ***[Your in-text may be in the form of***
-> * **Direct quote**\
-> "Most official estimates ..." (Yates 2009).
-> * **Paraphrase**\
-> Yates (2009) looked at the equity implications of tax ...]
->
-> ***[For more information on the Harvard style guide, refer to***\
-> &emsp; <http://www.swinburne.edu.au/lib/studyhelp/harvard_style.html>]
+* Ubuntu (2023).
+Download Ubuntu desktop.
+Available at: <https://ubuntu.com/download/desktop> (Accessed: 21 April 2023).
+* OpenCV (2023).
+OpenCV.
+Available at: <https://opencv.org/> (Accessed: 21 April 2023).
+* PyTorch (2023).
+PyTorch.
+Available at: <https://pytorch.org/> (Accessed: 21 April 2023).
+* ROS 2 (2023).
+ROS 2 Documentation.
+Available at: <https://docs.ros.org/en/humble/index.html> (Accessed: 21 April 2023).
+* Universal Robots (2023).
+THE UR5e.
+Available at: <https://www.universal-robots.com/products/ur5-robot/> (Accessed: 21 April 2023).
+* Stereolabs (2023).
+Stereolabs Documentation.
+Available at: <https://www.stereolabs.com/docs/> (Accessed: 23 April 2023).
+* ROS Client Library API (2022).
+rclcpp: ROS Client Library for C++.
+Available at: <https://docs.ros2.org/latest/api/rclcpp/> (Accessed: 24 April 2023).
+* ROS Client Library API (2019).
+rclpy: ROS Client Library for Python.
+Available at: <https://docs.ros2.org/latest/api/rclpy/> (Accessed: 24 April 2023).
+* It's FOSS (2022).
+31 Linux Commands Every Ubuntu User Should Know.
+Available at: <https://itsfoss.com/essential-ubuntu-commands/> (Accessed: 29 April 2023).
+* Towards Data Science (2018).
+Train Image Recognition AI with 5 lines of code.
+Available at: <https://towardsdatascience.com/train-image-recognition-ai-with-5-lines-of-code-8ed0bdd8d9ba> (Accessed: 30 April 2023).
+* Universal Robots (2018).
+UR5e Technical Details.
+Available at: <https://www.universal-robots.com/media/1802778/ur5e-32528_ur_technical_details_.pdf> (Accessed: 30 April 2023).
+* Stereolabs (2023).
+ZED 2 camera.
+Available at: <https://www.stereolabs.com/zed-2/> (Accessed: 30 April 2023).
+* YouTube (2021).
+Module 05: Architecture, Part 05: Layered Architecture.
+Available at: <https://www.youtube.com/watch?v=WiXp2p4obe4> (Accessed: 3 May 2023).
+* YouTube (2022).
+What is a Message Queue?.
+Available at: <https://www.youtube.com/watch?v=xErwDaOc-Gs&t=649s> (Accessed: 3 May 2023).
+* ROS 2 (2023).
+Understanding Topics.
+Available at: <https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html> (Accessed: 3 May 2023).
+* Stereolabs (2023).
+ROS 2 - ZED Node.
+Available at: <https://www.stereolabs.com/docs/ros2/zed-node/#published-topics> (Accessed: 3 May 2023).
+* Mermaid (2023).
+Flowchart.
+Available at: <https://mermaid.js.org/syntax/flowchart.html> (Accessed: 5 May 2023).
+* Wikipedia (2023).
+Flowchart.
+Available at: <https://en.wikipedia.org/wiki/Flowchart> (Accessed: 5 May 2023).
+* Mermaid (2023).
+State Diagram.
+Available at: <https://mermaid.js.org/syntax/stateDiagram.html> (Accessed: 5 May 2023).
+* The Unified Modelling Language (2023).
+UML Association.
+Available at: <https://www.uml-diagrams.org/association.html#navigability> (Accessed: 5 May 2023).
+* University of Waterloo (2017).
+Layered Architecture Design Activity.
+Available at: <https://cs.uwaterloo.ca/~m2nagapp/courses/CS446/1171/Arch_Design_Activity/Layered.pdf> (Accessed: 6 May 2023).
+* IBM Cloud (2021).
+Structured vs. Unstructured Data.
+Available at: <https://www.ibm.com/cloud/blog/structured-vs-unstructured-data> (Accessed: 9 May 2023).
+* IBM Cloud (2020).
+AI vs. Machine Learning vs. Deep Learning vs. Neural Networks.
+Available at: <https://www.ibm.com/cloud/blog/ai-vs-machine-learning-vs-deep-learning-vs-neural-networks> (Accessed: 10 May 2023).
+* YouTube (2019).
+Deep Learning Basics.
+Available at: <https://youtu.be/O5xeyoRL95U> (Accessed: 10 May 2023).
+* Stereolabs (2022).
+ZED OpenCV.
+Available at: <https://github.com/stereolabs/zed-opencv> (Accessed: 10 May 2023).
+* Stereolabs (2023).
+PyTorch.
+Available at: <https://www.stereolabs.com/docs/pytorch/> (Accessed: 10 May 2023).
+* Stereolabs (2023).
+OpenCV.
+Available at: <https://www.stereolabs.com/docs/opencv/> (Accessed: 10 May 2023).
