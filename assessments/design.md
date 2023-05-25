@@ -147,8 +147,33 @@ The project will use either semi-structured or unstructured as they support imag
 * unsupervised
 * semi-supervised
 
-
 ## Computer Vision
+The perception system will be able to identify objects and their locations with a great deal of accuracy thanks to the ZED 2 camera's use of binocular vision, 
+which works similarly to human eyes' depth perception.
+Its 120-degree field of view and depth range of 0.2 to 20 metres give it a large detection area and enables better tracking of object positions.
+
+The ZED 2 can record video at a variety of frame rates and resolutions, 
+including 2.2K at 15 fps, 1080p at 30 fps or 15 fps, and 720p at 60, 30 or 15 fps.
+Higher frame rates would enable better position tracking, while higher resolutions would improve object detection.
+
+With this in mind he project will require a system that is composed of the following items:
+
+### Input Data Validator
+The Depth Camera will likely output complex and possibly unprocessable visual data. 
+Data must be passed to this sub-component to check for proper formatting in order to maintain high accuracy.
+
+### Perception Data Logger
+The perception system must keep track of metadata pertaining to the data it retrieved, its results, confidence level, and other attributes.
+This information is helpful for telemetry, bug fixing, and training computer vision models.
+
+### Computer Vision Network
+This is the central component of the image processing system, which uses validated input data to identify the presence of components that need to be assembled. 
+The machine-learning network that has been trained to find objects at their designated locations is represented by this sub-component.
+
+### Position Data Formatter
+The Computer Vision Network's raw output is not accessible to other components because it is improbable that they will find it useful.
+Only boolean data indicating an item's presence or absence should be included in the data prediction model's output.
+The robot's motion control is then updated with the position data.
 
 # References
 > *[If you have used information from published sources, show where it came from here (and cite them in the relevant places of this report).*\
