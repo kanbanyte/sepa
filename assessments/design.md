@@ -77,7 +77,12 @@ This document serves as a comprehensive design of the project and overall implem
 It aims to provide sufficient information for clients and project leads, ensuring easy understanding of the system's design and implementation of Project 24.
 
 ## Overview
-> *[Provide an overview (or executive summary) of this document]*
+This document records the technical details, considerations and design strategies employed to build the system.
+It aims to provide guidance and serve as a valuable reference for developers involved in the implementation,
+while also offering insightful information to relevant stakeholders.
+It also covers deeper details of the system architecture described in the SADRR by providing a comprehensive UML class diagram,
+which encapsulates the hierarchical relationships and interdependencies between various classes and components.
+The document also discusses the verifications for said design and systematically examines how established requirements and common use cases are achieved.
 
 ## Definitions, Acronyms and Abbreviations
 > *[Provide the definition of all terms, acronyms, and abbreviations used in this document.]*
