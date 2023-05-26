@@ -67,7 +67,7 @@ Delete all the explanatory text in RED, including this box before submission.
 * [CLIENT SIGN OFF](#client-sign-off)
 * [CONTENTS](#contents)
 * [INTRODUCTION](#introduction)
-	* [BACKGROUND](#background)
+	* [Background](#background)
 	* [KEY PROJECT PERSONNEL](#key-project-personnel)
 		* [CLIENT](#client)
 		* [OTHER STAKE HOLDERS](#other-stake-holders)
@@ -116,7 +116,7 @@ This document is designed to serve as a guide to use in relation to the proposed
 This document is deigned to be easily accessible to the client to see the intentions with the project.
 This document will assist in defining future documents as this outlines expectations, proposed ideas and a rough plan for the project.
 
-## BACKGROUND
+## Background
 The Factory of the Future focuses on developing technologies,
 the latest being a Cobot that assists an operator assemble devices, which is in need of a vision system.
 Currently, the pick and place tasks are only performed under rigidly pre-programmed conditions due to the lack of a perception system.
@@ -124,6 +124,8 @@ Specifically, the robot system lacks the ability to detect whether an item is pr
 a new perception system is added with the intention of improving this behavior.
 The Factory of the Future wants this project to be completed to both show how emerging technologies can be used to automate tasks,
 as well as, how robots can be incorporated into regular workflows.
+In particular, the addition of a perception system enables the cobot to perform its task more accurately and reduce dependency on the human operator,
+leading to heightened productivity gains.
 
 ## KEY PROJECT PERSONNEL
 The key personnel involve in this project are as follows:
