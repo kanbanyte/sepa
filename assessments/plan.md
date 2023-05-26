@@ -125,7 +125,7 @@ a new perception system is added with the intention of improving this behavior.
 The Factory of the Future wants this project to be completed to both show how emerging technologies can be used to automate tasks,
 as well as, how robots can be incorporated into regular workflows.
 In particular, the addition of a perception system enables the cobot to perform its task more accurately and reduce dependency on the human operator,
-leading to heightened productivity gains.
+leading to heightened productivity.
 
 ## KEY PROJECT PERSONNEL
 The key personnel involve in this project are as follows:
