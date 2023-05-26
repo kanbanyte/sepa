@@ -153,8 +153,8 @@ Prof. J is responsible for leading and overseeing the projects within the Factor
 # TERMS OF REFERENCE
 This project will leverage Machine Learning (ML) techniques alongside computer vision;
 in tandem with video from the ZED 2 Depth Camera to give the cobot a perception system.\
-Currently, the position of the components are defined within the system and the cobot reads these and acts on moving them accordingly.
-The goal of this project is to be able to provide the system with vision, allowing it to autonomously move components around improving efficiency within the system.\
+Currently, the position of the components are defined within the system and the cobot reads these and acts on moving them accordingly.\
+The goal of this project is to be able to provide the system with vision, allowing it to autonomously move components around improving efficiency within the system.
 Workers will be provided with a more effective workplace as the requirement of grabbing components will be done by the cobot, thus increasing efficiency.
 
 ## OBJECTIVES
