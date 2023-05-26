@@ -287,13 +287,13 @@ During the research phase, the following activities will be undertaken:
 	* Gain proficiency in working with ROS, an open-source framework for building robot applications.\
 	This includes understanding its architecture, tools, and how to develop and integrate software components using ROS.
 2. Study concepts of machine learning and computer vision.
-	* Dive into the realm of machine learning, specifically focusing on computer vision applications.\
+	* Specifically focusing on computer vision applications, delve into research around machine learning and Artificial intelligence in the field.
 	This involves exploring various concepts, algorithms, and techniques used in computer vision, such as image processing, feature extraction, and object detection.
 3. Explore the machine learning cycle for the project needs.
 	* Investigate the entire machine learning cycle relevant to the project requirements.\
 	This includes activities such as:
-		* Data collection and labeling:\
-		Engage in field work to gather relevant data, labeling it with appropriate annotations.
+		* Data collection and labelling:\
+		Engage in field work to gather relevant data, labelling it with appropriate annotations.
 		* Data pre-processing:\
 		Perform necessary preprocessing steps on the collected data to prepare it for feeding into the vision algorithm.
 		* Model selection:\
