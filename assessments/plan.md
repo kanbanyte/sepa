@@ -342,27 +342,27 @@ A budget will need to be allocated for hardware and software resources, as well 
 # Risks
 Risks are a major problem in projects, they can slow things to a grinding halt if not properly dealt with and mitigated.
 
-##### Risk 1:
+#### Risk 1
 **Difficulty in hardware and software integration.**\
 With the project utilising cameras and ROS the integration of hardware and software can lead to issues down the line.\
 Regular testing of the software in Ubuntu OS as well as frequent integration with the hardware will avoid major issues.
 
-##### Risk 2:
-**Inadequate preparation for diverse lighting conditions**\
-in the development of a vision system the prospect of different lighting conditions will arise.
+#### Risk 2
+**Inadequate preparation for diverse lighting conditions.**\
+In the development of a vision system the prospect of different lighting conditions will arise.\
 In the event that the data gathered, and
-subsequently used to train the model is unsubstantial in documenting a variety of lighting conditions the system is prone to failure.\
+subsequently used to train the model is unsubstantial in documenting a variety of lighting conditions the system is prone to failure.
 Ensuring the data gathered is in a variety of lighting conditions is crucial to ensuring success,
 alongside this modifying data to include defections such as colour variations, misalignment and rotation can help the model work more effectively.
 
-##### Risk 3:
-**Updates of software**\
-Due to the utilisation of many open source projects within this project it is likely a regular update to this software can interfere with the established project.
+#### Risk 3
+**Updates of software.**\
+Due to the utilisation of many open-source projects within this project, it is likely a regular update to this software can interfere with the established project.
 This could be as minor as efficiency or bug fixes to major issues like mandatory code refactoring or deprecated functions.
-Mitigating this issue is difficult as regular software updates are usually beneficial to incorporate, however maintaining a long term support version may offset this.
-Wholly this issue is difficult to tackle and generally needs to be handled on a case by case basis.
+Mitigating this issue is difficult as regular software updates are usually beneficial to incorporate; however, maintaining a long term support version may offset this.
+Wholly, this issue is difficult to tackle and generally needs to be handled on a case-by-case basis.
 
-##### Risk 4:
+#### Risk 4
 **Changes in project requirements or objectives.**\
 As mentioned above, changes in objectives can change the deadline timing, making it harder to achieve in most cases.
 However the larger issue is a change in objectives can change the budget, often demanding a time crunch or stretched resources.\
