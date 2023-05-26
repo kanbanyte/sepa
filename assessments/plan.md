@@ -151,9 +151,10 @@ Prof. J is responsible for leading and overseeing the projects within the Factor
 <div class="page"/><!-- page break -->
 
 # TERMS OF REFERENCE
-The goal of this project is to be able to provide a vision system to a Cobot,
-while using machine learning techniques to allow the robot to assess the situation and act accordingly.
-Currently the position of the objects are predefined, if an object doesn't exist there then the robot cannot perform the pick and place task.
+This project will leverage machine learning techniques alongside computer vision in tandem with video from the zed 2 depth camera to give the cobot a perception system.
+Currently the position of the objects are defined within the system and the cobot readds these and acts on moving them accordingly.
+The goal of this project to be to provide the system with vision allowing it to autonomously move objects around improving efficiency within the system.
+workers will be provided with a more effective workplace as the requirement of grabbing components will be done by the cobot thus increasing efficiency.
 
 ## OBJECTIVES
 The objectives of this project are to design and implement a vision system for a pick and place task using a robot located within the Factory of the Future.
