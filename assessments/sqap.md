@@ -161,32 +161,24 @@ The following section will detail the various roles within the team for various 
 ### Meeting Roles
 These roles will be for regular meetings to discuss the current progress of the project and
 will help ensure successful completion of the project and cohesion between team members.\
-The meeting roles will consist of:
+The meeting roles will consist of: Team Leader, Meeting Minutes, and Supervisor.
 
-#### Meeting Manager
+#### Team Leader
 Coordinates meetings and ensure effective communication between meeting members.
 Summarises the meeting, describing and allocating any future tasks to the relevant members.
 
-#### Scribe
+#### Meeting Minutes
 Records any important information and meeting minutes during the meeting for future reference and records.
 
-#### Moderator
+#### Supervisor
 Ensures meeting remains within time and each member is able to state and discuss their relevant item.
 Keeps track of meeting minutes for the scribe to record.
 Makes sure that only nobody talks over another to keep the discussion understandable and time efficient.
 
-### Formal Review Meeting Roles
+### Formal Review
 Formal review meetings will be conducted to thoroughly check finished work in order to maximise the quality of the software architecture and design.
 During the meeting, team members should provide constructive feedback and
 ensure that the software architecture and design aligns with the project's objectives and adheres to quality standards.
-
-The roles for such meetings will be similar to the meeting roles described in the previous section.
-The formal review meetings roles will be as follows:
-* The lead software architect and designer, along with other software architects and designers involved in the project
-* Subject matter experts in computer vision, sensors, robotics, and AI to ensure the quality of the software design.
-* The project manager to facilitate the review meeting and ensure effective communication between team members.
-* Team members to review the software architecture and design documentation in advance and
-provide constructive feedback during the meeting to ensure that the software design aligns with the project's objectives and adheres to quality standards.
 
 <div class="page"/><!-- page break -->
 
@@ -195,7 +187,8 @@ A champion in a role is considered the primary person responsible for the qualit
 While multiple team members could take on the same role, the champion of that role is essentially the leader of the role.
 Champion roles are crucial for ensuring that the software is designed and developed according to best practices, meets the requirements of the project,
 and is maintainable and scalable over time.\
-The following will be the champion roles for the project:
+The following will be the champion roles for the project: Software Architect, Software Designer, Software Developer, Cobot/Hardware Champion,
+OS Integration Champion, API Champion, Documentation Champion, GitHub Management Champion, and Kanban Methodology Champion.
 
 #### Software Architect
 Responsible for creating the overall architecture of the system, defining its components and interactions.
@@ -233,18 +226,8 @@ This champion role will help the team meet goals by providing them with a better
 ### Communication Roles
 The communication roles are those necessary for effective communication between team members and between the client and stakeholders.
 These roles will take on the responsibility of understanding the relevant information they need to communicate and
-be able to clearly provide such information to the group they need to communicate with.
-
-The communication roles to be established will be:
-
-#### Software Architects and Designers:
-Software architects and designers are responsible for developing the software architecture and design and ensuring that it aligns with the project's objectives and
-adheres to quality standards.
-They should also collaborate with subject matter experts to ensure that the system design meets the project's objectives.
-
-#### Project Team Members with Expertise in Computer Vision, Sensors, Robotics, and AI:
-Team members with expertise in these fields are responsible for providing input and review of the software architecture and
-design to ensure that it aligns with the project's objectives.
+be able to clearly provide such information to the group they need to communicate with.\
+The communication roles to be established will be: Project Supervisor, Client, Team Leader, Quality Manager, Support Manager, Development Manager, and Planning Manager.
 
 #### Project Supervisor
 The project supervisor will be consulted regarding information about the project and will provide feedback on work when necessary.
@@ -256,7 +239,7 @@ Team members, particularly those working with the cobot, can correspond with the
 
 <div class="page"/><!-- page break -->
 
-#### Team Leader:
+#### Team Leader
 Responsible for facilitating communication between team members and ensuring that communication is effective and efficient.
 They should also ensure that the project's software design documentation is complete, accurate, and
 up-to-date to facilitate communication with the development team and stakeholders.
@@ -311,21 +294,21 @@ These responsibilities include:
 * Must ensure that any communication with client is mindful and respectful.
 * Will be the point of contact if any team member or the client needs to communicate with each other.
 
-#### Documentation
+#### Support/Quality Manager
 * Must ensure that documentation is completed by all developers and maintains certain standards.
 * Must be able to provide assistance should any team member require it.
 
-#### Code
+#### Developer
 * Must ensure that all code follows standards and practices set out at the beginning of development.
 * Responsible for delegating coding tasks and workloads.
 * Must ensure that code is being developed at an appropriate pace to ensure targets are met.
 
-#### Semantic Versioning
+#### Planning Manager
 * Must ensure that all released versions follow label accordingly following standards and principles.
 * Must ensure that all team members work aligns with the next planned version release.
 * Will be able to provide assistance should any team member require it.
 
-#### Testing
+#### Development Manager
 * Must ensure that all testing tasks are delegated appropriately.
 * Must ensure that all testing ensures that the results satisfy requirements of the project.
 * Responsible for making all team members aware of the results of testing.
