@@ -395,8 +395,6 @@ effectively to ensure the project is back on track.
 |3|Inadequate communication and collaboration among project team members|M|M|5|Immediately hold a meeting to try and identify issues and implement possible fixes.|
 |6|Difficulty in sourcing required materials or equipment|L|M|6|Work with what is currently accessible. Alternatively wait for parts to arrive and continue from there.|
 
-**Table 2 Risks**
-
 <div class="page"/><!-- page break -->
 
 # SCHEDULE
