@@ -75,7 +75,7 @@ Delete all the explanatory text in RED, including this box before submission.
 * [TERMS OF REFERENCE](#terms-of-reference)
 	* [OBJECTIVES](#objectives)
 	* [Scope](#scope)
-	* [CRITICAL SUCCESS FACTORS](#critical-success-factors)
+	* [Critical Success Factors](#critical-success-factors)
 	* [Acceptance Criteria](#acceptance-criteria)
 * [ESTABLISHMENT](#establishment)
 	* [PROCESSES, PROCEDURES AND STANDARDS](#processes-procedures-and-standards)
@@ -178,7 +178,7 @@ The following capabilities, including those that may emerge in later stages of t
 
 <div class="page"/><!-- page break -->
 
-## CRITICAL SUCCESS FACTORS
+## Critical Success Factors
 The critical success factors for this project include:
 * Developing a vision system that is at least 85% accurate, and reliably works 90% of the time.
 * Ensuring that the vision system:
