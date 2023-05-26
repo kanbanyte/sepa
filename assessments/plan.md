@@ -119,7 +119,7 @@ This document will assist in defining future documents as this outlines expectat
 ## Background
 The Factory of the Future (FoF) focuses on developing technologies,
 the latest being a Cobot that assists an operator assemble devices, which is in need of a vision system.
-Currently, the pick and place tasks are only performed under rigidly pre-programmed conditions due to the lack of a perception system.
+Currently, the pick and place tasks are only performed under rigidly pre-programmed conditions due to the lack of a perception system.\
 Specifically, the robot system lacks the ability to detect whether an item is present before moving it onto a tray to be assembled, and
 a new perception system is added with the intention of improving this behavior.\
 The Factory of the Future wants this project to be completed to both show how emerging technologies can be used to automate tasks,
