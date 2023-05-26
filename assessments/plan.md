@@ -97,8 +97,7 @@ Delete all the explanatory text in RED, including this box before submission.
 		* [Software resources:](#software-resources)
 		* [Human resources:](#human-resources)
 		* [Budget:](#budget)
-* [ORGANISATION AND STRUCTURE](#organisation-and-structure)
-* [Risks](#risks)
+* [RISKS](#risks)
 * [SCHEDULE](#schedule)
 	* [PROJECT TIME LINE](#project-time-line)
 	* [EXTERNAL DEPENDENCIES](#external-dependencies)
@@ -339,7 +338,7 @@ A budget will need to be allocated for hardware and software resources, as well 
 
 <div class="page"/><!-- page break -->
 
-# Risks
+# RISKS
 Risks are a major problem in projects, they can slow things to a grinding halt if not properly dealt with and mitigated.
 
 #### Risk 1
