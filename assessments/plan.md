@@ -98,7 +98,7 @@ Delete all the explanatory text in RED, including this box before submission.
 		* [Human resources:](#human-resources)
 		* [Budget:](#budget)
 * [ORGANISATION AND STRUCTURE](#organisation-and-structure)
-* [RISKS](#risks)
+* [Risks](#risks)
 * [SCHEDULE](#schedule)
 	* [PROJECT TIME LINE](#project-time-line)
 	* [EXTERNAL DEPENDENCIES](#external-dependencies)
@@ -339,31 +339,7 @@ A budget will need to be allocated for hardware and software resources, as well 
 
 <div class="page"/><!-- page break -->
 
-# ORGANISATION AND STRUCTURE
-> *[List all the groups of people that will be involve or has a role in the project,*
-> *Be sure to include every role (especially business users who will be interviewed during the requirements modelling and those involved in acceptance testing)]*
->
-> *[This is not just your team.*\
-> *It is anyone else who has direct interaction with the project.*\
-> *This also includes people will be interacting with the software;*\
-> *(e.g., people who test it or are interviewed about it, and other members of their organisation)]*
->
-> *[Describe the organisational structure that will be used during the project.*\
-> *For example, a matrix structure may be used in describing role of each group.*\
-> *This enables the person responsible for the activity or deliverable to see the groups of people to me managed]*
-
-#### Activities and Deliverables
-<!-- This table is confusing and likely subject to change. -->
-|Activities and Deliverables|Group involved as identified above|
-|:-|:-|
-|**From 4.2**||
-|**From 4.1**||
-
-**Table 1 Activities and Deliverables**
-
-<div class="page"/><!-- page break -->
-
-# RISKS
+# Risks
 Risks are a major problem in projects, they can slow things to a grinding halt if not properly dealt with and mitigated.
 
 ##### Risk 1:
@@ -372,17 +348,19 @@ With the project utilising cameras and ROS the integration of hardware and softw
 Regular testing of the software in Ubuntu OS as well as frequent integration with the hardware will avoid major issues.
 
 ##### Risk 2:
-**Lack of expertise in computer vision and robotics.**\
-As mentioned in the first risk this project is integrated with a robotics system.\
-With many people not working directly with robots, a lack of experience is common.
-However risks are easily mitigated with training and research into the system.
+**Inadequate preparation for diverse lighting conditions**\
+in the development of a vision system the prospect of different lighting conditions will arise.
+In the event that the data gathered, and
+subsequently used to train the model is unsubstantial in documenting a variety of lighting conditions the system is prone to failure.\
+Ensuring the data gathered is in a variety of lighting conditions is crucial to ensuring success,
+alongside this modifying data to include defections such as colour variations, misalignment and rotation can help the model work more effectively.
 
 ##### Risk 3:
-**Inability to meet project deadlines.**\
-In the duration of a project things will affect the deadlines; be that team members falling ill,
-supervisors requesting work sooner, or even clients needing code faster.\
-A general mitigation strategy is to be organised, utilising project boards can help, also regular meetings to be aware of issues.
-Overall this is a hard to mitigate risk as problems can arise quickly.
+**Updates of software**\
+Due to the utilisation of many open source projects within this project it is likely a regular update to this software can interfere with the established project.
+This could be as minor as efficiency or bug fixes to major issues like mandatory code refactoring or deprecated functions.
+Mitigating this issue is difficult as regular software updates are usually beneficial to incorporate, however maintaining a long term support version may offset this.
+Wholly this issue is difficult to tackle and generally needs to be handled on a case by case basis.
 
 ##### Risk 4:
 **Changes in project requirements or objectives.**\
