@@ -117,7 +117,7 @@ This document is deigned to be easily accessible to the client to see the intent
 This document will assist in defining future documents as this outlines expectations, proposed ideas and a rough plan for the project.
 
 ## Background
-The Factory of the Future (FoF) focuses on developing technologies,
+The Factory of the Future (FOF) focuses on developing technologies,
 the latest being a Cobot that assists an operator assemble devices, which is in need of a vision system.
 Currently, the pick and place tasks are only performed under rigidly pre-programmed conditions due to the lack of a perception system.\
 Specifically, the robot system lacks the ability to detect whether an item is present before moving it onto a tray to be assembled, and
