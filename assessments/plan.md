@@ -97,6 +97,7 @@ Delete all the explanatory text in RED, including this box before submission.
 		* [Software resources:](#software-resources)
 		* [Human resources:](#human-resources)
 		* [Budget:](#budget)
+* [ORGANISATION AND STRUCTURE](#organisation-and-structure)
 * [RISKS](#risks)
 * [SCHEDULE](#schedule)
 	* [PROJECT TIME LINE](#project-time-line)
@@ -338,6 +339,29 @@ A budget will need to be allocated for hardware and software resources, as well 
 
 <div class="page"/><!-- page break -->
 
+# ORGANISATION AND STRUCTURE
+> *[List all the groups of people that will be involve or has a role in the project,*
+> *Be sure to include every role (especially business users who will be interviewed during the requirements modelling and those involved in acceptance testing)]*
+>
+> *[This is not just your team.*\
+> *It is anyone else who has direct interaction with the project.*\
+> *This also includes people will be interacting with the software;*\
+> *(e.g., people who test it or are interviewed about it, and other members of their organisation)]*
+>
+> *[Describe the organisational structure that will be used during the project.*\
+> *For example, a matrix structure may be used in describing role of each group.*\
+> *This enables the person responsible for the activity or deliverable to see the groups of people to me managed]*
+#### Activities and Deliverables
+<!-- This table is confusing and likely subject to change. -->
+|Activities and Deliverables|Group involved as identified above|
+|:-|:-|
+|**From 4.2**||
+|**From 4.1**||
+
+**Table 1 Activities and Deliverables**
+
+<div class="page"/><!-- page break -->
+
 # RISKS
 Risks are a major problem in projects, they can slow things to a grinding halt if not properly dealt with and mitigated.
 
@@ -389,8 +413,8 @@ effectively to ensure the project is back on track.
 |Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy Number|Contingency|
 |:-:|:-|:-:|:-:|:-:|:-|
 |2|Difficulty in hardware and software integration|H|M|1|Revert back to working build, test more frequently from said build.|
-|4|Lack of expertise in computer vision and robotics|H|L|2|Provide immediate training for team members from an expert.|
-|1|Inability to meet project deadlines|M|H|3|Meet with the client or supervisor and discuss options.|
+|1|Inadequate preparation for diverse lighting conditions.|M|M|2|Take a variety of pics in varying lighting conditions.|
+|4|Updates of software.|M|L|3|Create a LTS version of needed software and also keep on top of updates where possible.|
 |5|Changes in project requirements or objectives|L|M|4|Change deadlines or task priority to accommodate changes.|
 |3|Inadequate communication and collaboration among project team members|M|M|5|Immediately hold a meeting to try and identify issues and implement possible fixes.|
 |6|Difficulty in sourcing required materials or equipment|L|M|6|Work with what is currently accessible. Alternatively wait for parts to arrive and continue from there.|
