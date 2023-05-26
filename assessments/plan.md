@@ -351,6 +351,7 @@ A budget will need to be allocated for hardware and software resources, as well 
 > *[Describe the organisational structure that will be used during the project.*\
 > *For example, a matrix structure may be used in describing role of each group.*\
 > *This enables the person responsible for the activity or deliverable to see the groups of people to me managed]*
+
 #### Activities and Deliverables
 <!-- This table is confusing and likely subject to change. -->
 |Activities and Deliverables|Group involved as identified above|
@@ -392,7 +393,7 @@ However the larger issue is a change in objectives can change the budget, often 
 To mitigate this issue a strong and verbose scope should be established at the beginning of the project,
 and moving forward any changes to the scope must include additional modification of the deadlines.
 
-#### Risk 5:
+#### Risk 5
 **Inadequate communication and collaboration among project team members.**\
 In projects, teams often have to be led by a team member.
 This leader is responsible for ensuring the work submitted is acceptable.
@@ -400,7 +401,7 @@ They are also there to ensure the team is working and collaborating effectively.
 If this is not occurring work will be completed at a reduced pace and usually not within the set deadlines.\
 Mitigation strategies are having a good leader as well as utilising proper organisation.
 
-#### Risk 6:
+#### Risk 6
 **Difficulty in sourcing required materials or equipment.**\
 As projects grow in size, so too does the cost.
 This growing cost is partly due to required materials and equipment.
