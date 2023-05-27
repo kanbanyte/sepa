@@ -12,8 +12,6 @@
 
 <!-- TOC ignore:true -->
 ## Industry Project 24
-List of your Names:
-
 |Name|Position|Email|
 |:-|:-|:-|
 |@Slothman1|Team Leader/Client Liaison|id@swin.student.edu.au|
@@ -23,17 +21,9 @@ List of your Names:
 |@NickMcK14|Support Manager/Developer|id@swin.student.edu.au|
 |@Huy-GV|Quality Manager/Developer|id@swin.student.edu.au|
 
-<!-- SUBJECT CODE, NAME, SEMESTER AND DATE -->
-
-```gherkin
-@Note:
-Please read carefully.
-Throughout this document, all text in RED ITALICS should be replaced with data relevant to your project.
-Delete all the explanatory text in RED, including this box before submission.
-```
-
 <div class="page"/><!-- page break -->
 
+<!-- TOC ignore:true -->
 # DOCUMENT SIGN OFF
 |Name|Position|Signature|Date|
 |:-|:-|:-|:-|
@@ -44,9 +34,7 @@ Delete all the explanatory text in RED, including this box before submission.
 |@NickMcK14|Support Manager/Developer|student_signature(&emsp;)|DD/MM/2023|
 |@Huy-GV|Quality Manager/Developer|student_signature(&emsp;)|DD/MM/2023|
 
-> *[When document is finalised for submission, all team members must affix their signature in the Document Sign Off table]*\
-> ***[No-one should sign unless they have read the report and agree with it.]***
-
+<!-- TOC ignore:true -->
 # CLIENT SIGN OFF
 |Name|Position|Signature|Date|
 |:-|:-|:-|:-|
@@ -56,56 +44,48 @@ Delete all the explanatory text in RED, including this box before submission.
 |:-|
 |Swinburne's Factory of the Future<br/><br/><br/><br/>|
 
-> *[Client to sign off on the Project Plan to signify they agree with the plan]*
-
 <div class="page"/><!-- page break -->
 
+<!-- TOC ignore:true -->
 # CONTENTS
 <!-- TOC -->
 
-* [DOCUMENT SIGN OFF](#document-sign-off)
-* [CLIENT SIGN OFF](#client-sign-off)
-* [CONTENTS](#contents)
 * [INTRODUCTION](#introduction)
 	* [Background](#background)
-	* [KEY PROJECT PERSONNEL](#key-project-personnel)
-		* [CLIENT](#client)
-		* [OTHER STAKE HOLDERS](#other-stake-holders)
-		* [PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS](#project-supervisor-team-leader-and-key-project-members)
+	* [Key Project Personnel](#key-project-personnel)
+		* [Client](#client)
+		* [Other Stake Holders](#other-stake-holders)
+		* [Project Supervisor, Team Leader, and Key Project Members](#project-supervisor-team-leader-and-key-project-members)
 * [TERMS OF REFERENCE](#terms-of-reference)
-	* [OBJECTIVES](#objectives)
+	* [Objectives](#objectives)
 	* [Scope](#scope)
 	* [Critical Success Factors](#critical-success-factors)
 	* [Acceptance Criteria](#acceptance-criteria)
 * [ESTABLISHMENT](#establishment)
-	* [PROCESSES, PROCEDURES AND STANDARDS](#processes-procedures-and-standards)
+	* [Processes, Procedures, and Standards](#processes-procedures-and-standards)
 	* [Project Environment](#project-environment)
 	* [Project Team Skill Development Requirements](#project-team-skill-development-requirements)
 * [DELIVERABLES, ACTIVITIES AND CAPITAL RESOURCES](#deliverables-activities-and-capital-resources)
-	* [DELIVERABLES](#deliverables)
-		* [Software systems](#software-systems)
+	* [Deliverables](#deliverables)
+		* [Software Systems](#software-systems)
 		* [Documentation](#documentation)
 		* [Hardware Modifications](#hardware-modifications)
-	* [ACTIVITIES](#activities)
+	* [Activities](#activities)
 		* [Research](#research)
-		* [Design and implementation:](#design-and-implementation)
-		* [Deployment:](#deployment)
-		* [Testing:](#testing)
-		* [System Documentation:](#system-documentation)
-	* [RESOURCES](#resources)
-		* [Hardware Resources:](#hardware-resources)
-		* [Software resources:](#software-resources)
-		* [Human resources:](#human-resources)
-		* [Budget:](#budget)
-* [ORGANISATION AND STRUCTURE](#organisation-and-structure)
+		* [Design and Implementation](#design-and-implementation)
+		* [Deployment](#deployment)
+		* [Testing](#testing)
+		* [System Documentation](#system-documentation)
+	* [Resources](#resources)
+		* [Hardware Resources](#hardware-resources)
+		* [Software Resources](#software-resources)
+		* [Human Resources](#human-resources)
+		* [Budget](#budget)
 * [RISKS](#risks)
 * [SCHEDULE](#schedule)
-	* [PROJECT TIME LINE](#project-time-line)
-	* [EXTERNAL DEPENDENCIES](#external-dependencies)
-	* [ASSUMPTIONS](#assumptions)
-* [BUDGET](#budget)
-* [REFERENCES](#references)
-* [TABLES INDEX](#tables-index)
+	* [Project Time Line](#project-time-line)
+	* [External Dependencies](#external-dependencies)
+	* [Assumptions](#assumptions)
 
 <!-- /TOC -->
 
@@ -130,14 +110,14 @@ as well as, how robots can be incorporated into regular workflows.
 In particular, the addition of a perception system enables the cobot to perform its task more accurately and reduce dependency on the human operator,
 leading to heightened productivity.
 
-## KEY PROJECT PERSONNEL
+## Key Project Personnel
 The key personnel involve in this project are as follows:
 
-### CLIENT
+### Client
 @FelipMarti is a research fellow within the Factory of the Future.
 With a background in IoT he is now working with intelligent robots and computer vision systems.
 
-### OTHER STAKE HOLDERS
+### Other Stake Holders
 S.W: Senior Technical Officer at the Factory of the Future, responsible for designing,
 developing and maintaining equipment for safe use and for demonstrations at the Factory of the Future.\
 Swinburne clients: potential investors or researchers interested in the technology and wish to view it in progress.\
@@ -145,7 +125,7 @@ Swinburne developers: People responsible for the maintaining of the system.\
 Prem P.J: The Director of the Factory of the Future.
 Prof. J is responsible for leading and overseeing the projects within the Factory of the Future.
 
-### PROJECT SUPERVISOR, TEAM LEADER AND KEY PROJECT MEMBERS
+### Project Supervisor, Team Leader, and Key Project Members
 @Danaclocs: Project Supervisor\
 @Slothman1: Team Leader and Client Liaison\
 @dau501: Development Manager and Planning Manager\
@@ -163,7 +143,7 @@ Currently, the position of the components are defined within the system and the 
 The goal of this project is to be able to provide the system with vision, allowing it to autonomously move components around improving efficiency within the system.
 Workers will be provided with a more effective workplace as the requirement of grabbing components will be done by the cobot, thus increasing efficiency.
 
-## OBJECTIVES
+## Objectives
 The objectives of this project are to design and implement a vision system for a pick and place task using a robot located within the Factory of the Future.
 To achieve this, the following must be achieved:
 * Develop a vision system that will enable the robot to locate objects to pick and place, even if they are not in the predefined position.
@@ -217,7 +197,7 @@ while the actual implementation of the vision system will take place in Semester
 <div class="page"/><!-- page break -->
 
 # ESTABLISHMENT
-## PROCESSES, PROCEDURES AND STANDARDS
+## Processes, Procedures, and Standards
 The project team will follow the Kanban methodology for this project as it is a system that easily allows us to monitor our current tasks and
 allows for a more independent work style, thus increasing overall productivity.
 
@@ -281,8 +261,8 @@ Online tutorials will be helpful references and sources for honing programming c
 <div class="page"/><!-- page break -->
 
 # DELIVERABLES, ACTIVITIES AND CAPITAL RESOURCES
-## DELIVERABLES
-### Software systems
+## Deliverables
+### Software Systems
 * Functioning computer vision system satisfying all requirements within scope.
 * Functioning robotic control system satisfying all requirements within scope.
 
@@ -297,7 +277,7 @@ The workspace contains numerous V-Slot rails that can be used to mount objects f
 A mounting device compatible with V-Slots will need to be bought or made for the depth camera.
 This device will allow the depth camera to be securely mounted to an ideal position in the workspace and capture objects of interest effectively.
 
-## ACTIVITIES
+## Activities
 ### Research
 During the research phase, the following activities will be undertaken:
 1. Learn to use ROS within Ubuntu.
@@ -322,20 +302,20 @@ During the research phase, the following activities will be undertaken:
 These research activities will lay the foundation for the subsequent stages of the project,
 providing the necessary knowledge and insights to make informed decisions during the implementation phase.
 
-### Design and implementation:
+### Design and Implementation
 * Model the problem into the software system.
 * Train the machine learning model in simulation.
 
-### Deployment:
+### Deployment
 * Deploy the machine learning model in production.
 * Deploy the robotic control software into the robot arm.
 
-### Testing:
+### Testing
 * Test the computer vision system in simulation using a collection of photographs taken in various conditions.
 * Test the robotic control system in simulation, covering all identified edge cases.
 * Integration test on the robot arm with the control and computer system installed, covering all edge cases as identified in prior simulation tests.
 
-### System Documentation:
+### System Documentation
 * User flow documentation: robot behaviors given an input, including explanation for special cases.
 * Software architecture documentation: software models, their relationship and interactions.
 * Design decision documentation: explanation for software tool/framework and various design choices.
@@ -345,8 +325,8 @@ providing the necessary knowledge and insights to make informed decisions during
 
 <div class="page"/><!-- page break -->
 
-## RESOURCES
-### Hardware Resources:
+## Resources
+### Hardware Resources
 This includes the necessary hardware components for the implementation of the vision system:
 * ZED 2 Depth Camera and its mounting tool.
 * UR5e robot arm.
@@ -356,38 +336,14 @@ This includes the necessary hardware components for the implementation of the vi
 The cobot and assembly line are already situated in the FOF.\
 The Depth Camera and its mounting tool will be provided by the client, with the team proposing designs for the mounting tool.
 
-### Software resources:
+### Software Resources
 This includes software tools and libraries required for vision system development and integration, such as OpenCV and PyTorch.
 
-### Human resources:
+### Human Resources
 This project will require a team of skilled professionals, including software engineers, computer vision experts, and robotics specialists.
 
-### Budget:
+### Budget
 A budget will need to be allocated for hardware and software resources, as well as any other project-related expenses.
-
-<div class="page"/><!-- page break -->
-
-# ORGANISATION AND STRUCTURE
-> *[List all the groups of people that will be involve or has a role in the project,*
-> *Be sure to include every role (especially business users who will be interviewed during the requirements modelling and those involved in acceptance testing)]*
->
-> *[This is not just your team.*\
-> *It is anyone else who has direct interaction with the project.*\
-> *This also includes people will be interacting with the software;*\
-> *(e.g., people who test it or are interviewed about it, and other members of their organisation)]*
->
-> *[Describe the organisational structure that will be used during the project.*\
-> *For example, a matrix structure may be used in describing role of each group.*\
-> *This enables the person responsible for the activity or deliverable to see the groups of people to me managed]*
-
-#### Activities and Deliverables
-<!-- This table is confusing and likely subject to change. -->
-|Activities and Deliverables|Group involved as identified above|
-|:-|:-|
-|**From 4.2**||
-|**From 4.1**||
-
-**Table 1 Activities and Deliverables**
 
 <div class="page"/><!-- page break -->
 
@@ -405,7 +361,7 @@ In the development of a vision system the prospect of different lighting conditi
 In the event that the data gathered, and
 subsequently used to train the model is unsubstantial in documenting a variety of lighting conditions the system is prone to failure.
 Ensuring the data gathered is in a variety of lighting conditions is crucial to ensuring success,
-alongside this modifying data to include defections such as colour variations, misalignment and rotation can help the model work more effectively.
+alongside this modifying data to include distortions such as colour variations, misalignment and rotation can help the model work more effectively.
 
 #### Risk 3
 **Updates of software.**\
@@ -451,7 +407,7 @@ effectively to ensure the project is back on track.
 <div class="page"/><!-- page break -->
 
 # SCHEDULE
-## PROJECT TIME LINE
+## Project Time Line
 ```mermaid
 timeline
 	title Schedule/Time Line
@@ -497,84 +453,15 @@ timeline
 
 <!-- ![time](https://cdn.discordapp.com/attachments/1086926990055063602/1090084644931776552/image.png) -->
 
-## EXTERNAL DEPENDENCIES
+## External Dependencies
 * Availability of the UR5e robot arm and required trays
 * Collaboration with the client to establish the acceptance criteria and testing requirements
 * Availability of technical support and resources from suppliers of required hardware and software
 
-## ASSUMPTIONS
+## Assumptions
 * All necessary materials and equipment will be available on time
 * All key project personnel will be available throughout the project duration
 * No major technical issues will arise during the course of the project
 * The project team has the required skills to develop the vision system prototype and integrate it with the robot system
 * Collaboration with the client will be timely and productive
 * The project team will be able to complete the project within the allocated timeline
-
-<div class="page"/><!-- page break -->
-
-# BUDGET
-> *[Summarise in a table the rate per hour for each of the team member.*\
-> *Look for an appropriate rate per work when doing such type of project.*\
-> *Using the role listed in Section 1.2.3, complete the table below]*
-
-#### Personnel Cost
-|Name|Rate per Hour|
-|:-|:-:|
-|||
-|||
-|||
-
-**Table 3 Personnel Cost**
-> *[List all the tasks (grouped as activities) described in Section 4.2 in a table and estimate the number of hours needed to complete each task]*
-
-#### Time Estimated to Complete Each Task
-|Activity|Task|Estimated hours needed (hrs)|Total per activity (hrs)|
-|:-:|:-|:-:|:-:|
-|1|A|10||
-||B|15||
-||C|20||
-||D|5|50|
-|||||
-||F|5|10|
-|||Total||
-|||||
-
-**Table 4 Task Time Estimate**
-> *[As a guide in estimating the time consider the following:]*
->
-> *[Each team member should contribute equally, and time spent actually writing software should be about*
-> *(200 hours x number of team members, ie, about 10 hours per week per member, excluding lectures) across the 2 semesters,*\
-> *Total time allocation for each student should not exceed 10 hours per week,*\
-> *The total hours per activity should be feasible within the schedule defined in Section 7.1]*
->
-> *[Note that the schedule in Section 7.1 includes slack time]*
-
-<div class="page"/><!-- page break -->
-
-# REFERENCES
-> *[If you have used information from published sources, show where it came from.*\
-> *Use the Harvard system of citation.*\
-> *For instance, if it is from a website]*
-
-> ***Your reference list entry must be in the form of***\
-> &emsp; **Author, Initial(s) Year, *Title of Document/Webpage/Website*, Organisation/Host, viewed Day Month Year, &lt;URL>.**
->
-> &emsp; example
->
-> &emsp; Yates, J 2009, Tax expenditures and housing, Australian Housing and Urban Research Institute, viewed 12 November 2013,\
-> &emsp; <http://www.ahuri.edu.au/publications/download/ahuri_judith_yates_research_paper>.
->
-> ***Your in-text may be in the form of***
-> * **Direct quote**\
-> "Most official estimates ..." (Yates 2009).
-> * **Paraphrase**\
-> Yates (2009) looked at the equity implications of tax ...
->
-> ***For more information on the Harvard style guide, refer to***\
-> &emsp; <http://www.swinburne.edu.au/lib/studyhelp/harvard_style.html>
-
-# TABLES INDEX
-Table 1 [Activities and Deliverables](#activities-and-deliverables)\
-Table 2 [Risks](#risks-associated-with-this-project)\
-Table 3 [Personnel Cost](#personnel-cost)\
-Table 4 [Task Time Estimate](#time-estimated-to-complete-each-task)
