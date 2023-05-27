@@ -75,7 +75,7 @@ Delete all the explanatory text in RED, including this box before submission.
 * [TERMS OF REFERENCE](#terms-of-reference)
 	* [OBJECTIVES](#objectives)
 	* [Scope](#scope)
-	* [CRITICAL SUCCESS FACTORS](#critical-success-factors)
+	* [Critical Success Factors](#critical-success-factors)
 	* [Acceptance Criteria](#acceptance-criteria)
 * [ESTABLISHMENT](#establishment)
 	* [PROCESSES, PROCEDURES AND STANDARDS](#processes-procedures-and-standards)
@@ -184,14 +184,15 @@ The following capabilities, including those that may emerge in later stages of t
 
 <div class="page"/><!-- page break -->
 
-## CRITICAL SUCCESS FACTORS
+## Critical Success Factors
 The critical success factors for this project include:
-* Developing a vision system that is accurate, efficient, and reliable.
+* Developing a vision system that is at least 85% accurate, and reliably works 90% of the time.
 * Ensuring that the vision system:
 	* is compatible with the robot's hardware and software.
-	* can detect objects in a variety of lighting conditions and at various distances from the robot.
-	* can detect objects that are partially occluded or have complex shapes.
-* Developing necessary code so that the robot can perform the required task from vision system inputs.
+	* can output collected data of detected objects in a variety of lighting conditions and at various distances from the robot.
+	* can output collected data of detect objects that are partially occluded or have complex shapes.
+* Developing a sophisticated ML model to accurately analyse data and provide correct outputs.
+* Developing appropriate code so that the robot can perform movements based on inputted data.
 
 ## Acceptance Criteria
 The acceptance criteria for this project include:
