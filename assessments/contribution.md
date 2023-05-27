@@ -100,12 +100,12 @@ The following is a template to present and must be signed by all team members.
 * [#182][182] System Quality Assurance Plan [Refactor] by @dau501
 * [#388][388] Work: Project Milestones [Refactor] by @Huy-GV
 * [#392][392] Chapter 3: Management [Refactor] by @dau501
+* [#403][403] System Quality Assurance Plan (Portfolio) by @dau501
 
 <div class="page"/><!-- page break -->
 
 ### Project-Specific Assessment Criteria
-
-<div class="page"/><!-- page break -->
+* [#404][404] Project-Specific Assessment Criteria (Portfolio) by @dau501
 
 ### Software Requirements Specification
 * [#204][204] Overall Description: Product Features by @Huy-GV
@@ -152,8 +152,6 @@ The following is a template to present and must be signed by all team members.
 * [#378][378] Feedback [Refactor|Backlog] by @Slothman1
 * [#401][401] System Architecture Design and Research Report (Portfolio) by @dau501
 
-<div class="page"/><!-- page break -->
-
 ### Detailed Design and Implementation Report
 * [#374][374] Detailed System Design: Design Verification by @NickMcK14
 * [#375][375] Detailed System Design by @finnmcgearey
@@ -189,8 +187,6 @@ The following is a template to present and must be signed by all team members.
 * [#343][343] Video Presentation Script by @vkach
 * [#347][347] ML Research by @Slothman1
 * [#348][348] References (ML) by @Slothman1
-
-<div class="page"/><!-- page break -->
 
 I declare this is an accurate description of team contributions of the team members.
 
@@ -331,6 +327,8 @@ I declare this is an accurate description of team contributions of the team memb
 [336]: <https://github.com/kanbanyte/sepa/pull/336>
 [344]: <https://github.com/kanbanyte/sepa/pull/344>
 [349]: <https://github.com/kanbanyte/sepa/pull/349>
+[403]: <https://github.com/kanbanyte/sepa/pull/403>
+[404]: <https://github.com/kanbanyte/sepa/pull/404>
 
 <!-- Discussion URLs -->
 [192]: <https://github.com/kanbanyte/sepa/discussions/192>
