@@ -1,8 +1,5 @@
 <link rel="stylesheet" href="../styles/styles.css" type="text/css">
 
-> *[This template can be adapted as necessary (i.e., with good reason) to suit the project specifics.]*
-
-<!-- TOC ignore:true -->
 # Robot Vision System For A Pick And Place Task
 <!--
 	Co-Author: @dau501
@@ -12,10 +9,7 @@
 
 `System Architecture Design and Research Report`
 
-<!-- TOC ignore:true -->
 ## Industry Project 24
-List of your Names:
-
 |Name|Position|Email|
 |:-|:-|:-|
 |@Slothman1|Team Leader/Client Liaison|id@swin.student.edu.au|
@@ -24,15 +18,6 @@ List of your Names:
 |@vkach|Quality Manager/Developer|id@swin.student.edu.au|
 |@NickMcK14|Support Manager/Developer|id@swin.student.edu.au|
 |@Huy-GV|Quality Manager/Developer|id@swin.student.edu.au|
-
-<!-- SUBJECT CODE, NAME, SEMESTER AND DATE -->
-
-```gherkin
-@Note:
-Please read carefully.
-Throughout this document, all text in RED ITALICS should be replaced with data relevant to your project.
-Delete all the explanatory text in RED, including this box before submission.
-```
 
 <div class="page"/><!-- page break -->
 
@@ -46,9 +31,6 @@ Delete all the explanatory text in RED, including this box before submission.
 |@NickMcK14|Support Manager/Developer|student\_signature(&emsp;)|DD/MM/2023|
 |@Huy-GV|Quality Manager/Developer|student\_signature(&emsp;)|DD/MM/2023|
 
-> *[When document is finalised for submission, all team members must affix their signature in the Document Sign Off table]*\
-> ***[No-one should sign unless they have read the report and agree with it.]***
-
 # CLIENT SIGN OFF
 |Name|Position|Signature|Date|
 |:-|:-|:-|:-|
@@ -57,8 +39,6 @@ Delete all the explanatory text in RED, including this box before submission.
 |Organisation|
 |:-|
 |Swinburne's Factory of the Future<br/><br/><br/><br/>|
-
-> *[Client to sign off on the Software Design to signify they agree with the design]*
 
 <div class="page"/><!-- page break -->
 
