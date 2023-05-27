@@ -394,32 +394,34 @@ A budget will need to be allocated for hardware and software resources, as well 
 # RISKS
 Risks are a major problem in projects, they can slow things to a grinding halt if not properly dealt with and mitigated.
 
-##### Risk 1:
+#### Risk 1
 **Difficulty in hardware and software integration.**\
 With the project utilising cameras and ROS the integration of hardware and software can lead to issues down the line.\
 Regular testing of the software in Ubuntu OS as well as frequent integration with the hardware will avoid major issues.
 
-##### Risk 2:
-**Lack of expertise in computer vision and robotics.**\
-As mentioned in the first risk this project is integrated with a robotics system.\
-With many people not working directly with robots, a lack of experience is common.
-However risks are easily mitigated with training and research into the system.
+#### Risk 2
+**Inadequate preparation for diverse lighting conditions.**\
+In the development of a vision system the prospect of different lighting conditions will arise.\
+In the event that the data gathered, and
+subsequently used to train the model is unsubstantial in documenting a variety of lighting conditions the system is prone to failure.
+Ensuring the data gathered is in a variety of lighting conditions is crucial to ensuring success,
+alongside this modifying data to include defections such as colour variations, misalignment and rotation can help the model work more effectively.
 
-##### Risk 3:
-**Inability to meet project deadlines.**\
-In the duration of a project things will affect the deadlines; be that team members falling ill,
-supervisors requesting work sooner, or even clients needing code faster.\
-A general mitigation strategy is to be organised, utilising project boards can help, also regular meetings to be aware of issues.
-Overall this is a hard to mitigate risk as problems can arise quickly.
+#### Risk 3
+**Updates of software.**\
+Due to the utilisation of many open-source projects within this project, it is likely a regular update to this software can interfere with the established project.
+This could be as minor as efficiency or bug fixes to major issues like mandatory code refactoring or deprecated functions.
+Mitigating this issue is difficult as regular software updates are usually beneficial to incorporate; however, maintaining a long term support version may offset this.
+Wholly, this issue is difficult to tackle and generally needs to be handled on a case-by-case basis.
 
-##### Risk 4:
+#### Risk 4
 **Changes in project requirements or objectives.**\
 As mentioned above, changes in objectives can change the deadline timing, making it harder to achieve in most cases.
 However the larger issue is a change in objectives can change the budget, often demanding a time crunch or stretched resources.\
 To mitigate this issue a strong and verbose scope should be established at the beginning of the project,
 and moving forward any changes to the scope must include additional modification of the deadlines.
 
-##### Risk 5:
+#### Risk 5
 **Inadequate communication and collaboration among project team members.**\
 In projects, teams often have to be led by a team member.
 This leader is responsible for ensuring the work submitted is acceptable.
@@ -427,7 +429,7 @@ They are also there to ensure the team is working and collaborating effectively.
 If this is not occurring work will be completed at a reduced pace and usually not within the set deadlines.\
 Mitigation strategies are having a good leader as well as utilising proper organisation.
 
-##### Risk 6:
+#### Risk 6
 **Difficulty in sourcing required materials or equipment.**\
 As projects grow in size, so too does the cost.
 This growing cost is partly due to required materials and equipment.
@@ -440,13 +442,11 @@ effectively to ensure the project is back on track.
 |Rank|Name/Description|Occurrence Probability<br/>(H/M/L)|Severity<br/>(H/M/L)|Mitigation Strategy Number|Contingency|
 |:-:|:-|:-:|:-:|:-:|:-|
 |2|Difficulty in hardware and software integration|H|M|1|Revert back to working build, test more frequently from said build.|
-|4|Lack of expertise in computer vision and robotics|H|L|2|Provide immediate training for team members from an expert.|
-|1|Inability to meet project deadlines|M|H|3|Meet with the client or supervisor and discuss options.|
+|1|Inadequate preparation for diverse lighting conditions.|M|M|2|Take a variety of pics in varying lighting conditions.|
+|4|Updates of software.|M|L|3|Create a LTS version of needed software and also keep on top of updates where possible.|
 |5|Changes in project requirements or objectives|L|M|4|Change deadlines or task priority to accommodate changes.|
 |3|Inadequate communication and collaboration among project team members|M|M|5|Immediately hold a meeting to try and identify issues and implement possible fixes.|
 |6|Difficulty in sourcing required materials or equipment|L|M|6|Work with what is currently accessible. Alternatively wait for parts to arrive and continue from there.|
-
-**Table 2 Risks**
 
 <div class="page"/><!-- page break -->
 
