@@ -1,8 +1,5 @@
 <link rel="stylesheet" href="../styles/styles.css" type="text/css">
 
-> *[Note: This is a sample/template document for the Software/System Quality Assurance Plan (SQAP), from a number of years ago.*\
-> *Please adapt and adjust to your project needs and add details.]*
-
 <!-- TOC ignore:true -->
 # Robot Vision System For A Pick And Place Task
 <!--
@@ -15,8 +12,6 @@
 
 <!-- TOC ignore:true -->
 ## Industry Project 24
-List of your Names:
-
 |Name|Position|Email|
 |:-|:-|:-|
 |@Slothman1|Team Leader/Client Liaison|id@swin.student.edu.au|
@@ -25,10 +20,6 @@ List of your Names:
 |@vkach|Quality Manager/Developer|id@swin.student.edu.au|
 |@NickMcK14|Support Manager/Developer|id@swin.student.edu.au|
 |@Huy-GV|Quality Manager/Developer|id@swin.student.edu.au|
-
-<!-- SUBJECT CODE, NAME, SEMESTER AND DATE -->
-
-<div class="page"/><!-- page break -->
 
 <!-- TOC ignore:true -->
 ## Domain Vocabulary
@@ -47,19 +38,18 @@ List of your Names:
 # Contents
 <!-- TOC -->
 
-* [Introduction](#introduction)
-	* [Purpose](#purpose)
-* [Reference Documents](#reference-documents)
-* [Management](#management)
+* [Chapter 1: Introduction](#chapter-1-introduction)
+* [Chapter 2: Reference Documents](#chapter-2-reference-documents)
+* [Chapter 3: Management](#chapter-3-management)
 	* [Organisation/Roles](#organisationroles)
 		* [Meeting Roles](#meeting-roles)
-		* [Formal Review Meeting Roles](#formal-review-meeting-roles)
+		* [Formal Review](#formal-review)
 		* [Champion Roles](#champion-roles)
 		* [Communication Roles](#communication-roles)
 	* [Tasks and Responsibilities](#tasks-and-responsibilities)
 		* [General Team Member Responsibilities](#general-team-member-responsibilities)
 		* [Champions](#champions)
-* [Documentation](#documentation)
+* [Chapter 4: Documentation](#chapter-4-documentation)
 	* [Software Documents](#software-documents)
 		* [Project Plan](#project-plan)
 		* [Software Quality Assurance Plan SQAP](#software-quality-assurance-plan-sqap)
@@ -71,8 +61,7 @@ List of your Names:
 	* [Management Documents](#management-documents)
 		* [Meeting Agendas](#meeting-agendas)
 		* [Meeting Minutes](#meeting-minutes)
-* [Standards, Practices, Conventions and Metrics](#standards-practices-conventions-and-metrics)
-	* [Purpose](#purpose-1)
+* [Chapter 5: Standards, Practices, Conventions and Metrics](#chapter-5-standards-practices-conventions-and-metrics)
 	* [Standards](#standards)
 		* [Coding Standard](#coding-standard)
 		* [Documentation Formatting Standard](#documentation-formatting-standard)
@@ -84,13 +73,12 @@ List of your Names:
 		* [Meetings](#meetings)
 		* [Semantic Versioning](#semantic-versioning)
 		* [Coding practices](#coding-practices)
-* [Reviews and Audits](#reviews-and-audits)
-	* [Purpose](#purpose-2)
-* [Testing](#testing)
+* [Chapter 6: Reviews and Audits](#chapter-6-reviews-and-audits)
+* [Chapter 7: Testing](#chapter-7-testing)
 	* [Requirement](#requirement)
 	* [Use Case Generation](#use-case-generation)
 	* [Installation and User Documentation Generation](#installation-and-user-documentation-generation)
-* [Problem Reporting and Corrective Action](#problem-reporting-and-corrective-action)
+* [Chapter 8: Problem Reporting and Corrective Action](#chapter-8-problem-reporting-and-corrective-action)
 	* [Personnel](#personnel)
 	* [Work](#work)
 		* [Project Milestones](#project-milestones)
@@ -98,7 +86,7 @@ List of your Names:
 		* [Task Creation](#task-creation)
 		* [Task Assignment](#task-assignment)
 		* [Task Life](#task-life)
-* [Tools and Methodologies](#tools-and-methodologies)
+* [Chapter 9: Tools and Methodologies](#chapter-9-tools-and-methodologies)
 	* [Tools](#tools)
 		* [Markdown](#markdown)
 		* [GitHub](#github)
@@ -108,9 +96,8 @@ List of your Names:
 		* [Virtual Machine](#virtual-machine)
 		* [Discord](#discord)
 	* [Agile Methodology: Kanban](#agile-methodology-kanban)
-* [Records Collection, Maintenance and Retention](#records-collection-maintenance-and-retention)
-* [Risk Management](#risk-management)
-	* [Purpose](#purpose-3)
+* [Chapter 10: Records Collection, Maintenance and Retention](#chapter-10-records-collection-maintenance-and-retention)
+* [Chapter 11: Risk Management](#chapter-11-risk-management)
 	* [Categorisation](#categorisation)
 	* [Risks With Respect To The Work To Be Done](#risks-with-respect-to-the-work-to-be-done)
 	* [Risks With Respect To The Management](#risks-with-respect-to-the-management)
@@ -120,22 +107,15 @@ List of your Names:
 
 <div class="page"/><!-- page break -->
 
-<!-- TOC ignore:true -->
-# Chapter 1
-
-# Introduction
-## Purpose
-The robot vision system for a pick and place task will be tackled by group 24 and following this document; the software quality assurance plan (SQAP),
+# Chapter 1: Introduction
+The robot vision system for a pick and place task will be tackled by Group 24 and following this document; the Software Quality Assurance Plan (SQAP),
 it will be ensured that the projects requirements and quality standards are met.
 The plan will outline the development process and testing procedures, including but not limited too reviewing, testing and integration.
 In addition, the plan will describe several tools and methodologies that will be implemented and used to guarantee the solution's reliability,
 maintainability and performance.
 Finally, the plan will identify the team; `HeeHooVision`, responsible for the development and testing of the software as well as their roles and responsibilities.
 
-<!-- TOC ignore:true -->
-# Chapter 2
-
-# Reference Documents
+# Chapter 2: Reference Documents
 * ISO/IEC/IEEE 12207: <https://www.iso.org/standard/63712.html>
 * ISO/IEC/IEEE 15288: <https://www.iso.org/standard/63711.html>
 * ISO/IEC 25010: <https://www.iso.org/standard/35733.html>
@@ -151,10 +131,7 @@ Finally, the plan will identify the team; `HeeHooVision`, responsible for the de
 
 <div class="page"/><!-- page break -->
 
-<!-- TOC ignore:true -->
-# Chapter 3
-
-# Management
+# Chapter 3: Management
 ## Organisation/Roles
 The following section will detail the various roles within the team for various scenarios.
 
@@ -315,10 +292,7 @@ These responsibilities include:
 
 <div class="page"/><!-- page break -->
 
-<!-- TOC ignore:true -->
-# Chapter 4
-
-# Documentation
+# Chapter 4: Documentation
 ## Software Documents
 This section will provide an overview of the various software documents that will be created to ensure that the software architecture and
 design are thoroughly documented and therefore highly intelligible.
@@ -412,11 +386,7 @@ members are expected to find the minutes in the repository and complete their ac
 
 <div class="page"/><!-- page break -->
 
-<!-- TOC ignore:true -->
-# Chapter 5
-
-# Standards, Practices, Conventions and Metrics
-## Purpose
+# Chapter 5: Standards, Practices, Conventions and Metrics
 Ensuing good quality work is produced standards are essential;
 this section will cover many standards of varying parts of the programming process.\
 These standards aim to provide a structured approach to software design and development,
@@ -508,15 +478,8 @@ main
 |		sqap.md
 |		srs.md
 |
-+-------meetings
-|	+-------agendas
-|	|		agendas_template.md
-|	|
-|	\-------minutes
-|			minutes_template.md
-|
-+-------ros2_tutorials
-|		.gitkeep
++-------minutes
+|		minutes_template.md
 |
 +-------styles
 |		contribution.css
@@ -558,8 +521,6 @@ In order to use SemVer effectively, it's important to follow these guidelines:
 Adherence to SemVer ensures that version numbers convey meaningful information about the state of the software and the nature of changes between releases.
 This enables developers and users to make informed decisions about which versions of a project to use and when to upgrade, and
 helps prevent compatibility issues between different versions of the same project.
-
-<!-- ![release_life_cycle](https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Software_dev2.svg/360px-Software_dev2.svg.png) -->
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Software_dev2.svg/360px-Software_dev2.svg.png" style="width: 40%; height: 40%"/>​
 
@@ -678,21 +639,14 @@ Python:
 
 <div class="page"/><!-- page break -->
 
-<!-- TOC ignore:true -->
-# Chapter 6
-
-# Reviews and Audits
-## Purpose
+# Chapter 6: Reviews and Audits
 Outlined in this section will be a set of procedures used to validate project deliverables and
 to verify team processes in regards to the defined requirements and standards.\
 With regards to validation, it will be checked through internal and external reviews, and verification through audits.
 These reviews and audits will help ensure that deliverables are up to scratch and product quality is maintained.
 The information on these reviews and Audits are found earlier in the document under chapter 5.
 
-<!-- TOC ignore:true -->
-# Chapter 7
-
-# Testing
+# Chapter 7: Testing
 For the testing phase of the project, a comprehensive approach will be used to ensure that the Robot Vision System is functioning optimally.
 
 Unit testing will be performed on individual software components to verify their correct functionality.
@@ -760,10 +714,7 @@ These documents will allow the client to successfully maintain and implement our
 
 <div class="page"/><!-- page break -->
 
-<!-- TOC ignore:true -->
-# Chapter 8
-
-# Problem Reporting and Corrective Action
+# Chapter 8: Problem Reporting and Corrective Action
 ## Personnel
 If an issue arises with personnel, the Team Leader is to be notified immediately, and
 they will propose corrective action, which can include team reorganization, or protocol changes.
@@ -831,10 +782,7 @@ Finally, the task would be *closed* via a **pull request** after it has been for
 
 <div class="page"/><!-- page break -->
 
-<!-- TOC ignore:true -->
-# Chapter 9
-
-# Tools and Methodologies
+# Chapter 9: Tools and Methodologies
 ## Tools
 ### Markdown
 This lightweight markup language is easy to learn with plain text formatting syntax that can be converted to other formats like PDF, and
@@ -911,19 +859,12 @@ By delivering small, incremental changes and seeking continuous feedback, the te
 
 <div class="page"/><!-- page break -->
 
-<!-- TOC ignore:true -->
-# Chapter 10
-
-# Records Collection, Maintenance and Retention
+# Chapter 10: Records Collection, Maintenance and Retention
 Management documents, which encapsulates Minutes, Agendas and Notes, will be added to the teams GitHub repository.\
 Any form of administration in terms of breaches in standards and practices will be documented on the GitHub repository.\
 Documents that are added to the GitHub repository and finalized should not be modified.
 
-<!-- TOC ignore:true -->
-# Chapter 11
-
-# Risk Management
-## Purpose
+# Chapter 11: Risk Management
 Unforeseen events can and will happen during the course of this project.
 To ensure that a functional and high quality product is delivered on schedule, it is vital that risks are identified, analysed and accounted for.
 This section involves risk categorization and listing corresponding countermeasures.
