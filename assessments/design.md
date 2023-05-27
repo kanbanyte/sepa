@@ -1,21 +1,15 @@
 <link rel="stylesheet" href="../styles/styles.css" type="text/css">
 
-> *[This template can be adapted as necessary (i.e., with good reason) to suit the project specifics.]*
-
-<!-- TOC ignore:true -->
 # Robot Vision System For A Pick And Place Task
 <!--
 	Co-Author: @dau501
-	Editor(s):
+	Editor(s): @NickMcK14, @finnmcgearey, @Slothman1, @Huy-GV
 	Year: 2023
 -->
 
 `Detailed System Design and Implementation Report`
 
-<!-- TOC ignore:true -->
 ## Industry Project 24
-List of your Names:
-
 |Name|Position|Email|
 |:-|:-|:-|
 |@Slothman1|Team Leader/Client Liaison|id@swin.student.edu.au|
@@ -24,15 +18,6 @@ List of your Names:
 |@vkach|Quality Manager/Developer|id@swin.student.edu.au|
 |@NickMcK14|Support Manager/Developer|id@swin.student.edu.au|
 |@Huy-GV|Quality Manager/Developer|id@swin.student.edu.au|
-
-<!-- SUBJECT CODE, NAME, SEMESTER AND DATE -->
-
-```gherkin
-@Note:
-Please read carefully.
-Throughout this document, all text in RED ITALICS should be replaced with data relevant to your project.
-Delete all the explanatory text in RED, including this box before submission.
-```
 
 <div class="page"/><!-- page break -->
 
@@ -46,9 +31,6 @@ Delete all the explanatory text in RED, including this box before submission.
 |@NickMcK14|Support Manager/Developer|student_signature(&emsp;)|DD/MM/2023|
 |@Huy-GV|Quality Manager/Developer|student_signature(&emsp;)|DD/MM/2023|
 
-> *[When document is finalised for submission, all team members must affix their signature in the Document Sign Off table]*\
-> ***[No-one should sign unless they have read the report and agree with it.]***
-
 # CLIENT SIGN OFF
 |Name|Position|Signature|Date|
 |:-|:-|:-|:-|
@@ -58,14 +40,11 @@ Delete all the explanatory text in RED, including this box before submission.
 |:-|
 |Swinburne's Factory of the Future<br/><br/><br/><br/>|
 
-> *[Client to sign off on the Software Design to signify they agree with the design]*
-
-<div class="page"/><!-- page break -->
-
 <div class="page"/><!-- page break -->
 
 # Introduction
-Project 24, aims to enhance a collaborative robot (cobot) by developing and implementing a perception system for pick-and-place tasks in the Factory of the Future (FOF).
+Project 24, aims to enhance a collaborative robot (cobot) by developing and
+implementing a perception system for pick-and-place tasks in the Factory of the Future (FOF).
 Currently, the cobot operates on predefined positions, limiting its capabilities.
 The goal is to enable the cobot to autonomously identify and locate electronic components using computer vision and artificial intelligence.
 
@@ -105,6 +84,8 @@ The shorter alternative name of this project.\
 The full name is *Robot Vision System For A Pick And Place Task*.
 * **HeeHooVision:**
 The name for the Capstone Team working on Project 24
+
+<div class="page"/><!-- page break -->
 
 ## Assumptions and Simplifications
 When developing the system design for this project,
@@ -152,11 +133,15 @@ stateDiagram-v2
 	Components --> Camera : Visual Input
 ```
 
+<!-- ![architecture](https://cdn.discordapp.com/attachments/1111191287325007944/1111191422708760576/image.png) -->
+
 Multiple pieces of software are required for the cobot to successfully complete the pick and place task.
 These components consist of the perception system to perceive the environment and provide visual data, and
 the software system that utilises computer vision and machine learning to detect the objects.
 Once the cobot has performed a movement, the environment will have changed,
 which provides new visual data to be passed into the perception system to continue the cycle.
+
+<div class="page"/><!-- page break -->
 
 The flow of data is shown to pass through multiple interfaces, from the user interface to the software interface to the hardware interface.
 ROS2 is utilised to allow for the visual data to be passed into ROS2 interfaces which allows for the data to be easily used within ROS2 programs and
@@ -193,6 +178,10 @@ stateDiagram-v2
 		Cobot --> [*]
 	}
 ```
+
+<!-- ![overview](https://cdn.discordapp.com/attachments/1111191287325007944/1111191681845440532/image.png) -->
+
+<div class="page"/><!-- page break -->
 
 # Detailed System Design
 The system design will follow the diagram shown below, which displays a modular design to allow for effective development and implementation.
@@ -274,6 +263,10 @@ stateDiagram-v2
 	Controller --> [*]
 ```
 
+<!-- <img src="https://cdn.discordapp.com/attachments/1111191287325007944/1111192632224395264/image.png" style="width: 75%; height: 75%"/>​ -->
+
+<div class="page"/><!-- page break -->
+
 ## Design Justification
 The design of this system leverages multiple technologies like CV, Depth Cameras, and robotics.\
 As a result much of the structure of this project will be breaking the larger task down into these technologies for both efficiency and effectiveness.
@@ -291,6 +284,8 @@ In the context of this system this will take the form of positional data or lack
 
 The final system is the Motion Controller, a crucial step of the system leveraging the manipulated data into robotic actions.\
 The entire system is built around the movement of the cobot and as a result the systems that manoeuvre it from data are some of the most important.
+
+<div class="page"/><!-- page break -->
 
 ## Design Verification
 The following sequence diagram offers a visual representation of how the proposed system complies with the project requirements.
@@ -319,6 +314,10 @@ sequenceDiagram
 		end
 	end
 ```
+
+<!-- ![verification](https://cdn.discordapp.com/attachments/1111191287325007944/1111192115859427368/image.png) -->
+
+<div class="page"/><!-- page break -->
 
 ### Real-time Object Detection, Processing, and Analysis
 The depth camera continuously captures images, and the neural network processes the image data in real-time.
@@ -382,6 +381,8 @@ Actions can be cancelled unlike topics and services and they consist of three pa
 	* Server sends gradually changing data
 	* Feedback stops once goal is reached
 
+<div class="page"/><!-- page break -->
+
 ### Bags
 Bags are used for recording and playing back data published to topics.
 Once data is recorded in a bag, it can be used to perform actions again in the exact same way which is useful for debugging and troubleshooting.
@@ -420,6 +421,8 @@ perform actions efficiently and accurately.
 * Unsupervised
 * Semi-Supervised
 
+<div class="page"/><!-- page break -->
+
 ## Computer Vision
 The perception system will be able to identify objects and their locations with a great deal of accuracy thanks to the Depth Cameras use of binocular vision,
 which works similarly to human eyes depth perception.
@@ -447,6 +450,8 @@ The machine-learning network that has been trained to find objects at their desi
 The Computer Vision Network's raw output is not accessible to other components because it is improbable that they will find it useful.
 Only boolean data indicating an item's presence or absence should be included in the data prediction model's output.
 The robot's motion control is then updated with the position data.
+
+<div class="page"/><!-- page break -->
 
 # References
 * Ubuntu (2023).
