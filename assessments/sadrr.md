@@ -7,7 +7,7 @@
 	Year: 2023
 -->
 
-`System Architecture Design and Research Report`
+`System Architecture Design and Research Report (SADRR)`
 
 ## Industry Project 24
 |Name|Position|Email|
