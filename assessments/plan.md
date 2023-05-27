@@ -87,7 +87,7 @@ Delete all the explanatory text in RED, including this box before submission.
 		* [Documentation](#documentation)
 		* [Hardware Modifications](#hardware-modifications)
 	* [ACTIVITIES](#activities)
-		* [Research:](#research)
+		* [Research](#research)
 		* [Design and implementation:](#design-and-implementation)
 		* [Deployment:](#deployment)
 		* [Testing:](#testing)
@@ -289,10 +289,29 @@ A mounting device compatible with V-Slots will need to be bought or made for the
 This device will allow the depth camera to be securely mounted to an ideal position in the workspace and capture objects of interest effectively.
 
 ## ACTIVITIES
-### Research:
-* Learn to use Robot Operating System (ROS) within Ubuntu.
-* Study concepts of machine learning, with a focus on computer vision.
-* Research ways to build an AI model based on project needs.
+### Research
+During the research phase, the following activities will be undertaken:
+1. Learn to use ROS within Ubuntu.
+	* Gain proficiency in working with ROS, an open-source framework for building robot applications.\
+	This includes understanding its architecture, tools, and how to develop and integrate software components using ROS.
+2. Study concepts of machine learning and computer vision.
+	* Specifically focusing on computer vision applications, delve into research around machine learning and Artificial intelligence in the field.
+	This involves exploring various concepts, algorithms, and techniques used in computer vision, such as image processing, feature extraction, and object detection.
+3. Explore the machine learning cycle for the project needs.
+	* Investigate the entire machine learning cycle relevant to the project requirements.\
+	This includes activities such as:
+		* Data collection and labelling:\
+		Engage in field work to gather relevant data, labelling it with appropriate annotations.
+		* Data pre-processing:\
+		Perform necessary preprocessing steps on the collected data to prepare it for feeding into the vision algorithm.
+		* Model selection:\
+		Explore and evaluate different machine learning models to identify the most suitable choice based on project conditions.
+		* Methodology exploration:\
+		Investigate and compare different techniques, such as semantic segmentation or object detection,
+		to determine which approach is most effective for achieving the desired outcomes.
+
+These research activities will lay the foundation for the subsequent stages of the project,
+providing the necessary knowledge and insights to make informed decisions during the implementation phase.
 
 ### Design and implementation:
 * Model the problem into the software system.
